@@ -1,0 +1,1101 @@
+@@ Pasowanie
+strony: 19, 45
+Rezygnacja z akcji w danej kolejce bez zużywania kości, możliwa tylko dla gracza, który ma mniej kości niż przeciwnik.
+
+## Zasady
+- Jeśli gracz ma mniej niewykorzystanych kości akcji niż przeciwnik, może spasować: przeciwnik wykonuje wtedy kolejną [[Akcja|akcję]], a pasujący zachowuje swoje kości.
+- Zwykle dotyczy to gracza Wolnych Ludów, który ma mniej kości.
+- Pasowanie różni się od [[Pominięcie akcji|pominięcia akcji]], przy którym kość się traci.
+- Możliwość pasowania obowiązuje przez całą [[Faza 5: Rozpatrywanie akcji|fazę rozpatrywania akcji]].
+
+## Wyjątki i szczególne przypadki
+W [[Gra wieloosobowa|grze wieloosobowej]] gracz, który spasował, może działać dopiero po akcji zespołu przeciwnego.
+
+@@ Pierścienie Elfów
+strony: 14, 21
+Trzy żetony elfich Pierścieni Władzy, które pozwalają raz zmienić wynik kości akcji.
+
+## Zasady
+- Na początku gry gracz Wolnych Ludów ma trzy żetony na swoim polu Pierścieni Elfów, stroną z pierścieniem do góry.
+- Gdy przychodzi kolej na jego [[Akcja|akcję]], gracz może użyć Pierścienia, aby zmienić wynik jednej ze swoich niewykorzystanych [[Kość akcji|kości akcji]] na dowolny inny. Potem wykonuje zwykłą akcję dowolną kością (nie musi to być ta zmieniona).
+- Wykorzystany przez Wolne Ludy żeton odwraca się na stronę z „Płonącym Okiem” i oddaje graczowi Cienia. Cień może go użyć w ten sam sposób raz, po czym żeton odpada z gry.
+
+## Wyjątki i szczególne przypadki
+- Każdy gracz może użyć najwyżej jednego Pierścienia Elfów na turę.
+- Wolne Ludy nie mogą zmienić wyniku na [[Wynik „Wola Zachodu”|„Wolę Zachodu”]].
+- Cień może zmienić wynik na [[Wynik „Oko”|„Oko”]]. Taką kość od razu kładzie na [[Pole poszukiwań|polu poszukiwań]], co nie jest akcją, więc potem wykonuje zwykłą akcję. Cień nie może zmienić kości, która już pokazuje „Oko”.
+
+!img pierscienie-elfow | Żetony Pierścieni Elfów: awers dla Wolnych Ludów, rewers dla Cienia
+
+~ Płonące Oko -> Pierścienie Elfów
+~ Podbój -> Zdobywanie osad
+
+@@ Pole armii
+grupa: Pole
+strony: 11, 26
+Jedno z trzech ponumerowanych pól przy lewym brzegu planszy, na które przenosi się figurki, gdy nie mieszczą się w regionie.
+
+## Zasady
+- Gracz może przenieść część lub wszystkie figurki z regionu na wolne pole armii, a w regionie położyć żeton armii z numerem tego pola.
+- Figurki z pola armii uważa się za stojące w regionie z odpowiednim żetonem. Liczą się do [[Ograniczenie wielkości armii|limitu wielkości armii]].
+- Figurki można w każdej chwili przenieść z powrotem na mapę.
+- Patrz też [[Armia]] i [[Region]].
+
+::: przyklad
+Armia 10 regularnych jednostek Gondoru wchodzi do małego regionu Lossarnach. Gracz przenosi 8 figurek na wolne pole armii nr 3, a w Lossarnach zostawia 2 figurki i żeton armii nr 3.
+:::
+
+!img zetony-armii | Żetony armii
+
+@@ Pole poszukiwań
+grupa: Pole
+strony: 11, 18–19, 37, 40
+Pole na planszy, na którym leżą kości przeznaczone na poszukiwania Pierścienia.
+
+## Zasady
+- W [[Faza 3: Przydzielanie kości do poszukiwań|fazie przydzielania kości]] gracz Cienia kładzie tu wybrane kości akcji.
+- W [[Faza 4: Rzut akcji|fazie rzutu akcji]] trafiają tu kości Cienia z [[Wynik „Oko”|wynikiem „Oko”]].
+- Liczba kości Cienia na tym polu to [[Poziom poszukiwań|poziom poszukiwań]].
+- Po każdym [[Ruch Drużyny Pierścienia|ruchu Drużyny]] gracz Wolnych Ludów kładzie tu wykorzystaną kość. Każda taka kość daje +1 do kolejnych [[Rzut poszukiwań|rzutów poszukiwań]] w tej turze i pokazuje, ile razy Drużyna się poruszyła.
+- Kości Wolnych Ludów wracają do gracza w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]] następnej tury.
+
+~ Pole Drużyny Pierścienia -> Drużyna Pierścienia | Pole
+~ Pole przewodnika -> Przewodnik Drużyny Pierścienia | Pole
+~ Pole twierdzy -> Oblężenie | Pole
+
+@@ Pominięcie akcji
+strony: 19
+Odrzucenie jednej kości akcji bez żadnego efektu.
+
+## Zasady
+- Gracz może zrezygnować z wykonania [[Akcja|akcji]], odrzucając jedną ze swoich kości bez wykorzystania jej wyniku.
+- To co innego niż [[Pasowanie|pasowanie]]: pominięta kość przepada do końca tury.
+
+@@ Posiłki
+strony: 14, 16–17, 26–27, 31
+Zapas figurek odłożonych przy przygotowaniu gry, z którego rekrutuje się nowe wojska.
+
+## Zasady
+- Figurki, które nie stoją na planszy na początku gry, tworzą posiłki każdego Narodu.
+- Nowe jednostki, dowódców i Nazgûle bierze się tylko z posiłków (patrz [[Rekrutacja]]). Gdy figurek danego rodzaju zabraknie, nie można rekrutować kolejnych.
+- Wyeliminowane [[Jednostka|jednostki]] i [[Nazgûl|Nazgûle]] Cienia wracają do posiłków.
+- Wyeliminowane jednostki i [[Dowódca|dowódcy]] Wolnych Ludów wypadają z gry na stałe. Trzeba je trzymać osobno, żeby nie pomylić ich z posiłkami (patrz [[Straty w bitwie]]).
+- Jednostki usunięte z powodu [[Ograniczenie wielkości armii|limitu wielkości armii]] wracają do posiłków. Nie są stratami.
+- Wszystkie wyeliminowane postacie wypadają z gry na stałe.
+
+@@ Postać
+strony: 8, 24, 31, 35
+Wyjątkowa figurka bohatera lub sługi Czarnego Władcy, opisana własną kartą Postaci.
+
+## Zasady
+- Postacie Wolnych Ludów to [[Towarzysz|Towarzysze]], a postacie Cienia to [[Sługa|Sługi]]. [[Gollum]] jest postacią wyjątkową.
+- Każda postać ma [[Karta Postaci|kartę Postaci]] z poziomem, zdolnościami przywódczymi i zdolnościami specjalnymi.
+- Postacie działają jak dowódcy, ale mogą poruszać się samodzielnie i ignorują wrogie armie (patrz [[Ruch postaci]]).
+- Postacie uważa się za będące w [[Stan wojny|stanie wojny]], bez względu na tor polityki.
+- Postać ginie tylko wtedy, gdy towarzyszy armii, która w bitwie straci wszystkie jednostki, albo z powodu karty Wydarzenia (patrz [[Straty w bitwie]]). Wyeliminowana postać wypada z gry na stałe, chyba że jej karta mówi inaczej.
+
+## Wyjątki i szczególne przypadki
+- Postać w regionie bez przyjaznych jednostek nigdy nie jest wciągana do bitwy.
+- Postać o [[Poziom postaci|poziomie]] 0 nie może się poruszać, nawet jeśli dołączy do armii.
+
+@@ Poszukiwania Pierścienia
+strony: 37, 40–43
+klucze: Poszukiwania
+Próba odnalezienia Drużyny przez Saurona, wykonywana za każdym razem, gdy Drużyna się poruszy.
+
+## Zasady
+Przebieg poszukiwań:
+1. Gracz Wolnych Ludów porusza Drużynę (patrz [[Ruch Drużyny Pierścienia]]).
+2. Gracz Cienia wykonuje [[Rzut poszukiwań|rzut poszukiwań]]: rzuca tyloma kośćmi, ile wynosi [[Poziom poszukiwań|poziom poszukiwań]] (kości Cienia na [[Pole poszukiwań|polu poszukiwań]]), i może wykonać [[Przerzut poszukiwań|przerzuty]].
+3. Jeśli uzyska choć jeden sukces, losuje żeton z [[Pula poszukiwań|puli poszukiwań]] (patrz [[Żeton poszukiwań]]) i ustala [[Ciężar brzemienia|ciężar brzemienia]].
+4. Gracz Wolnych Ludów może zmniejszyć ciężar kartą [[Zagraj na stół|„Zagraj na stół”]], zdolnością [[Przewodnik Drużyny Pierścienia|przewodnika]] i [[Straty w Drużynie Pierścienia|stratą w Drużynie]].
+5. Reszta ciężaru zamienia się w zepsucie (patrz [[Wykorzystanie Pierścienia]]).
+6. Jeśli żeton ma symbol odkrycia, Drużyna zostaje odkryta (patrz [[Odkrycie Drużyny Pierścienia]]).
+
+## Wyjątki i szczególne przypadki
+- Jeśli podczas rozpatrywania wybrano nowego przewodnika (np. dzięki zdolności Meriadoka lub Peregrina albo po eliminacji przewodnika), może on od razu użyć swojej zdolności.
+- Jeśli trzeba wylosować kilka żetonów, każdy rozpatruje się do końca przed następnym: najpierw żeton z poszukiwań, potem żetony z kart i zdolności, na końcu żeton za twierdzę Cienia.
+- Jeśli żeton losuje się w chwili ujawnienia Drużyny w mieście lub twierdzy kontrolowanej przez Wolne Ludy, ignoruje się na nim symbol odkrycia.
+- Na torze Mordoru nie rzuca się kośćmi: żeton losuje się automatycznie przy każdej próbie ruchu (patrz [[Tor Mordoru]]).
+
+::: przyklad
+Drużyna jest w Bramie Goblinów i rusza się drugi raz w tej turze (znacznik z „1” na „2”). Na polu poszukiwań leżą 3 kości Cienia i 1 kość Wolnych Ludów, więc Cień rzuca 3 kośćmi i trafia na „5” lub „6”. Wypada „2”, „5”, „6”, czyli sukces. Cień losuje żeton „3” bez symbolu odkrycia. Gracz Wolnych Ludów nie ma kart ani zdolności, więc wybiera stratę losowego Towarzysza. Cień losuje żeton Gimliego (poziom 2), który ginie. Pozostały 1 punkt ciężaru zamienia się w 1 punkt zepsucia. Drużyna pozostaje ukryta.
+:::
+
+@@ Poświęcenie zdolności przywódczych
+strony: 30
+Koszt niektórych kart Bitwy: wskazana figurka przez bieżącą rundę nie liczy się jako dowódca.
+
+## Zasady
+- Gdy [[Karta Bitwy]] wymaga „poświęcenia” zdolności przywódczych, wskazany [[Dowódca|dowódca]] lub postać w tej rundzie nie wlicza się do [[Zdolności przywódcze|zdolności przywódczych]] armii.
+
+## Wyjątki i szczególne przypadki
+Nie można poświęcić zdolności przywódczych figurki, której zdolności zostały już z jakiegoś powodu anulowane.
+
+@@ Powiernicy Pierścienia
+strony: 8, 14, 19, 36
+klucze: Powiernik Pierścienia
+Frodo i Sam, przedstawieni jedną nierozłączną figurką, którzy niosą Jedyny Pierścień.
+
+## Zasady
+- Powiernicy nigdy nie opuszczają [[Drużyna Pierścienia|Drużyny Pierścienia]].
+- Ich figurka zaczyna grę w Rivendell i wskazuje ostatnie znane miejsce pobytu Drużyny.
+- Powiernicy nie są [[Towarzysz|Towarzyszami]]. Nie liczą się do limitu kości poszukiwań i nie mogą zginąć jako strata w Drużynie.
+- Brzemię Pierścienia mierzy ich [[Zepsucie|zepsucie]]. Zmniejsza je [[Leczenie Powierników Pierścienia|leczenie]].
+- Gdy zostaną sami, ich przewodnikiem zostaje [[Gollum]].
+- Ostatni etap wyprawy wiedzie przez [[Tor Mordoru|tor Mordoru]].
+
+~ Powiernik Pierścienia -> Powiernicy Pierścienia
+~ Premia do kości akcji -> Pula kości akcji
+
+@@ Poziom postaci
+grupa: Poziom
+strony: 24–25, 37, 39, 42
+Liczba na [[Karta Postaci|karcie Postaci]], która określa zasięg ruchu postaci i jej znaczenie w Drużynie.
+
+## Zasady
+- Towarzysz porusza się o najwyżej tyle regionów, ile wynosi jego poziom. Grupa porusza się o najwyższy poziom w grupie (patrz [[Ruch postaci]]).
+- Przy [[Odłączanie Towarzyszy|odłączaniu]] zasięg to poziom plus liczba na znaczniku postępów.
+- [[Przewodnik Drużyny Pierścienia|Przewodnikiem]] zostaje Towarzysz o najwyższym poziomie.
+- Wyeliminowanie Towarzysza jako [[Straty w Drużynie Pierścienia|straty w Drużynie]] zmniejsza ciężar brzemienia o jego poziom.
+- Na karcie Sługi symbol Nazgûla zamiast liczby oznacza nieograniczony ruch.
+
+## Wyjątki i szczególne przypadki
+Postać o poziomie 0 nie może się poruszać, nawet z armią. Podczas [[Odwrót|odwrotu]] zostaje w regionie.
+
+@@ Poziom poszukiwań
+grupa: Poziom
+strony: 40–41
+Liczba kości akcji Cienia na [[Pole poszukiwań|polu poszukiwań]], która wyznacza liczbę kości w rzucie poszukiwań.
+
+## Zasady
+- Na poziom poszukiwań składają się kości przydzielone w [[Faza 3: Przydzielanie kości do poszukiwań|fazie przydzielania kości]] oraz kości z wynikiem „Oko” z fazy rzutu akcji.
+- Gracz Cienia rzuca tyloma kośćmi bitwy, ile wynosi poziom poszukiwań, ale najwyżej 5 (patrz [[Rzut poszukiwań]]).
+- Kości Wolnych Ludów na polu poszukiwań nie zwiększają poziomu poszukiwań, tylko dają +1 do wyników.
+
+~ Pudło -> Rzut bitwy
+
+@@ Przerwanie ataku
+strony: 31–32
+Decyzja atakującego, podejmowana na koniec rundy bitwy, o zakończeniu bitwy.
+
+## Zasady
+- Pod koniec każdej [[Runda bitwy|rundy bitwy]] atakujący może przerwać atak.
+- Jego ocalałe jednostki zostają tam, gdzie były na początku [[Bitwa|bitwy]].
+- Jeśli atakujący kontynuuje, obrońca może wykonać [[Odwrót|odwrót]]. Jeśli tego nie zrobi, zaczyna się kolejna runda.
+
+@@ Przerzut dowódców
+grupa: Przerzut
+strony: 29–30
+Ponowny rzut kośćmi bitwy, na których nie było trafienia, w liczbie równej zdolnościom przywódczym armii.
+
+## Zasady
+- Po [[Rzut bitwy|rzutach bitwy]] obu graczy każdy może przerzucić tyle chybionych kości, ile wynoszą [[Zdolności przywódcze|zdolności przywódcze]] jego armii (najwyżej 5).
+- Trafienie wymaga tego samego wyniku co w rzucie bitwy, chyba że [[Karta Bitwy|karta Bitwy]] mówi inaczej. Działają [[Modyfikator rzutu|modyfikatory]].
+- To trzeci krok [[Runda bitwy|rundy bitwy]].
+
+## Wyjątki i szczególne przypadki
+Przy atakach z kart Bitwy nie wykonuje się przerzutu dowódców.
+
+::: przyklad
+Armia ma 5 jednostek i 3 dowódców (siła 5, zdolności przywódcze 3). Rzut: „1”, „3”, „5”, „5”, „6”, czyli 3 trafienia. Chybione są tylko 2 kości, więc gracz przerzuca tylko je i trafia jeszcze raz. Razem 4 trafienia.
+:::
+
+@@ Przerzut poszukiwań
+grupa: Przerzut
+strony: 41
+Dodatkowe przerzuty w rzucie poszukiwań, gdy w regionie Powierników Pierścienia są siły Cienia.
+
+## Zasady
+Gracz Cienia może przerzucić po jednej kości bez sukcesu za każdy spełniony warunek w regionie figurki Powierników:
+- jest tam [[Twierdza|twierdza]] kontrolowana przez Cień,
+- jest tam co najmniej jedna [[Jednostka|jednostka]] Cienia,
+- jest tam co najmniej jeden [[Nazgûl]].
+
+- Przy przerzutach działa premia +1 za kości Wolnych Ludów na [[Pole poszukiwań|polu poszukiwań]].
+- Patrz też [[Rzut poszukiwań]].
+
+::: przyklad
+W regionie Powierników są 3 jednostki Cienia i 2 Nazgûle, więc Cień ma 2 przerzuty (jeden za jednostki, jeden za Nazgûle). Gdyby była tam jeszcze twierdza Cienia, miałby 3 przerzuty.
+:::
+
+@@ Przewodnik Drużyny Pierścienia
+strony: 14, 37, 39, 42
+klucze: Przewodnik, Talia Drużyny Pierścienia
+Towarzysz, który prowadzi Drużynę Pierścienia i którego zdolność „Przewodnik” działa podczas wyprawy.
+
+## Zasady
+- Na początku gry przewodnikiem jest Gandalf Szary.
+- Przewodnikiem zawsze musi być [[Towarzysz]] o najwyższym [[Poziom postaci|poziomie]] spośród pozostałych w Drużynie. Przy remisie wybiera gracz Wolnych Ludów.
+- Przewodnika można zmienić pod koniec [[Faza 2: Drużyna Pierścienia|fazy Drużyny Pierścienia]] albo w chwili, gdy zmienia się skład Drużyny (po [[Odłączanie Towarzyszy|odłączeniu]] lub eliminacji Towarzysza).
+- Karty Towarzyszy z Drużyny tworzą talię Drużyny na polu przewodnika. Karta przewodnika leży na wierzchu (patrz [[Karta Postaci]]).
+- Póki Towarzysz jest przewodnikiem, działa tylko jego zdolność oznaczona „Przewodnik”. Pozostałe zdolności działają dopiero po opuszczeniu Drużyny.
+- Zdolności przewodnika używa się w [[Poszukiwania Pierścienia|poszukiwaniach]], po kartach „Zagraj na stół”, a przed stratami.
+- Jako [[Straty w Drużynie Pierścienia|stratę w Drużynie]] gracz może wyeliminować przewodnika.
+
+## Wyjątki i szczególne przypadki
+- Gdy Drużynę opuszczą wszyscy Towarzysze, przewodnikiem zostaje [[Gollum]].
+- Nowy przewodnik wybrany w trakcie rozpatrywania poszukiwań może od razu użyć swojej zdolności.
+
+::: przyklad
+W pierwszej turze gracz zastępuje Gandalfa Szarego Obieżyświatem. Może to zrobić, bo obaj mają poziom 3.
+:::
+
+~ Talia Drużyny Pierścienia -> Przewodnik Drużyny Pierścienia | Talia
+~ Zdolność przewodnika -> Przewodnik Drużyny Pierścienia | Zdolności
+
+@@ Pula kości akcji
+grupa: Pula
+strony: 18–19, 25
+Wszystkie kości akcji, którymi gracz rzuca w danej turze.
+
+## Zasady
+- Cień zaczyna z 7 kośćmi. Zyskuje po jednej, gdy do gry wejdzie każdy ze [[Sługa|Sług]] (Saruman, Czarnoksiężnik z Angmaru, Rzecznik Saurona), do najwyżej 10.
+- Wolne Ludy zaczynają z 4 kośćmi. Zyskują po jednej, gdy do gry wejdzie [[Aragorn, Dziedzic Isildura]] i gdy wejdzie [[Gandalf Biały]].
+- Premię pokazuje symbol na [[Karta Postaci|karcie Postaci]].
+- Gracz traci dodatkową kość, gdy odpowiadająca jej postać zostanie wyeliminowana.
+- Każda zmiana działa od następnej tury: kość dochodzi lub odpada w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]].
+- Patrz też [[Kość akcji]].
+
+@@ Pula poszukiwań
+grupa: Pula
+strony: 14, 40, 43
+Nieprzezroczysty pojemnik z żetonami poszukiwań, z którego Cień losuje po udanych poszukiwaniach.
+
+## Zasady
+- Na początku gry w puli jest 16 zwyczajnych (beżowych) [[Żeton poszukiwań|żetonów poszukiwań]]. Specjalne żetony odkłada się na bok.
+- Za każde udane poszukiwania (patrz [[Rzut poszukiwań]]) losuje się jeden żeton.
+- Gdy żetony się skończą, do puli wraca się wszystkie zwyczajne żetony. Specjalne żetony i żetony usunięte z gry przez karty nie wracają.
+- Specjalny żeton wprowadzony [[Karta Wydarzenia|kartą Wydarzenia]] leży obok puli do czasu wkroczenia do Mordoru. Jeśli Drużyna jest już na torze Mordoru, od razu trafia do puli.
+
+## Wyjątki i szczególne przypadki
+Przy [[Wkroczenie do Mordoru|wkroczeniu do Mordoru]] tworzy się nową pulę: niewylosowane żetony, wszystkie wylosowane wcześniej żetony z „Okiem” i specjalne żetony wprowadzone kartami. Żetonów usuniętych z gry się nie dodaje.
+
+@@ Punkty zwycięstwa
+strony: 11, 33, 44
+klucze: Tor punktów zwycięstwa
+Punkty za kontrolowane wrogie miasta i twierdze, które decydują o zwycięstwie wojskowym.
+
+## Zasady
+- Każde kontrolowane wrogie [[Miasto|miasto]] daje 1 punkt, a każda kontrolowana wroga [[Twierdza|twierdza]] 2 punkty.
+- Wrogą osadę kontroluje się, gdy leży w niej własny [[Znacznik kontroli|znacznik kontroli]] (patrz [[Zdobywanie osad]]).
+- Gracze zaznaczają punkty znacznikami na torze punktów zwycięstwa.
+- Jeśli pierwotny właściciel odzyska osadę, punkty za nią przepadają.
+- Cień wygrywa przy 10 punktach, a Wolne Ludy przy 4, sprawdzanych w fazie 6 (patrz [[Warunki zwycięstwa]]).
+- W [[Gra wieloosobowa|grze wieloosobowej]] punkty decydują też o zwycięstwie indywidualnym.
+
+!img punkty-zwyciestwa | Symbole punktów zwycięstwa przy mieście (1) i twierdzy (2)
+!img znaczniki-pz | Znaczniki punktów zwycięstwa
+
+@@ Region
+strony: 10
+Pole mapy Śródziemia z własną nazwą, na którym stoją figurki i toczą się ruchy oraz walki.
+
+## Zasady
+- Regiony oddzielają zwykłe [[Granica|granice]] (białe linie i rzeki). Regiony stykające się tylko czarną granicą nie są sąsiednie.
+- Region może zawierać jedną [[Osada|osadę]] (wioskę, miasto, twierdzę) albo [[Fortyfikacja|fortyfikację]], albo nic.
+- Kilka regionów tworzy [[Naród]].
+- Regiony przy dużym morzu po lewej stronie planszy to regiony wybrzeża.
+- Morza i jeziora nie są regionami.
+- O tym, gdzie można wejść, decyduje to, czy region jest [[Wolny region|wolny]].
+
+~ Region wybrzeża -> Region
+
+@@ Rekrutacja
+strony: 20, 26–27, 33, 35
+klucze: rekrutować
+Wprowadzenie do gry nowych jednostek, dowódców lub Nazgûli z posiłków.
+
+## Zasady
+- Rekrutuje się [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]] (to akcja) albo [[Karta Wydarzenia|kartą Wydarzenia]].
+- Wynik „Mobilizacja” pozwala wprowadzić jeden z zestawów: dwie jednostki regularne, ALBO dwóch dowódców lub [[Nazgûl|Nazgûli]], ALBO jedną jednostkę regularną i jednego dowódcę lub Nazgûla, ALBO jedną jednostkę elitarną.
+- Kośćmi można rekrutować tylko jednostki Narodów w [[Stan wojny|stanie wojny]].
+- Figurki bierze się z [[Posiłki|posiłków]] i stawia tylko w wiosce, mieście lub twierdzy ich Narodu (patrz [[Osada]]).
+- Dwie figurki z jednej akcji muszą stanąć w dwóch różnych osadach. Mogą należeć do dwóch różnych Narodów, jeśli oba są w stanie wojny.
+- Nazgûle zawsze rekrutuje się w twierdzach Narodu Saurona.
+- Po rekrutacji obowiązuje [[Ograniczenie wielkości armii|limit 10 jednostek]] w regionie.
+
+## Wyjątki i szczególne przypadki
+- Nie można rekrutować w osadzie przejętej przez wroga, czyli takiej, w której są wrogie jednostki albo leży wrogi znacznik kontroli (patrz [[Zdobywanie osad]]).
+- Nie można rekrutować w twierdzy oblężonej przez wroga (patrz [[Oblężenie]]), chyba że kartą Wydarzenia.
+- Rekrutacja kartą: można rekrutować jednostki Narodu, który nie jest w stanie wojny, i w oblężonej twierdzy. W pozostałych sprawach obowiązują zwykłe ograniczenia, więc region musi być wolny.
+
+::: przyklad
+„Jeźdźcy Theodena” pozwalają rekrutować w regionie Rohanu z Towarzyszem. Jeśli Towarzysz jest we Wschodnim Emnet, ale stoją tam też wrogie jednostki, rekrutacja jest niemożliwa.
+:::
+
+@@ Ruch armii
+grupa: Ruch
+strony: 27–28
+Przesunięcie armii do sąsiedniego regionu podczas fazy rozpatrywania akcji.
+
+## Zasady
+- [[Wynik „Armia”|Wynik „Armia”]] pozwala przesunąć dwie różne armie, każdą do sąsiedniego regionu. Tej samej armii nie można przesunąć dwa razy.
+- [[Wynik „Postać”|Wynik „Postać”]] pozwala przesunąć jedną armię z co najmniej jednym dowódcą lub postacią.
+- Armie może też przesuwać [[Karta Wydarzenia|karta Wydarzenia]].
+- Gracz może przesunąć tylko część armii (patrz [[Dzielenie armii]]).
+- Region docelowy musi być „wolny dla celów ruchu armii” (patrz [[Wolny region]]): bez wrogich armii, albo z wrogą osadą bez wrogiej armii. Wejście do takiej osady oznacza jej zdobycie (patrz [[Zdobywanie osad]]).
+- Jeśli w regionie stoją wrogie jednostki, nie można tam wejść, ale można je zaatakować.
+- Po ruchu nie można przekroczyć [[Ograniczenie wielkości armii|limitu 10 jednostek]].
+- Nie można przekroczyć czarnej [[Granica|granicy]].
+
+## Wyjątki i szczególne przypadki
+- W ramach jednej akcji każda figurka rusza się tylko raz. Nie można dołączyć armii do drugiej i ruszyć połączoną armią drugim ruchem z tej samej akcji. Obie armie trzeba trzymać osobno, dopóki nie wykona się obu ruchów.
+- Jednostki [[Naród nieagresywny|Narodu nieagresywnego]] nie mogą wejść do regionu innego Narodu.
+- Ruch z karty przez kilka regionów: armie wybiera się na początku (można je wtedy podzielić), po drodze nie można zabierać ani zostawiać figurek, przejście przez wrogą osadę ją zdobywa, a limit wielkości sprawdza się po zakończeniu wszystkich ruchów.
+- Wejście wrogiej armii do regionu Narodu Wolnych Ludów aktywuje ten Naród.
+
+@@ Ruch Drużyny Pierścienia
+grupa: Ruch
+strony: 20, 37–38, 43
+Przesunięcie znacznika postępów o jedno pole, które oznacza tajny marsz Drużyny i zawsze wywołuje poszukiwania.
+
+## Zasady
+- Gracz Wolnych Ludów porusza Drużynę w fazie rozpatrywania akcji [[Wynik „Postać”|wynikiem „Postać”]] albo kartą Wydarzenia.
+- Każdy ruch przesuwa [[Znacznik postępów|znacznik postępów]] o jedno pole do przodu, stroną „ukrytą” do góry. Figurka Powierników zostaje na miejscu.
+- Po każdym ruchu Cień wykonuje [[Poszukiwania Pierścienia|poszukiwania]].
+- Kość użytą do ruchu gracz Wolnych Ludów kładzie na [[Pole poszukiwań|polu poszukiwań]]. Każdy kolejny ruch w tej turze jest więc groźniejszy.
+- Drużyna może się poruszać tylko wtedy, gdy jest ukryta (patrz [[Ukrywanie Drużyny Pierścienia]]).
+
+## Wyjątki i szczególne przypadki
+- Jeśli Drużyna rusza się dzięki [[Karta Wydarzenia|karcie Wydarzenia]], kość użyta do zagrania karty nie trafia na pole poszukiwań.
+- Na [[Tor Mordoru|torze Mordoru]] Drużyna porusza się po polach toru i nie rzuca się kośćmi poszukiwań.
+
+@@ Ruch postaci
+grupa: Ruch
+strony: 20, 24–26
+Przesunięcie postaci po mapie wynikiem „Postać” albo kartą Wydarzenia.
+
+## Zasady
+- Jeden [[Wynik „Postać”|wynik „Postać”]] porusza wszystkie [[Towarzysz|Towarzysze]] na mapie (gracz Wolnych Ludów) albo wszystkie [[Nazgûl|Nazgûle]] i [[Sługa|Sługi]] (gracz Cienia).
+- Towarzysz porusza się o najwyżej tyle regionów, ile wynosi jego [[Poziom postaci|poziom]]. Towarzysze z jednego regionu mogą iść razem jako grupa, o najwyższy poziom w grupie. W jednym regionie można stworzyć kilka grup.
+- Towarzysze ignorują wrogie armie, ale muszą się zatrzymać, gdy wejdą do regionu z [[Twierdza|twierdzą]] kontrolowaną przez Cień.
+- Nazgûle (także Czarnoksiężnik z Angmaru) przelatują każdy do dowolnego regionu.
+- [[Rzecznik Saurona]] porusza się o najwyżej 3 regiony, według zasad jak dla Towarzyszy.
+- [[Saruman]] nigdy nie opuszcza Orthanku.
+- Nie można przekraczać czarnych [[Granica|granic]] (nie dotyczy Nazgûli).
+
+## Wyjątki i szczególne przypadki
+- Towarzysze i Rzecznik Saurona nie mogą wejść do regionu z przyjazną twierdzą oblężoną przez wroga ani go opuścić (patrz [[Oblężenie]]), chyba że pozwala na to karta.
+- Nazgûle i Sługi poruszające się bez armii nie mogą wejść do regionu z twierdzą Wolnych Ludów, której nie oblega armia Cienia.
+- Postać o poziomie 0 nie może się poruszać.
+- Towarzysz, który zakończy ruch w mieście lub twierdzy Narodu, który może aktywować, aktywuje ten Naród.
+
+@@ Runda bitwy
+strony: 29–31
+Jeden cykl bitwy, w którym obaj gracze jednocześnie wykonują pięć kroków.
+
+## Zasady
+1. Zagranie [[Karta Bitwy|karty Bitwy]] (opcjonalnie): najpierw decyduje atakujący, potem obrońca.
+2. [[Rzut bitwy]].
+3. [[Przerzut dowódców]].
+4. Usunięcie strat, najpierw u atakującego (patrz [[Straty w bitwie]]).
+5. Atakujący decyduje, czy [[Przerwanie ataku|przerwać atak]]. Jeśli nie przerwie, obrońca decyduje, czy wykonać [[Odwrót|odwrót]].
+
+Każdy krok gracze wykonują razem. Jeśli nikt nie zakończył bitwy, zaczyna się kolejna runda.
+- Patrz też [[Bitwa]].
+
+@@ Rzecznik Saurona
+strony: 8, 18, 24–26, 46
+[[Sługa]] Cienia, który porusza się samodzielnie o najwyżej trzy regiony.
+
+## Zasady
+- Wchodzi do gry, gdy gracz Cienia wykorzysta [[Wynik „Mobilizacja”|wynik „Mobilizacja”]] i spełni warunki z jego karty.
+- Po jego wejściu do gry gracz Cienia dodaje jedną kość do [[Pula kości akcji|puli kości akcji]].
+- [[Ruch postaci|Ruchem postaci]] porusza się o najwyżej 3 regiony. Poruszając się sam, nie przekracza czarnych [[Granica|granic]] i ignoruje wrogie armie.
+
+## Wyjątki i szczególne przypadki
+- Nie może wejść do regionu z przyjazną twierdzą oblężoną przez wroga ani go opuścić (patrz [[Oblężenie]]).
+- Poruszając się bez armii, nie może wejść do nieoblężonej twierdzy Wolnych Ludów.
+- W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje go gracz Czarnoksiężnika z Angmaru.
+
+@@ Rzut bitwy
+grupa: Rzut
+strony: 29–30, 32
+klucze: Trafienie
+Rzut kośćmi bitwy w liczbie równej sile armii, w którym trafieniem jest wynik „5” lub „6”.
+
+## Zasady
+- Każdy gracz rzuca tyloma [[Kość bitwy|kośćmi bitwy]], ile wynosi [[Siła armii|siła jego armii]], ale najwyżej 5.
+- Każde „5” lub „6” to trafienie. Każde trafienie to jedna strata przeciwnika.
+- Po rzucie gracze wykonują [[Przerzut dowódców|przerzut dowódców]].
+- Wynik potrzebny do trafienia mogą zmieniać [[Modyfikator rzutu|modyfikatory]].
+
+## Wyjątki i szczególne przypadki
+- W pierwszej rundzie bitwy w regionie z [[Miasto|miastem]] lub [[Fortyfikacja|fortyfikacją]] atakujący trafia dopiero na „6”.
+- Podczas [[Atak na mury|ataku na mury]] atakujący zawsze trafia dopiero na „6”.
+- Wynik „1” zawsze chybia, a „6” zawsze trafia.
+
+~ Trafienie -> Rzut bitwy
+
+@@ Rzut poszukiwań
+grupa: Rzut
+strony: 40–41
+klucze: Sukces poszukiwań
+Rzut gracza Cienia po każdym ruchu Drużyny, w którym sukcesem jest wynik „6”.
+
+## Zasady
+- Gracz Cienia rzuca tyloma kośćmi bitwy, ile wynosi [[Poziom poszukiwań|poziom poszukiwań]], ale najwyżej 5 (patrz [[Kość bitwy]]).
+- Każde „6” to sukces.
+- Każda kość Wolnych Ludów na [[Pole poszukiwań|polu poszukiwań]] daje +1 do każdego wyniku (patrz [[Modyfikator rzutu]]). Przy drugim ruchu w turze sukcesem jest więc już „5” lub „6”.
+- Po rzucie Cień może wykonać [[Przerzut poszukiwań|przerzuty poszukiwań]].
+- Choć jeden sukces oznacza udane poszukiwania: Cień losuje żeton z [[Pula poszukiwań|puli poszukiwań]] i ustala się [[Ciężar brzemienia|ciężar brzemienia]].
+
+## Wyjątki i szczególne przypadki
+- Wynik „1” zawsze jest porażką.
+- Na torze Mordoru nie wykonuje się rzutu poszukiwań.
+
+~ Sukces (poszukiwań) -> Rzut poszukiwań
+
+@@ Saruman
+strony: 3, 18, 24, 45–46
+[[Sługa]] Cienia, który nigdy nie opuszcza Orthanku.
+
+## Zasady
+- Wchodzi do gry, gdy gracz Cienia wykorzysta [[Wynik „Mobilizacja”|wynik „Mobilizacja”]] i spełni warunki z jego karty.
+- Po jego wejściu do gry gracz Cienia dodaje jedną kość do [[Pula kości akcji|puli kości akcji]].
+- Saruman nigdy nie może opuścić regionu Orthanku (patrz [[Ruch postaci]]).
+
+## Wyjątki i szczególne przypadki
+- W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje go gracz Sarumana i sprzymierzeńców Saurona. Dopóki Saruman jest w grze, każda elitarna [[Jednostka|jednostka]] Isengardu oraz Haradrimów i Easterlingów jest jednocześnie jednostką i [[Dowódca|dowódcą]] (w ruchu i bitwie).
+
+@@ Siła armii
+strony: 29
+Liczba jednostek (regularnych i elitarnych) w armii biorącej udział w bitwie.
+
+## Zasady
+- Siła armii mówi, iloma kośćmi gracz rzuca w [[Rzut bitwy|rzucie bitwy]] (najwyżej 5 kośćmi).
+- Każda [[Jednostka|jednostka]] dodaje 1. [[Dowódca|Dowódcy]] i postacie nie zwiększają siły.
+- Armia większa niż 5 jednostek nie rzuca większą liczbą kości, ale dłużej utrzymuje pełną siłę, gdy ponosi straty.
+- Siłę mogą zmieniać karty Bitwy i zdolności postaci (patrz [[Modyfikator rzutu]]), ale w rzucie nigdy nie rzuca się więcej niż 5 kośćmi (patrz [[Kość bitwy]]).
+
+::: przyklad
+3 jednostki regularne i 1 elitarna to siła 4. 6 regularnych i 2 elitarne to siła 8, ale armia rzuca tylko 5 kośćmi.
+:::
+
+@@ Sługa
+strony: 8, 18, 24–25, 31
+klucze: Sługi
+Postać Cienia: [[Saruman]], [[Czarnoksiężnik z Angmaru]] lub [[Rzecznik Saurona]].
+
+## Zasady
+- Sługi nie zaczynają gry na planszy. Wchodzą do gry, gdy gracz Cienia wykorzysta [[Wynik „Mobilizacja”|wynik „Mobilizacja”]] i spełni warunki z [[Karta Postaci|karty Postaci]]. Nie dotyczą ich zwykłe zasady rekrutacji.
+- Każdy Sługa po wejściu do gry dodaje kość do [[Pula kości akcji|puli kości akcji]] Cienia.
+- Sługi to [[Postać|postacie]]: mają poziom, zdolności przywódcze i zdolności specjalne.
+- Poruszają się według zasad [[Ruch postaci|ruchu postaci]].
+- Wyeliminowany Sługa wypada z gry na stałe, a Cień traci jego kość (patrz [[Straty w bitwie]]).
+
+~ Wprowadzenie Sługi do gry -> Sługa
+
+@@ Stan wojny
+strony: 14, 34–35
+Ostatnie pole toru polityki: Naród na tym polu jest w pełni zmobilizowany.
+
+## Zasady
+- Naród wchodzi w stan wojny, gdy jego znacznik dotrze na ostatnie pole [[Tor polityki|toru polityki]].
+- Armie Narodu w stanie wojny mogą swobodnie się poruszać, przekraczać granice innych Narodów i atakować (patrz [[Bitwa]]).
+- Jednostki takiego Narodu można rekrutować wynikiem „Mobilizacja” (patrz [[Rekrutacja]]).
+- Naród, który nie jest w stanie wojny, to [[Naród nieagresywny]].
+
+## Wyjątki i szczególne przypadki
+- Pasywny Naród Wolnych Ludów nie może wejść w stan wojny. Najpierw musi zostać aktywowany (patrz [[Naród pasywny i aktywny]]).
+- [[Postać|Postacie]] i Nazgûle zawsze uważa się za będące w stanie wojny.
+
+@@ Straty w bitwie
+grupa: Straty
+strony: 22, 29, 31
+klucze: Straty, strat, straty
+Jednostki usunięte lub osłabione w wyniku trafień przeciwnika.
+
+## Zasady
+- Każde trafienie przeciwnika (patrz [[Rzut bitwy]]) oznacza jedną stratę. Pierwszy decyduje o swoich stratach atakujący.
+- Za każde trafienie gracz usuwa jedną [[Jednostka|jednostkę]] regularną ALBO zamienia elitarną na regularną. Dwa trafienia to dwie regularne albo jedna elitarna.
+- Jednostkę regularną na zamianę bierze się ze stosu strat, a jeśli go nie ma, z [[Posiłki|posiłków]]. Jeśli nie ma skąd, jednostka elitarna ginie.
+- Straty Wolnych Ludów wypadają z gry na stałe. Straty Cienia wracają do posiłków.
+- Usuwanie strat to czwarty krok [[Runda bitwy|rundy bitwy]].
+
+## Wyjątki i szczególne przypadki
+- Gdy zginą wszystkie jednostki armii, giną też wszyscy jej [[Dowódca|dowódcy]] i [[Postać|postacie]]. Dowódcy Wolnych Ludów i postacie (także Sługi) wypadają z gry na stałe, a Nazgûle wracają do posiłków.
+- Jeśli wszystkie jednostki zginą od [[Karta Wydarzenia|karty Wydarzenia]], usuwa się dowódców Wolnych Ludów, ale Nazgûle, Towarzysze i Sługi zostają w regionie, chyba że karta mówi inaczej.
+
+::: przyklad
+Gracz otrzymał 2 trafienia. Może usunąć 2 jednostki regularne, zamienić 2 elitarne na regularne albo usunąć 1 elitarną.
+:::
+
+@@ Straty w Drużynie Pierścienia
+grupa: Straty
+strony: 42
+Wyeliminowanie Towarzysza z Drużyny w celu zmniejszenia ciężaru brzemienia.
+
+## Zasady
+- Jeśli po kartach i zdolności przewodnika [[Ciężar brzemienia|ciężar brzemienia]] nadal wynosi co najmniej 1, gracz Wolnych Ludów może wyeliminować jednego [[Towarzysz|Towarzysza]].
+- Wybiera: obecnego [[Przewodnik Drużyny Pierścienia|przewodnika]] albo losowego Towarzysza. Losowego wybiera gracz Cienia spośród zakrytych żetonów Towarzyszy z pola Drużyny (wśród nich jest też przewodnik).
+- Ciężar zmniejsza się o [[Poziom postaci|poziom]] wyeliminowanego Towarzysza. Nadmiar zamienia się w zepsucie (patrz [[Wykorzystanie Pierścienia]]).
+- Jeśli ciężar był mniejszy niż poziom, Towarzysz i tak ginie. W grze nie ma „ran”.
+- Patrz też [[Zepsucie]].
+
+!img zetony-towarzyszy | Żetony Towarzyszy (zakryte losuje się przy stratach)
+
+~ Symbol chorągwi -> Wynik „Armia” | Symbol
+~ Symbol hełmu -> Wynik „Mobilizacja” | Symbol
+~ Symbol miecza -> Wynik „Postać” | Symbol
+~ Symbol Oka (na żetonie poszukiwań) -> Ciężar brzemienia | Symbol
+~ Symbol Palantira -> Wynik „Wydarzenie” | Symbol
+
+@@ Symbol odkrycia
+grupa: Symbol
+strony: 40–42
+Symbol na żetonie poszukiwań, który oznacza, że Sauron odkrył Drużynę.
+
+## Zasady
+- Jeśli wylosowany [[Żeton poszukiwań|żeton poszukiwań]] ma ten symbol, po rozpatrzeniu pozostałych efektów Drużyna zostaje odkryta (patrz [[Odkrycie Drużyny Pierścienia]]).
+- To ostatni krok [[Poszukiwania Pierścienia|poszukiwań]].
+
+## Wyjątki i szczególne przypadki
+Symbol ignoruje się na żetonach wylosowanych w chwili [[Ujawnienie Drużyny Pierścienia|ujawnienia Drużyny]] w mieście lub twierdzy Wolnych Ludów kontrolowanej przez Wolne Ludy.
+
+@@ Symbol zatrzymania
+grupa: Symbol
+strony: 40, 43
+Symbol na żetonie poszukiwań, który na torze Mordoru zatrzymuje Drużynę w miejscu.
+
+## Zasady
+- Mają go wszystkie specjalne żetony Cienia (mały symbol w prawym dolnym rogu) i niektóre inne [[Żeton poszukiwań|żetony poszukiwań]].
+- Jeśli na [[Tor Mordoru|torze Mordoru]] wylosowany żeton ma ten symbol, Drużyna zostaje na obecnym polu.
+- Poza Mordorem symbol nie ma znaczenia.
+
+!img zetony-poszukiwan | Żetony poszukiwań: 1 symbol odkrycia, 2 ciężar brzemienia, 3 symbol zatrzymania
+
+@@ Szczeliny Zagłady
+strony: 43–44
+klucze: Góra Przeznaczenia
+Ostatnie pole toru Mordoru, gdzie zniszczenie Pierścienia daje zwycięstwo Wolnym Ludom.
+
+## Zasady
+- Gdy Drużyna pokona wszystkie pola [[Tor Mordoru|toru Mordoru]] i dotrze do Szczelin Zagłady, a [[Zepsucie|zepsucie]] jest mniejsze niż 12, Pierścień zostaje zniszczony i Wolne Ludy natychmiast wygrywają (patrz [[Warunki zwycięstwa]]).
+
+~ Talia Postaci -> Talia Wydarzeń | Talia
+~ Talia Strategii -> Talia Wydarzeń | Talia
+
+@@ Talia Wydarzeń
+grupa: Talia
+strony: 14, 22, 45
+klucze: Talie Wydarzeń
+Jedna z czterech talii kart Wydarzeń: Postaci i Strategii dla każdej strony.
+
+## Zasady
+- Każdy gracz ma dwie talie po 24 [[Karta Wydarzenia|karty Wydarzeń]]: talię Strategii (symbol chorągwi), zwykle z opcjami wojskowymi i politycznymi, oraz talię Postaci (symbol miecza), związaną z Drużyną, Towarzyszami i Sługami.
+- W [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]] każdej tury gracz dobiera po karcie z każdej talii.
+- [[Wynik „Wydarzenie”|Wynik „Wydarzenie”]] pozwala dobrać kartę z wybranej talii.
+- Na ręce można mieć najwyżej 6 kart. Nadmiar trzeba od razu odrzucić, rewersem do góry.
+
+## Wyjątki i szczególne przypadki
+- Wyczerpanej talii nie tasuje się ponownie. Gracz dobiera wtedy tylko z drugiej talii.
+- W [[Gra wieloosobowa|grze wieloosobowej]] limit wynosi 4 karty.
+
+::: uwaga
+W instrukcji raz pojawia się nazwa „talia Spotkań”. To błąd tłumaczenia: chodzi o talię Postaci.
+:::
+
+
+@@ Tor Drużyny Pierścienia
+grupa: Tor
+strony: 11, 36–38
+Ponumerowany tor na planszy, na którym leżą znacznik postępów i znacznik zepsucia.
+
+## Zasady
+- [[Znacznik postępów]] pokazuje, ile regionów [[Drużyna Pierścienia]] przeszła od ostatniego znanego miejsca pobytu (patrz [[Ruch Drużyny Pierścienia]]).
+- Znacznik [[Zepsucie|zepsucia]] pokazuje zepsucie Powierników (od 0 do 12).
+
+!img znacznik-zepsucia | Znacznik zepsucia
+
+@@ Tor Mordoru
+grupa: Tor
+strony: 43
+Pola naniesione na region Gorgoroth, po których Drużyna idzie ostatnim etapem wyprawy do Szczelin Zagłady.
+
+## Zasady
+- Drużyna trafia na tor po [[Wkroczenie do Mordoru|wkroczeniu do Mordoru]]. Tor nie jest częścią regionu Gorgoroth, a Drużyna na torze nie jest w żadnym regionie.
+- Przy każdej próbie [[Ruch Drużyny Pierścienia|ruchu Drużyny]] nie rzuca się kośćmi poszukiwań. Cień automatycznie losuje żeton i rozpatruje go jak udane poszukiwania (patrz [[Ciężar brzemienia]]), z dwiema zmianami:
+  - żeton z „Okiem” ma wartość równą liczbie wszystkich kości na polu poszukiwań, także kości Wolnych Ludów z wcześniejszych ruchów w tej turze,
+  - Drużyna przesuwa się o jedno pole, chyba że żeton ma [[Symbol zatrzymania|symbol zatrzymania]].
+- Aby ruszyć się po torze, Drużyna musi być ukryta. Odkrytą trzeba ukryć wynikiem „Postać” (patrz [[Ukrywanie Drużyny Pierścienia]]).
+- Jeśli w fazie rozpatrywania akcji gracz Wolnych Ludów ani nie spróbował ruszyć Drużyną, ani jej nie ukrył, [[Zepsucie|zepsucie]] rośnie o 1.
+- Gdy Drużyna pokona wszystkie pola i dotrze do [[Szczeliny Zagłady|Szczelin Zagłady]] z zepsuciem mniejszym niż 12, Wolne Ludy wygrywają.
+
+## Wyjątki i szczególne przypadki
+- Towarzysze nie mogą opuścić Drużyny. Każdy efekt, który by ich [[Odłączanie Towarzyszy|odłączył]], usuwa ich z gry.
+- Znacznik postępów nie przesuwa się już, ale nadal pokazuje, czy Drużyna jest ukryta.
+
+!img tor-mordoru | Tor Mordoru
+
+@@ Tor polityki
+grupa: Tor
+strony: 14, 20, 33–35
+klucze: Znacznik polityki, Działania dyplomatyczne
+Tor pokazujący, jak blisko wojny jest każdy Naród. Ostatnie pole to „stan wojny”.
+
+## Zasady
+- Im dalej od pola „stanu wojny” jest znacznik [[Naród|Narodu]], tym mniej chętnie Naród włącza się do konfliktu.
+- Pozycje startowe: Rohan, Północ, elfy i krasnoludy na górnym polu, Gondor oraz Haradrimowie i Easterlingowie na drugim, Isengard i Sauron na trzecim, tuż nad „stanem wojny”.
+- Znacznik przesuwa się o jedno pole w stronę [[Stan wojny|stanu wojny]]:
+  - akcją dyplomatyczną za [[Wynik „Mobilizacja”|wynik „Mobilizacja”]] albo kartą Wydarzenia,
+  - automatycznie, gdy armia z jednostkami tego Narodu zostanie zaatakowana (raz na bitwę, patrz [[Bitwa]]),
+  - automatycznie, gdy przeciwnik zdobędzie osadę tego Narodu (patrz [[Zdobywanie osad]]).
+- Pasywny Naród Wolnych Ludów nie może wejść na pole „stanu wojny” (patrz [[Naród pasywny i aktywny]] i [[Aktywacja Narodu]]).
+
+## Wyjątki i szczególne przypadki
+- Zdobyta osada nie może być wykorzystana do przesuwania znaczników na torze polityki.
+- [[Karta Wydarzenia|Karty]], które atakują armię, zmieniają politykę. Trzy karty „Enty” i „Umarli z Dunharrow” również.
+- W grze wieloosobowej znacznik przesuwa tylko gracz kontrolujący dany Naród.
+
+::: przyklad
+Cień atakuje armię Północy w Dale. Po pierwszej rundzie ostatnia jednostka Północy się wycofuje, a Cień wkracza do miasta i kładzie znacznik kontroli. Północ zostaje aktywowana, a jej znacznik przesuwa się o dwa pola: jedno za atak, jedno za utratę miasta.
+:::
+
+!img znaczniki-polityki-przeglad | Znaczniki polityki
+
+~ Tor punktów zwycięstwa -> Punkty zwycięstwa | Tor
+
+@@ Towarzysz
+strony: 8, 24, 36–37
+klucze: Towarzysze, Towarzyszy
+Postać Wolnych Ludów, która zaczyna grę w Drużynie Pierścienia.
+
+## Zasady
+- Towarzysze to: Legolas, Gimli, Boromir, Obieżyświat (Aragorn), Meriadok, Peregrin i Gandalf Szary.
+- Zaczynają w [[Drużyna Pierścienia|Drużynie]]: figurki i żetony leżą na polu Drużyny, a [[Karta Postaci|karty]] w talii Drużyny.
+- Jeden z nich jest [[Przewodnik Drużyny Pierścienia|przewodnikiem]].
+- Mogą opuścić Drużynę (patrz [[Odłączanie Towarzyszy]]) i dołączyć do armii jako dowódcy. Wtedy poruszają się według zasad [[Ruch postaci|ruchu postaci]].
+- Towarzysz może [[Aktywacja Narodu|aktywować Naród]] wskazany na jego karcie.
+- Towarzysz może zginąć jako [[Straty w Drużynie Pierścienia|strata w Drużynie]].
+- Towarzysze to [[Postać|postacie]]. Powiernicy Pierścienia i Gollum nie są Towarzyszami.
+
+## Wyjątki i szczególne przypadki
+Obieżyświat i Gandalf Szary mogą zostać zastąpieni potężniejszymi wcieleniami: Aragornem, Dziedzicem Isildura i Gandalfem Białym (patrz ich karty).
+
+@@ Tura
+strony: 18
+Jeden pełny cykl gry, złożony z sześciu faz.
+
+## Zasady
+1. [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart]]
+2. [[Faza 2: Drużyna Pierścienia]]
+3. [[Faza 3: Przydzielanie kości do poszukiwań]]
+4. [[Faza 4: Rzut akcji]]
+5. [[Faza 5: Rozpatrywanie akcji]]
+6. [[Faza 6: Sprawdzenie warunków zwycięstwa]]
+
+Tury rozgrywa się, dopóki jeden z graczy nie spełni [[Warunki zwycięstwa|warunków zwycięstwa]].
+
+@@ Twierdza
+strony: 11, 24, 32–33, 39, 41, 44
+klucze: Twierdze, twierdzy
+Forteca, osiedle elfów lub wielka stolica: osada dająca obrońcom potężną przewagę.
+
+## Zasady
+- To [[Osada]], w której można rekrutować (patrz [[Rekrutacja]]).
+- Gdy armia broni się w regionie z twierdzą, przed każdą rundą wybiera [[Bitwa w polu|bitwę w polu]] albo [[Wycofanie się do twierdzy|wycofanie się do twierdzy]], co rozpoczyna [[Oblężenie|oblężenie]].
+- Zdobycie wrogiej twierdzy daje 2 [[Punkty zwycięstwa|punkty zwycięstwa]].
+- Każdej twierdzy odpowiada pole twierdzy przy brzegu planszy (dla twierdz Cienia ze standardowym rysunkiem).
+
+## Wyjątki i szczególne przypadki
+- Towarzysze, którzy wejdą do regionu z twierdzą Cienia, muszą się zatrzymać (patrz [[Ruch postaci]]).
+- [[Nazgûl|Nazgûle]] i Sługi poruszające się bez armii nie mogą wejść do nieoblężonej twierdzy Wolnych Ludów.
+- Twierdza Cienia w regionie Powierników daje [[Przerzut poszukiwań|przerzut poszukiwań]]. Gdy Drużyna zostanie [[Odkrycie Drużyny Pierścienia|odkryta]] i jej ścieżka prowadzi przez twierdzę Cienia, Cień losuje dodatkowy żeton.
+
+!img twierdze | Twierdza Wolnych Ludów i twierdza Cienia
+
+@@ Tylna straż
+strony: 29, 33
+Część armii atakującego, która zostaje w regionie i nie bierze udziału w bitwie.
+
+## Zasady
+- Przy ataku gracz może podzielić armię na atakującą i tylną straż (patrz [[Dzielenie armii]]). Każda część musi mieć co najmniej jedną jednostkę. Dowódców i postacie dzieli się dowolnie.
+- Tylna straż nie wpływa na [[Bitwa|bitwę]]: nie działają na nią [[Karta Bitwy|karty Bitwy]], nie może ponieść strat i nie wkracza do spornego regionu po zwycięstwie.
+
+## Wyjątki i szczególne przypadki
+- Jednostki [[Naród nieagresywny|Narodu nieagresywnego]] muszą zostać w tylnej straży.
+- Przy atakowaniu wynikiem „Postać” w części atakującej musi być dowódca lub postać.
+- Przy [[Wypad wojsk oblężonych|wypadzie wojsk oblężonych]] tylna straż zostaje w twierdzy.
+
+@@ Ujawnienie Drużyny Pierścienia
+strony: 18, 38, 41
+klucze: Ujawnienie
+Dobrowolne ogłoszenie przez gracza Wolnych Ludów, gdzie jest Drużyna Pierścienia.
+
+## Zasady
+- Ujawnić można tylko ukrytą Drużynę, w [[Faza 2: Drużyna Pierścienia|fazie Drużyny Pierścienia]].
+- Gracz przesuwa figurkę Powierników o najwyżej tyle regionów od ostatniego znanego miejsca, ile wskazuje [[Znacznik postępów|znacznik postępów]]. Może przesunąć mniej albo zostawić figurkę w miejscu, ale nie może przekraczać czarnych granic.
+- Znacznik postępów wraca na „0” i zostaje stroną „ukrytą” do góry.
+- Zwykle ujawnia się Drużynę, żeby [[Leczenie Powierników Pierścienia|leczyć zepsucie]] w mieście lub twierdzy, [[Aktywacja Narodu|aktywować Naród]] albo zagrać kartę wymagającą konkretnego miejsca.
+
+## Wyjątki i szczególne przypadki
+- Jeśli w chwili ujawnienia w mieście lub twierdzy kontrolowanej przez Wolne Ludy trzeba wylosować żeton poszukiwań, ignoruje się na nim [[Symbol odkrycia|symbol odkrycia]].
+- Do [[Wkroczenie do Mordoru|wkroczenia do Mordoru]] nie trzeba ujawniać Drużyny.
+- Drużyna może swobodnie wchodzić do oblężonych twierdz i je opuszczać.
+- Ujawnienie to co innego niż [[Odkrycie Drużyny Pierścienia|odkrycie]] przez Cień.
+
+::: przyklad
+W 4. turze ostatnie znane miejsce to Rivendell, a znacznik postępów jest na „5”. Gracz ujawnia Drużynę i przesuwa figurkę przez Brody na Bruinen, Hollin, Morię i Dolinę Mrocznej Strugi do Lórien. Znacznik wraca na „0”, Drużyna pozostaje ukryta. W twierdzy Lórien może teraz leczyć 1 punkt zepsucia.
+:::
+
+@@ Ukrywanie Drużyny Pierścienia
+strony: 20, 39, 43
+klucze: Ukrywanie
+Odwrócenie znacznika postępów na stronę „ukrytą”, które pozwala odkrytej Drużynie znów się poruszać.
+
+## Zasady
+- Gracz Wolnych Ludów wykorzystuje [[Wynik „Postać”|wynik „Postać”]] (albo kartę Wydarzenia), aby odwrócić [[Znacznik postępów|znacznik postępów]] na stronę „ukrytą”.
+- Ukrycie nie jest ruchem: Drużyna się nie przesuwa, a kość nie trafia na pole poszukiwań.
+- Drużyna może się poruszać tylko wtedy, gdy jest ukryta, więc odkrytą Drużynę trzeba najpierw ukryć (patrz [[Odkrycie Drużyny Pierścienia]]), a potem ruszyć osobną akcją (patrz [[Ruch Drużyny Pierścienia]]).
+- Na [[Tor Mordoru|torze Mordoru]] obowiązuje to samo.
+
+~ Upiory Pierścienia -> Nazgûl
+
+@@ Warunki zwycięstwa
+strony: 44, 46
+klucze: Zwycięstwo
+Cztery sposoby zakończenia gry zwycięstwem jednej ze stron.
+
+## Zasady
+**Zwycięstwa Pierścienia** (sprawdzane w każdej chwili, gra kończy się natychmiast):
+1. **Porażka Powierników Pierścienia**: jeśli [[Zepsucie|zepsucie]] osiągnie 12 lub więcej, wygrywa Cień.
+2. **Zniszczenie Pierścienia**: jeśli figurka Powierników jest na polu [[Szczeliny Zagłady|Szczelin Zagłady]], a zepsucie jest mniejsze niż 12, wygrywają Wolne Ludy.
+
+**Zwycięstwa wojskowe** (sprawdzane w [[Faza 6: Sprawdzenie warunków zwycięstwa|fazie 6]]):
+
+3. **Cień podbił Śródziemie**: Cień kontroluje osady Wolnych Ludów warte co najmniej 10 [[Punkty zwycięstwa|punktów zwycięstwa]].
+4. **Sauron wygnany ze Śródziemia**: Wolne Ludy kontrolują osady Cienia warte co najmniej 4 punkty zwycięstwa.
+
+## Wyjątki i szczególne przypadki
+- Jeśli w jednej turze spełniono kilka warunków, wygrywa ten o niższym numerze.
+- W [[Gra wieloosobowa|grze wieloosobowej]] zespoły wygrywają tak samo. Dodatkowo ustala się zwycięzcę w zespole.
+
+
+@@ Wioska
+strony: 11
+Najmniejsza [[Osada|osada]]: zamieszkały obszar, w którym można rekrutować wojska.
+
+## Zasady
+- W wiosce można prowadzić [[Rekrutacja|rekrutację]] wojsk jej Narodu.
+- Wioska nie daje punktów zwycięstwa ani przewagi w bitwie.
+- Wioskę zdobywa wroga armia, która do niej wkroczy (patrz [[Zdobywanie osad]]). Zdobycie przesuwa znacznik Narodu na torze polityki.
+
+!img wioski | Wioska Wolnych Ludów i wioska Cienia
+
+@@ Wkroczenie do Mordoru
+strony: 3, 39, 43
+klucze: Mordor
+Rozpoczęcie ostatniego etapu wyprawy: Drużyna wchodzi z Minas Morgul lub Morannon na tor Mordoru.
+
+## Zasady
+- Jeśli w [[Faza 2: Drużyna Pierścienia|fazie Drużyny Pierścienia]] Drużyna jest w regionie Minas Morgul lub Morannon, gracz Wolnych Ludów może wkroczyć do Mordoru.
+- Jeśli w tej samej fazie Drużyna została ujawniona, najpierw rozpatruje się do końca [[Ujawnienie Drużyny Pierścienia|ujawnienie]].
+- Następnie:
+  1. Figurkę Powierników stawia się na pierwszym polu [[Tor Mordoru|toru Mordoru]] (z elfią cyfrą „0”).
+  2. Tworzy się nową [[Pula poszukiwań|pulę poszukiwań]]: niewylosowane żetony, wszystkie wylosowane wcześniej żetony z „Okiem” i specjalne żetony wprowadzone kartami. Żetonów usuniętych z gry się nie dodaje (patrz [[Żeton poszukiwań]]).
+
+## Wyjątki i szczególne przypadki
+- W drugiej edycji Drużyny nie trzeba ujawniać, żeby wkroczyć do Mordoru. Może to zrobić także wtedy, gdy jest odkryta.
+- Od tej chwili Towarzysze nie mogą się odłączać (patrz [[Odłączanie Towarzyszy]]).
+
+@@ Wolne Ludy
+strony: 3, 9, 14–19, 44
+klucze: Gracz Wolnych Ludów
+Strona konfliktu broniąca Zachodu, którą kontroluje gracz Wolnych Ludów.
+
+## Zasady
+- Wolne Ludy tworzy pięć [[Naród|Narodów]]: Krasnoludy, Elfy, Gondor, Północ i Rohan. Wszystkie oprócz elfów zaczynają grę jako pasywne.
+- Najważniejsze postacie to [[Towarzysz|Towarzysze]] z [[Drużyna Pierścienia|Drużyny Pierścienia]].
+- Gracz Wolnych Ludów zaczyna z 4 kośćmi akcji i może mieć ich najwyżej 6 (patrz [[Pula kości akcji]]).
+- Wyeliminowane jednostki i dowódcy Wolnych Ludów wypadają z gry na stałe.
+- Wolne Ludy wygrywają, gdy zniszczą Pierścień w Szczelinach Zagłady albo gdy pod koniec tury kontrolują osady Cienia warte co najmniej 4 punkty zwycięstwa (patrz [[Warunki zwycięstwa]]).
+- Przeciwnikiem Wolnych Ludów jest [[Cień]].
+
+@@ Wolny region
+strony: 10, 27–28, 32
+Region, w którym nie ma wrogich armii ani osad kontrolowanych przez wroga.
+
+## Zasady
+- Region jest wolny dla gracza, jeśli nie ma w nim wrogich armii ani kontrolowanych przez wroga osad.
+- Region z twierdzą oblężoną przez gracza jest dla niego wolny (patrz [[Oblężenie]]).
+- „Wolny dla celów ruchu armii” jest też region z kontrolowaną przez wroga [[Osada|osadą]], w której nie ma wrogiej armii. Wejście do niego zdobywa osadę (patrz [[Ruch armii]]).
+- Rekrutować można tylko w wolnej osadzie (patrz [[Rekrutacja]]).
+- [[Odwrót]] wykonuje się do wolnego sąsiedniego [[Region|regionu]].
+
+@@ Wycofanie się do twierdzy
+strony: 32
+Schronienie się obrońcy za murami twierdzy, które oddaje region wrogowi i rozpoczyna oblężenie.
+
+## Zasady
+- Armia broniąca się w regionie z przyjazną [[Twierdza|twierdzą]] może na początku dowolnej rundy bitwy wycofać się do twierdzy zamiast walczyć w polu (patrz [[Bitwa w polu]]).
+- Region zostaje oddany wrogowi: atakujący może od razu wejść do niego swoją armią. Wtedy twierdza jest [[Oblężenie|oblężona]], a bitwa się kończy.
+- Obrońca jest odtąd w twierdzy. Figurki można przenieść na pole twierdzy.
+- W twierdzy mieści się najwyżej 5 jednostek. Nadmiar usuwa się na początku oblężenia i wraca on do [[Posiłki|posiłków]] (patrz [[Ograniczenie wielkości armii]]).
+
+@@ Wykorzystanie Pierścienia
+strony: 42–43
+Zamiana pozostałego ciężaru brzemienia na zepsucie Powierników.
+
+## Zasady
+- Po kartach, zdolności przewodnika i ewentualnej [[Straty w Drużynie Pierścienia|stracie w Drużynie]] pozostały [[Ciężar brzemienia|ciężar brzemienia]] zamienia się w [[Zepsucie|zepsucie]]: znacznik zepsucia przesuwa się o tyle pól.
+- To przedostatni krok [[Poszukiwania Pierścienia|poszukiwań]].
+- Pierścień wykorzystuje się też wtedy, gdy każe tak karta Wydarzenia.
+
+@@ Wynik „Armia”
+grupa: Wynik
+strony: 20
+klucze: Armia (wynik)
+Wynik na kości akcji (symbol chorągwi), który służy do działań armii.
+
+## Zasady
+Gracz wybiera jedną akcję:
+- **Ruch armii**: przesuwa do dwóch różnych armii do sąsiednich wolnych regionów (patrz [[Ruch armii]]).
+- **Atak**: atakuje jedną armią wrogą armię w sąsiednim regionie albo przeprowadza atak na mury lub wypad oblężonych (patrz [[Bitwa]]).
+- **Karta**: zagrywa z ręki [[Karta Wydarzenia|kartę Wydarzenia]] z symbolem Armii.
+
+{{kosc-wl-armia}} {{kosc-cien-armia}}
+
+## Wyjątki i szczególne przypadki
+Na [[Kość akcji|kościach]] Wolnych Ludów ten wynik występuje tylko razem z Mobilizacją.
+
+@@ Wynik „Mobilizacja”
+grupa: Wynik
+strony: 20, 24, 26
+klucze: Mobilizacja (wynik)
+Wynik na kości akcji (symbol hełmu), który służy do polityki i rekrutacji.
+
+## Zasady
+Gracz wybiera jedną akcję:
+- **Działania dyplomatyczne**: przesuwa znacznik jednego przyjaznego Narodu o jedno pole na [[Tor polityki|torze polityki]]. Narody Wolnych Ludów wchodzą w stan wojny tylko wtedy, gdy są aktywne.
+- **Karta**: zagrywa [[Karta Wydarzenia|kartę Wydarzenia]] z symbolem Mobilizacji.
+- **Rekrutacja**: tylko dla Narodów w [[Stan wojny|stanie wojny]]. Jedna jednostka elitarna albo dwie figurki (regularne lub dowódcy) w dwóch różnych przyjaznych, wolnych osadach (patrz [[Rekrutacja]]).
+- **Sługa** (tylko Cień): wprowadza do gry jednego [[Sługa|Sługę]] według jego karty.
+
+{{kosc-wl-mobilizacja}} {{kosc-cien-mobilizacja}}
+
+@@ Wynik „Mobilizacja/Armia”
+grupa: Wynik
+strony: 21
+Podwójny wynik na kości akcji, który pozwala wykonać dowolną akcję z wyniku „Armia” albo z wyniku „Mobilizacja”.
+
+## Zasady
+- Gracz wybiera jedną akcję z listy [[Wynik „Armia”]] albo [[Wynik „Mobilizacja”]].
+
+{{kosc-wl-mobilizacja-armia}} {{kosc-cien-mobilizacja-armia}}
+
+@@ Wynik „Oko”
+grupa: Wynik
+strony: 19, 21
+klucze: Oko
+Wynik specjalny na kościach Cienia, który przeznacza kość na poszukiwania Pierścienia.
+
+## Zasady
+- W [[Faza 4: Rzut akcji|fazie rzutu akcji]] wszystkie kości z wynikiem „Oko” trzeba od razu położyć na [[Pole poszukiwań|polu poszukiwań]].
+- Każda taka kość zwiększa [[Poziom poszukiwań|poziom poszukiwań]] o 1.
+- Kości z „Okiem” nie wykonują akcji.
+
+{{kosc-cien-specjalna}}
+
+## Wyjątki i szczególne przypadki
+Gracz Cienia może [[Pierścienie Elfów|Pierścieniem Elfów]] zmienić wynik kości na „Oko”, ale nie może zmienić kości, która już pokazuje „Oko”.
+
+@@ Wynik „Postać”
+grupa: Wynik
+strony: 20, 24, 27–28, 37, 39
+klucze: Postać (wynik)
+Wynik na kości akcji (symbol miecza), który służy do działań postaci, dowódców i Drużyny Pierścienia.
+
+## Zasady
+Obie strony mogą tym wynikiem:
+- przesunąć armię z dowódcą lub postacią do sąsiedniego wolnego regionu (patrz [[Ruch armii]]) ALBO zaatakować nią wrogą armię (patrz [[Bitwa]]),
+- zagrać [[Karta Wydarzenia|kartę Wydarzenia]] z symbolem Postaci.
+
+Tylko Wolne Ludy:
+- przesunąć Drużynę o jedno pole (patrz [[Ruch Drużyny Pierścienia]]),
+- [[Ukrywanie Drużyny Pierścienia|ukryć odkrytą Drużynę]],
+- [[Odłączanie Towarzyszy|odłączyć Towarzysza]] lub grupę Towarzyszy,
+- poruszyć wszystkich Towarzyszy na mapie (patrz [[Ruch postaci]]).
+
+Tylko Cień:
+- poruszyć wszystkie Nazgûle i Sługi (patrz [[Ruch postaci]]).
+
+{{kosc-wl-postac}} {{kosc-cien-postac}}
+
+## Wyjątki i szczególne przypadki
+Kości Wolnych Ludów mają ten wynik na dwóch ściankach.
+
+@@ Wynik „Wola Zachodu”
+grupa: Wynik
+strony: 21, 24
+klucze: Wola Zachodu
+Wynik specjalny na kościach Wolnych Ludów, który można zamienić na dowolny inny wynik.
+
+## Zasady
+- Zanim gracz Wolnych Ludów wykona akcję, może zmienić „Wolę Zachodu” na dowolny inny wynik i wykonać odpowiednią akcję.
+- Może też tym wynikiem wprowadzić do gry [[Gandalf Biały|Gandalfa Białego]] albo [[Aragorn, Dziedzic Isildura|Aragorna, Dziedzica Isildura]] według ich kart.
+
+{{kosc-wl-specjalna}}
+
+## Wyjątki i szczególne przypadki
+[[Pierścienie Elfów|Pierścieniem Elfów]] nie można zmienić wyniku na „Wolę Zachodu”. Symbol występuje tylko na [[Kość akcji|kościach]] Wolnych Ludów.
+
+@@ Wynik „Wydarzenie”
+grupa: Wynik
+strony: 21–22
+klucze: Wydarzenie (wynik)
+Wynik na kości akcji (symbol Palantira), który służy do dobierania i zagrywania kart.
+
+## Zasady
+Gracz wybiera jedną akcję:
+- dobiera jedną kartę z wybranej [[Talia Wydarzeń|talii Wydarzeń]],
+- zagrywa z ręki dowolną [[Karta Wydarzenia|kartę Wydarzenia]], bez względu na jej rodzaj.
+
+{{kosc-wl-wydarzenie}} {{kosc-cien-wydarzenie}}
+
+@@ Wypad wojsk oblężonych
+strony: 33
+klucze: Wypad
+Atak armii z oblężonej twierdzy na armię, która ją oblega.
+
+## Zasady
+- Oblężona armia może zaatakować oblegających, wykorzystując kość akcji.
+- To [[Bitwa w polu|bitwa w polu]] trwająca co najmniej jedną rundę. Oblężeni rezygnują z przewag [[Twierdza|twierdzy]], a obie strony trafiają na „5” lub więcej.
+- Gracz może zostawić w twierdzy [[Tylna straż|tylną straż]].
+- Jeśli atakujący chce zakończyć bitwę, jego armia musi wrócić do twierdzy.
+- Zaatakowana armia oblegająca może wykonać [[Odwrót|odwrót]] do wolnego sąsiedniego regionu.
+- Patrz też [[Oblężenie]].
+
+## Wyjątki i szczególne przypadki
+Nawet zwycięska armia z wypadu nie może opuścić regionu z twierdzą.
+
+@@ Wzmocnienie oblężenia
+strony: 33
+Dosłanie nowych wojsk do regionu, w którym toczy się oblężenie.
+
+## Zasady
+- Region z oblężoną twierdzą jest dla oblegającego [[Wolny region|wolny]], więc może on wprowadzać tam nowe wojska.
+- To zwykły [[Ruch armii|ruch armii]], nie atak.
+- Patrz też [[Oblężenie]].
+
+@@ Zagraj na stół
+strony: 22, 41
+Oznaczenie na karcie Wydarzenia, której nie odrzuca się po zagraniu, bo jej efekt trwa.
+
+## Zasady
+- [[Karta Wydarzenia|Karta]] z napisem „Zagraj na stół” leży na stole, a jej efekt trwa do spełnienia określonych warunków. Wtedy się ją odrzuca.
+- Jeśli odrzucenie wymaga wykorzystania kości, liczy się to jako [[Akcja|akcja]].
+- Jeśli przestaną być spełnione warunki zagrania, kartę od razu się odrzuca.
+- W pierwszym kroku rozpatrywania poszukiwań gracz Wolnych Ludów może użyć jednej takiej karty, aby anulować lub zmniejszyć [[Ciężar brzemienia|ciężar brzemienia]].
+
+::: przyklad
+„Szaleństwo Denethora” odrzuca się w chwili, gdy Minas Tirith przestaje być oblężone.
+:::
+
+@@ Zdobywanie osad
+strony: 33, 44
+Przejęcie wrogiej wioski, miasta lub twierdzy i oznaczenie jej znacznikiem kontroli.
+
+## Zasady
+Osada zostaje zdobyta, gdy:
+- wroga armia wkroczy do regionu z wioską, miastem albo nieobsadzoną twierdzą (patrz [[Ruch armii]]), ALBO
+- zginą wszystkie jednostki broniące się w twierdzy, a w armii oblegającej zostanie co najmniej 1 jednostka (patrz [[Oblężenie]]).
+
+- Zdobywca kładzie w regionie swój [[Znacznik kontroli|znacznik kontroli]].
+- Zdobyta [[Osada|osada]] nie może służyć do [[Rekrutacja|rekrutacji]] ani do przesuwania znaczników na torze polityki.
+- Zdobycie miasta daje 1, a twierdzy 2 [[Punkty zwycięstwa|punkty zwycięstwa]].
+- Utrata osady przesuwa znacznik jej Narodu o jedno pole na [[Tor polityki|torze polityki]].
+
+## Wyjątki i szczególne przypadki
+- Jeśli pierwotny właściciel odzyska osadę, usuwa znacznik kontroli, a punkty za nią przepadają.
+- Armia poruszająca się przez kilka regionów z karty Wydarzenia zdobywa wrogie osady, przez które przechodzi.
+
+@@ Zdolności przywódcze
+grupa: Zdolności
+strony: 25, 29–30
+Suma liczby dowódców i Nazgûli oraz wartości przywódczych postaci w armii, która określa liczbę przerzutów w bitwie.
+
+## Zasady
+- Każdy [[Dowódca|dowódca]] i [[Nazgûl]] dodaje 1. Postać dodaje tyle, ile podaje jej [[Karta Postaci|karta Postaci]].
+- Zdolności przywódcze mówią, iloma kośćmi gracz może wykonać [[Przerzut dowódców|przerzut dowódców]] (najwyżej 5).
+- Mogą je zmieniać karty Bitwy i zdolności postaci. Niektóre karty wymagają [[Poświęcenie zdolności przywódczych|poświęcenia zdolności przywódczych]].
+
+~ Zdolności specjalne -> Karta Postaci | Zdolności
+
+@@ Zepsucie
+strony: 36, 39, 42–44
+klucze: Znacznik zepsucia, Brzemię Pierścienia
+Liczba od 0 do 12, która odzwierciedla zgubny wpływ Pierścienia na Powierników.
+
+## Zasady
+- Zepsucie pokazuje znacznik na [[Tor Drużyny Pierścienia|torze Drużyny Pierścienia]].
+- Rośnie, gdy gracz musi [[Wykorzystanie Pierścienia|wykorzystać Pierścień]] (po poszukiwaniach albo z powodu karty).
+- Maleje dzięki [[Leczenie Powierników Pierścienia|leczeniu]] w przyjaznym mieście lub twierdzy, niektórym zdolnościom i kartom, a także specjalnym [[Żeton poszukiwań|żetonom poszukiwań]] z wartością ujemną. Nie spada poniżej 0.
+- Gdy zepsucie [[Powiernicy Pierścienia|Powierników]] osiągnie 12, Cień natychmiast wygrywa (patrz [[Warunki zwycięstwa]]).
+
+## Wyjątki i szczególne przypadki
+Na [[Tor Mordoru|torze Mordoru]] zepsucie rośnie o 1 na koniec fazy rozpatrywania akcji, jeśli gracz Wolnych Ludów ani nie spróbował ruszyć Drużyną, ani jej nie ukrył.
+
+!img znacznik-zepsucia | Znacznik zepsucia
+
+~ Brzemię Pierścienia -> Zepsucie
+~ Zwycięstwo Pierścienia -> Warunki zwycięstwa
+~ Zwycięstwo wojskowe -> Warunki zwycięstwa
+
+@@ Znacznik kontroli
+grupa: Znacznik
+strony: 33, 44
+Znacznik oznaczający wrogą osadę zdobytą przez gracza (w grze jest ich 20).
+
+## Zasady
+- Gracz kładzie go w regionie osady, którą zdobył (patrz [[Zdobywanie osad]]).
+- Liczy się do [[Punkty zwycięstwa|punktów zwycięstwa]]: dla zwycięstwa wojskowego gracz kontroluje wrogą osadę, jeśli leży na niej jego znacznik.
+- Znacznik usuwa się, gdy pierwotny właściciel odzyska [[Osada|osadę]].
+
+!img znaczniki-kontroli | Znaczniki kontroli Wolnych Ludów i Cienia
+
+~ Znacznik polityki -> Tor polityki | Znacznik
+
+@@ Znacznik postępów
+grupa: Znacznik
+strony: 14, 36–39, 43
+Znacznik na torze Drużyny Pierścienia, który pokazuje odległość Drużyny od ostatniego znanego miejsca pobytu i to, czy jest ona ukryta.
+
+## Zasady
+- Na początku gry leży na polu „0” [[Tor Drużyny Pierścienia|toru Drużyny]], stroną „ukrytą” do góry.
+- Każdy [[Ruch Drużyny Pierścienia|ruch Drużyny]] przesuwa go o jedno pole do przodu.
+- Przy [[Ujawnienie Drużyny Pierścienia|ujawnieniu]] lub [[Odkrycie Drużyny Pierścienia|odkryciu]] figurka Powierników idzie najwyżej o tyle regionów, ile wskazuje znacznik, a znacznik wraca na „0”.
+- Odkrycie odwraca go na stronę „odkrytą”, a [[Ukrywanie Drużyny Pierścienia|ukrycie]] z powrotem.
+- Liczbę na znaczniku dodaje się do poziomu przy [[Odłączanie Towarzyszy|odłączaniu Towarzyszy]].
+
+## Wyjątki i szczególne przypadki
+Na torze Mordoru znacznik się nie przesuwa, ale nadal pokazuje, czy Drużyna jest ukryta.
+
+!img znacznik-postepow | Znacznik postępów: awers „ukryta”, rewers „odkryta”
+
+~ Znacznik zepsucia -> Zepsucie | Znacznik
+
+~ Żeton armii -> Pole armii | Żeton
+~ Żeton Pierścienia Elfów -> Pierścienie Elfów | Żeton
+~ Żeton Towarzysza -> Drużyna Pierścienia | Żeton
+
+@@ Żeton poszukiwań
+grupa: Żeton
+strony: 14, 40–41
+klucze: Żetony poszukiwań
+Tekturowy żeton losowany z puli poszukiwań, który określa efekt udanych poszukiwań.
+
+## Zasady
+- W grze jest 24 żetonów: 16 zwyczajnych (beżowych) i 8 specjalnych (niebieskich dla Drużyny Pierścienia i czerwonych dla Cienia).
+- Zwyczajne żetony mają wartość 0–3, czyli [[Ciężar brzemienia|ciężar brzemienia]], albo symbol „Oka” o zmiennej wartości.
+- Niektóre żetony mają [[Symbol odkrycia|symbol odkrycia]] albo [[Symbol zatrzymania|symbol zatrzymania]].
+- Losuje się je z [[Pula poszukiwań|puli poszukiwań]].
+
+## Wyjątki i szczególne przypadki
+- Specjalne żetony wchodzą do gry tylko dzięki [[Karta Wydarzenia|kartom Wydarzeń]], a do puli trafiają przy [[Wkroczenie do Mordoru|wkroczeniu do Mordoru]].
+- Wartość ujemna (−1, −2): żeton nie ma ciężaru brzemienia, tylko zmniejsza [[Zepsucie|zepsucie]] o podaną liczbę (do minimum 0).
+- Symbol kości: ciężar brzemienia ustala się rzutem kością po wylosowaniu. Dla kart Wydarzeń taki żeton uważa się za ponumerowany.
+- Wszystkie specjalne żetony Cienia mają symbol zatrzymania.
+
+!img zetony-poszukiwan-przeglad | Żetony poszukiwań: zwyczajne, specjalne Drużyny, specjalne Cienia i rewers

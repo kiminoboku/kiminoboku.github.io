@@ -1,0 +1,237 @@
+::: uwaga Jak korzystać z tej strony
+Instrukcja opisuje podstawowe zasady bez wyjątków i szczególnych przypadków. Podkreślone kropkami pojęcia prowadzą do **Glosariusza**, gdzie znajdziesz pełne zasady, wyjątki i przykłady. Po najechaniu kursorem na pojęcie pojawia się jego krótka definicja.
+:::
+
+# Cel gry
+
+„Wojna o Pierścień” to gra dla 2–4 graczy oparta na „Władcy Pierścieni”. Jeden gracz dowodzi [[Wolne Ludy|Wolnymi Ludami]], drugi [[Cień|Cieniem]]. Zasady poniżej dotyczą gry dwuosobowej. Zmiany dla 3–4 graczy opisuje ostatni rozdział.
+
+Gra toczy się na dwóch frontach jednocześnie:
+- **Wojna**: armie walczą o miasta i twierdze Śródziemia.
+- **Wyprawa**: [[Drużyna Pierścienia]] w tajemnicy zmierza do Góry Przeznaczenia, a Cień jej szuka.
+
+::: skrot Jak wygrać
+- **Wolne Ludy**: zniszcz Pierścień w [[Szczeliny Zagłady|Szczelinach Zagłady]] albo zdobądź osady Cienia warte 4 [[Punkty zwycięstwa|punkty zwycięstwa]].
+- **Cień**: doprowadź [[Zepsucie|zepsucie]] Powierników Pierścienia do 12 albo zdobądź osady Wolnych Ludów warte 10 punktów zwycięstwa.
+:::
+
+# Elementy gry i plansza
+
+## Figurki
+
+- **[[Jednostka|Jednostki]]** (regularne i elitarne) to oddziały wojska. Wszystkie jednostki danego rodzaju są tak samo silne, bez względu na Naród.
+- **[[Dowódca|Dowódcy]]** (szare figurki Wolnych Ludów) i **[[Nazgûl|Nazgûle]]** (dowódcy Cienia) towarzyszą armiom i pozwalają przerzucać kości w bitwie.
+- **[[Postać|Postacie]]**: [[Towarzysz|Towarzysze]] Wolnych Ludów i [[Sługa|Sługi]] Cienia. Każda ma własną [[Karta Postaci|kartę Postaci]], a przed grą warto przeczytać je wszystkie.
+- **[[Powiernicy Pierścienia]]**: Frodo i Sam, jedna figurka.
+
+Wszystkie przyjazne figurki w jednym regionie tworzą [[Armia|armię]], która może liczyć najwyżej 10 jednostek.
+
+!img figurki | Plastikowe figurki
+
+## Plansza
+
+Mapa zachodniego Śródziemia jest podzielona na [[Region|regiony]]. Regiony oddzielają zwykłe [[Granica|granice]] (białe linie, rzeki). Grubej czarnej linii (gór) nie można przekroczyć, a morza i jeziora nie są regionami.
+
+Kilka regionów tworzy [[Naród]], otoczony kolorową granicą. Wolne Ludy to Krasnoludy, Elfy, Gondor, Północ i Rohan. Cień to Sauron, Isengard oraz Haradrimowie i Easterlingowie.
+
+!img narody | Narody na planszy
+
+## Osady
+
+Region może zawierać [[Osada|osadę]] albo [[Fortyfikacja|fortyfikację]]:
+- [[Wioska]]: można w niej rekrutować wojska.
+- [[Miasto]]: rekrutacja, pomoc w obronie, 1 punkt zwycięstwa dla zdobywcy.
+- [[Twierdza]]: rekrutacja, możliwość obrony za murami, 2 punkty zwycięstwa dla zdobywcy.
+- [[Fortyfikacja]] (Osgiliath, Brody na Isenie): pomoc w obronie.
+
+!img wioski + miasta | Wioski i miasta obu stron
+
+## Tory i pola
+
+Poza mapą na planszy są tory i pola pomocnicze:
+
+!img plansza-lewa + plansza-prawa | Plansza z opisem pól (strony 12–13 instrukcji)
+
+| Nr | Pole / tor | Do czego służy |
+|---|---|---|
+| 1, 2, 14, 15 | Pola na talie Wydarzeń | cztery [[Talia Wydarzeń|talie Wydarzeń]] |
+| 3, 8 | Pola Pierścieni Elfów | żetony [[Pierścienie Elfów|Pierścieni Elfów]] obu graczy |
+| 4 | [[Pole armii|Pola armii]] | figurki, które nie mieszczą się w regionie |
+| 5 | Pola twierdz | jednostki w [[Oblężenie|oblężonych]] twierdzach |
+| 6 | [[Pole poszukiwań]] | kości przeznaczone na poszukiwania Pierścienia |
+| 7 | Tor punktów zwycięstwa | [[Punkty zwycięstwa]] obu graczy |
+| 9 | [[Tor Drużyny Pierścienia]] | [[Znacznik postępów|postępy Drużyny]] i [[Zepsucie|zepsucie]] |
+| 10 | Pole Drużyny Pierścienia | figurki i żetony Towarzyszy w Drużynie |
+| 11 | Pole przewodnika | karta [[Przewodnik Drużyny Pierścienia|przewodnika]] Drużyny |
+| 12 | [[Tor polityki]] | gotowość Narodów do wojny |
+| 13 | [[Tor Mordoru]] | ostatni etap wyprawy |
+
+# Przygotowanie gry
+
+Gracze ustalają, kto gra Wolnymi Ludami, a kto Cieniem. Następnie:
+
+1. Rozłóż planszę i zostaw obok miejsce na odrzucone karty, wyeliminowane figurki i rzuty kośćmi.
+2. Postaw figurkę [[Powiernicy Pierścienia|Powierników Pierścienia]] w Rivendell.
+3. Połóż [[Znacznik postępów|znacznik postępów]] na polu „0” toru Drużyny stroną „ukrytą” do góry, a znacznik [[Zepsucie|zepsucia]] na polu „0” tego samego toru.
+4. Połóż karty Towarzyszy na polu przewodnika, z kartą Gandalfa Szarego na wierzchu, bo on jest pierwszym [[Przewodnik Drużyny Pierścienia|przewodnikiem]]. Karty Aragorna, Gandalfa Białego i Golluma odłóż na bok.
+5. Połóż figurki i żetony Towarzyszy na polu Drużyny. Figurkę Golluma odłóż na bok.
+6. Połóż trzy żetony [[Pierścienie Elfów|Pierścieni Elfów]] na polu Pierścieni Elfów Wolnych Ludów, stroną z pierścieniem do góry.
+7. Odłóż na bok karty i figurki [[Sługa|Sług]] Cienia.
+8. Rozdziel karty Wydarzeń każdej strony na talie Postaci i Strategii (według rewersów), potasuj i połóż na ich polach.
+9. Wrzuć zwyczajne (beżowe) [[Żeton poszukiwań|żetony poszukiwań]] do nieprzezroczystego pojemnika, który tworzy [[Pula poszukiwań|pulę poszukiwań]]. Specjalne żetony odłóż na bok.
+10. Cień bierze 7 czerwonych [[Kość akcji|kości akcji]], a Wolne Ludy 4 niebieskie. Resztę kości akcji i 5 kości bitwy odłóż na bok.
+11. Ustaw znaczniki na [[Tor polityki|torze polityki]]: Narody Wolnych Ludów oprócz elfów stroną „pasywną” do góry, a elfy i Narody Cienia stroną „aktywną”. Rohan, Północ, elfy i krasnoludy idą na górne pole, Gondor oraz Haradrimowie i Easterlingowie na drugie, Isengard i Sauron na trzecie.
+12. Rozstaw armie według tabeli poniżej. Pozostałe figurki to [[Posiłki|posiłki]]. Trzymaj je osobno od figurek wyeliminowanych w trakcie gry.
+
+!img przygotowanie-lewa + przygotowanie-prawa | Rozstawienie armii (strony 16–17 instrukcji)
+
+| Naród | Region: jednostki regularne / elitarne / dowódcy lub Nazgûle | Posiłki |
+|---|---|---|
+| Krasnoludy | Erebor 1/2/1 · Ered Luin 1 · Żelazne Wzgórza 1 | 2 / 3 / 3 |
+| Elfy | Szara Przystań 1/1/1 · Rivendell 0/2/1 · Leśne Królestwo 1/1/1 · Lórien 1/2/1 | 2 / 4 / 0 |
+| Gondor | Minas Tirith 3/1/1 · Dol Amroth 3 · Osgiliath 2 · Pelargir 1 | 6 / 4 / 3 |
+| Północ | Bree 1 · Samotna Skała 1 · Dale 1/0/1 · Północne Wzgórza 0/1 · Shire 1 | 6 / 4 / 3 |
+| Rohan | Edoras 1/1 · Brody na Isenie 2/0/1 · Helmowy Jar 1 | 6 / 4 / 3 |
+| Isengard | Orthank 4/1 · Północny Dunland 1 · Południowy Dunland 1 | 6 / 5 / 0 |
+| Sauron | Barad-Dûr 4/1/1N · Dol Guldur 5/1/1N · Gorgoroth 3 · Minas Morgul 5/0/1N · Moria 2 · Góra Gundabad 2 · Nurn 2 · Morannon 5/0/1N | 8 / 4 / 4N |
+| Haradrimowie i Easterlingowie | Daleki Harad 3/1 · Bliski Harad 3/1 · Północny Rhûn 2 · Południowy Rhûn 3/1 · Umbar 3 | 10 / 3 / 0 |
+
+# Przebieg tury
+
+Gra składa się z [[Tura|tur]]. Każda tura ma sześć faz:
+
+1. **[[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|Odzyskiwanie kości i dobieranie kart]]**: gracze odzyskują wszystkie kości akcji i dobierają po karcie z każdej swojej talii.
+2. **[[Faza 2: Drużyna Pierścienia|Drużyna Pierścienia]]**: gracz Wolnych Ludów może ujawnić Drużynę i zmienić jej przewodnika.
+3. **[[Faza 3: Przydzielanie kości do poszukiwań|Przydzielanie kości do poszukiwań]]**: Cień kładzie dowolną liczbę kości akcji na polu poszukiwań.
+4. **[[Faza 4: Rzut akcji|Rzut akcji]]**: obaj gracze rzucają kośćmi akcji. Kości Cienia z wynikiem „Oko” idą na pole poszukiwań.
+5. **[[Faza 5: Rozpatrywanie akcji|Rozpatrywanie akcji]]**: gracze na zmianę, zaczynając od Wolnych Ludów, wykorzystują po jednej kości.
+6. **[[Faza 6: Sprawdzenie warunków zwycięstwa|Sprawdzenie zwycięstwa]]**: jeśli nikt nie wygrał wojskowo, zaczyna się nowa tura.
+
+# Kości akcji
+
+[[Kość akcji|Kości akcji]] to serce gry: ich wyniki określają, co gracz może zrobić w turze. Każda wykorzystana kość to jedna [[Akcja|akcja]].
+
+!img kosci-akcji | Symbole kości akcji
+
+| Wynik | Co można zrobić (jedną z opcji) |
+|---|---|
+| {{kosc-wl-postac}} {{kosc-cien-postac}} [[Wynik „Postać”|Postać]] | ruszyć armią z dowódcą albo nią zaatakować · zagrać kartę Postaci · **Wolne Ludy:** ruszyć Drużyną, ukryć ją, odłączyć Towarzysza, ruszyć Towarzyszami · **Cień:** ruszyć Nazgûlami i Sługami |
+| {{kosc-wl-armia}} {{kosc-cien-armia}} [[Wynik „Armia”|Armia]] | ruszyć dwiema armiami · zaatakować jedną armią · zagrać kartę Armii |
+| {{kosc-wl-mobilizacja}} {{kosc-cien-mobilizacja}} [[Wynik „Mobilizacja”|Mobilizacja]] | przesunąć Naród na torze polityki · zrekrutować wojska · zagrać kartę Mobilizacji · **Cień:** wprowadzić Sługę |
+| {{kosc-wl-mobilizacja-armia}} {{kosc-cien-mobilizacja-armia}} [[Wynik „Mobilizacja/Armia”|Mobilizacja/Armia]] | dowolna akcja z Armii albo Mobilizacji |
+| {{kosc-wl-wydarzenie}} {{kosc-cien-wydarzenie}} [[Wynik „Wydarzenie”|Wydarzenie]] | dobrać kartę · zagrać dowolną kartę Wydarzenia |
+| {{kosc-wl-specjalna}} [[Wynik „Wola Zachodu”|Wola Zachodu]] (Wolne Ludy) | zmienić na dowolny inny wynik · wprowadzić Gandalfa Białego albo Aragorna |
+| {{kosc-cien-specjalna}} [[Wynik „Oko”|Oko]] (Cień) | kość od razu idzie na pole poszukiwań i zwiększa poziom poszukiwań |
+
+## Pula kości
+
+Cień zaczyna z 7 kośćmi, a Wolne Ludy z 4. Każdy Sługa Cienia, który wejdzie do gry, daje Cieniowi kolejną kość (najwyżej 10). Aragorn i Gandalf Biały dają po kości Wolnym Ludom (najwyżej 6). Patrz [[Pula kości akcji]].
+
+## Pasowanie i Pierścienie Elfów
+
+- Gracz, który ma mniej kości niż przeciwnik, może [[Pasowanie|spasować]] i pozwolić przeciwnikowi działać.
+- Raz na turę, przed swoją akcją, gracz może użyć [[Pierścienie Elfów|Pierścienia Elfów]], aby zmienić wynik jednej kości. Zużyty przez Wolne Ludy Pierścień przechodzi do Cienia.
+
+# Karty Wydarzeń
+
+Każdy gracz ma dwie [[Talia Wydarzeń|talie]]: Postaci i Strategii. Na ręce można mieć najwyżej 6 kart.
+
+- [[Karta Wydarzenia|Kartę Wydarzenia]] zagrywa się wynikiem „Wydarzenie” albo wynikiem zgodnym z symbolem w prawym górnym rogu karty.
+- Karta pozwala złamać zasady, ale tylko w zakresie opisanym na niej.
+- Dolna część każdej karty to [[Karta Bitwy|karta Bitwy]], zagrywana w bitwie bez zużywania akcji.
+
+!img karty-wydarzen | Budowa karty Wydarzenia
+
+# Armie
+
+## Rekrutacja
+
+Wynik „Mobilizacja” pozwala wprowadzić z posiłków (patrz [[Rekrutacja]]):
+- jedną jednostkę elitarną, ALBO
+- dwie figurki (jednostki regularne lub dowódców) w dwóch różnych osadach.
+
+Kośćmi można rekrutować tylko jednostki Narodu w [[Stan wojny|stanie wojny]]. Rekrutuje się w przyjaznej, wolnej osadzie ich Narodu.
+
+## Ruch
+
+- Wynik „Armia” pozwala przesunąć dwie różne armie o jeden region. Wynik „Postać” pozwala przesunąć jedną armię z dowódcą lub postacią (patrz [[Ruch armii]]).
+- Można przesunąć tylko część armii (patrz [[Dzielenie armii]]).
+- Nie można wejść do regionu z wrogimi jednostkami, ale można je zaatakować.
+- W regionie może być najwyżej 10 jednostek.
+
+# Bitwa
+
+Armia może zaatakować wrogą armię w sąsiednim regionie wynikiem „Armia” albo (jeśli ma dowódcę lub postać) wynikiem „Postać”. Atakująca armia zostaje na swoim miejscu do końca bitwy. Bitwę może zacząć tylko armia Narodu w [[Stan wojny|stanie wojny]] (patrz [[Bitwa]]).
+
+::: skrot Runda bitwy
+1. Gracze mogą zagrać po [[Karta Bitwy|karcie Bitwy]].
+2. **[[Rzut bitwy]]**: tyle kości, ile jednostek w armii (najwyżej 5). Trafienie to „5” lub „6”.
+3. **[[Przerzut dowódców]]**: chybione kości przerzuca się w liczbie równej liczbie dowódców i wartości przywódczej postaci.
+4. **[[Straty w bitwie|Straty]]**: każde trafienie usuwa jednostkę regularną albo zamienia elitarną na regularną.
+5. Atakujący może [[Przerwanie ataku|przerwać atak]], a obrońca może wykonać [[Odwrót|odwrót]]. Jeśli nikt tego nie zrobi, zaczyna się kolejna runda.
+:::
+
+Bitwa kończy się, gdy jedna strona się wycofa albo zostanie zniszczona. Zwycięski atakujący może wkroczyć do zdobytego regionu.
+
+## Miasta i twierdze
+
+- W regionie z miastem lub [[Fortyfikacja|fortyfikacją]] atakujący w pierwszej rundzie trafia dopiero na „6”.
+- Obrońca w regionie z [[Twierdza|twierdzą]] może schronić się za murami. Region przejmuje wtedy wróg i zaczyna się [[Oblężenie|oblężenie]]. W twierdzy mieści się 5 jednostek, a atakujący trafia tylko na „6”.
+- Wkroczenie armii do wrogiej osady oznacza jej [[Zdobywanie osad|zdobycie]] i daje punkty zwycięstwa za miasta i twierdze.
+
+# Polityka
+
+Każdy Naród ma znacznik na [[Tor polityki|torze polityki]]. Ostatnie pole oznacza [[Stan wojny|stan wojny]]. Dopiero Naród w stanie wojny może atakować, rekrutować kośćmi i swobodnie przekraczać granice. Pozostałe Narody to [[Naród nieagresywny|Narody nieagresywne]].
+
+- Znacznik przesuwa się o jedno pole w stronę wojny dzięki wynikowi „Mobilizacja”, a także automatycznie, gdy armia Narodu zostanie zaatakowana albo gdy przeciwnik zdobędzie jego osadę.
+- Narody Wolnych Ludów (oprócz elfów) zaczynają jako [[Naród pasywny i aktywny|pasywne]] i nie wejdą w stan wojny, dopóki nie zostaną [[Aktywacja Narodu|aktywowane]]. Dzieje się to, gdy wróg wejdzie na ich teren, zaatakuje ich armię, gdy Drużyna ujawni się w ich mieście lub gdy dotrze tam odpowiedni Towarzysz.
+
+!img znaczniki-polityki-przeglad | Znaczniki polityki
+
+# Drużyna Pierścienia
+
+[[Drużyna Pierścienia]] to [[Powiernicy Pierścienia]] oraz Towarzysze. Jej położenie jest tajne: figurka Powierników pokazuje tylko ostatnie znane miejsce, a [[Znacznik postępów|znacznik postępów]] mówi, ile regionów Drużyna przeszła od tamtej pory.
+
+!img druzyna-pierscienia | Elementy Drużyny Pierścienia
+
+- **Ruch**: wynik „Postać” przesuwa znacznik postępów o jedno pole. Kość trafia na pole poszukiwań, a Cień wykonuje [[Poszukiwania Pierścienia|poszukiwania]] (patrz [[Ruch Drużyny Pierścienia]]).
+- **Ujawnienie**: w fazie Drużyny gracz Wolnych Ludów może [[Ujawnienie Drużyny Pierścienia|ujawnić Drużynę]] i przestawić figurkę o tyle regionów, ile wskazuje znacznik. Ujawnienie w przyjaznym mieście lub twierdzy leczy 1 punkt zepsucia.
+- **Odkrycie**: udane poszukiwania mogą [[Odkrycie Drużyny Pierścienia|odkryć Drużynę]]. Odkryta Drużyna nie może się ruszać, dopóki gracz nie [[Ukrywanie Drużyny Pierścienia|ukryje jej]] wynikiem „Postać”.
+- **Towarzysze**: wynikiem „Postać” można [[Odłączanie Towarzyszy|odłączyć Towarzysza]], który od tej pory działa na mapie jak dowódca i bohater. Drużynę prowadzi [[Przewodnik Drużyny Pierścienia|przewodnik]], czyli Towarzysz o najwyższym poziomie.
+
+# Poszukiwania Pierścienia i zepsucie
+
+Za każdym razem, gdy Drużyna się poruszy, Cień szuka Pierścienia:
+
+1. Cień rzuca tyloma kośćmi bitwy, ile swoich kości ma na [[Pole poszukiwań|polu poszukiwań]] (najwyżej 5). Sukcesem jest „6”. Każdy kolejny ruch Drużyny w tej turze daje +1 do wyników (patrz [[Rzut poszukiwań]]).
+2. Jeśli wypadł choć jeden sukces, Cień losuje [[Żeton poszukiwań|żeton poszukiwań]]. Liczba na żetonie to [[Ciężar brzemienia|ciężar brzemienia]].
+3. Gracz Wolnych Ludów może zmniejszyć ciężar, poświęcając Towarzysza (patrz [[Straty w Drużynie Pierścienia]]).
+4. Reszta ciężaru zwiększa [[Zepsucie|zepsucie]] Powierników.
+5. Żeton z symbolem odkrycia odkrywa Drużynę.
+
+!img zetony-poszukiwan | Żeton poszukiwań
+
+Gdy zepsucie dojdzie do 12, Cień wygrywa.
+
+## Mordor
+
+Gdy Drużyna stoi w Minas Morgul lub Morannon, w fazie Drużyny może [[Wkroczenie do Mordoru|wkroczyć do Mordoru]]. Figurka idzie na [[Tor Mordoru|tor Mordoru]]. Każdy ruch to automatyczne losowanie żetonu poszukiwań i krok naprzód. Dotarcie do [[Szczeliny Zagłady|Szczelin Zagłady]] z zepsuciem poniżej 12 oznacza zwycięstwo Wolnych Ludów.
+
+!img tor-mordoru | Tor Mordoru
+
+# Zwycięstwo
+
+| Kto | Warunek | Kiedy |
+|---|---|---|
+| Cień | zepsucie Powierników osiąga 12 | natychmiast |
+| Wolne Ludy | Pierścień zniszczony w Szczelinach Zagłady | natychmiast |
+| Cień | kontroluje osady Wolnych Ludów warte 10 punktów zwycięstwa | koniec tury |
+| Wolne Ludy | kontrolują osady Cienia warte 4 punkty zwycięstwa | koniec tury |
+
+Miasto jest warte 1 punkt, a twierdza 2. Szczegóły w haśle [[Warunki zwycięstwa]].
+
+# Gra na 3–4 graczy
+
+Każda strona to zespół. W grze czteroosobowej Wolnymi Ludami grają gracz Gondoru (Gondor i elfy) i gracz Rohanu (Rohan, Północ i krasnoludy). Cieniem grają gracz Czarnoksiężnika z Angmaru (Sauron) i gracz Sarumana (Isengard, Haradrimowie i Easterlingowie). Każdy gracz kieruje tylko swoimi Narodami, a co turę jeden z partnerów jest [[Gracz prowadzący|graczem prowadzącym]].
+
+W grze trzyosobowej Wolnymi Ludami gra jeden gracz. Pełne zasady opisuje hasło [[Gra wieloosobowa]].
