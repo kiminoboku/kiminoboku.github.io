@@ -108,6 +108,7 @@
     if (i.checked) selected.add(i.dataset.exp); else selected.delete(i.dataset.exp);
     saveSelection(selected);
     applySelection();
+    if (!notice.hidden) route(); // the linked content may be visible now
   }));
 
   // close the expansion menu on a click outside it or on Escape
@@ -168,6 +169,16 @@
     notice.replaceChildren(...parts);
     notice.hidden = false;
   }
+
+  // ---------------------------------------------------------- header offset
+  // The sticky header grows when it wraps on narrow screens; keep anchors from hiding under it.
+  const header = document.querySelector(".top");
+  const fitScrollPadding = () => {
+    document.documentElement.style.scrollPaddingTop = `${header.offsetHeight + 12}px`;
+    notice.style.top = `${header.offsetHeight + 8}px`;
+  };
+  fitScrollPadding();
+  window.addEventListener("resize", fitScrollPadding);
 
   // ---------------------------------------------------------- hash routing
   function route() {

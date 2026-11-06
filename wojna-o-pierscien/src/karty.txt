@@ -20,6 +20,7 @@ rodzaj: karta Wydarzenia Wolnych Ludów
 Błąd występuje tylko w części egzemplarzy z wczesnego druku.
 
 @@ Zguba Durina
+dodatek: !panowie
 rodzaj: karta Wydarzenia Cienia (karta Bitwy)
 ## Jest
 „Zagraj, jeśli broniąca się armia znajduje się w promieniu dwóch regionów od Morii. (…) Za każdą kość, na której uzyskasz wynik 4+, ta armia otrzymuje jedno trafienie.”
@@ -45,3 +46,27 @@ rodzaj: karta Wydarzenia Wolnych Ludów
 „Zamień jeden niewykorzystany wynik kości akcji Wolnych Ludów **z symbolem akcji Postaci** na wynik „Woli Zachodu”.”
 ## Wyjaśnienie
 Zamienić można tylko [[Wynik „Postać”|wynik „Postać”]], a nie dowolny wynik (patrz [[Wynik „Wola Zachodu”]]).
+
+# Panowie Śródziemia {panowie}
+Zmiany w taliach przy grze z dodatkiem (instrukcja dodatku, s. 3):
+
+- Karta Wydarzenia Cienia „Nadciąga Balrog!” **zastępuje** kartę o tym samym numerze: nr 17 „Balrog z Morii” z talii Postaci Cienia.
+- Pozostałe 12 nowych kart **wtasowuje się** do talii: po 4 karty do obu talii Postaci i po 2 karty do obu talii Strategii.
+- Karta „Będzie Nasz!” nie trafia do talii. Wchodzi do gry, gdy [[Sméagol]] opuści grę.
+- Alternatywne karty Towarzyszy i żetony akcji Cienia są potrzebne tylko w wariancie [[Rada Rivendell]]. Wyjątkiem jest [[Gandalf Szary, Powiernik Naryi]], którego można używać zawsze.
+
+Poniższe karty z dodatku mają błędy w polskim tłumaczeniu.
+
+@@ Alternatywni Towarzysze
+rodzaj: karty Towarzyszy z wariantu Rada Rivendell: Gimli, Boromir, Meriadok, Peregrin
+## Wyjaśnienie
+Na kartach brakuje informacji, że dowolnym wynikiem kości akcji można nie tylko przesunąć Naród na [[Tor polityki|torze polityki]], ale też go **aktywować**. Te postacie nie mają na karcie symbolu Narodu, więc nie aktywują go jak ich zwykłe wersje, czyli wchodząc do miasta lub twierdzy Narodu (patrz [[Aktywacja Narodu]]). Aktywują go i jednocześnie przesuwają na torze polityki tylko zdolnością, za którą płaci się dowolnym wynikiem kości akcji.
+
+@@ Zguba Durina
+rodzaj: karta Wydarzenia Cienia (karta Bitwy)
+## Jest
+„Zagraj, jeśli broniąca się armia znajduje się w promieniu dwóch regionów od Morii. (…) Za każdą kość, na której uzyskasz wynik 4+, ta armia otrzymuje jedno trafienie.”
+## Powinno być
+„Zagraj, jeśli broniąca się armia znajduje się w **zasięgu** dwóch regionów od Morii **lub jeśli w bitwie bierze udział Balrog**. (…) **Zadaj jedno trafienie** za każdą kość, na której uzyskasz wynik 4+.”
+## Wyjaśnienie
+W grze z dodatkiem obowiązuje ta wersja poprawki. Kartę można zagrać także wtedy, gdy w bitwie bierze udział [[Balrog z Morii|Balrog]]. Pozostałe poprawki są takie same jak w grze podstawowej: Cień zadaje trafienia przeciwnikowi, a nie sobie, a mylące słowo „promień” zastępuje „zasięg” (liczony w [[Region|regionach]]).

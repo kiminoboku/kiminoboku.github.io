@@ -1,13 +1,24 @@
-"""Crops images from the PDF rulebook into the img/ folder.
+"""Crops images from the PDF rulebooks into the img/ folder.
 
 Requires poppler (pdftoppm) and macOS (sips, to convert large images to JPEG).
-Coordinates are in PDF points (A4 page = 595 x 842 pt): (page, x0, y0, x1, y1).
+Coordinates are in PDF points (A4 page = 595 x 842 pt; expansion pages = 368 x 751 pt):
+(page, x0, y0, x1, y1). Base-game crops come from the core rulebook; expansion crops are
+listed per rulebook in EXPANSION_CROPS.
 Image names stay Polish because the files in src/ refer to them by name.
-Usage: python3 tools/crop_images.py /path/to/WoP_instrukcja.pdf
+Usage: python3 tools/crop_images.py /path/to/folder-with-the-pdfs [name ...]
+    With names, only those images are cropped.
 """
 import subprocess
 import sys
 from pathlib import Path
+
+# rulebook key -> file name of the Polish PDF
+PDFS = {
+    "core": "WoP_instrukcja.pdf",
+    "panowie": "Panowie Śródziemia - instrukcja.pdf",
+    "wojownicy": "Wojownicy_Srodziemia_instrukcja.pdf",
+    "krolowie": "wojna_o_pierscien_KROLOWIE_SRODZIEMIA_instrukcja_PL_web.pdf",
+}
 
 DPI = 170
 JPEG_ABOVE_BYTES = 250_000
@@ -57,11 +68,38 @@ for key, x in DICE_X.items():
     CROPS[f"kosc-wl-{key}"] = (19, x - 23, 137, x + 23, 182)
     CROPS[f"kosc-cien-{key}"] = (19, x - 23, 247, x + 23, 287)
 
+EXPANSION_CROPS = {
+    "panowie": {
+        "ps-zetony": (4, 36, 120, 331, 726),
+        "ps-figurki": (5, 36, 126, 331, 430),
+        "ps-kosci": (5, 36, 448, 331, 706),
+        "ps-symbole-kosci-powiernikow": (9, 28, 200, 340, 548),
+        "ps-symbole-kosci-slug": (11, 28, 168, 340, 445),
+        "ps-wynik-wykorzystanie-balroga": (11, 86, 245, 120, 277),
+        "ps-wynik-dobranie-karty": (11, 248, 245, 280, 277),
+    },
+}
 
-def main(pdf: str) -> None:
+
+def jobs() -> dict[str, tuple[str, tuple[int, int, int, int, int]]]:
+    """image name -> (rulebook key, crop box)"""
+    out = {name: ("core", box) for name, box in CROPS.items()}
+    for book, crops in EXPANSION_CROPS.items():
+        out.update({name: (book, box) for name, box in crops.items()})
+    return out
+
+
+def main(folder: str, only: list[str]) -> None:
     OUT.mkdir(exist_ok=True)
     s = DPI / 72
-    for name, (page, x0, y0, x1, y1) in CROPS.items():
+    todo = jobs()
+    for name in only:
+        if name not in todo:
+            sys.exit(f"unknown image: {name}")
+    for name, (book, (page, x0, y0, x1, y1)) in todo.items():
+        if only and name not in only:
+            continue
+        pdf = str(Path(folder) / PDFS[book])
         base = OUT / name
         subprocess.run(
             ["pdftoppm", "-r", str(DPI), "-f", str(page), "-l", str(page),
@@ -76,8 +114,8 @@ def main(pdf: str) -> None:
                             str(png), "--out", str(base.with_suffix(".jpg"))],
                            check=True, capture_output=True)
             png.unlink()
-    print("ok:", len(CROPS), "images")
+    print("ok:", len(only) if only else len(todo), "images")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2:])

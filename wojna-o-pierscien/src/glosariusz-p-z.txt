@@ -27,6 +27,14 @@ Trzy żetony elfich Pierścieni Władzy, które pozwalają raz zmienić wynik ko
 
 !img pierscienie-elfow | Żetony Pierścieni Elfów: awers dla Wolnych Ludów, rewers dla Cienia
 
+## Z dodatkiem {panowie}
+- Nowe żetony Pierścieni Elfów zastępują żetony z gry podstawowej. Na każdym jest portret jego [[Powiernik Pierścienia Elfów|Powiernika]]: Vilya (Elrond), Nenya (Galadriela), Narya (Gandalf).
+- Zmieniając wynik kości, gracz wybiera konkretny żeton. Tego żetonu nie użyje już do zdolności Powiernika.
+- Zdolność Powiernika można wykorzystać tylko wtedy, gdy Powiernik jest w grze. Nie wlicza się do limitu jednego zwykłego użycia Pierścienia na turę.
+- Pierścieniem Elfów nie można zmienić wyniku na [[Specjalna kość akcji|specjalnej kości akcji]].
+- Karta „Trzy Pierścienie dla Królów Elfów” pozwala odzyskać pierścień: najpierw te, które są poza grą, potem te u Cienia. Odzyskany pierścień znów daje zdolność swojego Powiernika.
+- W [[Gra wieloosobowa|grze wieloosobowej]] o tym, który żeton zużyć do zmiany wyniku, decyduje gracz Gondoru.
+
 ~ Płonące Oko -> Pierścienie Elfów
 ~ Podbój -> Zdobywanie osad
 
@@ -241,6 +249,10 @@ Towarzysz, który prowadzi Drużynę Pierścienia i którego zdolność „Przew
 W pierwszej turze gracz zastępuje Gandalfa Szarego Obieżyświatem. Może to zrobić, bo obaj mają poziom 3.
 :::
 
+## Z dodatkiem {panowie}
+- Początkowym przewodnikiem może być Obieżyświat albo Gandalf Szary (dowolna wersja, także [[Gandalf Szary, Powiernik Naryi]]).
+- Gdy do gry wejdzie [[Sméagol]], zawsze jest przewodnikiem, dopóki pozostaje w grze.
+
 ~ Talia Drużyny Pierścienia -> Przewodnik Drużyny Pierścienia | Talia
 ~ Zdolność przewodnika -> Przewodnik Drużyny Pierścienia | Zdolności
 
@@ -256,6 +268,10 @@ Wszystkie kości akcji, którymi gracz rzuca w danej turze.
 - Gracz traci dodatkową kość, gdy odpowiadająca jej postać zostanie wyeliminowana.
 - Każda zmiana działa od następnej tury: kość dochodzi lub odpada w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]].
 - Patrz też [[Kość akcji]].
+
+## Z dodatkiem {panowie}
+- Do puli dochodzą [[Specjalna kość akcji|specjalne kości akcji]]: [[Kość Powiernika Pierścienia Elfów|kości Powierników]] dla Wolnych Ludów i [[Kość Pomniejszego Sługi|kości Pomniejszych Sług]] dla Cienia. Gracz wykorzystuje w turze wynik najwyżej jednej z nich.
+- Nowe wersje Sług ([[Rzecznik Saurona, Czarny Númenórejczyk]] i [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia]]) dają Cieniowi zwykłą kość akcji, tak jak ich podstawowe wersje.
 
 @@ Pula poszukiwań
 grupa: Pula
@@ -409,6 +425,10 @@ strony: 8, 18, 24–26, 46
 - Poruszając się bez armii, nie może wejść do nieoblężonej twierdzy Wolnych Ludów.
 - W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje go gracz Czarnoksiężnika z Angmaru.
 
+## Z dodatkiem {panowie}
+- Podstawowa wersja to Komendant Barad-dûr. Dodatek wprowadza drugą wersję: [[Rzecznik Saurona, Czarny Númenórejczyk]], który może wejść do gry wcześniej.
+- W grze może być tylko jedna wersja. Po eliminacji jednej nie można wprowadzić drugiej.
+
 @@ Rzut bitwy
 grupa: Rzut
 strony: 29–30, 32
@@ -484,6 +504,11 @@ Postać Cienia: [[Saruman]], [[Czarnoksiężnik z Angmaru]] lub [[Rzecznik Sauro
 - Sługi to [[Postać|postacie]]: mają poziom, zdolności przywódcze i zdolności specjalne.
 - Poruszają się według zasad [[Ruch postaci|ruchu postaci]].
 - Wyeliminowany Sługa wypada z gry na stałe, a Cień traci jego kość (patrz [[Straty w bitwie]]).
+
+## Z dodatkiem {panowie}
+- Dochodzą [[Pomniejszy Sługa|Pomniejsi Słudzy]]: [[Balrog z Morii]] i [[Gothmog, Porucznik Morgulu|Gothmog]]. Zamiast zwykłej kości dają [[Kość Pomniejszego Sługi|własne kości]].
+- Słudzy, którzy nie latają, to [[Sługa naziemny|słudzy naziemni]].
+- Rzecznik Saurona i Czarnoksiężnik z Angmaru mają alternatywne wersje.
 
 ~ Wprowadzenie Sługi do gry -> Sługa
 
@@ -596,6 +621,10 @@ Jedna z czterech talii kart Wydarzeń: Postaci i Strategii dla każdej strony.
 ::: errata
 Polska instrukcja (s. 22) pisze, że z Drużyną, Towarzyszami i Sługami są powiązane karty z „talii Spotkań”. To błąd tłumaczenia: chodzi o talię Postaci.
 :::
+
+## Z dodatkiem {panowie}
+- Karta „Nadciąga Balrog!” zastępuje kartę nr 17 „Balrog z Morii” w talii Postaci Cienia.
+- Pozostałe 12 nowych kart dodaje się do talii: po 4 do obu talii Postaci i po 2 do obu talii Strategii (patrz [[karty: Panowie Śródziemia|zakładka Karty]]).
 
 
 @@ Tor Drużyny Pierścienia
@@ -1111,3 +1140,7 @@ Tekturowy żeton losowany z puli poszukiwań, który określa efekt udanych posz
 - Wszystkie specjalne żetony Cienia mają symbol zatrzymania.
 
 !img zetony-poszukiwan-przeglad | Żetony poszukiwań: zwyczajne, specjalne Drużyny, specjalne Cienia i rewers
+
+## Z dodatkiem {panowie}
+- Na początku gry do puli dodaje się 2 z 4 żetonów [[Sméagol|Sméagola]]. Wylosowany żeton Sméagola ma ciężar 0 i wprowadza Sméagola do Drużyny.
+- [[Galadriela, Powierniczka Nenyi|Nenya]] pozwala anulować wylosowany zwyczajny żeton z Okiem i wylosować nowy.

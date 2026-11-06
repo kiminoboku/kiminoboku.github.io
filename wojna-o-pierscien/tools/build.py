@@ -37,7 +37,7 @@ Blocks: paragraphs, "- " lists (nest with 2 spaces), "1. " lists, "| a | b |" ta
     "!img file [+ file2] | caption", boxes "::: kind Title" ... ":::"
     (kind: skrot = summary, uwaga = note, przyklad = example, errata = rulebook erratum).
 Inline: **bold**, *italic*, [[Entry]] or [[Entry|text]], [[karta: Card]] or [[karta: Card|text]]
-    (link to the Cards tab), {{icon}} (file from img/).
+    (link to a card), [[karty: Section|text]] (link to a section of the Cards tab), {{icon}} (file from img/).
 """
 from __future__ import annotations
 
@@ -74,8 +74,10 @@ def sort_key(text: str) -> list[int]:
             key.append(ALPHABET.index(ch) + 2)
         elif ch == " ":
             key.append(1)
-        elif ch in "ûü":
-            key.append(ALPHABET.index("u") + 2)
+        else:  # letters from outside the Polish alphabet (û, é, ú) sort as their base letter
+            base = unicodedata.normalize("NFKD", ch)[0]
+            if base in ALPHABET:
+                key.append(ALPHABET.index(base) + 2)
     return key
 
 
@@ -147,9 +149,10 @@ def split_cond(title: str, where: str) -> tuple[str, Cond]:
     return title[:m.start()].rstrip(), parse_cond(m.group(1), where)
 
 
-def badges(cond: Cond) -> str:
+def badges(cond: Cond, heading: str = "") -> str:
+    """Expansion badges; a heading that already is the expansion's name gets none."""
     return "".join(f'<span class="exp-badge exp-{k}" title="Dodatek: {EXPANSIONS[k]}">{EXPANSIONS[k]}</span>'
-                   for k in sorted(cond.req))
+                   for k in sorted(cond.req) if EXPANSIONS[k] != heading)
 
 
 # ---------------------------------------------------------------- model
@@ -288,6 +291,14 @@ def inline(text: str, ctx: Ctx) -> str:
 
     def link(m: re.Match) -> str:
         target, _, label = m.group(1).partition("|")
+        if target.startswith("karty:"):  # link to a section of the Cards tab
+            name = target[len("karty:"):].strip()
+            sec = next((x for x in CARD_SECTIONS if norm_key(x.title) == norm_key(html.unescape(name))), None)
+            if not sec:
+                ERRORS.append(f"{ctx.where}: unknown card section in link [[{html.unescape(target)}]]")
+                return label or name
+            ctx.check_target(sec.cond, f"card section '{name}'")
+            return f'<a href="#c-{slug(sec.title)}">{label or name}</a>'
         if target.startswith("karta:"):
             name = target[len("karta:"):].strip()
             cid = CARD_INDEX.get(norm_key(html.unescape(name)))
@@ -513,7 +524,8 @@ def render_entry(e: Entry) -> str:
         ERRORS.append(f"{ctx.where}: no related entries")
     chips = "".join(f'<li{(c | ID_TO_ENTRY[rid].cond).attrs()}><a class="chip term" href="#{rid}">'
                     f'{html.escape(ID_TO_ENTRY[rid].title)}</a></li>' for rid, c in e.related)
-    pages = f'<span class="pages">instrukcja s. {html.escape(e.pages)}</span>' if e.pages else ""
+    book = "instrukcja dodatku" if e.cond.req else "instrukcja"
+    pages = f'<span class="pages">{book} s. {html.escape(e.pages)}</span>' if e.pages else ""
     search = html.escape(" ".join([e.title, *e.keys, *[a.name for a in ALIASES if a.target == e.title]]))
     copy = copy_button(e.id, f"hasła {e.title}")
     return (f'<article class="entry" id="{e.id}" data-search="{search}"{e.cond.attrs()}>'
@@ -611,7 +623,7 @@ def render_rules() -> tuple[str, str]:
             label = "" if cond else f"{(num := num + 1)}. "
             num_html = "" if cond else f'<span class="num">{num}.</span> '
             body.append(f'<section class="chapter"{cond.attrs()}><h2 id="{hid}">{num_html}'
-                        f'{inline(title, ctx)} {badges(cond)}</h2>')
+                        f'{inline(title, ctx)} {badges(cond, title)}</h2>')
             toc.append(f'<li class="toc-1"{cond.attrs()}><a href="#{hid}">{label}{html.escape(title)}</a></li>')
         else:
             full = chapter_cond | cond
@@ -708,8 +720,8 @@ def render_card(c: Card) -> str:
         block = (f'<section class="card-{part}"><h4>{html.escape(title)}</h4>'
                  f'{render_blocks(body, ctx)}</section>')
         (notes if part == "note" else diff).append(block)
-    if len(diff) != 2:
-        ERRORS.append(f"{ctx.where}: a card needs both 'Jest' and 'Powinno być'")
+    if len(diff) not in (0, 2) or not (diff or notes):
+        ERRORS.append(f"{ctx.where}: a card needs 'Jest' and 'Powinno być', or only 'Wyjaśnienie'")
     kind = f'<span class="kind">{html.escape(c.kind)}</span>' if c.kind else ""
     return (f'<article class="card" id="{c.id}" data-name="{html.escape(norm_key(c.title))}"'
             f'{c.own.attrs()}>'
@@ -725,7 +737,7 @@ def render_cards() -> tuple[str, str]:
         sid = "c-" + slug(sec.title)
         ctx = Ctx(f"karty.txt / {sec.title}", cond=sec.cond)
         body.append(f'<section class="card-section"{sec.cond.attrs()}><h2 id="{sid}">{html.escape(sec.title)} '
-                    f'{badges(sec.cond)}</h2>'
+                    f'{badges(sec.cond, sec.title)}</h2>'
                     f'{render_blocks(sec.intro, ctx)}{"".join(render_card(c) for c in sec.cards)}</section>')
         toc.append(f'<li class="toc-1"{sec.cond.attrs()}><a href="#{sid}">{html.escape(sec.title)}</a></li>')
         toc.extend(f'<li class="toc-2"{c.cond.attrs()}><a href="#{c.id}">{html.escape(c.title)}</a></li>'

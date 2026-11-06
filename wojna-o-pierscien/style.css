@@ -303,7 +303,10 @@ th { background: var(--chip); font-weight: 600; }
   .top { padding: 8px 12px; gap: 10px; }
   .tabs { flex-wrap: wrap; gap: 4px; }
   .tab { padding: 6px 12px; font-size: 14px; }
-  .exp-menu summary { padding: 6px 12px; font-size: 14px; }
+  .exp-menu { margin-left: 0; }
+  .exp-menu summary { padding: 6px 10px; font-size: 13.5px; }
+  .tab { padding: 6px 10px; font-size: 13.5px; }
+  .exp-panel { right: auto; left: 0; }
   .exp-notice { top: 110px; }
   html { scroll-padding-top: 110px; }
 }

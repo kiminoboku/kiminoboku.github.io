@@ -182,6 +182,11 @@ klucze: Czarnoksiężnik
 - W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje go gracz Czarnoksiężnika z Angmaru.
 - Wyeliminowany zostaje usunięty z gry na stałe, a gracz Cienia traci dodatkową kość.
 
+## Z dodatkiem {panowie}
+- Podstawowa wersja to Czarny Wódz. Dodatek wprowadza drugą wersję: [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia]]. Wersję można zmienić tylko raz na grę.
+- Gdy w grze jest Czarny Wódz, kość [[Gothmog, Porucznik Morgulu|Gothmoga]] odpada z gry, a Gothmog nie może wejść do gry.
+- Dopóki dowolna wersja Czarnoksiężnika jest w grze, wybrana [[Kość Pomniejszego Sługi|kość Pomniejszego Sługi]] z [[Symbol usunięcia|symbolem usunięcia]] odpada z gry w następnej fazie 1.
+
 @@ Dowódca
 strony: 8, 27, 31
 Figurka kapitana Wolnych Ludów, która towarzyszy armii, nie walczy sama, ale zwiększa jej skuteczność i mobilność.
@@ -285,6 +290,10 @@ Czwarta faza [[Tura|tury]]: gracze rzucają swoimi kośćmi akcji.
 - Obaj gracze rzucają wszystkimi swoimi [[Kość akcji|kośćmi akcji]], z wyjątkiem kości położonych już na polu poszukiwań.
 - Gracz Cienia natychmiast przenosi wszystkie kości z [[Wynik „Oko”|wynikiem „Oko”]] na [[Pole poszukiwań|pole poszukiwań]].
 
+## Z dodatkiem {panowie}
+- [[Specjalna kość akcji|Specjalnymi kośćmi]] rzuca się razem ze zwykłymi. Przed fazą rozpatrywania akcji gracz wybiera wynik jednej z nich, a resztę odkłada do następnej tury.
+- Wyrzucone na specjalnej kości Oko trzeba wybrać, także gdy wyrzucił je gracz Wolnych Ludów. Kość trafia wtedy na [[Pole poszukiwań|pole poszukiwań]].
+
 @@ Faza 5: Rozpatrywanie akcji
 grupa: Faza
 strony: 18–21
@@ -341,6 +350,11 @@ Potężniejsze wcielenie Gandalfa Szarego, które może wejść do gry po spełn
 - Gandalf Szary to [[Towarzysz]] i początkowy przewodnik Drużyny. W drugiej edycji zmieniono jego zdolność przewodnika, a aktualny opis jest na jego karcie.
 - Na początku gry kartę Gandalfa Białego odkłada się na bok.
 
+## Z dodatkiem {panowie}
+- Przy wprowadzaniu Gandalfa Białego [[Balrog z Morii|Balrog]], [[Gothmog, Porucznik Morgulu|Gothmog]] i [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia]] nie liczą się jako Sługi.
+- [[Gandalf Szary, Powiernik Naryi]] może zostać zastąpiony Gandalfem Białym tak jak zwykły Gandalf Szary.
+- Dopóki Gandalf Biały jest w grze, wybrana [[Kość Powiernika Pierścienia Elfów|kość Powiernika]] z [[Symbol usunięcia|symbolem usunięcia]] odpada z gry w następnej fazie 1.
+
 ~ Gandalf Szary -> Towarzysz
 
 @@ Gollum
@@ -353,6 +367,11 @@ Wyjątkowa postać, która zawsze podąża za [[Drużyna Pierścienia|Drużyną 
 - Działanie Golluma opisują jego [[Karta Postaci|karta Postaci]] i niektóre karty Wydarzeń.
 - Gollum nie jest Towarzyszem.
 - Tekst jego karty ma błąd w polskim druku: gdy przewodnikiem jest Gollum, zwyczajne ponumerowane żetony z symbolem odkrycia nie odkrywają Drużyny, ale żeton z „Okiem” nadal ją odkrywa (patrz [[karta: Gollum]]).
+
+## Z dodatkiem {panowie}
+- [[Sméagol]] nie jest Gollumem i nie spełnia warunków kart, które wymagają Golluma.
+- Jeśli Sméagol zostanie jedynym Towarzyszem w Drużynie, zastępuje go Gollum.
+- Jeśli Gollum jest w grze, wylosowane żetony Sméagola się odrzuca.
 
 ~ Gorgoroth -> Tor Mordoru
 ~ Góra Przeznaczenia -> Szczeliny Zagłady
@@ -388,6 +407,11 @@ Zasady jak w grze czteroosobowej, ale Wolnymi Ludami gra jeden gracz, według za
 
 ## Zwycięstwo
 Zespoły wygrywają tak jak w grze dwuosobowej (patrz [[Warunki zwycięstwa]]). Indywidualnie w zespole Cienia wygrywa gracz z lepszym bilansem punktów zwycięstwa (zdobyte minus stracone miasta i twierdze). W zespole Wolnych Ludów wygrywa gracz, który stracił mniej punktów zwycięstwa.
+
+## Z dodatkiem {panowie}
+- Elronda i Galadrielę kontroluje gracz Gondoru, ale wynik ich [[Kość Powiernika Pierścienia Elfów|kości Powierników]] wybiera prowadzący gracz Wolnych Ludów. Z wyniku może skorzystać każdy z graczy.
+- Balroga i Gothmoga kontroluje gracz Czarnoksiężnika z Angmaru, ale wynik ich [[Kość Pomniejszego Sługi|kości]] wybiera prowadzący gracz Cienia.
+- Gdy gracz Wolnych Ludów zmienia wynik Pierścieniem Elfów, gracz Gondoru decyduje, który żeton zużyć.
 
 ~ Gra czteroosobowa -> Gra wieloosobowa | Gra
 ~ Gra trzyosobowa -> Gra wieloosobowa | Gra
@@ -480,6 +504,9 @@ Karta Wydarzenia zagrana podczas bitwy dla dolnego tekstu karty.
 - Karty mogą zmieniać wynik potrzebny do trafienia (patrz [[Modyfikator rzutu]]).
 - **Ataki z kart Bitwy** (przed [[Rzut bitwy|rzutem bitwy]] albo po usunięciu strat) przebiegają jak rzut bitwy z tym samym wynikiem trafienia, ale bez przerzutu dowódców, bez modyfikatorów z karty przeciwnika i ze stratami usuwanymi natychmiast.
 - Karty Bitwy nie działają na [[Tylna straż|tylną straż]].
+
+## Z dodatkiem {panowie}
+- Na potrzeby efektów kart Bitwy [[Elrond, Powiernik Vilyi|Elronda]] i [[Galadriela, Powierniczka Nenyi|Galadrielę]] traktuje się jak Towarzyszy 3. poziomu.
 
 @@ Karta Postaci
 grupa: Karta

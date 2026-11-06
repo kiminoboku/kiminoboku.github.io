@@ -83,6 +83,14 @@ Gracze ustalają, kto gra Wolnymi Ludami, a kto Cieniem. Następnie:
 11. Ustaw znaczniki na [[Tor polityki|torze polityki]]: Narody Wolnych Ludów oprócz elfów stroną „pasywną” do góry, a elfy i Narody Cienia stroną „aktywną”. Rohan, Północ, elfy i krasnoludy idą na górne pole, Gondor oraz Haradrimowie i Easterlingowie na drugie, Isengard i Sauron na trzecie.
 12. Rozstaw armie według tabeli poniżej. Pozostałe figurki to [[Posiłki|posiłki]]. Trzymaj je osobno od figurek wyeliminowanych w trakcie gry.
 
+::: dodatek panowie
+- Pierwszym przewodnikiem może być Gandalf Szary (dowolna wersja) albo Obieżyświat. Gandalfa można zastąpić [[Gandalf Szary, Powiernik Naryi|Gandalfem, Powiernikiem Naryi]].
+- Żetony Pierścieni Elfów z dodatku zastępują żetony z gry podstawowej.
+- „Nadciąga Balrog!” zastępuje kartę nr 17 „Balrog z Morii”, a 12 pozostałych nowych kart wtasuj do talii (patrz [[karty: Panowie Śródziemia|zakładka Karty]]).
+- Do puli poszukiwań dodaj 2 z 4 żetonów [[Sméagol|Sméagola]].
+- Pozostałe elementy dodatku odłóż na bok. Alternatywne karty Towarzyszy i żetony akcji Cienia są potrzebne tylko w wariancie [[Rada Rivendell]].
+:::
+
 !img przygotowanie-lewa + przygotowanie-prawa | Rozstawienie armii (strony 16–17 instrukcji)
 
 | Naród | Region: jednostki regularne / elitarne / dowódcy lub Nazgûle | Posiłki |
@@ -123,6 +131,10 @@ Gra składa się z [[Tura|tur]]. Każda tura ma sześć faz:
 | {{kosc-wl-specjalna}} [[Wynik „Wola Zachodu”|Wola Zachodu]] (Wolne Ludy) | zmienić na dowolny inny wynik · wprowadzić Gandalfa Białego albo Aragorna |
 | {{kosc-cien-specjalna}} [[Wynik „Oko”|Oko]] (Cień) | kość od razu idzie na pole poszukiwań i zwiększa poziom poszukiwań |
 
+::: dodatek panowie
+Postacie z dodatku dają [[Specjalna kość akcji|specjalne kości akcji]]. Gracz rzuca nimi razem ze zwykłymi, ale wykorzystuje wynik tylko jednej z nich. Wyrzucone na nich Oko trzeba wybrać, nawet po stronie Wolnych Ludów. Nowe wyniki to {{ps-wynik-dobranie-karty}} [[Wynik „Dobranie karty”|dobranie karty]] i {{ps-wynik-wykorzystanie-balroga}} [[Wynik „Wykorzystanie Balroga”|wykorzystanie Balroga]].
+:::
+
 ## Pula kości
 
 Cień zaczyna z 7 kośćmi, a Wolne Ludy z 4. Każdy Sługa Cienia, który wejdzie do gry, daje Cieniowi kolejną kość (najwyżej 10). Aragorn i Gandalf Biały dają po kości Wolnym Ludom (najwyżej 6). Patrz [[Pula kości akcji]].
@@ -131,6 +143,10 @@ Cień zaczyna z 7 kośćmi, a Wolne Ludy z 4. Każdy Sługa Cienia, który wejdz
 
 - Gracz, który ma mniej kości niż przeciwnik, może [[Pasowanie|spasować]] i pozwolić przeciwnikowi działać.
 - Raz na turę, przed swoją akcją, gracz może użyć [[Pierścienie Elfów|Pierścienia Elfów]], aby zmienić wynik jednej kości. Zużyty przez Wolne Ludy Pierścień przechodzi do Cienia.
+
+::: dodatek panowie
+Każdy Pierścień Elfów ma swojego [[Powiernik Pierścienia Elfów|Powiernika]]. Gdy Powiernik jest w grze, żeton jego Pierścienia można zamiast zmiany wyniku wykorzystać do specjalnej zdolności. Pierścieniem nie można zmienić wyniku specjalnej kości.
+:::
 
 # Karty Wydarzeń
 
@@ -213,6 +229,10 @@ Za każdym razem, gdy Drużyna się poruszy, Cień szuka Pierścienia:
 
 Gdy zepsucie dojdzie do 12, Cień wygrywa.
 
+::: dodatek panowie
+Wylosowany żeton Sméagola ma ciężar 0 i wprowadza do Drużyny [[Sméagol|Sméagola]], który od tej chwili jest jej przewodnikiem.
+:::
+
 ## Mordor
 
 Gdy Drużyna stoi w Minas Morgul lub Morannon, w fazie Drużyny może [[Wkroczenie do Mordoru|wkroczyć do Mordoru]]. Figurka idzie na [[Tor Mordoru|tor Mordoru]]. Każdy ruch to automatyczne losowanie żetonu poszukiwań i krok naprzód. Dotarcie do [[Szczeliny Zagłady|Szczelin Zagłady]] z zepsuciem poniżej 12 oznacza zwycięstwo Wolnych Ludów.
@@ -235,3 +255,73 @@ Miasto jest warte 1 punkt, a twierdza 2. Szczegóły w haśle [[Warunki zwycięs
 Każda strona to zespół. W grze czteroosobowej Wolnymi Ludami grają gracz Gondoru (Gondor i elfy) i gracz Rohanu (Rohan, Północ i krasnoludy). Cieniem grają gracz Czarnoksiężnika z Angmaru (Sauron) i gracz Sarumana (Isengard, Haradrimowie i Easterlingowie). Każdy gracz kieruje tylko swoimi Narodami, a co turę jeden z partnerów jest [[Gracz prowadzący|graczem prowadzącym]].
 
 W grze trzyosobowej Wolnymi Ludami gra jeden gracz. Pełne zasady opisuje hasło [[Gra wieloosobowa]].
+
+::: dodatek panowie
+Elronda i Galadrielę kontroluje gracz Gondoru, a Balroga i Gothmoga gracz Czarnoksiężnika z Angmaru. Wynik ich specjalnych kości wybiera gracz prowadzący danej strony.
+:::
+
+# Panowie Śródziemia {panowie}
+
+Dodatek wprowadza ważne postacie z „Władcy Pierścieni”, które w grze podstawowej pojawiały się tylko na kartach. Instrukcja dodatku zaleca używać wszystkich jego elementów, bo inaczej zaburza się równowaga gry. Wyjątkiem jest opcjonalny wariant [[Rada Rivendell]].
+
+!img ps-figurki | Nowe figurki (Panowie Śródziemia, s. 5)
+
+## Nowe pojęcia
+
+- **[[Niezdobyta osada]]**: osada, którą nadal kontroluje gracz, który kontrolował ją na początku gry.
+- **[[Sługa naziemny]]**: Sługa, który nie lata. Porusza się o tyle regionów, ile wynosi jego poziom, i nie przechodzi przez teren nieprzekraczalny.
+
+## Specjalne kości akcji
+
+Nowe postacie dają [[Specjalna kość akcji|specjalne kości akcji]]:
+
+- [[Kość Powiernika Pierścienia Elfów|Kości Powierników]] (Wolne Ludy): Vilya (Elrond), Nenya (Galadriela) i Narya (Gandalf Szary, gdy jest przewodnikiem).
+- [[Kość Pomniejszego Sługi|Kości Pomniejszych Sług]] (Cień): Balrog i Gothmog.
+
+Gracz rzuca nimi razem ze zwykłymi kośćmi, a przed fazą rozpatrywania akcji wybiera wynik jednej z nich. Oko trzeba wybrać zawsze. Kość z [[Symbol usunięcia|symbolem usunięcia]] odpada z gry, jeśli w grze jest Gandalf Biały (kości Powierników) albo Czarnoksiężnik z Angmaru (kości Pomniejszych Sług).
+
+!img ps-kosci | Specjalne kości akcji
+
+## Nowe postacie
+
+**Wolne Ludy**
+
+| Postać | Jak wchodzi do gry | Co daje |
+|---|---|---|
+| [[Elrond, Powiernik Vilyi|Elrond]] | „Mobilizacja”, gdy Sauron lub elfy są w stanie wojny, a Rivendell jest niezdobyte | kość Vilyi, nie opuszcza Rivendell |
+| [[Galadriela, Powierniczka Nenyi|Galadriela]] | „Mobilizacja”, gdy Sauron lub elfy są w stanie wojny, a Lórien jest niezdobyte | kość Nenyi, nie opuszcza Lórien |
+| [[Gandalf Szary, Powiernik Naryi|Gandalf, Powiernik Naryi]] | zastępuje zwykłego Gandalfa Szarego na początku gry | kość Naryi, gdy jest przewodnikiem |
+| [[Sméagol]] | wylosowanie żetonu Sméagola z puli poszukiwań | zawsze jest przewodnikiem |
+
+**Cień**
+
+| Postać | Jak wchodzi do gry | Co daje |
+|---|---|---|
+| [[Balrog z Morii|Balrog]] | „Mobilizacja” (do Morii) | kość Balroga, +2 do siły armii w bitwie |
+| [[Gothmog, Porucznik Morgulu|Gothmog]] | „Mobilizacja”, gdy Sauron jest w stanie wojny, a Minas Morgul jest niezdobyte | kość Gothmoga, rekrutacja przy armii |
+| [[Rzecznik Saurona, Czarny Númenórejczyk|Czarny Númenórejczyk]] | „Mobilizacja”, gdy Wolne Ludy mają co najmniej 1 punkt zwycięstwa | zwykła kość akcji |
+| [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia|Przywódca Upiorów Pierścienia]] | „Mobilizacja”, gdy Drużyna nie jest w regionie z niezdobytą twierdzą Wolnych Ludów | zwykła kość akcji |
+
+Czarny Númenórejczyk i Przywódca Upiorów to alternatywne wersje Rzecznika Saurona i Czarnoksiężnika z Angmaru. W grze może być tylko jedna wersja każdego z nich.
+
+## Pierścienie Elfów
+
+Każdy z trzech żetonów Pierścieni Elfów należy do jednego [[Powiernik Pierścienia Elfów|Powiernika]]. Żeton można zużyć na dwa sposoby:
+
+- jak w grze podstawowej, aby zmienić wynik jednej kości (raz na turę), albo
+- do specjalnej zdolności Pierścienia, jeśli jego Powiernik jest w grze.
+
+W obu przypadkach żeton przechodzi do Cienia.
+
+## Balrog
+
+[[Balrog z Morii|Balrog]] zaczyna nieaktywny w Morii. Aktywuje go [[Wynik „Wykorzystanie Balroga”|wynik „Wykorzystanie Balroga”]] wybrany na jego kości albo karta „Nadciąga Balrog!”. Aktywny Balrog może opuścić Morię. Wolne Ludy mogą go uśpić „Wolą Zachodu” albo wynikiem „Postać”, gdy Gandalf jest w jego regionie.
+
+::: errata
+Polska instrukcja dodatku (s. 24) pisze, że do aktywacji wystarczy „wyrzucić” wynik wykorzystania Balroga. Poprawnie: trzeba go wyrzucić i **wybrać** jako wynik specjalnej kości.
+:::
+
+## Rada Rivendell (wariant)
+
+W opcjonalnym wariancie [[Rada Rivendell]] gracz Wolnych Ludów w tajemnicy wybiera alternatywne wersje Towarzyszy. Niektórzy z nich mogą zacząć grę w swoich ojczyznach, poza Drużyną. Cień dostaje wtedy jeden lub dwa [[Żeton akcji Cienia|żetony akcji Cienia]].
+

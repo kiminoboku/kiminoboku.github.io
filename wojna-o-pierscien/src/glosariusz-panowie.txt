@@ -1,0 +1,367 @@
+@@ Niezdobyta osada
+dodatek: panowie
+strony: 6
+Osada kontrolowana przez tego samego gracza, który kontrolował ją na początku gry.
+
+## Zasady
+- Osada, którą przeciwnik zdobył, a pierwotny właściciel odbił, znów jest niezdobyta (patrz [[Zdobywanie osad]]).
+- Oblężona [[Twierdza|twierdza]] jest niezdobyta, jeśli oblężona armia należy do pierwotnego właściciela twierdzy (patrz [[Oblężenie]]).
+- Od niezdobytych osad zależy wejście do gry nowych postaci, np. [[Elrond, Powiernik Vilyi|Elronda]] (Rivendell) czy [[Gothmog, Porucznik Morgulu|Gothmoga]] (Minas Morgul), oraz zdolność [[Gandalf Szary, Powiernik Naryi|Naryi]].
+
+~ Niezdobyta -> Niezdobyta osada
+
+@@ Sługa naziemny
+dodatek: panowie
+strony: 6
+[[Sługa]] Cienia, który nie lata jak Nazgûle: Rzecznik Saurona oraz Pomniejsi Słudzy z dodatku, czyli [[Balrog z Morii|Balrog]] i [[Gothmog, Porucznik Morgulu|Gothmog]].
+
+## Zasady
+Sługa naziemny:
+- porusza się samotnie o najwyżej tyle [[Region|regionów]], ile wynosi jego [[Poziom postaci|poziom]], ignorując wrogie armie (patrz [[Ruch postaci]]);
+- nie może przejść przez teren nieprzekraczalny (patrz [[Granica]]);
+- nie może wejść do regionu z przyjazną twierdzą ani go opuścić, jeśli twierdzę oblega armia przeciwnika;
+- poruszając się samotnie, nie może wejść do regionu z twierdzą kontrolowaną przez Wolne Ludy, chyba że oblega ją armia Cienia.
+
+## Wyjątki i szczególne przypadki
+- [[Nazgûl|Nazgûle]] i [[Czarnoksiężnik z Angmaru]] (obie wersje) latają, więc nie są sługami naziemnymi. [[Saruman]] w ogóle się nie porusza.
+- Nieaktywny Balrog ma poziom 0 i nie może opuścić Morii.
+
+@@ Specjalna kość akcji
+grupa: Kość
+dodatek: panowie
+strony: 7–8
+Dodatkowa kość akcji związana z konkretną postacią: [[Kość Powiernika Pierścienia Elfów|kość Powiernika]] (Wolne Ludy) albo [[Kość Pomniejszego Sługi|kość Pomniejszego Sługi]] (Cień).
+
+!img ps-kosci | Specjalne kości akcji (Panowie Śródziemia, s. 5)
+
+## Zasady
+- Specjalnymi kośćmi rzuca się w [[Faza 4: Rzut akcji|fazie rzutu akcji]] razem ze zwykłymi kośćmi akcji.
+- Jeśli gracz rzucił kilkoma kośćmi specjalnymi, przed fazą rozpatrywania akcji wybiera wynik jednej z nich, a pozostałe na tę turę odkłada.
+- Jeśli na którejkolwiek z nich wypadło [[Wynik „Oko”|Oko Saurona]], gracz musi wybrać Oko. Przy kilku Okach sam wybiera, którą kość zatrzymać.
+- Wybraną kość z Okiem kładzie się na [[Pole poszukiwań|polu poszukiwań]]. Działa jak zwykłe Oko wyrzucone przez Cień, także gdy wyrzucił je gracz Wolnych Ludów. Wolne Ludy tracą wtedy tę akcję.
+- Jeśli wybór muszą zrobić obaj gracze, pierwszy wybiera ten, kto rzucał większą liczbą kości. Przy remisie zaczyna gracz Wolnych Ludów.
+- Wybrany wynik inny niż Oko wykorzystuje się jak zwykłą kość. Liczy się do [[Pula kości akcji|puli kości akcji]] przy ustalaniu, kto ma więcej kości (np. przy [[Pasowanie|pasowaniu]]).
+- Nowe symbole na tych kościach to [[Wynik „Dobranie karty”|dobranie karty]], [[Wynik „Wykorzystanie Balroga”|wykorzystanie Balroga]] i [[Symbol usunięcia|symbol usunięcia]].
+- Niewybrane kości wracają w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]] następnej tury, razem z wykorzystanymi.
+
+## Wyjątki i szczególne przypadki
+- Każdy wynik ze specjalnej kości (oprócz Oka) spełnia wymóg „dowolnego wyniku z kości akcji” z kart Wydarzeń i zdolności postaci.
+- Wyniku specjalnej kości nie można zmienić [[Pierścienie Elfów|Pierścieniem Elfów]].
+- Specjalną kość usuwa się z gry w fazie 1, jeśli jej postać zginęła w poprzedniej turze, albo z powodu symbolu usunięcia.
+
+::: przyklad
+Na kości Gothmoga wypada „Armia + usunięcie”, a na kości Balroga „Dobranie karty”. W grze jest Czarnoksiężnik z Angmaru. Cień wybiera „Dobranie karty”, bo na kości Balroga nie ma symbolu usunięcia. Gdyby wybrał „Armię”, kość Gothmoga zostałaby usunięta z gry w następnej fazie 1.
+:::
+
+~ Wybieranie wyniku ze specjalnej kości -> Specjalna kość akcji
+
+@@ Kość Powiernika Pierścienia Elfów
+grupa: Kość
+dodatek: panowie
+strony: 9–10
+[[Specjalna kość akcji]] Wolnych Ludów, którą daje w grze jeden z trzech [[Powiernik Pierścienia Elfów|Powierników Pierścieni Elfów]]: kość Vilyi (Elrond), Nenyi (Galadriela) lub Naryi (Gandalf Szary).
+
+!img ps-symbole-kosci-powiernikow | Symbole kości Powierników (Panowie Śródziemia, s. 9)
+
+## Zasady
+- Kość Vilyi i kość Nenyi dochodzą do puli Wolnych Ludów na początku tury po wejściu do gry [[Elrond, Powiernik Vilyi|Elronda]] lub [[Galadriela, Powierniczka Nenyi|Galadrieli]].
+- Kość Naryi dochodzi w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]], jeśli [[Gandalf Szary, Powiernik Naryi]] jest [[Przewodnik Drużyny Pierścienia|przewodnikiem]] Drużyny, a gracz odzyskał z puli poszukiwań co najmniej jedną kość Wolnych Ludów.
+- W fazie 1 gracz odzyskuje kości Powierników wykorzystane i niewykorzystane.
+- Na kościach Powierników jest także [[Wynik „Oko”|Oko Saurona]]: taki wynik trzeba wybrać i oddać na pole poszukiwań (patrz [[Specjalna kość akcji]]).
+
+## Wyjątki i szczególne przypadki
+- Kość Powiernika, która trafiła na pole poszukiwań z powodu Oka, nie liczy się jako kość Wolnych Ludów odzyskana z pola poszukiwań. Nie zmusza więc Cienia do przydzielenia kości do poszukiwań i nie daje kości Naryi.
+- Jeśli w fazie 1 w grze jest [[Gandalf Biały]], a kość wybrana w poprzedniej turze miała [[Symbol usunięcia|symbol usunięcia]], usuwa się ją z gry.
+- Kość usuwa się także, gdy jej postać opuściła grę.
+
+~ Kość Vilyi -> Kość Powiernika Pierścienia Elfów
+~ Kość Nenyi -> Kość Powiernika Pierścienia Elfów
+~ Kość Naryi -> Kość Powiernika Pierścienia Elfów
+
+@@ Kość Pomniejszego Sługi
+grupa: Kość
+dodatek: panowie
+strony: 11
+[[Specjalna kość akcji]] Cienia, którą daje w grze [[Pomniejszy Sługa]]: kość Balroga albo kość Gothmoga.
+
+!img ps-symbole-kosci-slug | Symbole kości Pomniejszych Sług (Panowie Śródziemia, s. 11)
+
+## Zasady
+- Kość dochodzi do puli Cienia na początku tury po wejściu do gry [[Balrog z Morii|Balroga]] lub [[Gothmog, Porucznik Morgulu|Gothmoga]].
+- W [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]] gracz odzyskuje te kości wykorzystane i niewykorzystane.
+
+## Wyjątki i szczególne przypadki
+- Jeśli w fazie 1 w grze jest [[Czarnoksiężnik z Angmaru]] (dowolna wersja), a kość wybrana w poprzedniej turze miała [[Symbol usunięcia|symbol usunięcia]], usuwa się ją z gry.
+- Kość Gothmoga usuwa się też, gdy w grze jest Czarnoksiężnik z Angmaru, Czarny Wódz.
+- Kość usuwa się, gdy jej postać opuściła grę.
+
+~ Kość Balroga -> Kość Pomniejszego Sługi
+~ Kość Gothmoga -> Kość Pomniejszego Sługi
+
+@@ Wynik „Dobranie karty”
+grupa: Wynik
+dodatek: panowie
+strony: 7
+Wynik ze [[Specjalna kość akcji|specjalnej kości akcji]]: gracz dobiera 1 [[Karta Wydarzenia|kartę Wydarzenia]] z dowolnej swojej talii.
+
+## Zasady
+- Działa jak dobranie karty [[Wynik „Wydarzenie”|wynikiem „Wydarzenie”]], ale nie pozwala zagrać karty.
+- Występuje na wszystkich kościach Powierników i Pomniejszych Sług.
+
+!img ps-wynik-dobranie-karty | Symbol dobrania karty
+
+@@ Wynik „Wykorzystanie Balroga”
+grupa: Wynik
+dodatek: panowie
+strony: 7, 24
+Wynik z kości Balroga, który aktywuje [[Balrog z Morii|Balroga]], a potem pozwala nim działać.
+
+!img ps-wynik-wykorzystanie-balroga | Symbol wykorzystania Balroga
+
+## Zasady
+- Jeśli Balrog jest nieaktywny, wybranie tego wyniku aktywuje Balroga.
+- Jeśli Balrog jest już aktywny, wynik pozwala wykonać JEDNĄ z akcji: przesunąć armię z Balrogiem, zaatakować armią z Balrogiem albo przesunąć samego Balroga.
+
+## Wyjątki i szczególne przypadki
+Samo wyrzucenie wyniku nie wystarcza: Cień musi wybrać go jako wynik [[Specjalna kość akcji|specjalnej kości]] (patrz errata w haśle Balrog z Morii).
+
+@@ Symbol usunięcia
+grupa: Symbol
+dodatek: panowie
+strony: 7, 10–11
+Gwiazdka na niektórych ściankach [[Specjalna kość akcji|specjalnych kości]], obok zwykłego symbolu akcji.
+
+## Zasady
+- Sam symbol niczego nie zmienia w tej turze: wynik wykorzystuje się normalnie.
+- Kość z tym symbolem usuwa się z gry w następnej [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]], jeśli w grze jest odpowiednia postać:
+  - [[Gandalf Biały]] dla [[Kość Powiernika Pierścienia Elfów|kości Powierników]],
+  - [[Czarnoksiężnik z Angmaru]] (dowolna wersja) dla [[Kość Pomniejszego Sługi|kości Pomniejszych Sług]].
+- Liczy się tylko kość, której wynik gracz wybrał.
+
+@@ Powiernik Pierścienia Elfów
+dodatek: panowie
+strony: 9, 14–20
+Postać, która włada jednym z trzech [[Pierścienie Elfów|Pierścieni Elfów]]: [[Elrond, Powiernik Vilyi|Elrond]] (Vilya), [[Galadriela, Powierniczka Nenyi|Galadriela]] (Nenya) i [[Gandalf Szary, Powiernik Naryi|Gandalf Szary]] (Narya).
+
+## Zasady
+- Powiernik w grze dodaje swoją [[Kość Powiernika Pierścienia Elfów|kość Powiernika]] do puli Wolnych Ludów. Gandalf robi to tylko jako przewodnik Drużyny.
+- Każdy Powiernik ma specjalną zdolność swojego Pierścienia. Gracz może z niej skorzystać tylko wtedy, gdy Powiernik jest w grze.
+- Po użyciu zdolności żeton Pierścienia odwraca się na stronę z „Płonącym Okiem” i oddaje graczowi Cienia.
+
+## Wyjątki i szczególne przypadki
+- Żeton użyty do zmiany wyniku kości (zwykłe użycie Pierścienia) nie może już posłużyć do zdolności Powiernika i odwrotnie.
+- Użycie zdolności Powiernika nie wlicza się do limitu jednego zwykłego użycia Pierścienia na turę.
+
+~ Powiernicy Pierścieni Elfów -> Powiernik Pierścienia Elfów
+
+@@ Pomniejszy Sługa
+dodatek: panowie
+strony: 11
+[[Sługa]] Cienia z dodatku, który daje własną [[Kość Pomniejszego Sługi|kość akcji]]: [[Balrog z Morii]] albo [[Gothmog, Porucznik Morgulu|Gothmog]].
+
+## Zasady
+- Obaj są [[Sługa naziemny|sługami naziemnymi]].
+- Wchodzą do gry [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]], każdy na własnych warunkach.
+
+## Wyjątki i szczególne przypadki
+- Przy wprowadzaniu [[Gandalf Biały|Gandalfa Białego]] nie liczą się jako Słudzy.
+- W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje ich gracz Czarnoksiężnika z Angmaru, ale wynik ich kości wybiera [[Gracz prowadzący|prowadzący gracz]] Cienia. Z wyniku może skorzystać każdy gracz Cienia.
+
+~ Pomniejsi Słudzy -> Pomniejszy Sługa
+
+@@ Elrond, Powiernik Vilyi
+dodatek: panowie
+strony: 16–17
+Pan Rivendell, [[Powiernik Pierścienia Elfów]] władający Vilyą. Postać Wolnych Ludów, która nie opuszcza Rivendell.
+
+## Zasady
+- Poziom 0, [[Zdolności przywódcze|zdolności przywódcze]] 2, Naród: elfy. Dodaje kość Vilyi (patrz [[Kość Powiernika Pierścienia Elfów]]).
+- Wejście do gry: jeśli Sauron lub elfy są w [[Stan wojny|stanie wojny]], a Rivendell jest [[Niezdobyta osada|niezdobyte]], gracz Wolnych Ludów może wynikiem „Mobilizacja” wprowadzić Elronda do Rivendell.
+- **Vilya, Najpotężniejszy z Trzech**: gracz może zużyć żeton Vilyi, aby właśnie wykorzystana kość akcji (oprócz [[Wynik „Wola Zachodu”|Woli Zachodu]]) wróciła do puli dostępnych wyników. Kości nie odrzuca się ani nie kładzie na polu poszukiwań.
+- **Dom Elronda**: każda elitarna jednostka elfów w regionie z Elrondem liczy się w bitwie jednocześnie jako jednostka i jako [[Dowódca|dowódca]].
+
+## Wyjątki i szczególne przypadki
+- Na potrzeby efektów [[Karta Bitwy|kart Bitwy]] Elrond jest Towarzyszem 3. poziomu.
+- Jeśli Rivendell przejdzie pod kontrolę Cienia, Elronda usuwa się z gry.
+- Kość Vilyi usuwa się z gry, gdy Elrond opuści grę albo gdy gracz wybierze jej wynik „Armia” lub Oko (z [[Symbol usunięcia|symbolem usunięcia]]), a w grze jest Gandalf Biały.
+
+~ Elrond -> Elrond, Powiernik Vilyi
+~ Vilya -> Elrond, Powiernik Vilyi
+
+@@ Galadriela, Powierniczka Nenyi
+dodatek: panowie
+strony: 18–19
+Królowa Złotego Lasu, [[Powiernik Pierścienia Elfów|Powierniczka Pierścienia Elfów]] Nenyi. Postać Wolnych Ludów, która nie opuszcza Lórien.
+
+## Zasady
+- Poziom 0, [[Zdolności przywódcze|zdolności przywódcze]] 2, Naród: elfy. Dodaje kość Nenyi (patrz [[Kość Powiernika Pierścienia Elfów]]).
+- Wejście do gry: jeśli Sauron lub elfy są w [[Stan wojny|stanie wojny]], a Lórien jest [[Niezdobyta osada|niezdobyte]], gracz Wolnych Ludów może wynikiem „Mobilizacja” wprowadzić Galadrielę do Lórien.
+- **Nenya, Pierścień Diamentu**: gdy zostanie wylosowany zwyczajny [[Żeton poszukiwań|żeton]] z Okiem Saurona, gracz może zużyć żeton Nenyi, aby anulować jego efekt i wylosować nowy żeton. Anulowany żeton usuwa się z gry na stałe.
+- **Odwaga elfiego ludu**: gracz Wolnych Ludów może [[Rekrutacja|rekrutować]] w Lórien, nawet gdy twierdza jest oblężona.
+
+## Wyjątki i szczególne przypadki
+- Na potrzeby efektów [[Karta Bitwy|kart Bitwy]] Galadriela jest Towarzyszem 3. poziomu.
+- Jeśli Lórien przejdzie pod kontrolę Cienia, Galadrielę usuwa się z gry.
+- Kość Nenyi usuwa się z gry, gdy Galadriela opuści grę albo gdy gracz wybierze jej wynik „Postać” lub Oko (z [[Symbol usunięcia|symbolem usunięcia]]), a w grze jest Gandalf Biały.
+
+~ Galadriela -> Galadriela, Powierniczka Nenyi
+~ Nenya -> Galadriela, Powierniczka Nenyi
+
+@@ Gandalf Szary, Powiernik Naryi
+dodatek: panowie
+strony: 19–20
+Alternatywna wersja Gandalfa Szarego, która jako [[Powiernik Pierścienia Elfów]] włada Naryą. Można jej używać także bez wariantu [[Rada Rivendell|Rady Rivendell]].
+
+## Zasady
+- Poziom 3, [[Zdolności przywódcze|zdolności przywódcze]] 1. Jest [[Towarzysz|Towarzyszem]] jak zwykły Gandalf Szary.
+- Na początku gry gracz Wolnych Ludów może zastąpić nim podstawową kartę Gandalfa Szarego. Kartę kładzie się w talii Drużyny bez pokazywania Cieniowi, chyba że Gandalf jest początkowym [[Przewodnik Drużyny Pierścienia|przewodnikiem]].
+- **Przewodnik**: jeśli na początku [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazy 1]] Gandalf jest przewodnikiem, a gracz odzyskał z puli poszukiwań co najmniej jedną kość Wolnych Ludów (czyli Drużyna poruszyła się w poprzedniej turze), do puli dochodzi kość Naryi.
+- **Narya, Czerwony Pierścień**: gdy Gandalf jest w [[Niezdobyta osada|niezdobytej osadzie]] Narodu Wolnych Ludów, gracz może zużyć żeton Naryi i dowolny wynik kości akcji, aby [[Aktywacja Narodu|aktywować]] ten Naród i przesunąć go od razu na pole [[Stan wojny|stanu wojny]].
+- **Emisariusz Zachodu**: jeśli Gandalf nie jest w Drużynie, można go zastąpić [[Gandalf Biały|Gandalfem Białym]] tak samo jak zwykłego Gandalfa Szarego.
+
+## Wyjątki i szczególne przypadki
+- Jeśli Gandalf zostanie przewodnikiem w fazie Drużyny Pierścienia, kość Naryi dochodzi dopiero w następnej turze.
+- Jeśli jest przewodnikiem od początku gry, kość Naryi rzuca się już w pierwszej turze.
+- Można go [[Odłączanie Towarzyszy|odłączyć]] od Drużyny według zwykłych zasad.
+
+::: przyklad
+W pierwszej turze przewodnikiem jest Gandalf, Powiernik Naryi. Gracz rzuca kością Naryi i czterema zwykłymi kośćmi. Na kości Naryi wypada „Dobranie karty”, więc ma w tej turze pięć akcji. Gdyby wypadło Oko, kość trafiłaby na pole poszukiwań, a akcji byłyby cztery.
+:::
+
+~ Narya -> Gandalf Szary, Powiernik Naryi
+
+@@ Sméagol
+dodatek: panowie
+strony: 21–22
+Obłaskawiony Gollum, który wchodzi do Drużyny jako specjalny [[Towarzysz]] i zawsze jest jej [[Przewodnik Drużyny Pierścienia|przewodnikiem]].
+
+## Zasady
+- Na początku gry do [[Pula poszukiwań|puli poszukiwań]] wkłada się 2 z 4 żetonów Sméagola.
+- Gdy Cień wylosuje żeton Sméagola, [[Ciężar brzemienia|ciężar brzemienia]] wynosi 0, a Sméagol wchodzi do gry. Jego kartę kładzie się na polu przewodnika, a znacznik między żetonami Towarzyszy. Wylosowany żeton usuwa się z gry.
+- Poziom Sméagola równa się najwyższemu poziomowi Towarzysza w Drużynie. [[Zdolności przywódcze]]: 0, więc nigdy nie dowodzi armią.
+- Liczy się jako Towarzysz przy ustalaniu, ile kości Cień może przydzielić do poszukiwań. Może zginąć jako [[Straty w Drużynie Pierścienia|strata w Drużynie]].
+- Gdy Sméagol zginie lub zostanie odrzucony w dowolny sposób, do gry wchodzi karta Wydarzenia Cienia „Będzie Nasz!”.
+
+## Wyjątki i szczególne przypadki
+- Sméagol nie jest [[Gollum|Gollumem]]: nie spełnia warunków kart, które wymagają Golluma.
+- Jeśli Gollum wszedł do gry przed Sméagolem albo Sméagol już opuścił grę, wylosowany żeton Sméagola się odrzuca i losuje inny.
+- Jeśli Sméagol zostanie [[Odłączanie Towarzyszy|odłączony]] od Drużyny, odpada z gry.
+- Jeśli Drużyna [[Ujawnienie Drużyny Pierścienia|ujawni się]] w niezdobytym mieście lub twierdzy Wolnych Ludów, Sméagola się odrzuca.
+- Jeśli Sméagol zostanie jedynym Towarzyszem w Drużynie, od razu zastępuje go Gollum. Karta „Będzie Nasz!” wtedy nie wchodzi do gry.
+- Karty z dodatku zmieniają działanie Sméagola: „Znasz Drogę” dodaje do puli trzeci i czwarty żeton Sméagola, „Nie Zawrócimy” sprawia, że żetony Sméagola działają na korzyść Cienia, a „Bezpieczne Ścieżki w Ciemności” pozwala odrzucić kartę „Będzie Nasz!” lub „Nie Zawrócimy”.
+
+~ Żeton Sméagola -> Sméagol | Żeton
+~ Będzie Nasz! -> Sméagol
+
+@@ Balrog z Morii
+dodatek: panowie
+strony: 23–25
+Demon z dawnych czasów, [[Pomniejszy Sługa]] Cienia, który początkowo czeka nieaktywny w Morii.
+
+## Zasady
+- Zdolności przywódcze 3. Dodaje kość Balroga (patrz [[Kość Pomniejszego Sługi]]).
+- Wejście do gry: Cień wprowadza Balroga do Morii [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]]. Jeśli Moria jest [[Niezdobyta osada|niezdobyta]] i nieoblężona, może tam też zrekrutować 1 jednostkę Saurona (regularną lub elitarną). Elfy i krasnoludy przesuwają się o jedno pole na [[Tor polityki|torze polityki]].
+- Znacznik statusu Balroga kładzie się stroną „nieaktywny” do góry. Nieaktywny Balrog ma poziom 0 i nie opuszcza Morii.
+- **Aktywacja**: Balrog staje się aktywny, gdy Cień wybierze na jego kości [[Wynik „Wykorzystanie Balroga”|wynik „Wykorzystanie Balroga”]] albo zagra kartę „Nadciąga Balrog!”. Aktywny Balrog ma poziom 2 i porusza się jak [[Sługa naziemny|sługa naziemny]].
+- **Ogień i cień**: jeśli Drużyna zostanie odkryta lub się ujawni i przy tym przejdzie przez region z Balrogiem, wyjdzie z niego, wejdzie do niego albo w nim zostanie, Cień losuje [[Żeton poszukiwań|żeton poszukiwań]] i stosuje jego efekt, ignorując symbol odkrycia. Jeśli żeton ma Oko, giną Balrog i [[Przewodnik Drużyny Pierścienia|przewodnik]] Drużyny.
+- **Płomień Udûnu**: w bitwie z Balrogiem [[Siła armii|siła armii]] Cienia rośnie o 2 (nadal najwyżej 5 kości bitwy).
+
+## Wyjątki i szczególne przypadki
+- Wolne Ludy mogą uczynić Balroga nieaktywnym [[Wynik „Wola Zachodu”|wynikiem „Wola Zachodu”]] albo wynikiem „Postać”, jeśli Gandalf (dowolna wersja) jest w tym samym regionie. Balrog poza Morią zostaje wtedy wyeliminowany, a w Morii wraca do poziomu 0.
+- Jeśli przy „Ogniu i cieniu” przewodnikiem jest Gollum, żeton z Okiem się odrzuca bez efektu.
+- Przy wprowadzaniu [[Gandalf Biały|Gandalfa Białego]] Balrog nie liczy się jako Sługa.
+
+::: errata
+Polska instrukcja dodatku (s. 24) podaje, że Balrog staje się aktywny, gdy Cień „wyrzuci na kości Balroga wynik wykorzystania Balroga”. Poprawnie: Cień musi ten wynik wyrzucić i **wybrać** jako wynik specjalnej kości.
+:::
+
+~ Balrog -> Balrog z Morii
+~ Aktywacja Balroga -> Balrog z Morii
+~ Znacznik statusu Balroga -> Balrog z Morii | Znacznik
+
+@@ Gothmog, Porucznik Morgulu
+dodatek: panowie
+strony: 25–26
+[[Pomniejszy Sługa]] Cienia, dowódca armii Mordoru wprowadzany do Minas Morgul.
+
+## Zasady
+- Poziom 3, zdolności przywódcze 1. Dodaje kość Gothmoga (patrz [[Kość Pomniejszego Sługi]]). Porusza się jak [[Sługa naziemny|sługa naziemny]].
+- Wejście do gry: jeśli Sauron jest w [[Stan wojny|stanie wojny]], Minas Morgul jest [[Niezdobyta osada|niezdobyte]], a w grze nie ma Czarnoksiężnika z Angmaru, Czarnego Wodza, Cień może wprowadzić Gothmoga do Minas Morgul wynikiem „Mobilizacja”.
+- **Rzucić ich do walki**: jeśli Gothmog jest z armią Cienia w [[Wolny region|wolnym regionie]], Cień może wynikiem „Mobilizacja” zrekrutować tam jedną regularną jednostkę Saurona albo zamienić jedną regularną jednostkę Saurona na elitarną.
+
+## Wyjątki i szczególne przypadki
+- Kość Gothmoga usuwa się z gry, gdy wejdzie do gry Czarnoksiężnik z Angmaru, Czarny Wódz.
+- Przy wprowadzaniu [[Gandalf Biały|Gandalfa Białego]] Gothmog nie liczy się jako Sługa.
+
+~ Gothmog -> Gothmog, Porucznik Morgulu
+
+@@ Rzecznik Saurona, Czarny Númenórejczyk
+dodatek: panowie
+strony: 27
+Alternatywna wersja [[Rzecznik Saurona|Rzecznika Saurona]]: potężny czarownik, który może wejść do gry wcześniej.
+
+## Zasady
+- Poziom 3, zdolności przywódcze 2. Dodaje Cieniowi jedną zwykłą kość akcji.
+- Wejście do gry: jeśli Wolne Ludy mają co najmniej 1 [[Punkty zwycięstwa|punkt zwycięstwa]], Cień może wynikiem „Mobilizacja” wprowadzić go do dowolnego regionu z niezdobytą twierdzą Saurona.
+- Cień może też wprowadzić go zamiast Komendanta Barad-dûr, gdy Drużyna wejdzie na [[Tor Mordoru|tor Mordoru]].
+- **Złowroga wiedza**: jeśli towarzyszy armii oblegającej, Cień może raz na akcję przedłużyć bitwę o rundę bez zamiany jednostki elitarnej na regularną (patrz [[Oblężenie]]).
+- **Potężne czary**: jeśli towarzyszy armii Cienia, Cień może raz na turę poruszyć nią lub zaatakować wynikiem „Mobilizacja”, tak jakby użył [[Wynik „Postać”|wyniku „Postać”]].
+
+## Wyjątki i szczególne przypadki
+Nie można wprowadzić drugiej wersji Rzecznika Saurona, jeśli jedna jest już w grze albo została wyeliminowana.
+
+~ Czarny Númenórejczyk -> Rzecznik Saurona, Czarny Númenórejczyk
+
+@@ Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia
+dodatek: panowie
+strony: 28–29
+Alternatywna wersja [[Czarnoksiężnik z Angmaru|Czarnoksiężnika z Angmaru]], który ściga Pierścień zamiast prowadzić wojnę.
+
+## Zasady
+- Poziom ∞ (lata jak [[Nazgûl|Nazgûle]]), zdolności przywódcze 1. Dodaje Cieniowi jedną zwykłą kość akcji.
+- Wejście do gry: jeśli Drużyna nie jest w regionie z niezdobytą twierdzą Wolnych Ludów, Cień może wynikiem „Mobilizacja” wprowadzić go do regionu z Drużyną. Jeśli w grze jest Czarny Wódz, Przywódca Upiorów zajmuje jego miejsce.
+- **Rekrutacja Czarnego Wodza**: Cień może wynikiem „Mobilizacja” zastąpić Przywódcę Upiorów Czarnym Wodzem w tym samym regionie, jeśli spełnia warunki wprowadzenia Czarnego Wodza.
+- **Włócznia terroru**: jeśli jest w regionie z Drużyną, a Cień zagrywa kartę Wydarzenia Postaci, Cień od razu dobiera nową kartę Postaci.
+- **Widzi i wie**: gdy Drużyna [[Ujawnienie Drużyny Pierścienia|ujawni się]] w regionie bez niezdobytej twierdzy Wolnych Ludów, Cień może od razu, bez akcji, przenieść go do regionu z Powiernikami Pierścienia.
+
+## Wyjątki i szczególne przypadki
+- Wersję można zmienić tylko raz na grę. Nie można też wprowadzić drugiej wersji, jeśli pierwsza została wyeliminowana.
+- Jeśli w grze jest „Palantir z Orthanku”, przy „Włóczni terroru” dobiera się tylko jedną kartę, nie dwie.
+- Wszystkie karty odnoszące się do „Czarnoksiężnika z Angmaru” działają także z tą wersją.
+- Przy wprowadzaniu [[Gandalf Biały|Gandalfa Białego]] nie liczy się jako Sługa.
+
+~ Przywódca Upiorów Pierścienia -> Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia
+
+@@ Rada Rivendell
+dodatek: panowie
+strony: 30–31
+Opcjonalny wariant: gracz Wolnych Ludów może użyć alternatywnych wersji Towarzyszy, a część z nich może zacząć grę w swoich ojczyznach.
+
+## Zasady
+- Przy przygotowaniu gry gracz Wolnych Ludów może zastąpić dowolnych Towarzyszy ich alternatywnymi wersjami. Z wybranych kart tworzy talię Drużyny (patrz [[Drużyna Pierścienia]]).
+- Wyboru nie pokazuje się Cieniowi. Widać tylko obecnego [[Przewodnik Drużyny Pierścienia|przewodnika]]. Kartę ujawnia się, gdy Towarzysz zostanie przewodnikiem, zginie jako strata albo się odłączy.
+- W fazie Drużyny pierwszej tury gracz może ogłosić, że alternatywni Meriadok, Peregrin, Boromir, Gimli lub Legolas zaczynają grę poza Drużyną. Stawia się ich w regionach podanych na kartach i traktuje jak [[Odłączanie Towarzyszy|odłączonych Towarzyszy]].
+- Jeśli poza Drużyną zaczyna jeden Towarzysz, Cień dostaje jeden wybrany [[Żeton akcji Cienia|żeton akcji Cienia]], a jeśli więcej, oba.
+
+## Wyjątki i szczególne przypadki
+- Część kart alternatywnych Towarzyszy nie ma symbolu Narodu. Tacy Towarzysze nie [[Aktywacja Narodu|aktywują]] Narodu, wchodząc do jego osad. Robią to tylko swoją zdolnością (patrz [[karta: Alternatywni Towarzysze]]).
+- [[Gandalf Szary, Powiernik Naryi]] nie wymaga tego wariantu.
+
+~ Alternatywni Towarzysze -> Rada Rivendell
+
+@@ Żeton akcji Cienia
+grupa: Żeton
+dodatek: panowie
+strony: 4, 31
+Jednorazowy żeton, który Cień dostaje w wariancie [[Rada Rivendell]], gdy Towarzysze zaczynają grę poza Drużyną.
+
+!img ps-zetony | Żetony z dodatku Panowie Śródziemia (s. 4)
+
+## Zasady
+- Są dwa żetony: „Przesuń Nazgûle i Sługi” (działa jak [[Wynik „Postać”|wynik „Postać”]] Cienia) i „Przesuń 1 Naród Cienia na torze polityki” (działa jak [[Wynik „Mobilizacja”|wynik „Mobilizacja”]] Cienia).
+- W fazie rozpatrywania akcji Cień może użyć żetonu zamiast kości akcji. Każdy żeton działa raz na grę, a w jednej turze można użyć najwyżej jednego.
+
+## Wyjątki i szczególne przypadki
+- Żeton nie zastępuje „dowolnego wyniku z kości akcji” i nie można go zmienić [[Pierścienie Elfów|Pierścieniem Elfów]].
+- Żetonów nie liczy się przy sprawdzaniu, czy Cień może [[Pasowanie|spasować]].
+- W [[Gra wieloosobowa|grze wieloosobowej]] może go użyć każdy gracz Cienia.

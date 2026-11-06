@@ -13,10 +13,11 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 - `style.css`, `app.js`: styling, glossary search, definition tooltips
 - `img/`: images cropped from the original rulebook
 - `src/instrukcja.txt`: content of the *Instrukcja* (rules) tab
-- `src/glosariusz-a-o.txt`, `src/glosariusz-p-z.txt`: glossary entries
+- `src/glosariusz-a-o.txt`, `src/glosariusz-p-z.txt`: glossary entries of the base game
+- `src/glosariusz-panowie.txt`: glossary entries of *Panowie Śródziemia*
 - `src/karty.txt`: content of the *Karty* (cards) tab: card errata
 - `tools/build.py`: builds `index.html` and validates links
-- `tools/crop_images.py`: crops images from the PDF (requires `poppler`)
+- `tools/crop_images.py`: crops images from the PDFs (requires `poppler`)
 
 ## Editing content
 
@@ -42,8 +43,11 @@ The menu only lists expansions that have content.
 ## Re-cropping images
 
 ```bash
-python3 tools/crop_images.py /path/to/WoP_instrukcja.pdf
+python3 tools/crop_images.py /path/to/folder-with-the-pdfs
 ```
+
+The folder must hold the Polish PDFs of the base game and the expansions under the file names
+listed in `PDFS` in `tools/crop_images.py`. Add image names after the folder to crop only those.
 
 Image file names stay Polish because the files in `src/` refer to them by name.
 
