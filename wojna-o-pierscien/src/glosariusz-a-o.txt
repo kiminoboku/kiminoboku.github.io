@@ -206,6 +206,9 @@ Figurka kapitana Wolnych Ludów, która towarzyszy armii, nie walczy sama, ale z
 - Gdy zginą wszystkie jednostki armii, jej dowódcy też zostają wyeliminowani (patrz [[Straty w bitwie]]). Dowódcy Wolnych Ludów wypadają z gry na stałe.
 - Dowódcami Cienia są [[Nazgûl|Nazgûle]], które podlegają tym samym zasadom, ale z wyjątkami.
 
+## Z dodatkiem {krolowie}
+- Nieprzebudzeni i niespaczeni [[Suweren|Suwereni]] są dowódcami Wolnych Ludów. [[Spaczony Suweren]] przestaje nim być.
+
 @@ Drużyna Pierścienia
 strony: 36–39
 klucze: Drużyna
@@ -297,6 +300,9 @@ Czwarta faza [[Tura|tury]]: gracze rzucają swoimi kośćmi akcji.
 - [[Specjalna kość akcji|Specjalnymi kośćmi]] rzuca się razem ze zwykłymi. Przed fazą rozpatrywania akcji gracz wybiera wynik jednej z nich, a resztę odkłada do następnej tury.
 - Wyrzucone na specjalnej kości Oko trzeba wybrać, także gdy wyrzucił je gracz Wolnych Ludów. Kość trafia wtedy na [[Pole poszukiwań|pole poszukiwań]].
 
+## Z dodatkiem {krolowie}
+- Gracz, który ma [[Kość Władcy|kość Władcy]], na końcu fazy odrzuca 1 swoją kość (zwykłą albo kość Władcy). Najpierw decyduje Cień, potem kładzie kości z „Okiem” na polu poszukiwań. Następnie decyduje gracz Wolnych Ludów.
+
 @@ Faza 5: Rozpatrywanie akcji
 grupa: Faza
 strony: 18–21
@@ -357,6 +363,9 @@ Potężniejsze wcielenie Gandalfa Szarego, które może wejść do gry po spełn
 - Przy wprowadzaniu Gandalfa Białego [[Balrog z Morii|Balrog]], [[Gothmog, Porucznik Morgulu|Gothmog]] i [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia]] nie liczą się jako Sługi.
 - [[Gandalf Szary, Powiernik Naryi]] może zostać zastąpiony Gandalfem Białym tak jak zwykły Gandalf Szary.
 - Dopóki Gandalf Biały jest w grze, wybrana [[Kość Powiernika Pierścienia Elfów|kość Powiernika]] z [[Symbol usunięcia|symbolem usunięcia]] odpada z gry w następnej fazie 1.
+
+## Z dodatkiem {krolowie}
+- Przy wprowadzaniu Gandalfa Białego [[Mroczny wódz|Mroczni wodzowie]] nie liczą się jako Sługi.
 
 ~ Gandalf Szary -> Towarzysz
 
@@ -421,6 +430,11 @@ Zespoły wygrywają tak jak w grze dwuosobowej (patrz [[Warunki zwycięstwa]]). 
 - [[Kość Frakcji|Kość Frakcji]] może wykorzystać każdy gracz zespołu, zawsze gdy mógłby użyć zwykłej kości.
 - Każdy gracz zespołu może wydać kość akcji na zagranie karty Frakcji z ręki i może wezwać Frakcję do walki, jeśli w bitwie bierze udział jego armia.
 - Kartę Frakcji można zagrać dla dowolnej Frakcji, niezależnie od Narodu, ale karty o „armii Cienia” tylko dla własnej armii.
+
+## Z dodatkiem {krolowie}
+- Suwerena przebudza i korzysta z jego zdolności tylko gracz, który kontroluje jego Naród. Żetony spaczenia usuwa i spaczonego Suwerena usuwa z gry dowolny gracz Wolnych Ludów.
+- Obaj gracze Cienia mogą próbować spaczać Suwerenów, ale w jednej turze na zmianę: kto spaczał ostatni, bierze żeton spaczenia. Jeden gracz może spaczać danego Suwerena najwyżej raz na turę.
+- Mrocznego wodza wprowadza tylko gracz, który kontroluje jego Naród.
 
 ~ Gra czteroosobowa -> Gra wieloosobowa | Gra
 ~ Gra trzyosobowa -> Gra wieloosobowa | Gra

@@ -97,6 +97,9 @@ Karta, którą gracz zagrywa w bitwie zamiast [[Karta Bitwy|karty Bitwy]], aby w
 - Karty anulujące karty Bitwy (np. „Chmara Nietoperzy”) anulują też karty Wezwania.
 - Warunki wezwania każdej Frakcji opisuje jej hasło.
 
+## Z dodatkiem {krolowie}
+- Nie można poświęcić efektu karty Wezwania do Walki, aby użyć [[Specjalna zdolność Bitwy Władcy|specjalnej zdolności Bitwy]] Branda ani Mrocznych wodzów.
+
 ~ Wezwanie do walki -> Karta Wezwania do Walki
 
 @@ Kość Frakcji
@@ -127,6 +130,9 @@ Specjalna kość akcji każdego gracza (zielona dla Wolnych Ludów, pomarańczow
 ::: errata
 Polska instrukcja dodatku (s. 8) opisuje ostatnią ściankę kości Wolnych Ludów jako „Mobilizacja/zagranie karty Frakcji”. Poprawnie: „Mobilizacja/**dobranie** karty Frakcji”.
 :::
+
+## Z dodatkiem {krolowie}
+- Odrzucając po rzucie kość z powodu [[Kość Władcy|kości Władcy]], gracz wybiera zwykłą kość albo kość Władcy. Nie może odrzucić kości Frakcji.
 
 ~ Mobilizacja Frakcji -> Kość Frakcji
 ~ Dzika kość -> Kość Frakcji

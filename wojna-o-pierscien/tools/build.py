@@ -29,9 +29,10 @@ Expansions (keys: panowie, wojownicy, krolowie):
     dodatek: panowie           field on a glossary entry or card: shown only with that expansion
     # Title {panowie}          suffix on a chapter, subchapter, ## entry section or card section
     ::: dodatek panowie Title  box shown only with that expansion
-    A condition joins keys with "+" (all required) or "|" (any of them); "!key" means "only
-    without that expansion", e.g. {krolowie+panowie}, dodatek: panowie|wojownicy or
-    dodatek: !panowie. Aliases inherit their target's condition.
+    A condition joins keys with "+" (all required); one "+" part may list alternatives with "|"
+    (any of them); "!key" means "only without that expansion", e.g. {krolowie+panowie},
+    dodatek: panowie|wojownicy, dodatek: krolowie+panowie|wojownicy or dodatek: !panowie.
+    Aliases inherit their target's condition.
     Links must not point to content that can be hidden while the linking text is visible.
 
 Blocks: paragraphs, "- " lists (nest with 2 spaces), "1. " lists, "| a | b |" tables,
@@ -137,24 +138,24 @@ COND_SUFFIX = re.compile(r"\s*(?<!\{)\{([a-z!+| ]+)\}$")
 
 
 def parse_cond(text: str, where: str) -> Cond:
-    if "|" in text:  # any of the listed expansions
-        names = [t.strip() for t in text.split("|")]
-        bad = [n for n in names if n not in EXPANSIONS]
-        if bad or "+" in text or "!" in text:
-            ERRORS.append(f"{where}: an 'a|b' condition takes plain expansion keys only: '{text}'")
-            return NO_COND
-        USED_EXPANSIONS.update(names)
-        return Cond(any=frozenset(names))
-    req, nots = set(), set()
+    req, nots, any_of = set(), set(), set()
     for tok in text.split("+"):
         tok = tok.strip()
+        if "|" in tok:  # alternatives: at least one of them
+            names = [t.strip() for t in tok.split("|")]
+            if any_of or any(n not in EXPANSIONS for n in names):
+                ERRORS.append(f"{where}: bad 'a|b' part in condition '{text}' (plain keys, at most one such part)")
+                continue
+            any_of.update(names)
+            USED_EXPANSIONS.update(names)
+            continue
         name = tok.lstrip("!")
         if name not in EXPANSIONS:
             ERRORS.append(f"{where}: unknown expansion '{name}'")
             continue
         (nots if tok.startswith("!") else req).add(name)
         USED_EXPANSIONS.add(name)
-    return Cond(frozenset(req), frozenset(nots))
+    return Cond(frozenset(req), frozenset(nots), frozenset(any_of))
 
 
 def split_cond(title: str, where: str) -> tuple[str, Cond]:

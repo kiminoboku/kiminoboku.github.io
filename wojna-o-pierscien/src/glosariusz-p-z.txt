@@ -41,6 +41,10 @@ Trzy żetony elfich Pierścieni Władzy, które pozwalają raz zmienić wynik ko
 ## Z dodatkiem {wojownicy}
 - Pierścieniem Elfów nie można zmienić wyniku na [[Kość Frakcji|kości Frakcji]].
 
+## Z dodatkiem {krolowie}
+- Pierścieniem Elfów można zmienić wynik [[Kość Władcy|kości Władcy]].
+- Gracz Wolnych Ludów nie może w tej samej turze użyć Pierścienia Elfów i [[Żeton Władcy|żetonu Władcy]].
+
 ~ Płonące Oko -> Pierścienie Elfów
 ~ Podbój -> Zdobywanie osad
 
@@ -72,6 +76,9 @@ Pole na planszy, na którym leżą kości przeznaczone na poszukiwania Pierście
 - Liczba kości Cienia na tym polu to [[Poziom poszukiwań|poziom poszukiwań]].
 - Po każdym [[Ruch Drużyny Pierścienia|ruchu Drużyny]] gracz Wolnych Ludów kładzie tu wykorzystaną kość. Każda taka kość daje +1 do kolejnych [[Rzut poszukiwań|rzutów poszukiwań]] w tej turze i pokazuje, ile razy Drużyna się poruszyła.
 - Kości Wolnych Ludów wracają do gracza w [[Faza 1: Odzyskiwanie kości akcji i dobieranie kart|fazie 1]] następnej tury.
+
+## Z dodatkiem {krolowie}
+- Cień może zdjąć z pola poszukiwań kość z „Okiem”, aby przeprowadzić [[Próba spaczenia Suwerena|próbę spaczenia Suwerena]].
 
 ~ Pole Drużyny Pierścienia -> Drużyna Pierścienia | Pole
 ~ Pole przewodnika -> Przewodnik Drużyny Pierścienia | Pole
@@ -281,6 +288,9 @@ Wszystkie kości akcji, którymi gracz rzuca w danej turze.
 
 ## Z dodatkiem {wojownicy}
 - Gdy do gry wejdzie pierwsza [[Frakcja]] gracza, od następnej tury dostaje on [[Kość Frakcji|kość Frakcji]]. Traci ją, gdy wszystkie jego Frakcje opuszczą grę.
+
+## Z dodatkiem {krolowie}
+- Do puli dochodzi [[Kość Władcy|kość Władcy]]: u Wolnych Ludów po przebudzeniu pierwszego Suwerena, u Cienia po wejściu do gry pierwszego Mrocznego wodza. Kto ją ma, po rzucie odrzuca jedną kość.
 
 @@ Pula poszukiwań
 grupa: Pula
@@ -523,6 +533,9 @@ Postać Cienia: [[Saruman]], [[Czarnoksiężnik z Angmaru]] lub [[Rzecznik Sauro
 - Słudzy, którzy nie latają, to [[Sługa naziemny|słudzy naziemni]].
 - Rzecznik Saurona i Czarnoksiężnik z Angmaru mają alternatywne wersje.
 
+## Z dodatkiem {krolowie}
+- [[Mroczny wódz|Mroczni wodzowie]] to [[Sługa naziemny|słudzy naziemni]], którzy nie dodają własnych kości akcji. Karty dotyczące „Sług” dotyczą też ich.
+
 ~ Wprowadzenie Sługi do gry -> Sługa
 
 @@ Stan wojny
@@ -644,6 +657,9 @@ Polska instrukcja (s. 22) pisze, że z Drużyną, Towarzyszami i Sługami są po
 - Karty Frakcji nie liczą się do limitu 6 kart. Można ich mieć najwyżej 4.
 - Dziewięć kart gry podstawowej zastępują nowe karty (patrz [[karty: Wojownicy Śródziemia|zakładka Karty]]).
 
+## Z dodatkiem {krolowie}
+- 11 kart z gry podstawowej zastępują karty o tych samych nazwach i numerach z dodatku, a 8 nowych kart dochodzi do talii (patrz [[karty: Królowie Śródziemia|zakładka Karty]]).
+
 
 @@ Tor Drużyny Pierścienia
 grupa: Tor
@@ -720,6 +736,10 @@ Postać Wolnych Ludów, która zaczyna grę w Drużynie Pierścienia.
 
 ## Wyjątki i szczególne przypadki
 Obieżyświat i Gandalf Szary mogą zostać zastąpieni potężniejszymi wcieleniami: Aragornem, Dziedzicem Isildura i Gandalfem Białym (patrz ich karty).
+
+## Z dodatkiem {krolowie}
+- Przebudzony [[Suweren]] jest Towarzyszem (patrz [[Przebudzenie Suwerena]]).
+- Odpowiedni Towarzysz w regionie z Suwerenem może usuwać jego spaczenie albo usunąć z gry [[Spaczony Suweren|spaczonego Suwerena]].
 
 @@ Tura
 strony: 18
@@ -1165,3 +1185,7 @@ Tekturowy żeton losowany z puli poszukiwań, który określa efekt udanych posz
 ## Z dodatkiem {panowie}
 - Na początku gry do puli dodaje się 2 z 4 żetonów [[Sméagol|Sméagola]]. Wylosowany żeton Sméagola ma ciężar 0 i wprowadza Sméagola do Drużyny.
 - [[Galadriela, Powierniczka Nenyi|Nenya]] pozwala anulować wylosowany zwyczajny żeton z Okiem i wylosować nowy.
+
+## Z dodatkiem {krolowie}
+- Na początku gry do puli dodaje się 2 [[Żeton poszukiwań królów|żetony poszukiwań królów]].
+- Żetony poszukiwań służą też jako [[Żeton spaczenia|żetony spaczenia]] przy [[Próba spaczenia Suwerena|próbach spaczenia]].

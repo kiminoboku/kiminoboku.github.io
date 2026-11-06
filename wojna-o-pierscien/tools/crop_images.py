@@ -84,6 +84,11 @@ EXPANSION_CROPS = {
         "ws-karty-frakcji": (4, 36, 562, 332, 706),
         "ws-wyniki-kosci-frakcji": (8, 36, 258, 332, 554),
     },
+    "krolowie": {
+        "ks-figurki": (4, 36, 126, 331, 408),
+        "ks-zetony": (5, 36, 126, 331, 702),
+        "ks-zetony-wladcow": (10, 36, 290, 340, 404),
+    },
 }
 
 

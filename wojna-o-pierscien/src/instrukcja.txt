@@ -98,6 +98,14 @@ Gracze ustalają, kto gra Wolnymi Ludami, a kto Cieniem. Następnie:
 - Kości Frakcji, figurki Frakcji i karty Wezwania do Walki odłóż obok planszy.
 :::
 
+::: dodatek krolowie
+- Połóż planszę spaczenia Suwerenów między graczami i rozdaj arkusze pomocy.
+- Postaw 5 szarych figurek [[Suweren|Suwerenów]]: Branda w Dale, Dáina w Ereborze, Denethora w Minas Tirith, Théodena w Edoras i Thranduila w Leśnym Królestwie.
+- Karty i figurki Mrocznych wodzów, karty Suwerenów, srebrne figurki i czarne podstawki odłóż na bok.
+- Zastąp 11 kart z gry podstawowej kartami z dodatku o tych samych nazwach i numerach, a 8 nowych kart dodaj do talii (patrz [[karty: Królowie Śródziemia|zakładka Karty]]).
+- Dodaj do puli poszukiwań 2 [[Żeton poszukiwań królów|żetony poszukiwań królów]]. Kości Władcy i pozostałe żetony odłóż na bok.
+:::
+
 !img przygotowanie-lewa + przygotowanie-prawa | Rozstawienie armii (strony 16–17 instrukcji)
 
 | Naród | Region: jednostki regularne / elitarne / dowódcy lub Nazgûle | Posiłki |
@@ -144,6 +152,10 @@ Postacie z dodatku dają [[Specjalna kość akcji|specjalne kości akcji]]. Grac
 
 ::: dodatek wojownicy
 Gdy do gry wejdzie pierwsza Frakcja gracza, dostaje on [[Kość Frakcji|kość Frakcji]]. Jej wyniki służą tylko do kierowania Frakcjami. Przy pasowaniu liczy się jak zwykła kość, ale nie można jej zmienić Pierścieniem Elfów.
+:::
+
+::: dodatek krolowie
+Gdy w grze pojawi się pierwszy Władca strony, dostaje ona [[Kość Władcy|kość Władcy]]. Kto ją ma, po rzucie odrzuca 1 kość (zwykłą albo Władcy). Cień może też zamiast akcji zdjąć z pola poszukiwań kość z „Okiem” i spróbować spaczyć Suwerena (patrz [[Próba spaczenia Suwerena]]).
 :::
 
 ## Pula kości
@@ -283,6 +295,10 @@ Elronda i Galadrielę kontroluje gracz Gondoru, a Balroga i Gothmoga gracz Czarn
 Każdy gracz może mieć najwyżej 3 karty Frakcji. Kartę Frakcji na początku tury dobiera tylko gracz prowadzący. Kość Frakcji może wykorzystać każdy gracz zespołu.
 :::
 
+::: dodatek krolowie
+Suwerena przebudza tylko gracz, który kontroluje jego Naród, a Mrocznego wodza wprowadza tylko gracz, który kontroluje jego Naród. Gracze Cienia spaczają Suwerenów na zmianę.
+:::
+
 # Panowie Śródziemia {panowie}
 
 Dodatek wprowadza ważne postacie z „Władcy Pierścieni”, które w grze podstawowej pojawiały się tylko na kartach. Instrukcja dodatku zaleca używać wszystkich jego elementów, bo inaczej zaburza się równowaga gry. Wyjątkiem jest opcjonalny wariant [[Rada Rivendell]].
@@ -387,4 +403,53 @@ Przed bitwą każdy gracz bierze na rękę po 2 [[Karta Wezwania do Walki|karty 
 ## Eliminacja Frakcji
 
 Frakcja odpada z gry, gdy straci wszystkie figurki, a niektóre także w innych sytuacjach: Korsarze, gdy Wolne Ludy zdobędą Umbar; Dunlendingowie, gdy Wolne Ludy zdobędą obie osady Dunlandu; Entowie, gdy w Fangornie nie będzie Towarzysza ani Drużyny. Gdy gracz straci wszystkie Frakcje, traci też kość Frakcji.
+
+# Królowie Śródziemia {krolowie}
+
+Dodatek wprowadza [[Władca|Władców]]: [[Suweren|Suwerenów]] Wolnych Ludów i [[Mroczny wódz|Mrocznych wodzów]] Cienia. Toczy się w nim walka o serca i umysły władców Śródziemia: Wolne Ludy próbują Suwerenów przebudzić, a Cień spaczyć.
+
+!img ks-figurki | Suwereni i Mroczni wodzowie (Królowie Śródziemia, s. 4)
+
+## Kość Władcy
+
+Każda strona ma [[Kość Władcy|kość Władcy]]. Wolne Ludy dostają ją po przebudzeniu pierwszego Suwerena, a Cień po wejściu do gry pierwszego Mrocznego wodza. Kto ma kość Władcy, na końcu fazy rzutu akcji odrzuca 1 swoją kość (najpierw decyduje Cień). Kość Władcy działa jak zwykła kość albo służy do zdolności Władców. Kości Władcy Cienia nie można położyć od razu na polu poszukiwań.
+
+## Suwereni
+
+- Na początku gry Suwereni są zwykłymi dowódcami Wolnych Ludów.
+- **Przebudzenie**: akcją podaną na karcie (zwykle „Mobilizacja” albo dowolny wynik kości Władcy) gracz Wolnych Ludów [[Przebudzenie Suwerena|przebudza Suwerena]]. Ten staje się Towarzyszem z dwiema specjalnymi zdolnościami, a gracz dostaje jego [[Żeton Władcy|żeton Władcy]].
+- **Spaczenie**: gdy Wolne Ludy mają niewykorzystaną kość, a na polu poszukiwań leży więcej niż jedna kość z „Okiem”, Cień może zamiast akcji zdjąć jedną z nich i przeprowadzić [[Próba spaczenia Suwerena|próbę spaczenia]]. Losuje żetony poszukiwań (tyle, ile „Oczu” zostało, najwyżej 3) i jeden kładzie zakryty na Suwerenie.
+- Gdy suma [[Żeton spaczenia|żetonów spaczenia]] osiągnie Odporność na Cień Suwerena, staje się on [[Spaczony Suweren|spaczonym Suwerenem]], którego słabość szkodzi Wolnym Ludom. Towarzysz z jego Narodu może go usunąć z gry wynikiem „Postać”.
+
+!img ks-zetony-wladcow | Żetony Władców
+
+## Mroczni wodzowie
+
+Cień z Mrocznej Puszczy (Sauron), Uglúk (Isengard) i Czarny Wąż (Haradrimowie i Easterlingowie) to [[Mroczny wódz|Mroczni wodzowie]]. Wchodzą do gry akcją podaną na karcie, poruszają się jak słudzy naziemni i wzmacniają armię, której towarzyszą. Każdy ma [[Specjalna zdolność Bitwy Władcy|specjalną zdolność Bitwy]].
+
+## Z Panami Śródziemia {panowie}
+
+- Po rzucie nie można odrzucić kości Powiernika ani Pomniejszego Sługi, tylko zwykłą kość albo kość Władcy.
+- Przy próbie spaczenia ignoruje się żetony Sméagola. Nie liczą się kości dodane kartą „Kapitan Rozpaczy”, a Oko na kościach Powierników i Pomniejszych Sług liczy się normalnie.
+- W wariancie Rady Rivendell Cień może wydać żeton akcji z kością, aby wprowadzić Mrocznego wodza mimo niespełnionych warunków, a postać bez symbolu Narodu nie może usuwać spaczenia.
+
+## Z Wojownikami Śródziemia {wojownicy}
+
+- Po rzucie nie można odrzucić kości Frakcji, tylko zwykłą kość albo kość Władcy.
+- Nie można poświęcić karty Wezwania do Walki, aby użyć zdolności Bitwy Branda lub Mrocznych wodzów.
+
+## Żetony trwogi {panowie|wojownicy}
+
+Opcjonalna zasada, zalecana przy łączeniu Królów Śródziemia z innymi dodatkami: użyty żeton Władcy (albo żeton zabitego przebudzonego Suwerena) przechodzi do Cienia jako [[Żeton trwogi|żeton trwogi]]. Po fazie rzutu akcji Cień może go zużyć, aby przerzucić swoją kość Władcy albo zmusić Wolne Ludy do przerzutu ich kości Władcy.
+
+## Zasady turniejowe (wariant)
+
+Opcjonalne zasady przygotowane przez graczy turniejowych:
+
+- **Odkryte żetony spaczenia**: żetony spaczenia leżą odkryte. Efekty dotyczące „zakrytych żetonów spaczenia” dotyczą wtedy każdego żetonu spaczenia oprócz żetonów królów.
+- **Sekwencyjne losowanie**: Cień może przerwać losowanie żetonów w trakcie próby spaczenia (nie więcej, niż powinien) i musi użyć ostatniego wylosowanego żetonu.
+
+::: dodatek panowie|wojownicy
+**Gra bez żetonów Władców**: przy łączeniu z innymi dodatkami nie używa się żetonów Władców. Cień dostaje żeton trwogi tylko wtedy, gdy zginie przebudzony Suweren.
+:::
 

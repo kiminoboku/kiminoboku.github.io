@@ -16,6 +16,7 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 - `src/glosariusz-a-o.txt`, `src/glosariusz-p-z.txt`: glossary entries of the base game
 - `src/glosariusz-panowie.txt`: glossary entries of *Panowie Śródziemia*
 - `src/glosariusz-wojownicy.txt`: glossary entries of *Wojownicy Śródziemia*
+- `src/glosariusz-krolowie.txt`: glossary entries of *Królowie Śródziemia*
 - `src/karty.txt`: content of the *Karty* (cards) tab: card errata
 - `tools/build.py`: builds `index.html` and validates links
 - `tools/crop_images.py`: crops images from the PDFs (requires `poppler`)

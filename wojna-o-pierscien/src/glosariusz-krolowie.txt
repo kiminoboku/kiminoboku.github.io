@@ -1,0 +1,222 @@
+@@ Władca
+dodatek: krolowie
+strony: 2, 7
+Wspólna nazwa dwóch nowych rodzajów postaci: [[Suweren|Suwerenów]] Wolnych Ludów i [[Mroczny wódz|Mrocznych wodzów]] Cienia.
+
+!img ks-figurki | Figurki Suwerenów i Mrocznych wodzów (Królowie Śródziemia, s. 4)
+
+## Zasady
+- Każda strona ma własną [[Kość Władcy|kość Władcy]], która dochodzi do puli, gdy w grze pojawi się pierwszy Władca tej strony.
+- Brand, Théoden i każdy z Mrocznych wodzów mają [[Specjalna zdolność Bitwy Władcy|specjalną zdolność Bitwy]].
+
+~ Władcy -> Władca
+
+@@ Suweren
+dodatek: krolowie
+strony: 2, 3, 8–13
+Władca Narodu Wolnych Ludów, o którego wolę walczą obie strony: Wolne Ludy próbują go przebudzić, a Cień spaczyć.
+
+## Zasady
+- Suwereni to Brand (Północ, Dale), Dáin (krasnoludy, Erebor), Denethor (Gondor, Minas Tirith), Théoden (Rohan, Edoras) i Thranduil (elfy, Leśne Królestwo). Na początku gry ich szare figurki stoją w tych osadach.
+- Na początku gry Suweren nie jest ani przebudzony, ani spaczony. Jest wtedy [[Dowódca|dowódcą]] Wolnych Ludów.
+- [[Przebudzenie Suwerena|Przebudzony]] Suweren jest [[Towarzysz|Towarzyszem]] z poziomem i zdolnościami przywódczymi z karty oraz dwiema specjalnymi zdolnościami. Nie może już zostać spaczony.
+- [[Spaczony Suweren]] ma poziom 0, nie ma zdolności przywódczych, nie porusza się, a jego słabość szkodzi Wolnym Ludom. Nie może już zostać przebudzony.
+- O spaczeniu decydują [[Żeton spaczenia|żetony spaczenia]], które Cień kładzie przy [[Próba spaczenia Suwerena|próbach spaczenia]].
+
+## Wyjątki i szczególne przypadki
+- Jeśli nieprzebudzony i niespaczony Suweren zostanie wyeliminowany, jego żetony spaczenia wracają do [[Pula poszukiwań|puli poszukiwań]].
+- Na karcie Suwerena jest jego Odporność na Cień: poziom spaczenia, przy którym zostaje spaczony.
+
+## Władcy
+Suwereni i [[Mroczny wódz|Mroczni wodzowie]] to razem [[Władca|Władcy]].
+
+~ Suwereni -> Suweren
+~ Odporność na Cień -> Suweren
+
+@@ Przebudzenie Suwerena
+dodatek: krolowie
+strony: 9–11
+Zmiana nieprzebudzonego, niespaczonego [[Suweren|Suwerena]] w jego przebudzoną wersję: silnego [[Towarzysz|Towarzysza]] Wolnych Ludów.
+
+## Zasady
+- Gracz Wolnych Ludów wykonuje akcję podaną na przebudzonej karcie Suwerena, zwykle [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]] albo dowolnym wynikiem [[Kość Władcy|kości Władcy]].
+- Jeśli Suweren musi się przed przebudzeniem poruszyć, porusza się jak odłączony Towarzysz, z poziomem przebudzonej wersji (patrz [[Odłączanie Towarzyszy]]). Jeśli nie może dojść do wskazanego regionu, nie można go przebudzić.
+- Po przebudzeniu żetony spaczenia z jego pola na planszy spaczenia wracają do [[Pula poszukiwań|puli poszukiwań]], szarą figurkę zastępuje srebrna, a gracz bierze kartę przebudzonego Suwerena i [[Żeton Władcy|żeton Władcy]].
+- W fazie 1 następnej tury do puli Wolnych Ludów dochodzi kość Władcy, jeśli jeszcze jej tam nie ma.
+- Pierwsza specjalna zdolność przebudzonego Suwerena wymaga odpowiedniego wyniku zwykłej kości, druga odpowiedniego wyniku kości Władcy. Wynik „Wola Zachodu” na kości Władcy aktywuje dowolną drugą zdolność.
+
+## Wyjątki i szczególne przypadki
+- Przebudzenie przez kartę Wydarzenia lub Bitwy (np. „Nadzieja na zwycięstwo”) przebiega według tych samych zasad.
+- Zdolność, która zamienia jednostkę regularną na elitarną, działa tylko wtedy, gdy elitarna jednostka jest w posiłkach. Jednostka regularna wraca do posiłków.
+- W [[Gra wieloosobowa|grze wieloosobowej]] Suwerena przebudza i używa jego zdolności tylko gracz, który kontroluje jego Naród.
+
+~ Przebudzony Suweren -> Przebudzenie Suwerena
+
+@@ Próba spaczenia Suwerena
+dodatek: krolowie
+strony: 11–12
+Akcja Cienia, w której gracz Cienia zamiast akcji zużywa kość z „Okiem” z pola poszukiwań, aby położyć na [[Suweren|Suwerenie]] żeton spaczenia.
+
+!img ks-zetony | Żetony i inne elementy dodatku (Królowie Śródziemia, s. 5)
+
+## Zasady
+- Warunki: gracz Wolnych Ludów ma co najmniej 1 niewykorzystaną kość akcji, a na [[Pole poszukiwań|polu poszukiwań]] leży więcej niż 1 kość z [[Wynik „Oko”|wynikiem „Oko”]].
+- Przebieg:
+  1. Cień wybiera nieprzebudzonego i niespaczonego Suwerena i zdejmuje z pola poszukiwań 1 kość z „Okiem”.
+  2. Losuje po jednym tyle [[Żeton poszukiwań|żetonów poszukiwań]], ile kości z „Okiem” zostało na polu poszukiwań (najwyżej 3).
+  3. Jeden z nich kładzie zakryty na polu Suwerena na planszy spaczenia. To [[Żeton spaczenia|żeton spaczenia]]. Pozostałe pokazuje Wolnym Ludom i wrzuca z powrotem do puli.
+  4. Zdjętą kość kładzie razem z wykorzystanymi kośćmi akcji.
+- Jeśli poziom spaczenia osiągnie Odporność na Cień Suwerena, Suweren staje się [[Spaczony Suweren|spaczony]].
+
+## Wyjątki i szczególne przypadki
+- Kości bez „Oka” na polu poszukiwań (np. kości „Postać” po ruchu Drużyny) się nie liczą.
+- Wylosowany zwyczajny żeton z symbolem „Oka” albo specjalny żeton poszukiwań trzeba odkryć i zastąpić nowym. Odłożone żetony wracają do puli bez efektu.
+- Wylosowany [[Żeton poszukiwań królów|żeton poszukiwań królów]] od razu kładzie się odkryty na polu Suwerena, a próba się kończy. Już wylosowane żetony wracają do puli.
+- Karty i zdolności, które wpływają na losowanie żetonów (np. „Mithrilowa kolczuga i Żądło”), nie działają podczas próby spaczenia.
+- Tego samego Suwerena można w jednej turze spaczać najwyżej raz, nie licząc kart Wydarzeń.
+- Gracz Wolnych Ludów nie może w trakcie gry sprawdzać, jakie żetony są w puli poszukiwań.
+
+## Z dodatkiem {panowie}
+- Kości dodane na pole poszukiwań kartą „Kapitan Rozpaczy” się nie liczą: nie można ich zdjąć do próby i nie wliczają się do liczby losowanych żetonów. Kładzie się je po prawej stronie pola poszukiwań, a zwykłe kości po lewej.
+- Żetony Sméagola się ignoruje, jak specjalne żetony poszukiwań.
+
+~ Spaczanie Suwerena -> Próba spaczenia Suwerena
+~ Plansza spaczenia Suwerenów -> Próba spaczenia Suwerena
+
+@@ Żeton spaczenia
+grupa: Żeton
+dodatek: krolowie
+strony: 11–13
+[[Żeton poszukiwań]] położony zakryty na polu [[Suweren|Suwerena]] na planszy spaczenia Suwerenów.
+
+## Zasady
+- Poziom spaczenia Suwerena to suma wartości jego żetonów spaczenia. Gracz Wolnych Ludów widzi tylko ich liczbę, a gracz Cienia może je w każdej chwili sprawdzić.
+- [[Żeton poszukiwań królów]] na polu Suwerena liczy się jako 0.
+- **Usuwanie spaczenia**: gdy Naród zostanie [[Aktywacja Narodu|aktywowany]] albo przesunie się na [[Tor polityki|torze polityki]], a odpowiedni Towarzysz (z symbolem tego Narodu lub Wolnych Ludów) jest w regionie z nieprzebudzonym, niespaczonym Suwerenem tego Narodu, gracz Wolnych Ludów może odrzucić 1 losowy żeton spaczenia z jego pola. Żeton wraca do puli poszukiwań.
+- Niektóre karty Wydarzeń też pozwalają usuwać żetony spaczenia.
+
+## Wyjątki i szczególne przypadki
+- Po przebudzeniu Suwerena wszystkie jego żetony spaczenia wracają do puli.
+- W [[Gra wieloosobowa|grze wieloosobowej]] używa się jeszcze jednego żetonu o tej nazwie: dostaje go gracz Cienia, który jako ostatni w turze przeprowadził próbę spaczenia (patrz [[Próba spaczenia Suwerena]]).
+
+~ Usuwanie spaczenia z Suwerena -> Żeton spaczenia
+~ Poziom spaczenia -> Żeton spaczenia
+
+@@ Spaczony Suweren
+dodatek: krolowie
+strony: 12–13
+[[Suweren]], który przeszedł na stronę Cienia: nie jest już dowódcą Wolnych Ludów, a jego słabość szkodzi Wolnym Ludom.
+
+## Zasady
+- Suweren zostaje spaczony, gdy jego poziom spaczenia jest równy jego Odporności na Cień lub od niej większy (patrz [[Żeton spaczenia]]).
+- Wtedy Cień odkrywa jego żetony spaczenia, odrzuca zwyczajny żeton o najwyższej liczbie, a resztę (także żetony poszukiwań królów) wrzuca do [[Pula poszukiwań|puli poszukiwań]].
+- Szarą figurkę zdejmuje się z planszy. Srebrną figurkę w czarnej podstawce stawia się w regionie podanym na karcie spaczonej wersji. Gracz Cienia bierze tę kartę i od tej chwili działa słabość Suwerena.
+- Spaczony Suweren ma poziom 0, nie ma zdolności przywódczych, nie porusza się i nie może zostać przebudzony.
+- **Usunięcie z gry**: gdy odpowiedni [[Towarzysz]] (z symbolem tego Narodu lub Wolnych Ludów) jest w jego regionie, gracz Wolnych Ludów może [[Wynik „Postać”|wynikiem „Postać”]] usunąć Suwerena z gry. Figurkę zdejmuje się, kartę odrzuca, a słabość przestaje działać.
+
+## Wyjątki i szczególne przypadki
+- Przy remisie wartości żeton z symbolem odkrycia liczy się jako wyższy.
+- Spaczony Suweren nie liczy się do efektów dotyczących „Towarzyszy”, „postaci” ani „Sług”, tylko do efektów dotyczących „Suwerenów” i „spaczonych Suwerenów”.
+- Poza kartami Wydarzeń usunięcie z gry to jedyny sposób na jego eliminację. Bitwy go nie dotyczą: zostaje w regionie, nawet gdy armia Wolnych Ludów w tym regionie zginie.
+- Gdy spaczony zostanie Théoden, Helmowy Jar staje się twierdzą Cienia (przykrywa się go odpowiednim kafelkiem).
+- W [[Gra wieloosobowa|grze wieloosobowej]] spaczonego Suwerena może usunąć z gry każdy gracz Wolnych Ludów.
+
+~ Spaczenie Suwerena -> Spaczony Suweren
+
+@@ Mroczny wódz
+dodatek: krolowie
+strony: 14–15
+Postać Cienia, która dowodzi armią jednego Narodu Cienia: Cień z Mrocznej Puszczy (Sauron), Uglúk (Isengard) i Czarny Wąż (Haradrimowie i Easterlingowie).
+
+## Zasady
+- Cień wprowadza Mrocznego wodza akcją podaną na jego karcie, zwykle [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]] albo dowolnym wynikiem [[Kość Władcy|kości Władcy]] oprócz „Oka”. Stawia go tam, gdzie wskazuje karta.
+- Mroczni wodzowie są [[Sługa naziemny|sługami naziemnymi]]: poruszają się samotnie o tyle regionów, ile wynosi ich poziom, nie przechodzą przez teren nieprzekraczalny i nie wchodzą samotnie do twierdzy Wolnych Ludów, chyba że oblega ją armia Cienia.
+- Ich zdolności przywódcze dodaje się do armii Cienia, z którą są. Każdy ma [[Specjalna zdolność Bitwy Władcy|specjalną zdolność Bitwy]] dla swojej armii. Uglúk ma też zdolność związaną z poszukiwaniami.
+- Nie dodają własnej kości akcji. Zamiast tego, dopóki co najmniej jeden jest w grze, Cień ma [[Kość Władcy|kość Władcy]].
+- Karty dotyczące „Sług” dotyczą też Mrocznych wodzów (patrz [[Sługa]]).
+
+## Wyjątki i szczególne przypadki
+- Przy wprowadzaniu [[Gandalf Biały|Gandalfa Białego]] Mroczni wodzowie nie liczą się jako Sługi.
+- W [[Gra wieloosobowa|grze wieloosobowej]] Mrocznego wodza wprowadza tylko gracz, który kontroluje jego Naród.
+
+~ Mroczni wodzowie -> Mroczny wódz
+~ Cień z Mrocznej Puszczy -> Mroczny wódz
+~ Uglúk -> Mroczny wódz
+~ Czarny Wąż -> Mroczny wódz
+
+@@ Kość Władcy
+grupa: Kość
+dodatek: krolowie
+strony: 6, 9, 15
+Specjalna kość akcji każdej strony (jasnoniebieska dla Wolnych Ludów, brązowa dla Cienia) z tymi samymi symbolami co zwykłe kości.
+
+## Zasady
+- Wolne Ludy dostają ją w turze po przebudzeniu pierwszego [[Suweren|Suwerena]], a Cień w turze po wejściu do gry pierwszego [[Mroczny wódz|Mrocznego wodza]].
+- Jeśli gracz ma kość Władcy, na końcu [[Faza 4: Rzut akcji|fazy rzutu akcji]] musi odrzucić 1 swoją kość: zwykłą albo kość Władcy.
+  1. Najpierw decyduje Cień: odrzuca kość Władcy (nawet z „Okiem”) albo zwykłą kość bez „Oka”. Potem kładzie wszystkie kości z „Okiem” na polu poszukiwań.
+  2. Potem kość do odrzucenia wybiera gracz Wolnych Ludów.
+- Nieodrzuconą kość Władcy wykorzystuje się jak zwykłą kość akcji albo do zdolności Władców: Wolne Ludy do [[Przebudzenie Suwerena|przebudzenia Suwerena]] i jego drugiej zdolności, Cień do wprowadzenia Mrocznego wodza.
+- Wynik kości Władcy można zmienić [[Pierścienie Elfów|Pierścieniem Elfów]].
+
+## Wyjątki i szczególne przypadki
+- Kości Władcy Cienia nie można położyć od razu na polu poszukiwań. Zawsze trzeba nią rzucić.
+- Jeśli w fazie 1 gracz nie ma w grze żadnego przebudzonego Suwerena (Wolne Ludy) lub Mrocznego wodza (Cień), traci kość Władcy. Odzyska ją, gdy pojawi się nowy Władca.
+
+@@ Żeton Władcy
+grupa: Żeton
+dodatek: krolowie
+strony: 10
+Dwustronny żeton każdego z pięciu [[Suweren|Suwerenów]], który raz na grę pozwala od razu użyć jego drugiej zdolności.
+
+!img ks-zetony-wladcow | Żetony Władców (Królowie Śródziemia, s. 10)
+
+## Zasady
+- Gracz Wolnych Ludów dostaje żeton Suwerena w chwili jego [[Przebudzenie Suwerena|przebudzenia]].
+- Każdego żetonu można użyć raz na grę, tuż przed rozpatrzeniem akcji z [[Kość Władcy|kości Władcy]]. Żeton zmienia wynik kości Władcy na taki, który aktywuje drugą zdolność Suwerena, i od razu ją aktywuje.
+
+## Wyjątki i szczególne przypadki
+Gracz Wolnych Ludów nie może w tej samej turze użyć żetonu Władcy i [[Pierścienie Elfów|Pierścienia Elfów]].
+
+## Z dodatkiem {panowie|wojownicy}
+W opcjonalnej zasadzie dla gry z innymi dodatkami użyty żeton Władcy przechodzi do Cienia jako [[Żeton trwogi|żeton trwogi]].
+
+@@ Żeton poszukiwań królów
+grupa: Żeton
+dodatek: krolowie
+strony: 3, 7, 12
+Jeden z dwóch nowych [[Żeton poszukiwań|żetonów poszukiwań]] (wartość 1 lub 2 i symbol korony), które na początku gry dodaje się do puli.
+
+## Zasady
+- Wylosowany w poszukiwaniach działa jak zwykły żeton o swojej wartości, także przy kartach, które korzystają z wartości żetonu (np. „Rozłam Drużyny Pierścienia”).
+- Wylosowany podczas [[Próba spaczenia Suwerena|próby spaczenia]] od razu kładzie się odkryty na polu Suwerena, a próba się kończy. Na polu Suwerena liczy się jako 0.
+
+## Wyjątki i szczególne przypadki
+Gdy Suweren zostanie przebudzony lub spaczony, żetony królów z jego pola wracają do puli poszukiwań.
+
+@@ Specjalna zdolność Bitwy Władcy
+dodatek: krolowie
+strony: 7
+Zdolność Branda, Théodena i każdego [[Mroczny wódz|Mrocznego wodza]], której używa się w bitwie, zwykle zamiast efektu własnej [[Karta Bitwy|karty Bitwy]].
+
+## Zasady
+- Aby jej użyć, gracz zwykle poświęca efekt zagranej karty Bitwy. Musi przy tym spełniać warunek zagrania tej karty.
+- Moment użycia jest inny dla każdej postaci i podano go na karcie. Liczba w nawiasie kwadratowym (np. „[4]”) to [[Inicjatywa|inicjatywa]] efektu.
+
+## Wyjątki i szczególne przypadki
+- Kartę, której efekt poświęcono, uważa się za zagraną (np. dla „Czarnoksięstwa” Czarnoksiężnika z Angmaru).
+- Efekt zdolności uważa się za efekt karty Bitwy, więc np. karta „Brawurowy opór” może go anulować.
+
+~ Zdolność Bitwy Władcy -> Specjalna zdolność Bitwy Władcy
+
+@@ Żeton trwogi
+grupa: Żeton
+dodatek: krolowie+panowie|wojownicy
+strony: 17
+Druga strona [[Żeton Władcy|żetonu Władcy]], której Cień używa w opcjonalnej zasadzie zalecanej przy łączeniu Królów Śródziemia z innymi dodatkami.
+
+## Zasady
+- Gdy żeton Władcy zostanie użyty albo gdy zginie przebudzony [[Suweren]], którego żetonu nie użyto, gracz Cienia bierze ten żeton i odwraca go stroną „trwogi”.
+- Po [[Faza 4: Rzut akcji|fazie rzutu akcji]] Cień może użyć żetonu trwogi, aby przerzucić własną [[Kość Władcy|kość Władcy]] albo zmusić Wolne Ludy do przerzutu ich kości Władcy. Potem żeton usuwa się z gry.
+
+## Wyjątki i szczególne przypadki
+W turniejowej zasadzie „gra bez żetonów Władców” Cień dostaje żeton trwogi tylko wtedy, gdy zginie przebudzony Suweren.

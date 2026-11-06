@@ -134,3 +134,25 @@ rodzaj: karta Frakcji Cienia (Pająki)
 ## Wyjaśnienie
 Ten sam błąd jest w instrukcji dodatku (patrz [[Pomiot Szeloby]]).
 
+# Królowie Śródziemia {krolowie}
+Zmiany w taliach przy grze z dodatkiem (instrukcja dodatku, s. 3 i 19). Dodatek zawiera 19 kart Wydarzeń (10 dla Wolnych Ludów, 9 dla Cienia):
+
+- 11 kart **zastępuje** karty z gry podstawowej o tych samych nazwach i numerach. Starą kartę usuwa się z talii, a nową wkłada na jej miejsce.
+- 8 nowych kart **dodaje się** do odpowiednich talii.
+
+| Karta zastępująca | Talia | Numer |
+|---|---|---|
+| „Ród Namiestników” | Postaci | 23 |
+| „Mądrość Elronda” | Strategii | 8 |
+| „Jeźdźcy Théodena” | Strategii | 16 |
+| „Ludzie Króla Branda” | Strategii | 19 |
+| „Gwardia Daina Żelaznej Stopy” | Strategii | 22 |
+| „Łucznicy Thranduila” | Strategii | 24 |
+| „Powrót do Valinoru” | Strategii | 1 |
+| „Szaleństwo Denethora” | Strategii | 3 |
+| „Groźby i Obietnice” | Strategii | 5 |
+| „Zwiastun Burzy” | Strategii | 6 |
+| „Król Został Ujawniony” | Strategii | 18 |
+
+Spis podmienianych kart w instrukcji Królów Śródziemia (s. 19) wymienia też karty zastępujące z Panów Śródziemia i Wojowników Śródziemia. Są one opisane w sekcjach tych dodatków, widocznych po ich włączeniu. Nieoficjalna errata nie wymienia błędów na kartach tego dodatku.
+

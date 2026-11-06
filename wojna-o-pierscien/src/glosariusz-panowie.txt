@@ -21,9 +21,9 @@ Polska instrukcja dodatku Wojownicy Śródziemia (s. 6) podaje: „Oblężoną t
 ~ Niezdobyta -> Niezdobyta osada
 
 @@ Sługa naziemny
-dodatek: panowie
+dodatek: panowie|krolowie
 strony: 6
-[[Sługa]] Cienia, który nie lata jak Nazgûle: Rzecznik Saurona oraz Pomniejsi Słudzy z dodatku, czyli [[Balrog z Morii|Balrog]] i [[Gothmog, Porucznik Morgulu|Gothmog]].
+[[Sługa]] Cienia, który nie lata jak Nazgûle. W grze podstawowej jest nim tylko [[Rzecznik Saurona]]; dodatki wprowadzają kolejnych.
 
 ## Zasady
 Sługa naziemny:
@@ -33,8 +33,14 @@ Sługa naziemny:
 - poruszając się samotnie, nie może wejść do regionu z twierdzą kontrolowaną przez Wolne Ludy, chyba że oblega ją armia Cienia.
 
 ## Wyjątki i szczególne przypadki
-- [[Nazgûl|Nazgûle]] i [[Czarnoksiężnik z Angmaru]] (obie wersje) latają, więc nie są sługami naziemnymi. [[Saruman]] w ogóle się nie porusza.
+[[Nazgûl|Nazgûle]] i [[Czarnoksiężnik z Angmaru]] latają, więc nie są sługami naziemnymi. [[Saruman]] w ogóle się nie porusza.
+
+## Z dodatkiem {panowie}
+- Sługami naziemnymi są [[Pomniejszy Sługa|Pomniejsi Słudzy]]: [[Balrog z Morii|Balrog]] i [[Gothmog, Porucznik Morgulu|Gothmog]].
 - Nieaktywny Balrog ma poziom 0 i nie może opuścić Morii.
+
+## Z dodatkiem {krolowie}
+Sługami naziemnymi są [[Mroczny wódz|Mroczni wodzowie]]. W odróżnieniu od innych Sług nie dodają własnych kości akcji.
 
 @@ Specjalna kość akcji
 grupa: Kość
@@ -62,6 +68,10 @@ Dodatkowa kość akcji związana z konkretną postacią: [[Kość Powiernika Pie
 ::: przyklad
 Na kości Gothmoga wypada „Armia + usunięcie”, a na kości Balroga „Dobranie karty”. W grze jest Czarnoksiężnik z Angmaru. Cień wybiera „Dobranie karty”, bo na kości Balroga nie ma symbolu usunięcia. Gdyby wybrał „Armię”, kość Gothmoga zostałaby usunięta z gry w następnej fazie 1.
 :::
+
+## Z dodatkiem {krolowie}
+- Odrzucając po rzucie kość z powodu [[Kość Władcy|kości Władcy]], gracz wybiera zwykłą kość albo kość Władcy. Nie może odrzucić kości Powiernika ani Pomniejszego Sługi.
+- Oko na kościach Powierników i Pomniejszych Sług liczy się przy [[Próba spaczenia Suwerena|próbie spaczenia]] jak zwykłe Oko. Kość zdjętą z pola poszukiwań do próby kładzie się z wykorzystanymi kośćmi.
 
 ~ Wybieranie wyniku ze specjalnej kości -> Specjalna kość akcji
 
@@ -260,6 +270,9 @@ Obłaskawiony Gollum, który wchodzi do Drużyny jako specjalny [[Towarzysz]] i 
 - Jeśli Sméagol zostanie jedynym Towarzyszem w Drużynie, od razu zastępuje go Gollum. Karta „Będzie Nasz!” wtedy nie wchodzi do gry.
 - Karty z dodatku zmieniają działanie Sméagola: „Znasz Drogę” dodaje do puli trzeci i czwarty żeton Sméagola, „Nie Zawrócimy” sprawia, że żetony Sméagola działają na korzyść Cienia, a „Bezpieczne Ścieżki w Ciemności” pozwala odrzucić kartę „Będzie Nasz!” lub „Nie Zawrócimy”.
 
+## Z dodatkiem {krolowie}
+- Żetony Sméagola wylosowane podczas [[Próba spaczenia Suwerena|próby spaczenia]] się ignoruje, tak jak specjalne żetony poszukiwań.
+
 ~ Żeton Sméagola -> Sméagol | Żeton
 ~ Będzie Nasz! -> Sméagol
 
@@ -356,6 +369,10 @@ Opcjonalny wariant: gracz Wolnych Ludów może użyć alternatywnych wersji Towa
 ## Wyjątki i szczególne przypadki
 - Część kart alternatywnych Towarzyszy nie ma symbolu Narodu. Tacy Towarzysze nie [[Aktywacja Narodu|aktywują]] Narodu, wchodząc do jego osad. Robią to tylko swoją zdolnością (patrz [[karta: Alternatywni Towarzysze]]).
 - [[Gandalf Szary, Powiernik Naryi]] nie wymaga tego wariantu.
+
+## Z dodatkiem {krolowie}
+- Cień może wydać [[Żeton akcji Cienia|żeton akcji]] razem z kością o wymaganym wyniku, aby wprowadzić [[Mroczny wódz|Mrocznego wodza]], nawet jeśli nie spełnia jego zwykłych warunków.
+- Postać bez symbolu Narodu nie może usuwać żetonów spaczenia z Suwerena ani usunąć z gry [[Spaczony Suweren|spaczonego Suwerena]]. Na przykład „Boromir, Kapitan-generał Gondoru” nie zdejmie spaczenia z Denethora.
 
 ~ Alternatywni Towarzysze -> Rada Rivendell
 
