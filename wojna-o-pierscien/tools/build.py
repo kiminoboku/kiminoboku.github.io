@@ -25,6 +25,14 @@ Cards (src/karty.txt):
     rodzaj: kind               card kind shown next to the name
     ## Jest / ## Powinno być / ## Wyjaśnienie   printed text, corrected text, explanation
 
+Expansions (keys: panowie, wojownicy, krolowie):
+    dodatek: panowie           field on a glossary entry or card: shown only with that expansion
+    # Title {panowie}          suffix on a chapter, subchapter, ## entry section or card section
+    ::: dodatek panowie Title  box shown only with that expansion
+    A condition joins keys with "+" (all required); "!key" means "only without that expansion",
+    e.g. {krolowie+panowie} or dodatek: !panowie. Aliases inherit their target's condition.
+    Links must not point to content that can be hidden while the linking text is visible.
+
 Blocks: paragraphs, "- " lists (nest with 2 spaces), "1. " lists, "| a | b |" tables,
     "!img file [+ file2] | caption", boxes "::: kind Title" ... ":::"
     (kind: skrot = summary, uwaga = note, przyklad = example, errata = rulebook erratum).
@@ -82,6 +90,68 @@ def first_letter(text: str) -> str:
     return "#"
 
 
+# ---------------------------------------------------------------- expansions
+
+# expansion key used in src -> name shown on the page
+EXPANSIONS = {
+    "panowie": "Panowie Śródziemia",
+    "wojownicy": "Wojownicy Śródziemia",
+    "krolowie": "Królowie Śródziemia",
+}
+USED_EXPANSIONS: set[str] = set()
+
+
+@dataclass(frozen=True)
+class Cond:
+    """When content is visible: all `req` expansions selected and none of `nots`."""
+    req: frozenset = frozenset()
+    nots: frozenset = frozenset()
+
+    def __bool__(self) -> bool:
+        return bool(self.req or self.nots)
+
+    def __or__(self, other: "Cond") -> "Cond":
+        return Cond(self.req | other.req, self.nots | other.nots)
+
+    def implies(self, other: "Cond") -> bool:
+        """True if content visible under `self` is always visible under `other`'s condition."""
+        return other.req <= self.req and other.nots <= self.nots
+
+    def attrs(self) -> str:
+        out = f' data-req="{" ".join(sorted(self.req))}"' if self.req else ""
+        return out + (f' data-not="{" ".join(sorted(self.nots))}"' if self.nots else "")
+
+
+NO_COND = Cond()
+COND_SUFFIX = re.compile(r"\s*(?<!\{)\{([a-z!+ ]+)\}$")
+
+
+def parse_cond(text: str, where: str) -> Cond:
+    req, nots = set(), set()
+    for tok in text.split("+"):
+        tok = tok.strip()
+        name = tok.lstrip("!")
+        if name not in EXPANSIONS:
+            ERRORS.append(f"{where}: unknown expansion '{name}'")
+            continue
+        (nots if tok.startswith("!") else req).add(name)
+        USED_EXPANSIONS.add(name)
+    return Cond(frozenset(req), frozenset(nots))
+
+
+def split_cond(title: str, where: str) -> tuple[str, Cond]:
+    """Split a trailing {condition} off a heading."""
+    m = COND_SUFFIX.search(title)
+    if not m:
+        return title, NO_COND
+    return title[:m.start()].rstrip(), parse_cond(m.group(1), where)
+
+
+def badges(cond: Cond) -> str:
+    return "".join(f'<span class="exp-badge exp-{k}" title="Dodatek: {EXPANSIONS[k]}">{EXPANSIONS[k]}</span>'
+                   for k in sorted(cond.req))
+
+
 # ---------------------------------------------------------------- model
 
 
@@ -94,7 +164,8 @@ class Entry:
     keys: list[str] = field(default_factory=list)
     lines: list[str] = field(default_factory=list)
     id: str = ""
-    related: list[str] = field(default_factory=list)
+    related: list[tuple[str, Cond]] = field(default_factory=list)
+    cond: Cond = NO_COND
 
 
 @dataclass
@@ -131,11 +202,13 @@ def parse_glossary(path: Path) -> None:
             continue
         if cur is None:
             continue
-        # entry fields: grupa = group, strony = pages, klucze = extra link keys
-        m = re.match(r"(grupa|strony|klucze): (.*)$", line)
+        # entry fields: grupa = group, strony = pages, klucze = extra link keys, dodatek = expansion
+        m = re.match(r"(grupa|strony|klucze|dodatek): (.*)$", line)
         if m and not cur.lines:
             k, v = m.groups()
-            if k == "grupa":
+            if k == "dodatek":
+                cur.cond = parse_cond(v, f"{path.name} / {cur.title}")
+            elif k == "grupa":
                 cur.group = v.strip()
             elif k == "strony":
                 cur.pages = v.strip()
@@ -168,17 +241,38 @@ def build_index() -> None:
 
 ID_TO_ENTRY: dict[str, Entry] = {}
 CARD_INDEX: dict[str, str] = {}  # normalized card name -> card id
+CARD_VERSIONS: dict[str, list[Cond]] = {}  # normalized card name -> conditions of its versions
+
+
+def card_link_ok(ctx_cond: Cond, versions: list[Cond]) -> bool:
+    """A card link is valid if some version of the card is shown whenever the linking text is:
+    one version is implied by the text's condition, or a version for "without X" is matched by
+    a version for "with X" (an expansion that replaces the card)."""
+    if any(ctx_cond.implies(v) for v in versions):
+        return True
+    for v in versions:
+        if v.req or len(v.nots) != 1:
+            continue
+        (key,) = v.nots
+        if any(w.req == frozenset({key}) and not w.nots for w in versions):
+            return True
+    return False
 
 # ---------------------------------------------------------------- inline markup
 
 
 class Ctx:
-    """Rendering context: collects links to related entries."""
+    """Rendering context: the current expansion condition and the links to related entries."""
 
-    def __init__(self, where: str, self_id: str | None = None):
+    def __init__(self, where: str, self_id: str | None = None, cond: Cond = NO_COND):
         self.where = where
         self.self_id = self_id
-        self.links: list[str] = []
+        self.cond = cond
+        self.links: dict[str, set[Cond]] = {}  # entry id -> conditions under which it is linked
+
+    def check_target(self, target_cond: Cond, what: str) -> None:
+        if not self.cond.implies(target_cond):
+            ERRORS.append(f"{self.where}: link to {what} that can be hidden while this text is visible")
 
 
 def find_image(name: str) -> str | None:
@@ -200,14 +294,19 @@ def inline(text: str, ctx: Ctx) -> str:
             if not cid:
                 ERRORS.append(f"{ctx.where}: unknown card in link [[{html.unescape(target)}]]")
                 return label or name
+            versions = CARD_VERSIONS[norm_key(html.unescape(name))]
+            if not card_link_ok(ctx.cond, versions):
+                ERRORS.append(f"{ctx.where}: link to card '{name}' that can be hidden while this text is visible")
+            # the page script switches to the version of the card that is currently shown
             return f'<a class="term card-link" href="#{cid}">{label or name}</a>'
         label = label or target
         tid = LINK_INDEX.get(norm_key(html.unescape(target)))
         if not tid:
             ERRORS.append(f"{ctx.where}: unknown entry in link [[{html.unescape(target)}]]")
             return label
-        if tid != ctx.self_id and tid not in ctx.links:
-            ctx.links.append(tid)
+        ctx.check_target(ID_TO_ENTRY[tid].cond, f"entry '{html.unescape(target)}'")
+        if tid != ctx.self_id:
+            ctx.links.setdefault(tid, set()).add(ctx.cond)
         return f'<a class="term" href="#{tid}">{label}</a>'
 
     def icon(m: re.Match) -> str:
@@ -264,6 +363,18 @@ def render_blocks(lines: list[str], ctx: Ctx) -> str:
                     if depth == 0:
                         break
                 j += 1
+            if kind == "dodatek":  # expansion box: "::: dodatek <condition> [Title]"
+                spec, _, title = title.partition(" ")
+                cond = parse_cond(spec, ctx.where)
+                outer = ctx.cond
+                ctx.cond = outer | cond
+                inner = render_blocks(lines[i + 1:j], ctx)
+                head = inline(title, ctx) if title else "Z dodatkiem"
+                ctx.cond = outer
+                out.append(f'<aside class="box box-expansion"{cond.attrs()}><h5>{head} {badges(cond)}</h5>'
+                           f'{inner}</aside>')
+                i = j + 1
+                continue
             if kind not in BOX_KINDS:
                 ERRORS.append(f"{ctx.where}: unknown box kind '{kind}'")
             css, default_title = BOX_KINDS.get(kind, ("note", ""))
@@ -380,24 +491,33 @@ def copy_button(anchor: str, what: str) -> str:
             f'title="Kopiuj link" aria-label="Kopiuj link do {html.escape(what)}">{LINK_ICON}</button>')
 
 
+def related_cond(conds: set[Cond]) -> Cond:
+    """Condition for a related-entry chip linked from text under the given conditions."""
+    return next(iter(conds)) if len(conds) == 1 else NO_COND
+
+
 def render_entry(e: Entry) -> str:
-    ctx = Ctx(f"{e.file} / {e.title}", e.id)
+    ctx = Ctx(f"{e.file} / {e.title}", e.id, e.cond)
     definition, sections = split_sections(e.lines)
     if not any(x.strip() for x in definition):
         ERRORS.append(f"{ctx.where}: missing definition")
     parts = [f'<div class="def">{render_blocks(definition, ctx)}</div>']
     for title, body in sections:
-        parts.append(f'<section><h4>{html.escape(title)}</h4>{render_blocks(body, ctx)}</section>')
-    e.related = ctx.links
+        title, cond = split_cond(title, ctx.where)
+        ctx.cond = e.cond | cond
+        parts.append(f'<section{cond.attrs()}><h4>{html.escape(title)} {badges(cond)}</h4>'
+                     f'{render_blocks(body, ctx)}</section>')
+        ctx.cond = e.cond
+    e.related = [(rid, related_cond(conds)) for rid, conds in ctx.links.items()]
     if not e.related:
         ERRORS.append(f"{ctx.where}: no related entries")
-    chips = "".join(f'<li><a class="chip term" href="#{rid}">{html.escape(ID_TO_ENTRY[rid].title)}</a></li>'
-                    for rid in e.related)
+    chips = "".join(f'<li{(c | ID_TO_ENTRY[rid].cond).attrs()}><a class="chip term" href="#{rid}">'
+                    f'{html.escape(ID_TO_ENTRY[rid].title)}</a></li>' for rid, c in e.related)
     pages = f'<span class="pages">instrukcja s. {html.escape(e.pages)}</span>' if e.pages else ""
     search = html.escape(" ".join([e.title, *e.keys, *[a.name for a in ALIASES if a.target == e.title]]))
     copy = copy_button(e.id, f"hasła {e.title}")
-    return (f'<article class="entry" id="{e.id}" data-search="{search}">'
-            f'<h3><span class="t">{html.escape(e.title)}</span>{copy}{pages}</h3>{"".join(parts)}'
+    return (f'<article class="entry" id="{e.id}" data-search="{search}"{e.cond.attrs()}>'
+            f'<h3><span class="t">{html.escape(e.title)}</span>{copy}{badges(e.cond)}{pages}</h3>{"".join(parts)}'
             f'<footer class="related"><h4>Powiązane hasła</h4><ul>{chips}</ul></footer></article>')
 
 
@@ -405,7 +525,7 @@ def render_alias(a: Alias) -> str:
     t = ENTRIES.get(a.target)
     if not t:
         return ""
-    return (f'<div class="alias" id="{a.id}" data-search="{html.escape(a.name)}">'
+    return (f'<div class="alias" id="{a.id}" data-search="{html.escape(a.name)}"{t.cond.attrs()}>'
             f'<span class="alias-name">{html.escape(a.name)}</span> '
             f'<span class="arrow" aria-hidden="true">→</span> <span class="sr">patrz</span> '
             f'<a class="term" href="#{t.id}">{html.escape(t.title)}</a></div>')
@@ -472,20 +592,36 @@ def render_rules() -> tuple[str, str]:
     body = [render_blocks(intro, ctx)]
     toc: list[str] = []
     num = 0
+    chapter_cond = NO_COND
+    in_chapter = in_sub = False
     for level, title, lines in chapters:
-        hid = "i-" + slug(title)
         ctx.where = f"{path.name} / {title}"
+        title, cond = split_cond(title, ctx.where)
+        hid = "i-" + slug(title)
+        if in_sub:
+            body.append("</div>")
+            in_sub = False
         if level == 1:
-            num += 1
-            if body and toc:
+            if in_chapter:
                 body.append("</section>")
-            body.append(f'<section class="chapter"><h2 id="{hid}"><span class="num">{num}.</span> '
-                        f'{inline(title, ctx)}</h2>')
-            toc.append(f'<li class="toc-1"><a href="#{hid}">{num}. {html.escape(title)}</a></li>')
+            in_chapter = True
+            chapter_cond = cond
+            ctx.cond = cond
+            # base-game chapters are numbered; expansion chapters carry a badge instead
+            label = "" if cond else f"{(num := num + 1)}. "
+            num_html = "" if cond else f'<span class="num">{num}.</span> '
+            body.append(f'<section class="chapter"{cond.attrs()}><h2 id="{hid}">{num_html}'
+                        f'{inline(title, ctx)} {badges(cond)}</h2>')
+            toc.append(f'<li class="toc-1"{cond.attrs()}><a href="#{hid}">{label}{html.escape(title)}</a></li>')
         else:
-            body.append(f'<h3 id="{hid}">{inline(title, ctx)}</h3>')
-            toc.append(f'<li class="toc-2"><a href="#{hid}">{html.escape(title)}</a></li>')
+            full = chapter_cond | cond
+            ctx.cond = full
+            body.append(f'<div class="sub"{cond.attrs()}><h3 id="{hid}">{inline(title, ctx)} {badges(cond)}</h3>')
+            in_sub = True
+            toc.append(f'<li class="toc-2"{full.attrs()}><a href="#{hid}">{html.escape(title)}</a></li>')
         body.append(render_blocks(lines, ctx))
+    if in_sub:
+        body.append("</div>")
     body.append("</section>")
     return "".join(body), "".join(toc)
 
@@ -499,11 +635,14 @@ class Card:
     kind: str = ""
     lines: list[str] = field(default_factory=list)
     id: str = ""
+    own: Cond = NO_COND  # condition from the card's own "dodatek:" field
+    cond: Cond = NO_COND  # own condition joined with the section's
 
 
 @dataclass
 class CardSection:
     title: str
+    cond: Cond = NO_COND
     intro: list[str] = field(default_factory=list)
     cards: list[Card] = field(default_factory=list)
 
@@ -519,34 +658,46 @@ def parse_cards(path: Path) -> None:
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.rstrip()
         if line.startswith("# "):
-            CARD_SECTIONS.append(CardSection(line[2:].strip()))
+            title, cond = split_cond(line[2:].strip(), path.name)
+            CARD_SECTIONS.append(CardSection(title, cond))
             cur = None
             continue
         if line.startswith("@@ "):
             if not CARD_SECTIONS:
                 ERRORS.append(f"{path.name}: card before the first # section: {line}")
                 continue
-            cur = Card(line[3:].strip())
-            cur.id = "k-" + slug(cur.title)
-            if cur.id in used_ids:
-                ERRORS.append(f"{path.name}: duplicate card id {cur.id}")
-            used_ids.add(cur.id)
-            CARD_INDEX[norm_key(cur.title)] = cur.id
+            cur = Card(line[3:].strip(), cond=CARD_SECTIONS[-1].cond)
             CARD_SECTIONS[-1].cards.append(cur)
             continue
         if cur is None:
             if CARD_SECTIONS:
                 CARD_SECTIONS[-1].intro.append(line)
             continue
-        m = re.match(r"rodzaj: (.*)$", line)  # rodzaj = card kind
+        m = re.match(r"(rodzaj|dodatek): (.*)$", line)  # rodzaj = card kind, dodatek = expansion
         if m and not cur.lines:
-            cur.kind = m.group(1).strip()
+            if m.group(1) == "rodzaj":
+                cur.kind = m.group(2).strip()
+            else:
+                cur.own = parse_cond(m.group(2), f"{path.name} / {cur.title}")
+                cur.cond = cur.cond | cur.own
             continue
         cur.lines.append(line)
+    # ids: a card that appears again in another version (e.g. replaced by an expansion)
+    # gets the expansion keys appended; [[karta: Name]] points to the first version
+    for sec in CARD_SECTIONS:
+        for c in sec.cards:
+            c.id = "k-" + slug(c.title)
+            if c.id in used_ids:
+                c.id += "-" + "-".join(sorted(c.cond.req)) if c.cond.req else ""
+            if c.id in used_ids:
+                ERRORS.append(f"{path.name}: duplicate card id {c.id}")
+            used_ids.add(c.id)
+            CARD_INDEX.setdefault(norm_key(c.title), c.id)
+            CARD_VERSIONS.setdefault(norm_key(c.title), []).append(c.cond)
 
 
 def render_card(c: Card) -> str:
-    ctx = Ctx(f"karty.txt / {c.title}")
+    ctx = Ctx(f"karty.txt / {c.title}", cond=c.cond)
     intro, sections = split_sections(c.lines)
     diff, notes = [], []
     for title, body in sections:
@@ -560,8 +711,10 @@ def render_card(c: Card) -> str:
     if len(diff) != 2:
         ERRORS.append(f"{ctx.where}: a card needs both 'Jest' and 'Powinno być'")
     kind = f'<span class="kind">{html.escape(c.kind)}</span>' if c.kind else ""
-    return (f'<article class="card" id="{c.id}" data-search="{html.escape(c.title)}">'
-            f'<h3><span class="t">{html.escape(c.title)}</span>{copy_button(c.id, f"karty {c.title}")}{kind}</h3>'
+    return (f'<article class="card" id="{c.id}" data-name="{html.escape(norm_key(c.title))}"'
+            f'{c.own.attrs()}>'
+            f'<h3><span class="t">{html.escape(c.title)}</span>{copy_button(c.id, f"karty {c.title}")}'
+            f'{badges(c.own)}{kind}</h3>'
             f'{render_blocks(intro, ctx)}<div class="card-diff">{"".join(diff)}</div>{"".join(notes)}</article>')
 
 
@@ -570,11 +723,13 @@ def render_cards() -> tuple[str, str]:
     toc: list[str] = []
     for sec in CARD_SECTIONS:
         sid = "c-" + slug(sec.title)
-        ctx = Ctx(f"karty.txt / {sec.title}")
-        body.append(f'<section class="card-section"><h2 id="{sid}">{html.escape(sec.title)}</h2>'
+        ctx = Ctx(f"karty.txt / {sec.title}", cond=sec.cond)
+        body.append(f'<section class="card-section"{sec.cond.attrs()}><h2 id="{sid}">{html.escape(sec.title)} '
+                    f'{badges(sec.cond)}</h2>'
                     f'{render_blocks(sec.intro, ctx)}{"".join(render_card(c) for c in sec.cards)}</section>')
-        toc.append(f'<li class="toc-1"><a href="#{sid}">{html.escape(sec.title)}</a></li>')
-        toc.extend(f'<li class="toc-2"><a href="#{c.id}">{html.escape(c.title)}</a></li>' for c in sec.cards)
+        toc.append(f'<li class="toc-1"{sec.cond.attrs()}><a href="#{sid}">{html.escape(sec.title)}</a></li>')
+        toc.extend(f'<li class="toc-2"{c.cond.attrs()}><a href="#{c.id}">{html.escape(c.title)}</a></li>'
+                   for c in sec.cards)
     return "".join(body), "".join(toc)
 
 
@@ -605,6 +760,7 @@ PAGE = """<!DOCTYPE html>
     <a href="#glossary" class="tab" data-tab="glossary" role="tab">Glosariusz</a>
     <a href="#cards" class="tab" data-tab="cards" role="tab">Karty</a>
   </nav>
+  __EXP_MENU__
 </header>
 <div class="panel" id="rules">
   <nav class="side" aria-label="Spis treści"><h2>Spis treści</h2><ol class="toc">__TOC__</ol></nav>
@@ -620,7 +776,7 @@ PAGE = """<!DOCTYPE html>
     <div class="letters">__LETTERS__</div>
   </nav>
   <main class="content gloss">
-    <p class="gloss-intro">__COUNT__ Hasła o wspólnym pierwszym słowie są zebrane w grupy (▸).
+    <p class="gloss-intro">Hasła o wspólnym pierwszym słowie są zebrane w grupy (▸).
     Hasła zapisane kursywą są odsyłaczami do hasła głównego.</p>
     <p class="empty" id="no-results" hidden>Brak haseł pasujących do wyszukiwania.</p>
     __GLOSS__
@@ -642,6 +798,17 @@ Poprawki według nieoficjalnej „Erraty i FAQ” v. 2.92 (Kamil Łukasik).</foo
 """
 
 
+def render_expansion_menu() -> str:
+    """Expansion checkboxes; only expansions that have content are offered."""
+    if not USED_EXPANSIONS:
+        return ""
+    boxes = "".join(f'<label><input type="checkbox" data-exp="{k}"> {html.escape(name)}</label>'
+                    for k, name in EXPANSIONS.items() if k in USED_EXPANSIONS)
+    return ('<details class="exp-menu"><summary>Dodatki <span class="exp-count" id="exp-count"></span></summary>'
+            f'<div class="exp-panel"><p>Pokaż zasady z dodatków:</p>{boxes}'
+            '<p class="exp-hint">Wybór zostanie zapamiętany w tej przeglądarce.</p></div></details>')
+
+
 def mtime(name: str) -> str:
     return str(int((ROOT / name).stat().st_mtime))
 
@@ -655,15 +822,15 @@ def main() -> int:
     gloss, letters = render_glossary()
     rules, toc = render_rules()
     cards, cards_toc = render_cards()
-    count = f"Glosariusz zawiera {len(ENTRIES)} haseł i {len(ALIASES)} odsyłaczy."
+    menu = render_expansion_menu()
     page = (PAGE.replace("__TOC__", toc).replace("__RULES__", rules)
             .replace("__LETTERS__", letters)
             .replace("__V_CSS__", mtime("style.css")).replace("__V_JS__", mtime("app.js"))
-            .replace("__GLOSS__", gloss).replace("__COUNT__", count)
+            .replace("__GLOSS__", gloss).replace("__EXP_MENU__", menu)
             .replace("__CARDS_TOC__", cards_toc).replace("__CARDS__", cards))
     if "style=" in page or re.search(r"<script(?![^>]*\bsrc=)", page):
         ERRORS.append("page contains inline styles or scripts (not CSP-compliant)")
-    linked = {rid for e in ENTRIES.values() for rid in e.related}
+    linked = {rid for e in ENTRIES.values() for rid, _ in e.related}
     orphans = [e.title for e in ENTRIES.values() if e.id not in linked]
     (ROOT / "index.html").write_text(page, encoding="utf-8")
     groups = {e.group for e in ENTRIES.values() if e.group} | {a.group for a in ALIASES if a.group}

@@ -31,6 +31,14 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
    entries. The *Powiązane hasła* (related entries) list at the end of each glossary entry is
    generated from the links used in that entry's text.
 
+## Expansions
+
+Content of the expansions (*Panowie Śródziemia*, *Wojownicy Śródziemia*, *Królowie Śródziemia*)
+is marked with conditions in `src/` (see the top of `tools/build.py`). Visitors pick their
+expansions in the *Dodatki* menu; the choice is stored in the `wop_dodatki` cookie for a year
+(in `localStorage` when the page is opened from `file://`, where Chrome keeps no cookies).
+The menu only lists expansions that have content.
+
 ## Re-cropping images
 
 ```bash
