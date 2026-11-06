@@ -37,9 +37,16 @@ python3 tools/crop_images.py /path/to/WoP_instrukcja.pdf
 
 Image file names stay Polish because the files in `src/` refer to them by name.
 
-## Hosting on a server
+## Hosting
 
-The page uses no inline scripts or styles. When hosting it, send this header:
+The page is published with GitHub Pages at https://kiminoboku.github.io/wojna-o-pierscien/.
+
+GitHub Pages cannot send custom HTTP headers, so the Content Security Policy is set with a
+`<meta>` tag in `index.html` (written by `tools/build.py`). Browsers ignore `frame-ancestors`
+in a `<meta>` tag, so on GitHub Pages the page can still be embedded in other sites.
+The page uses no inline scripts or styles and no `eval`.
+
+On a host that can send headers, send this header instead:
 
 ```
 Content-Security-Policy: default-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'

@@ -3,9 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Static page opened locally (file://), so there is no server that could send a CSP header.
-     The code uses no inline scripts or styles and no eval, so when hosting it on a server, send:
+<!-- Content Security Policy as a <meta> tag: an exception to the "send CSP as an HTTP header" rule.
+     Reason: the page is hosted on GitHub Pages, which cannot send custom response headers,
+     and it is also opened locally from file://, where there is no server at all.
+     frame-ancestors is left out because browsers ignore it in a <meta> tag.
+     The code uses no inline scripts or styles and no eval. On a host that can send headers, send instead:
      Content-Security-Policy: default-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self' -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
 <title>Wojna o Pierścień — zasady gry</title>
 <link rel="stylesheet" href="style.css?v=1793826267">
 <script src="app.js?v=1793826262" defer></script>
