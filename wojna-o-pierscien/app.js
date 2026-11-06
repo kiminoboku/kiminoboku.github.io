@@ -1,4 +1,4 @@
-// Tab navigation, glossary search and definition tooltips.
+// Tab navigation, glossary search, definition tooltips and the card errata tab.
 // No external dependencies, no eval and no HTML built from data (works under a strict CSP).
 // The UI strings are Polish because the page is Polish.
 (function () {
@@ -7,6 +7,7 @@
   const panels = {
     rules: document.getElementById("rules"),
     glossary: document.getElementById("glossary"),
+    cards: document.getElementById("cards"),
   };
   const tabs = document.querySelectorAll("[data-tab]");
 
@@ -62,13 +63,11 @@
   function route() {
     const id = decodeURIComponent(location.hash.slice(1));
     const el = id ? document.getElementById(id) : null;
-    if (id === "glossary" || (el && panels.glossary.contains(el))) {
-      show("glossary");
-      if (el && el.closest("[hidden]") && input.value) { input.value = ""; filter(); }
-    } else {
-      show("rules");
-    }
-    if (el && el !== panels.glossary && el !== panels.rules) {
+    // the panel that holds the target element; the rules tab is the default
+    const name = Object.keys(panels).find((key) => el && panels[key].contains(el)) || "rules";
+    show(name);
+    if (name === "glossary" && el.closest("[hidden]") && input.value) { input.value = ""; filter(); }
+    if (el && !Object.values(panels).includes(el)) {
       requestAnimationFrame(() => el.scrollIntoView({ block: "start" }));
     } else {
       window.scrollTo(0, 0);
@@ -96,18 +95,20 @@
 
   function showPop(link, withOpenLink) {
     const target = document.getElementById(link.getAttribute("href").slice(1));
-    if (!target || !target.classList.contains("entry")) return false;
+    const isCard = target && target.classList.contains("card");
+    if (!target || !(isCard || target.classList.contains("entry"))) return false;
     const title = document.createElement("strong");
     title.textContent = target.querySelector("h3 .t").textContent;
     const body = document.createElement("div");
-    const def = target.querySelector(".def p");
+    // glossary entry: first paragraph of the definition; card: the corrected card text
+    const def = target.querySelector(isCard ? ".card-fixed p" : ".def p");
     body.textContent = def ? def.textContent : "";
     const parts = [title, body];
     if (withOpenLink) {
       const open = document.createElement("a");
       open.className = "pop-open";
       open.href = link.getAttribute("href");
-      open.textContent = "Otwórz hasło →";
+      open.textContent = isCard ? "Otwórz kartę →" : "Otwórz hasło →";
       parts.push(open);
     }
     pop.replaceChildren(...parts);

@@ -19,10 +19,17 @@ Glossary (src/glosariusz-*.txt):
 Rules (src/instrukcja.txt):
     # Chapter, ## Subchapter, followed by blocks as described below.
 
+Cards (src/karty.txt):
+    # Section                  e.g. the base game; blocks before the first @@ are the section intro
+    @@ Card name               starts a card
+    rodzaj: kind               card kind shown next to the name
+    ## Jest / ## Powinno być / ## Wyjaśnienie   printed text, corrected text, explanation
+
 Blocks: paragraphs, "- " lists (nest with 2 spaces), "1. " lists, "| a | b |" tables,
     "!img file [+ file2] | caption", boxes "::: kind Title" ... ":::"
-    (kind: skrot = summary, uwaga = note, przyklad = example).
-Inline: **bold**, *italic*, [[Entry]] or [[Entry|text]], {{icon}} (file from img/).
+    (kind: skrot = summary, uwaga = note, przyklad = example, errata = rulebook erratum).
+Inline: **bold**, *italic*, [[Entry]] or [[Entry|text]], [[karta: Card]] or [[karta: Card|text]]
+    (link to the Cards tab), {{icon}} (file from img/).
 """
 from __future__ import annotations
 
@@ -160,6 +167,7 @@ def build_index() -> None:
 
 
 ID_TO_ENTRY: dict[str, Entry] = {}
+CARD_INDEX: dict[str, str] = {}  # normalized card name -> card id
 
 # ---------------------------------------------------------------- inline markup
 
@@ -186,6 +194,13 @@ def inline(text: str, ctx: Ctx) -> str:
 
     def link(m: re.Match) -> str:
         target, _, label = m.group(1).partition("|")
+        if target.startswith("karta:"):
+            name = target[len("karta:"):].strip()
+            cid = CARD_INDEX.get(norm_key(html.unescape(name)))
+            if not cid:
+                ERRORS.append(f"{ctx.where}: unknown card in link [[{html.unescape(target)}]]")
+                return label or name
+            return f'<a class="term card-link" href="#{cid}">{label or name}</a>'
         label = label or target
         tid = LINK_INDEX.get(norm_key(html.unescape(target)))
         if not tid:
@@ -216,6 +231,7 @@ BOX_KINDS = {
     "skrot": ("summary", "W skrócie"),
     "uwaga": ("note", "Uwaga"),
     "przyklad": ("example", "Przykład"),
+    "errata": ("errata", "Errata"),
 }
 
 
@@ -358,6 +374,12 @@ LINK_ICON = ('<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke
              '<path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>')
 
 
+def copy_button(anchor: str, what: str) -> str:
+    """Button that copies a link to `anchor`; `what` completes the Polish label, e.g. "hasła Ruch"."""
+    return (f'<button type="button" class="copy-link" data-anchor="{anchor}" '
+            f'title="Kopiuj link" aria-label="Kopiuj link do {html.escape(what)}">{LINK_ICON}</button>')
+
+
 def render_entry(e: Entry) -> str:
     ctx = Ctx(f"{e.file} / {e.title}", e.id)
     definition, sections = split_sections(e.lines)
@@ -373,9 +395,7 @@ def render_entry(e: Entry) -> str:
                     for rid in e.related)
     pages = f'<span class="pages">instrukcja s. {html.escape(e.pages)}</span>' if e.pages else ""
     search = html.escape(" ".join([e.title, *e.keys, *[a.name for a in ALIASES if a.target == e.title]]))
-    copy = (f'<button type="button" class="copy-link" data-anchor="{e.id}" '
-            f'title="Kopiuj link do hasła" aria-label="Kopiuj link do hasła {html.escape(e.title)}">'
-            f'{LINK_ICON}</button>')
+    copy = copy_button(e.id, f"hasła {e.title}")
     return (f'<article class="entry" id="{e.id}" data-search="{search}">'
             f'<h3><span class="t">{html.escape(e.title)}</span>{copy}{pages}</h3>{"".join(parts)}'
             f'<footer class="related"><h4>Powiązane hasła</h4><ul>{chips}</ul></footer></article>')
@@ -470,6 +490,94 @@ def render_rules() -> tuple[str, str]:
     return "".join(body), "".join(toc)
 
 
+# ---------------------------------------------------------------- cards
+
+
+@dataclass
+class Card:
+    title: str
+    kind: str = ""
+    lines: list[str] = field(default_factory=list)
+    id: str = ""
+
+
+@dataclass
+class CardSection:
+    title: str
+    intro: list[str] = field(default_factory=list)
+    cards: list[Card] = field(default_factory=list)
+
+
+CARD_SECTIONS: list[CardSection] = []
+# card sections: Jest = printed text, Powinno być = corrected text, Wyjaśnienie = explanation
+CARD_PARTS = {"Jest": "printed", "Powinno być": "fixed", "Wyjaśnienie": "note"}
+
+
+def parse_cards(path: Path) -> None:
+    cur: Card | None = None
+    used_ids: set[str] = set()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.rstrip()
+        if line.startswith("# "):
+            CARD_SECTIONS.append(CardSection(line[2:].strip()))
+            cur = None
+            continue
+        if line.startswith("@@ "):
+            if not CARD_SECTIONS:
+                ERRORS.append(f"{path.name}: card before the first # section: {line}")
+                continue
+            cur = Card(line[3:].strip())
+            cur.id = "k-" + slug(cur.title)
+            if cur.id in used_ids:
+                ERRORS.append(f"{path.name}: duplicate card id {cur.id}")
+            used_ids.add(cur.id)
+            CARD_INDEX[norm_key(cur.title)] = cur.id
+            CARD_SECTIONS[-1].cards.append(cur)
+            continue
+        if cur is None:
+            if CARD_SECTIONS:
+                CARD_SECTIONS[-1].intro.append(line)
+            continue
+        m = re.match(r"rodzaj: (.*)$", line)  # rodzaj = card kind
+        if m and not cur.lines:
+            cur.kind = m.group(1).strip()
+            continue
+        cur.lines.append(line)
+
+
+def render_card(c: Card) -> str:
+    ctx = Ctx(f"karty.txt / {c.title}")
+    intro, sections = split_sections(c.lines)
+    diff, notes = [], []
+    for title, body in sections:
+        part = CARD_PARTS.get(title)
+        if not part:
+            ERRORS.append(f"{ctx.where}: unknown card section '{title}'")
+            continue
+        block = (f'<section class="card-{part}"><h4>{html.escape(title)}</h4>'
+                 f'{render_blocks(body, ctx)}</section>')
+        (notes if part == "note" else diff).append(block)
+    if len(diff) != 2:
+        ERRORS.append(f"{ctx.where}: a card needs both 'Jest' and 'Powinno być'")
+    kind = f'<span class="kind">{html.escape(c.kind)}</span>' if c.kind else ""
+    return (f'<article class="card" id="{c.id}" data-search="{html.escape(c.title)}">'
+            f'<h3><span class="t">{html.escape(c.title)}</span>{copy_button(c.id, f"karty {c.title}")}{kind}</h3>'
+            f'{render_blocks(intro, ctx)}<div class="card-diff">{"".join(diff)}</div>{"".join(notes)}</article>')
+
+
+def render_cards() -> tuple[str, str]:
+    body: list[str] = []
+    toc: list[str] = []
+    for sec in CARD_SECTIONS:
+        sid = "c-" + slug(sec.title)
+        ctx = Ctx(f"karty.txt / {sec.title}")
+        body.append(f'<section class="card-section"><h2 id="{sid}">{html.escape(sec.title)}</h2>'
+                    f'{render_blocks(sec.intro, ctx)}{"".join(render_card(c) for c in sec.cards)}</section>')
+        toc.append(f'<li class="toc-1"><a href="#{sid}">{html.escape(sec.title)}</a></li>')
+        toc.extend(f'<li class="toc-2"><a href="#{c.id}">{html.escape(c.title)}</a></li>' for c in sec.cards)
+    return "".join(body), "".join(toc)
+
+
 # ---------------------------------------------------------------- page
 
 # The page text is Polish; ids, classes and comments are English.
@@ -495,6 +603,7 @@ PAGE = """<!DOCTYPE html>
   <nav class="tabs" role="tablist">
     <a href="#rules" class="tab" data-tab="rules" role="tab">Instrukcja</a>
     <a href="#glossary" class="tab" data-tab="glossary" role="tab">Glosariusz</a>
+    <a href="#cards" class="tab" data-tab="cards" role="tab">Karty</a>
   </nav>
 </header>
 <div class="panel" id="rules">
@@ -517,8 +626,17 @@ PAGE = """<!DOCTYPE html>
     __GLOSS__
   </main>
 </div>
+<div class="panel" id="cards">
+  <nav class="side" aria-label="Spis kart"><h2>Karty</h2><ol class="toc">__CARDS_TOC__</ol></nav>
+  <main class="content cards">
+    <p class="cards-intro">Karty, których wydrukowany tekst zawiera błąd, i ich poprawne brzmienie.
+    Pogrubiony tekst w poprawionej wersji to zmiana względem druku.</p>
+    __CARDS__
+  </main>
+</div>
 <footer class="bottom">Opracowanie na podstawie instrukcji „Wojna o Pierścień — Druga edycja” (Ares Games, wyd. polskie Galakta).
-Numery stron odnoszą się do oryginalnej instrukcji. Grafiki pochodzą z instrukcji.</footer>
+Numery stron odnoszą się do oryginalnej instrukcji. Grafiki pochodzą z instrukcji.
+Poprawki według nieoficjalnej „Erraty i FAQ” v. 2.92 (Kamil Łukasik).</footer>
 </body>
 </html>
 """
@@ -533,20 +651,24 @@ def main() -> int:
         parse_glossary(p)
     build_index()
     ID_TO_ENTRY.update({e.id: e for e in ENTRIES.values()})
+    parse_cards(SRC / "karty.txt")  # before rendering, so [[karta: ...]] links resolve
     gloss, letters = render_glossary()
     rules, toc = render_rules()
+    cards, cards_toc = render_cards()
     count = f"Glosariusz zawiera {len(ENTRIES)} haseł i {len(ALIASES)} odsyłaczy."
     page = (PAGE.replace("__TOC__", toc).replace("__RULES__", rules)
             .replace("__LETTERS__", letters)
             .replace("__V_CSS__", mtime("style.css")).replace("__V_JS__", mtime("app.js"))
-            .replace("__GLOSS__", gloss).replace("__COUNT__", count))
+            .replace("__GLOSS__", gloss).replace("__COUNT__", count)
+            .replace("__CARDS_TOC__", cards_toc).replace("__CARDS__", cards))
     if "style=" in page or re.search(r"<script(?![^>]*\bsrc=)", page):
         ERRORS.append("page contains inline styles or scripts (not CSP-compliant)")
     linked = {rid for e in ENTRIES.values() for rid in e.related}
     orphans = [e.title for e in ENTRIES.values() if e.id not in linked]
     (ROOT / "index.html").write_text(page, encoding="utf-8")
     groups = {e.group for e in ENTRIES.values() if e.group} | {a.group for a in ALIASES if a.group}
-    print(f"entries: {len(ENTRIES)}, aliases: {len(ALIASES)}, groups: {len(groups)}")
+    n_cards = sum(len(sec.cards) for sec in CARD_SECTIONS)
+    print(f"entries: {len(ENTRIES)}, aliases: {len(ALIASES)}, groups: {len(groups)}, cards: {n_cards}")
     if orphans:
         print("entries no other entry links to:", ", ".join(orphans))
     if ERRORS:

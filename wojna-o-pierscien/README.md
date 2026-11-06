@@ -2,6 +2,7 @@
 
 A rewritten, easier-to-read version of the Polish rulebook for *War of the Ring*
 (2nd edition, Polish edition by Galakta). The page content is in Polish; the code is in English.
+Rulebook and card errata follow the unofficial *Errata i FAQ* v. 2.92 by Kamil Łukasik.
 
 Open `index.html` in a browser. The page works offline, but it needs the whole folder:
 `style.css`, `app.js` and `img/` must sit next to `index.html`.
@@ -13,6 +14,7 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 - `img/`: images cropped from the original rulebook
 - `src/instrukcja.txt`: content of the *Instrukcja* (rules) tab
 - `src/glosariusz-a-o.txt`, `src/glosariusz-p-z.txt`: glossary entries
+- `src/karty.txt`: content of the *Karty* (cards) tab: card errata
 - `tools/build.py`: builds `index.html` and validates links
 - `tools/crop_images.py`: crops images from the PDF (requires `poppler`)
 

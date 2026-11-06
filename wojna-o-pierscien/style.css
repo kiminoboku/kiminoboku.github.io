@@ -11,6 +11,9 @@
   --box-summary: #eef3e6;
   --box-note: #fbeee0;
   --box-example: #edf1f7;
+  --box-errata: #f4ecf7;
+  --printed: #f8e9e7;
+  --fixed: #e9f3e4;
   --hl: #fff1b8;
   --side-w: 270px;
   color-scheme: light dark;
@@ -29,6 +32,9 @@
     --box-summary: #26301f;
     --box-note: #382a1c;
     --box-example: #1f2735;
+    --box-errata: #2e2336;
+    --printed: #3a2422;
+    --fixed: #22301d;
     --hl: #4a3f12;
   }
   .fig img, .icon { background: #f4efe3; border-radius: 4px; }
@@ -126,6 +132,7 @@ a.term:hover { color: var(--accent); }
 .box-note { background: var(--box-note); border-left-color: #c2671b; }
 .box-example { background: var(--box-example); border-left-color: #4a6fa5; font-style: italic; }
 .box-example strong { font-style: normal; }
+.box-errata { background: var(--box-errata); border-left-color: #8a5bb0; }
 
 /* tables */
 .table-wrap { overflow-x: auto; margin: 0 0 14px; }
@@ -192,6 +199,21 @@ th { background: var(--chip); font-weight: 600; }
 .entry:target, .alias:target { background: var(--hl); border-radius: 6px; padding-left: 10px; padding-right: 10px; transition: background 1s; }
 .empty { font-style: italic; color: var(--muted); }
 
+/* cards */
+.cards-intro { color: var(--muted); font-size: 14.5px; }
+.card-section > h2 { font-size: 28px; color: var(--accent); border-bottom: 2px solid var(--line); margin: 18px 0 8px; padding-bottom: 2px; }
+.card { padding: 14px 0 16px; border-bottom: 1px dashed var(--line); }
+.card h3 { font-size: 21px; margin: 0 0 10px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.card .kind { font: 12.5px Georgia, serif; color: var(--muted); }
+.card h4 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 6px; }
+.card-diff { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 10px; }
+.card-printed, .card-fixed { border-radius: 8px; padding: 10px 14px 2px; }
+.card-printed { background: var(--printed); }
+.card-fixed { background: var(--fixed); }
+.card-note h4 { margin-top: 4px; }
+.card:target { background: var(--hl); border-radius: 6px; padding-left: 10px; padding-right: 10px; }
+@media (max-width: 860px) { .card-diff { grid-template-columns: 1fr; } }
+
 /* definition tooltip */
 .popover {
   position: fixed; z-index: 50; max-width: 380px;
@@ -236,6 +258,8 @@ th { background: var(--chip); font-weight: 600; }
   #rules .side .toc { max-height: 40vh; overflow: auto; }
   .content { padding: 18px 16px 28px; }
   .top { padding: 8px 12px; gap: 10px; }
+  .tabs { flex-wrap: wrap; gap: 4px; }
+  .tab { padding: 6px 12px; font-size: 14px; }
   html { scroll-padding-top: 110px; }
 }
 
@@ -246,7 +270,7 @@ th { background: var(--chip); font-weight: 600; }
   .content { border: 0; padding: 0; }
   body { background: #fff; color: #000; }
   a.term { text-decoration: none; }
-  .entry { break-inside: avoid; }
+  .entry, .card { break-inside: avoid; }
 }
 
 /* glossary images are smaller; clicking one opens it at full size */

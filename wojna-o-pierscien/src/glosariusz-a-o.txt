@@ -151,7 +151,7 @@ Wartość wylosowanego [[Żeton poszukiwań|żetonu poszukiwań]], która okreś
 - Numer na żetonie (0–3) to ciężar brzemienia.
 - Żeton z symbolem „Oka” ma ciężar równy liczbie sukcesów w [[Rzut poszukiwań|rzucie poszukiwań]].
 - Gdy poszukiwania się powiodą, ciężar brzemienia rozpatruje się w kolejności:
-  1. Gracz Wolnych Ludów może użyć leżącej przed nim karty [[Zagraj na stół|„Zagraj na stół”]], która anuluje lub zmniejsza ciężar.
+  1. Gracz Wolnych Ludów może użyć jednej leżącej przed nim karty [[Zagraj na stół|„Zagraj na stół”]], która anuluje lub zmniejsza ciężar. Nie zagrywa się w tym celu nowej karty z ręki.
   2. Może użyć zdolności [[Przewodnik Drużyny Pierścienia|przewodnika]].
   3. Jeśli ciężar nadal wynosi 1 lub więcej, może go zmniejszyć, ponosząc [[Straty w Drużynie Pierścienia|stratę w Drużynie]].
   4. Pozostały ciężar zamienia się w zepsucie (patrz [[Wykorzystanie Pierścienia]]).
@@ -161,6 +161,10 @@ Wartość wylosowanego [[Żeton poszukiwań|żetonu poszukiwań]], która okreś
 - Na [[Tor Mordoru|torze Mordoru]] żeton z „Okiem” ma wartość równą liczbie wszystkich kości na polu poszukiwań, łącznie z kośćmi Wolnych Ludów.
 - Żeton z wartością ujemną (−1, −2) nie ma ciężaru brzemienia. Zamiast tego zmniejsza zepsucie o podaną liczbę (do minimum 0).
 - Żeton z symbolem kości: ciężar brzemienia ustala się rzutem kością.
+
+::: errata
+Polska instrukcja (s. 41) pisze, że gracz Wolnych Ludów może „zagrać” odpowiednią kartę „Zagraj na stół”. Poprawnie: może wykorzystać jedną kartę, która już leży przed nim. Nie zagrywa nowej karty z ręki.
+:::
 
 @@ Czarnoksiężnik z Angmaru
 strony: 3, 18, 24, 45–46
@@ -348,6 +352,7 @@ Wyjątkowa postać, która zawsze podąża za [[Drużyna Pierścienia|Drużyną 
 - Gdy Drużynę opuszczą wszyscy Towarzysze (patrz [[Odłączanie Towarzyszy]]), Gollum zostaje [[Przewodnik Drużyny Pierścienia|przewodnikiem]]. Jego kartę kładzie się na polu przewodnika, a figurkę obok figurki [[Powiernicy Pierścienia|Powierników Pierścienia]].
 - Działanie Golluma opisują jego [[Karta Postaci|karta Postaci]] i niektóre karty Wydarzeń.
 - Gollum nie jest Towarzyszem.
+- Tekst jego karty ma błąd w polskim druku: gdy przewodnikiem jest Gollum, zwyczajne ponumerowane żetony z symbolem odkrycia nie odkrywają Drużyny, ale żeton z „Okiem” nadal ją odkrywa (patrz [[karta: Gollum]]).
 
 ~ Gorgoroth -> Tor Mordoru
 ~ Góra Przeznaczenia -> Szczeliny Zagłady
@@ -464,6 +469,7 @@ Karta Wydarzenia zagrana podczas bitwy dla dolnego tekstu karty.
 - Każda [[Karta Wydarzenia|karta Wydarzenia]] ma u dołu tekst karty Bitwy. Zagranie jej w bitwie nie zużywa akcji.
 - Na początku każdej [[Runda bitwy|rundy bitwy]] każdy gracz może zagrać z ręki jedną kartę Bitwy. Najpierw atakujący ogłasza, czy zagrywa kartę, potem obrońca (może zagrać, nawet jeśli atakujący nie zagrał).
 - Karty wybiera się w tajemnicy i odkrywa jednocześnie. Rewers karty jest widoczny dla przeciwnika.
+- Teksty Bitwy na kartach [[karta: Zguba Durina]] i [[karta: Zwiadowcy]] mają błędy w polskim druku (patrz zakładka Karty).
 - Efekt działa tylko w bieżącej rundzie, chyba że karta mówi inaczej. Po rundzie karty Bitwy się odrzuca.
 - Kolejność efektów rozstrzyga [[Inicjatywa|inicjatywa]].
 - Treść karty ma pierwszeństwo przed zasadami.
@@ -515,6 +521,7 @@ Karta przedstawiająca wydarzenie z „Władcy Pierścieni”, która pozwala ł
 - Gdy karta każe „rekrutować”, figurki bierze się z posiłków według zasad [[Rekrutacja|rekrutacji]] z kart. Ruch armii z karty opisuje hasło [[Ruch armii]].
 - Dolna część karty służy jako [[Karta Bitwy|karta Bitwy]].
 - Karty dobiera się z [[Talia Wydarzeń|talii Wydarzeń]].
+- Kilka kart ma błędy w polskim druku, np. [[karta: Moc Toma Bombadila]] i [[karta: Zwierciadło Galadrieli]]. Poprawki zbiera zakładka Karty.
 
 ## Wyjątki i szczególne przypadki
 - Jeśli karta usunie wszystkie jednostki armii, dowódcy Wolnych Ludów z tej armii też zostają usunięci. Nazgûle, Towarzysze i Sługi zostają w regionie, chyba że karta mówi inaczej (patrz [[Straty w bitwie]]).

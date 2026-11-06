@@ -1,0 +1,47 @@
+# Gra podstawowa
+Karty z gry podstawowej, na których polskie tłumaczenie zawiera błąd. Poprawki pochodzą z nieoficjalnej erraty (v. 2.92).
+
+@@ Gollum
+rodzaj: karta Postaci
+## Jest
+„Zwyczajne żetony poszukiwań z symbolem odkrycia nie odkrywają miejsca pobytu Drużyny Pierścienia.”
+## Powinno być
+„Zwyczajne **ponumerowane** żetony poszukiwań z symbolem odkrycia nie odkrywają miejsca pobytu Drużyny Pierścienia.”
+## Wyjaśnienie
+To ważna różnica: żeton z symbolem „Oka” nadal odkrywa Drużynę, nawet gdy przewodnikiem jest [[Gollum]] (patrz [[Odkrycie Drużyny Pierścienia]]).
+
+@@ Moc Toma Bombadila
+rodzaj: karta Wydarzenia Wolnych Ludów
+## Jest
+„Stara Droga Leśna”
+## Powinno być
+„Stary Las”
+## Wyjaśnienie
+Błąd występuje tylko w części egzemplarzy z wczesnego druku.
+
+@@ Zguba Durina
+rodzaj: karta Wydarzenia Cienia (karta Bitwy)
+## Jest
+„Zagraj, jeśli broniąca się armia znajduje się w promieniu dwóch regionów od Morii. (…) Za każdą kość, na której uzyskasz wynik 4+, ta armia otrzymuje jedno trafienie.”
+## Powinno być
+„Zagraj, jeśli broniąca się armia znajduje się w **zasięgu** dwóch regionów od Morii. (…) **Zadaj jedno trafienie** za każdą kość, na której uzyskasz wynik 4+.”
+## Wyjaśnienie
+Według wydrukowanego tekstu Cień zadawałby trafienia sam sobie, gdyby zagrał tę kartę jako obrońca. Słowo „promień” też jest mylące, bo sugeruje, że przy liczeniu odległości między [[Region|regionami]] można pominąć góry.
+
+@@ Zwiadowcy
+rodzaj: karta Wydarzenia Wolnych Ludów (karta Bitwy)
+## Jest
+„Zanim wykonasz rzut bitwy, przeprowadź odwrót swojej armii do sąsiedniego wolnego regionu albo wycofaj się do obleganej twierdzy.”
+## Powinno być
+„**Zagraj, jeśli armia Wolnych Ludów broni się podczas bitwy w polu.** Zanim wykonasz rzut bitwy, przeprowadź odwrót swojej armii do sąsiedniego wolnego regionu albo wycofaj się do twierdzy, **przechodząc w stan oblężenia**.”
+## Wyjaśnienie
+Na karcie brakuje warunku zagrania: działa tylko w obronie, w [[Bitwa w polu|bitwie w polu]]. Wycofanie się do twierdzy rozpoczyna [[Oblężenie|oblężenie]] (patrz [[Wycofanie się do twierdzy]]).
+
+@@ Zwierciadło Galadrieli
+rodzaj: karta Wydarzenia Wolnych Ludów
+## Jest
+„Zamień jeden niewykorzystany wynik kości akcji Wolnych Ludów na wynik „Woli Zachodu”.”
+## Powinno być
+„Zamień jeden niewykorzystany wynik kości akcji Wolnych Ludów **z symbolem akcji Postaci** na wynik „Woli Zachodu”.”
+## Wyjaśnienie
+Zamienić można tylko [[Wynik „Postać”|wynik „Postać”]], a nie dowolny wynik (patrz [[Wynik „Wola Zachodu”]]).

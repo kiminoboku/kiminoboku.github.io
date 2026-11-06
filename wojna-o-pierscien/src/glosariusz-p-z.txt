@@ -108,7 +108,7 @@ Przebieg poszukiwań:
 1. Gracz Wolnych Ludów porusza Drużynę (patrz [[Ruch Drużyny Pierścienia]]).
 2. Gracz Cienia wykonuje [[Rzut poszukiwań|rzut poszukiwań]]: rzuca tyloma kośćmi, ile wynosi [[Poziom poszukiwań|poziom poszukiwań]] (kości Cienia na [[Pole poszukiwań|polu poszukiwań]]), i może wykonać [[Przerzut poszukiwań|przerzuty]].
 3. Jeśli uzyska choć jeden sukces, losuje żeton z [[Pula poszukiwań|puli poszukiwań]] (patrz [[Żeton poszukiwań]]) i ustala [[Ciężar brzemienia|ciężar brzemienia]].
-4. Gracz Wolnych Ludów może zmniejszyć ciężar kartą [[Zagraj na stół|„Zagraj na stół”]], zdolnością [[Przewodnik Drużyny Pierścienia|przewodnika]] i [[Straty w Drużynie Pierścienia|stratą w Drużynie]].
+4. Gracz Wolnych Ludów może zmniejszyć ciężar jedną leżącą przed nim kartą [[Zagraj na stół|„Zagraj na stół”]], zdolnością [[Przewodnik Drużyny Pierścienia|przewodnika]] i [[Straty w Drużynie Pierścienia|stratą w Drużynie]].
 5. Reszta ciężaru zamienia się w zepsucie (patrz [[Wykorzystanie Pierścienia]]).
 6. Jeśli żeton ma symbol odkrycia, Drużyna zostaje odkryta (patrz [[Odkrycie Drużyny Pierścienia]]).
 
@@ -593,8 +593,8 @@ Jedna z czterech talii kart Wydarzeń: Postaci i Strategii dla każdej strony.
 - Wyczerpanej talii nie tasuje się ponownie. Gracz dobiera wtedy tylko z drugiej talii.
 - W [[Gra wieloosobowa|grze wieloosobowej]] limit wynosi 4 karty.
 
-::: uwaga
-W instrukcji raz pojawia się nazwa „talia Spotkań”. To błąd tłumaczenia: chodzi o talię Postaci.
+::: errata
+Polska instrukcja (s. 22) pisze, że z Drużyną, Towarzyszami i Sługami są powiązane karty z „talii Spotkań”. To błąd tłumaczenia: chodzi o talię Postaci.
 :::
 
 
@@ -800,6 +800,10 @@ Rozpoczęcie ostatniego etapu wyprawy: Drużyna wchodzi z Minas Morgul lub Moran
 - W drugiej edycji Drużyny nie trzeba ujawniać, żeby wkroczyć do Mordoru. Może to zrobić także wtedy, gdy jest odkryta.
 - Od tej chwili Towarzysze nie mogą się odłączać (patrz [[Odłączanie Towarzyszy]]).
 
+::: errata
+Polska instrukcja (s. 43) mówi tylko, że do nowej puli trafiają wylosowane wcześniej żetony z „Okiem” i specjalne żetony z kart. Łatwo zrozumieć to tak, jakby pula składała się wyłącznie z nich. Nowa pula zawiera też wszystkie niewylosowane jeszcze żetony.
+:::
+
 @@ Wolne Ludy
 strony: 3, 9, 14–19, 44
 klucze: Gracz Wolnych Ludów
@@ -819,10 +823,14 @@ Region, w którym nie ma wrogich armii ani osad kontrolowanych przez wroga.
 
 ## Zasady
 - Region jest wolny dla gracza, jeśli nie ma w nim wrogich armii ani kontrolowanych przez wroga osad.
-- Region z twierdzą oblężoną przez gracza jest dla niego wolny (patrz [[Oblężenie]]).
+- Region z oblężoną twierdzą jest wolny dla gracza, którego armia prowadzi oblężenie (patrz [[Oblężenie]]).
 - „Wolny dla celów ruchu armii” jest też region z kontrolowaną przez wroga [[Osada|osadą]], w której nie ma wrogiej armii. Wejście do niego zdobywa osadę (patrz [[Ruch armii]]).
 - Rekrutować można tylko w wolnej osadzie (patrz [[Rekrutacja]]).
 - [[Odwrót]] wykonuje się do wolnego sąsiedniego [[Region|regionu]].
+
+::: errata
+Polska instrukcja (s. 10) podaje: „Jeśli gracz oblega twierdzę przeciwnika, region, w którym znajduje się ta twierdza, uważa się za wolny”. Nie wynika z tego jasno, dla kogo region jest wolny. Poprawnie: region z oblężoną twierdzą jest wolny dla gracza, którego armie prowadzą oblężenie.
+:::
 
 @@ Wycofanie się do twierdzy
 strony: 32
@@ -970,6 +978,10 @@ Atak armii z oblężonej twierdzy na armię, która ją oblega.
 ## Wyjątki i szczególne przypadki
 Nawet zwycięska armia z wypadu nie może opuścić regionu z twierdzą.
 
+::: errata
+Polska instrukcja (s. 33) podaje: „Atakująca oblężona armia może wycofać się do wolnego sąsiedniego regionu”. To błąd: wycofać się może zaatakowana armia oblegająca, a nie oblężeni, którzy wykonują wypad.
+:::
+
 @@ Wzmocnienie oblężenia
 strony: 33
 Dosłanie nowych wojsk do regionu, w którym toczy się oblężenie.
@@ -987,7 +999,7 @@ Oznaczenie na karcie Wydarzenia, której nie odrzuca się po zagraniu, bo jej ef
 - [[Karta Wydarzenia|Karta]] z napisem „Zagraj na stół” leży na stole, a jej efekt trwa do spełnienia określonych warunków. Wtedy się ją odrzuca.
 - Jeśli odrzucenie wymaga wykorzystania kości, liczy się to jako [[Akcja|akcja]].
 - Jeśli przestaną być spełnione warunki zagrania, kartę od razu się odrzuca.
-- W pierwszym kroku rozpatrywania poszukiwań gracz Wolnych Ludów może użyć jednej takiej karty, aby anulować lub zmniejszyć [[Ciężar brzemienia|ciężar brzemienia]].
+- W pierwszym kroku rozpatrywania poszukiwań gracz Wolnych Ludów może użyć jednej takiej karty, która już leży przed nim, aby anulować lub zmniejszyć [[Ciężar brzemienia|ciężar brzemienia]]. Nie zagrywa się w tym celu nowej karty z ręki.
 
 ::: przyklad
 „Szaleństwo Denethora” odrzuca się w chwili, gdy Minas Tirith przestaje być oblężone.
