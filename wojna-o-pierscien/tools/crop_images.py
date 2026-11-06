@@ -78,6 +78,12 @@ EXPANSION_CROPS = {
         "ps-wynik-wykorzystanie-balroga": (11, 86, 245, 120, 277),
         "ps-wynik-dobranie-karty": (11, 248, 245, 280, 277),
     },
+    "wojownicy": {
+        "ws-figurki": (4, 36, 128, 332, 446),
+        "ws-kosci-frakcji": (4, 36, 454, 332, 558),
+        "ws-karty-frakcji": (4, 36, 562, 332, 706),
+        "ws-wyniki-kosci-frakcji": (8, 36, 258, 332, 554),
+    },
 }
 
 

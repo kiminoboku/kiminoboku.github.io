@@ -1,12 +1,22 @@
 @@ Niezdobyta osada
-dodatek: panowie
+dodatek: panowie|wojownicy
 strony: 6
 Osada kontrolowana przez tego samego gracza, który kontrolował ją na początku gry.
 
 ## Zasady
 - Osada, którą przeciwnik zdobył, a pierwotny właściciel odbił, znów jest niezdobyta (patrz [[Zdobywanie osad]]).
 - Oblężona [[Twierdza|twierdza]] jest niezdobyta, jeśli oblężona armia należy do pierwotnego właściciela twierdzy (patrz [[Oblężenie]]).
-- Od niezdobytych osad zależy wejście do gry nowych postaci, np. [[Elrond, Powiernik Vilyi|Elronda]] (Rivendell) czy [[Gothmog, Porucznik Morgulu|Gothmoga]] (Minas Morgul), oraz zdolność [[Gandalf Szary, Powiernik Naryi|Naryi]].
+- Pojęcie pochodzi z dodatków: gra podstawowa go nie używa.
+
+## Z dodatkiem {panowie}
+Od niezdobytych osad zależy wejście do gry nowych postaci, np. [[Elrond, Powiernik Vilyi|Elronda]] (Rivendell) czy [[Gothmog, Porucznik Morgulu|Gothmoga]] (Minas Morgul), oraz zdolność [[Gandalf Szary, Powiernik Naryi|Naryi]].
+
+## Z dodatkiem {wojownicy}
+[[Górale z Dunlandu|Dunlendingowie]] i [[Pomiot Szeloby|Pająki]] poruszające się bez armii nie mogą wejść do niezdobytej twierdzy (Pająki: osady) Wolnych Ludów, chyba że oblega ją armia Cienia.
+
+::: errata
+Polska instrukcja dodatku Wojownicy Śródziemia (s. 6) podaje: „Oblężoną twierdzę uważa się za niezdobytą, jeśli oblegająca ją armia należy do pierwotnego właściciela twierdzy”. Poprawnie: jeśli **oblężona** armia należy do pierwotnego właściciela.
+:::
 
 ~ Niezdobyta -> Niezdobyta osada
 

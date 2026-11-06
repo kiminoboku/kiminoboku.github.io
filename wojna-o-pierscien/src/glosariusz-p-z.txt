@@ -11,6 +11,9 @@ Rezygnacja z akcji w danej kolejce bez zużywania kości, możliwa tylko dla gra
 ## Wyjątki i szczególne przypadki
 W [[Gra wieloosobowa|grze wieloosobowej]] gracz, który spasował, może działać dopiero po akcji zespołu przeciwnego.
 
+## Z dodatkiem {wojownicy}
+- [[Kość Frakcji]] liczy się jak zwykła kość akcji przy ustalaniu, kto ma więcej kości.
+
 @@ Pierścienie Elfów
 strony: 14, 21
 Trzy żetony elfich Pierścieni Władzy, które pozwalają raz zmienić wynik kości akcji.
@@ -34,6 +37,9 @@ Trzy żetony elfich Pierścieni Władzy, które pozwalają raz zmienić wynik ko
 - Pierścieniem Elfów nie można zmienić wyniku na [[Specjalna kość akcji|specjalnej kości akcji]].
 - Karta „Trzy Pierścienie dla Królów Elfów” pozwala odzyskać pierścień: najpierw te, które są poza grą, potem te u Cienia. Odzyskany pierścień znów daje zdolność swojego Powiernika.
 - W [[Gra wieloosobowa|grze wieloosobowej]] o tym, który żeton zużyć do zmiany wyniku, decyduje gracz Gondoru.
+
+## Z dodatkiem {wojownicy}
+- Pierścieniem Elfów nie można zmienić wyniku na [[Kość Frakcji|kości Frakcji]].
 
 ~ Płonące Oko -> Pierścienie Elfów
 ~ Podbój -> Zdobywanie osad
@@ -273,6 +279,9 @@ Wszystkie kości akcji, którymi gracz rzuca w danej turze.
 - Do puli dochodzą [[Specjalna kość akcji|specjalne kości akcji]]: [[Kość Powiernika Pierścienia Elfów|kości Powierników]] dla Wolnych Ludów i [[Kość Pomniejszego Sługi|kości Pomniejszych Sług]] dla Cienia. Gracz wykorzystuje w turze wynik najwyżej jednej z nich.
 - Nowe wersje Sług ([[Rzecznik Saurona, Czarny Númenórejczyk]] i [[Czarnoksiężnik z Angmaru, Przywódca Upiorów Pierścienia]]) dają Cieniowi zwykłą kość akcji, tak jak ich podstawowe wersje.
 
+## Z dodatkiem {wojownicy}
+- Gdy do gry wejdzie pierwsza [[Frakcja]] gracza, od następnej tury dostaje on [[Kość Frakcji|kość Frakcji]]. Traci ją, gdy wszystkie jego Frakcje opuszczą grę.
+
 @@ Pula poszukiwań
 grupa: Pula
 strony: 14, 40, 43
@@ -479,6 +488,10 @@ strony: 3, 18, 24, 45–46
 ## Wyjątki i szczególne przypadki
 - W [[Gra wieloosobowa|grze wieloosobowej]] kontroluje go gracz Sarumana i sprzymierzeńców Saurona. Dopóki Saruman jest w grze, każda elitarna [[Jednostka|jednostka]] Isengardu oraz Haradrimów i Easterlingów jest jednocześnie jednostką i [[Dowódca|dowódcą]] (w ruchu i bitwie).
 
+## Z dodatkiem {wojownicy}
+- Saruman w grze pozwala wprowadzić [[Górale z Dunlandu|Dunlendingów]], a z Towarzyszem w Fangornie także [[Entowie z Fangornu|Entów]].
+- Saruman ginie, gdy atak Entów zniszczy wszystkie jednostki Cienia w Orthanku albo gdy gracz postawi Enta w Orthanku bez wrogich jednostek.
+
 @@ Siła armii
 strony: 29
 Liczba jednostek (regularnych i elitarnych) w armii biorącej udział w bitwie.
@@ -625,6 +638,11 @@ Polska instrukcja (s. 22) pisze, że z Drużyną, Towarzyszami i Sługami są po
 ## Z dodatkiem {panowie}
 - Karta „Nadciąga Balrog!” zastępuje kartę nr 17 „Balrog z Morii” w talii Postaci Cienia.
 - Pozostałe 12 nowych kart dodaje się do talii: po 4 do obu talii Postaci i po 2 do obu talii Strategii (patrz [[karty: Panowie Śródziemia|zakładka Karty]]).
+
+## Z dodatkiem {wojownicy}
+- Każdy gracz ma trzecią talię: talię [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]]. Na początku każdej tury dobiera z niej jedną kartę.
+- Karty Frakcji nie liczą się do limitu 6 kart. Można ich mieć najwyżej 4.
+- Dziewięć kart gry podstawowej zastępują nowe karty (patrz [[karty: Wojownicy Śródziemia|zakładka Karty]]).
 
 
 @@ Tor Drużyny Pierścienia
@@ -990,6 +1008,9 @@ Gracz wybiera jedną akcję:
 - zagrywa z ręki dowolną [[Karta Wydarzenia|kartę Wydarzenia]], bez względu na jej rodzaj.
 
 {{kosc-wl-wydarzenie}} {{kosc-cien-wydarzenie}}
+
+## Z dodatkiem {wojownicy}
+- Wynikiem „Wydarzenie” można też dobrać kartę z talii [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]] albo zagrać dowolną kartę Wydarzenia Frakcji.
 
 @@ Wypad wojsk oblężonych
 strony: 33

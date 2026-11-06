@@ -70,3 +70,67 @@ rodzaj: karta Wydarzenia Cienia (karta Bitwy)
 „Zagraj, jeśli broniąca się armia znajduje się w **zasięgu** dwóch regionów od Morii **lub jeśli w bitwie bierze udział Balrog**. (…) **Zadaj jedno trafienie** za każdą kość, na której uzyskasz wynik 4+.”
 ## Wyjaśnienie
 W grze z dodatkiem obowiązuje ta wersja poprawki. Kartę można zagrać także wtedy, gdy w bitwie bierze udział [[Balrog z Morii|Balrog]]. Pozostałe poprawki są takie same jak w grze podstawowej: Cień zadaje trafienia przeciwnikowi, a nie sobie, a mylące słowo „promień” zastępuje „zasięg” (liczony w [[Region|regionach]]).
+
+# Wojownicy Śródziemia {wojownicy}
+Zmiany w taliach przy grze z dodatkiem (instrukcja dodatku, s. 3). Karty z gry podstawowej usuwa się i zastępuje nowymi kartami z dodatku o tych samych numerach:
+
+| Talia | Usuwana karta | Nowa karta |
+|---|---|---|
+| Postaci Wolnych Ludów | nr 15 „Gwaihir, Pędziwiatr” | „Zachodni Szlak” |
+| Postaci Wolnych Ludów | nr 18 „Nadlatują Orły!” | „Przeczucie” |
+| Postaci Wolnych Ludów | nr 19 „Entowie Się Budzą: Drzewiec” | „Szybkie Łodzie” |
+| Postaci Wolnych Ludów | nr 20 „Entowie Się Budzą: Huornowie” | „Majestat i Chwała” |
+| Postaci Wolnych Ludów | nr 21 „Entowie Się Budzą: Wiec Entów” | „Zabierz Kogoś Godnego Zaufania” |
+| Postaci Wolnych Ludów | nr 22 „Umarli z Dunharrow” | „Długa Bitwa” |
+| Postaci Cienia | nr 1 „Jaskinia Szeloby” | „Po Niczyjej Stronie” |
+| Strategii Cienia | nr 10 „Korsarze z Umbaru” | „Silnie Strzeżona” |
+| Strategii Cienia | nr 11 „Furia Dunlendingów” | „Wielkie Skrzydlate Istoty” |
+
+Nazwy nowych kart pochodzą ze spisu podmienianych kart w instrukcji dodatku Królowie Śródziemia (s. 19). Instrukcja Wojowników Śródziemia podaje tylko usuwane karty.
+
+- Każdy gracz dostaje też trzecią talię: 20 kart [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]]. Tasuje ją i kładzie obok pozostałych.
+- [[Karta Wezwania do Walki|Karty Wezwania do Walki]] (po 6 na stronę) odkłada się obok planszy. Nie należą do żadnej talii.
+- Jeśli gracze używają promocyjnej figurki Drzewca, jego kartę Postaci zastępuje karta Drzewca z tego dodatku.
+
+::: errata
+Polska instrukcja dodatku (s. 3) pisze, że usunięte karty Cienia („Korsarze z Umbaru”, „Furia Dunlendingów” i „Jaskinia Szeloby”) zastępują nowe karty Wydarzeń **Wolnych Ludów**. Poprawnie: nowe karty Wydarzeń **Cienia**.
+:::
+
+Poniższe karty z dodatku mają błędy w polskim tłumaczeniu.
+
+@@ Potrzeba Nam Tylko Skrzydeł
+rodzaj: karta Wydarzenia Wolnych Ludów
+## Jest
+„Przesuń wszystkie orły. Następnie wyeliminuj 1 orła, aby przesunąć Drużynę Pierścienia lub odłączyć od niej Towarzysza lub grupę Towarzyszy, tak jakby ich poziom wynosił 4. Ruch poruszanych Towarzyszy może się zakończyć w oblężonej twierdzy.”
+## Powinno być
+„Przesuń wszystkie orły. Następnie wyeliminuj 1 orła, aby **przesunąć lub odłączyć od Drużyny Pierścienia Towarzysza lub grupę Towarzyszy**, tak jakby ich poziom wynosił 4. Ruch poruszanych Towarzyszy może się zakończyć w oblężonej twierdzy.”
+## Wyjaśnienie
+Karta nie przesuwa całej Drużyny Pierścienia. Pozwala przesunąć Towarzyszy, którzy są już poza Drużyną, albo odłączyć ich od Drużyny (patrz [[Orły z Gór Mglistych]] i [[Odłączanie Towarzyszy]]).
+
+@@ Czarne Żagle
+rodzaj: karta Wydarzenia Frakcji Cienia
+## Jest
+„Następnie, jeśli Drużyna Pierścienia znajduje się „na morzu” lub została **ujawniona** w regionie Gondoru, Zachodnim Harondorze lub Osgiliath, możesz odrzucić jedną figurkę Korsarzy, aby podnieść ciężar brzemienia o jeden, zgodnie z zasadami dla udanych poszukiwań.”
+## Powinno być
+„Następnie, jeśli Drużyna Pierścienia znajduje się „na morzu” lub została **odkryta** w regionie Gondoru, Zachodnim Harondorze lub Osgiliath, możesz odrzucić jedną figurkę Korsarzy, aby podnieść ciężar brzemienia o jeden, zgodnie z zasadami dla udanych poszukiwań.”
+## Wyjaśnienie
+Ujawnienie i odkrycie to różne rzeczy (patrz [[Ujawnienie Drużyny Pierścienia]] i [[Odkrycie Drużyny Pierścienia]]). Karta działa, gdy Drużyna została odkryta, np. po udanych poszukiwaniach (patrz [[Korsarze z Umbaru]]).
+
+@@ Górale z Dunlandu
+rodzaj: karta Frakcji Cienia (Dunlendingowie)
+## Jest
+„Dunlendingowie **muszą** poruszyć się wraz z armią Cienia po zwycięskiej bitwie, muszą też wziąć udział w odwrocie tej armii.”
+## Powinno być
+„Dunlendingowie **mogą** poruszyć się wraz z armią Cienia po zwycięskiej bitwie, muszą też wziąć udział w odwrocie tej armii.”
+## Wyjaśnienie
+Ten sam błąd jest w instrukcji dodatku (patrz [[Górale z Dunlandu]]).
+
+@@ Pomiot Szeloby
+rodzaj: karta Frakcji Cienia (Pająki)
+## Jest
+„Pająki **muszą** poruszyć się wraz z armią Cienia po zwycięskiej bitwie, muszą też wziąć udział w odwrocie tej armii.”
+## Powinno być
+„Pająki **mogą** poruszyć się wraz z armią Cienia po zwycięskiej bitwie, muszą też wziąć udział w odwrocie tej armii.”
+## Wyjaśnienie
+Ten sam błąd jest w instrukcji dodatku (patrz [[Pomiot Szeloby]]).
+

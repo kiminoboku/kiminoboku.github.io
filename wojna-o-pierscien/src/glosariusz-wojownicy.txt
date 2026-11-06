@@ -1,0 +1,289 @@
+@@ Frakcja
+dodatek: wojownicy
+strony: 6, 9–11
+Grupa sprzymierzeńców jednej ze stron, którą gracz wprowadza do gry i którą kieruje kartami Frakcji i kością Frakcji. Każda strona ma trzy Frakcje.
+
+!img ws-figurki | Figurki Frakcji (Wojownicy Śródziemia, s. 4)
+
+## Zasady
+- Frakcje Wolnych Ludów: [[Umarli z Dunharrow]], [[Orły z Gór Mglistych]] i [[Entowie z Fangornu]]. Frakcje Cienia: [[Korsarze z Umbaru]], [[Górale z Dunlandu]] i [[Pomiot Szeloby]].
+- Na początku gry żadna Frakcja nie jest w grze. Gdy spełnione są jej warunki, gracz wprowadza ją [[Wynik „Mobilizacja”|wynikiem „Mobilizacja”]] ze zwykłej kości albo wynikiem „Mobilizacja Frakcji” z [[Kość Frakcji|kości Frakcji]].
+- Po wejściu do gry kartę Frakcji odwraca się na stronę ze skrótem zasad i ustawia początkowe figurki (patrz [[Karta Frakcji]]).
+- Frakcją kieruje się wyłącznie [[Karta Wydarzenia Frakcji|kartami Wydarzeń Frakcji]], kością Frakcji i w bitwie [[Karta Wezwania do Walki|kartami Wezwania do Walki]].
+
+| Frakcja | Wchodzi do gry, gdy… | Początkowe siły |
+|---|---|---|
+| Umarli z Dunharrow | Aragorn lub Obieżyświat jest w Erech albo w sąsiednim regionie (także za górami: Edoras, Helmowy Jar, Zachodni Emnet) | 2 figurki w Erech |
+| Orły z Gór Mglistych | ostatnim znanym miejscem pobytu Drużyny nie jest Rivendell albo w grze jest Gandalf Biały | 2 figurki w Orlim Gnieździe |
+| Entowie z Fangornu | w grze jest Saruman, a w Fangornie jest Towarzysz lub Drużyna | 2 figurki w Fangornie |
+| Korsarze z Umbaru | Haradrimowie i Easterlingowie są w stanie wojny | 3 figurki w Umbarze |
+| Górale z Dunlandu | w grze jest Saruman | po 2 figurki w Północnym i Południowym Dunlandzie |
+| Pomiot Szeloby | ostatnim znanym miejscem pobytu Drużyny nie jest Rivendell | po 1 figurce w Dol Guldur i Minas Morgul |
+
+## Wyjątki i szczególne przypadki
+- Figurki dodane wcześniej kartami „dodaj do początkowych sił” wchodzą do gry razem z Frakcją, w tym samym regionie.
+- Frakcja opuszcza grę według własnych zasad eliminacji, opisanych w jej haśle. Karta zagrana na wyeliminowaną Frakcję nie działa.
+
+~ Frakcje -> Frakcja
+~ Wprowadzanie Frakcji do gry -> Frakcja
+
+@@ Figurka Frakcji
+dodatek: wojownicy
+strony: 10
+Figurka sprzymierzeńców jednej z [[Frakcja|Frakcji]]. Nie jest jednostką armii.
+
+## Zasady
+- Figurki Frakcji nie mają siły, nie atakują same, nie blokują ruchu wroga i nie liczą się do [[Ograniczenie wielkości armii|limitu armii]], chyba że zasady Frakcji lub karty mówią inaczej.
+- Nie współdziałają z przyjaznymi armiami w tym samym regionie: nie wycofują się razem z nimi i nie giną razem z nimi.
+- Nie dają kontroli nad regionem i nie wpływają na [[Tor polityki|tor polityki]].
+- Zwykłymi wynikami kości akcji nie można rekrutować ani poruszać figurek Frakcji.
+- W grze może być najwyżej 8 figurek każdej Frakcji.
+
+## Wyjątki i szczególne przypadki
+- Figurki Frakcji Wolnych Ludów ogranicza pula [[Posiłki|posiłków]], a wyeliminowane wypadają z gry na stałe.
+- Frakcje Cienia mają nieograniczone posiłki: wyeliminowane figurki wracają do puli.
+- [[Korsarze z Umbaru|Korsarze]], [[Górale z Dunlandu|Dunlendingowie]] i [[Pomiot Szeloby|Pająki]] mogą poruszać się i walczyć razem z armią Cienia w swoim regionie.
+
+@@ Karta Wydarzenia Frakcji
+grupa: Karta
+dodatek: wojownicy
+strony: 6–7
+Karta z trzeciej talii każdego gracza, talii Wydarzeń Frakcji, która pozwala korzystać z [[Frakcja|Frakcji]].
+
+## Zasady
+- Każdy gracz ma talię 20 kart Wydarzeń Frakcji. Na początku każdej tury, także pierwszej, dobiera z niej jedną kartę.
+- Karta Wydarzenia Frakcji jest [[Karta Wydarzenia|kartą Wydarzenia]], a jej talia jest [[Talia Wydarzeń|talią Wydarzeń]]: dotyczą ich te same zasady i efekty.
+- Kartę dobiera się lub zagrywa [[Wynik „Wydarzenie”|wynikiem „Wydarzenie”]], wynikiem wskazanym na karcie (Postać, Armia, Mobilizacja) albo odpowiednim wynikiem [[Kość Frakcji|kości Frakcji]].
+- Karty Frakcji nie liczą się do limitu 6 kart na ręce. Można mieć najwyżej 4 karty Frakcji, a nadmiar od razu się odrzuca.
+- Gdy talia Frakcji się wyczerpie, tasuje się jej stos kart odrzuconych i tworzy nową talię.
+
+## Wyjątki i szczególne przypadki
+- Zdolności, które dotyczą kart Wydarzeń w ogóle (np. zdolność przewodnika Gandalfa Szarego), działają też na karty Frakcji. Zdolności i warunki dotyczące konkretnej talii (np. „Zbyt Wielka, Straszliwa Potęga”) na nie nie działają.
+- Karta rekrutacji Frakcji, która jeszcze nie weszła do gry, nie działa, chyba że pozwala „dodać figurki do początkowych sił”. Figurki kładzie się wtedy na karcie Frakcji.
+- Figurki leżące na karcie Wydarzenia nie są w grze. Jeśli kartę się odrzuci, wracają do posiłków.
+- W [[Gra wieloosobowa|grze wieloosobowej]] limit wynosi 3 karty Frakcji na gracza.
+
+~ Talia Wydarzeń Frakcji -> Karta Wydarzenia Frakcji | Talia
+~ Karta rekrutacji Frakcji -> Karta Wydarzenia Frakcji
+
+@@ Karta Frakcji
+grupa: Karta
+dodatek: wojownicy
+strony: 3, 9
+Duża karta opisująca jedną [[Frakcja|Frakcję]]: z jednej strony warunki wejścia do gry, z drugiej skrót zasad.
+
+!img ws-karty-frakcji | Karty Frakcji
+
+## Zasady
+- Na początku gry każdy gracz kładzie trzy karty Frakcji swojej strony ilustracją do góry, tak by widać było warunki wejścia.
+- Gdy Frakcja wejdzie do gry, jej kartę odwraca się na stronę ze skrótem zasad.
+- Na karcie Frakcji kładzie się figurki „dodane do początkowych sił”, zanim Frakcja wejdzie do gry (patrz [[Karta Wydarzenia Frakcji]]).
+
+@@ Karta Wezwania do Walki
+grupa: Karta
+dodatek: wojownicy
+strony: 10–11
+Karta, którą gracz zagrywa w bitwie zamiast [[Karta Bitwy|karty Bitwy]], aby wezwać do walki figurki swojej [[Frakcja|Frakcji]].
+
+## Zasady
+- Przed bitwą każdy gracz bierze na rękę po dwie karty Wezwania (Postaci i Strategii) dla każdej swojej Frakcji w grze, która spełnia warunek wezwania do tej bitwy. To najwyżej 6 kart.
+- Na początku każdej [[Runda bitwy|rundy bitwy]] gracz może zagrać jedną z nich zamiast karty Bitwy.
+- Pod koniec rundy zagraną kartę Wezwania bierze się z powrotem na rękę, więc można jej używać wielokrotnie, dopóki spełniony jest warunek.
+- Po bitwie wszystkie karty Wezwania odkłada się na bok.
+
+## Wyjątki i szczególne przypadki
+- Karty Wezwania mają rewersy talii Postaci i Strategii, ale do nich nie należą. Nie działa więc na nie zdolność „Czarnoksięstwo” Czarnoksiężnika z Angmaru.
+- Jeśli gracz nie może zagrać karty Bitwy (np. przez „Grond, Młot Podziemi” albo „Szaleństwo Denethora”), nie może też zagrać karty Wezwania.
+- Karty anulujące karty Bitwy (np. „Chmara Nietoperzy”) anulują też karty Wezwania.
+- Warunki wezwania każdej Frakcji opisuje jej hasło.
+
+~ Wezwanie do walki -> Karta Wezwania do Walki
+
+@@ Kość Frakcji
+grupa: Kość
+dodatek: wojownicy
+strony: 7–9
+Specjalna kość akcji każdego gracza (zielona dla Wolnych Ludów, pomarańczowa dla Cienia), której wyniki służą wyłącznie do kierowania [[Frakcja|Frakcjami]].
+
+!img ws-wyniki-kosci-frakcji | Wyniki kości Frakcji (Wojownicy Śródziemia, s. 8). Ostatnia ścianka Wolnych Ludów to poprawnie „Mobilizacja/dobranie karty Frakcji” (patrz errata niżej).
+
+## Zasady
+- Gdy do gry wejdzie pierwsza Frakcja gracza, na początku następnej tury kość Frakcji dochodzi do jego [[Pula kości akcji|puli kości akcji]].
+- Wykorzystanie kości Frakcji to [[Akcja|akcja]].
+- Wyniki:
+  - **Mobilizacja Frakcji**: postaw figurki Frakcji według jej zasad ALBO wprowadź do gry nową Frakcję.
+  - **Zagranie karty Frakcji**: zagraj z ręki [[Karta Wydarzenia Frakcji|kartę Wydarzenia Frakcji]].
+  - **Dobranie karty Frakcji**: dobierz kartę Wydarzenia Frakcji.
+  - **Oko Saurona** (tylko Cień): kość idzie na [[Pole poszukiwań|pole poszukiwań]] jak zwykłe [[Wynik „Oko”|Oko]].
+  - **Dzika kość** (tylko Cień): wybierz Mobilizację Frakcji, zagranie albo dobranie karty Frakcji.
+- Ścianki Wolnych Ludów: 2 × Mobilizacja Frakcji, 2 × zagranie/dobranie karty, mobilizacja/zagranie karty, mobilizacja/dobranie karty. Ścianki Cienia: Mobilizacja Frakcji, zagranie/dobranie karty, mobilizacja/zagranie karty, mobilizacja/dobranie karty, Oko, dzika kość.
+- Jeśli w grze jest kilka Frakcji, gracz wybiera, której dotyczy akcja.
+
+## Wyjątki i szczególne przypadki
+- Kość Frakcji liczy się jak zwykła kość akcji tylko przy [[Pasowanie|pasowaniu]]. Nie spełnia wymogu „dowolnej kości akcji” i nie można jej zmienić [[Pierścienie Elfów|Pierścieniem Elfów]], chyba że coś wyraźnie mówi inaczej.
+- Wyniku kości Frakcji nie można wykorzystać jako zwykłej akcji (wyjątek: Oko).
+- Gdy wszystkie Frakcje gracza opuszczą grę, na początku następnej tury kość Frakcji się usuwa. Wraca, gdy do gry wejdzie nowa Frakcja.
+
+::: errata
+Polska instrukcja dodatku (s. 8) opisuje ostatnią ściankę kości Wolnych Ludów jako „Mobilizacja/zagranie karty Frakcji”. Poprawnie: „Mobilizacja/**dobranie** karty Frakcji”.
+:::
+
+~ Mobilizacja Frakcji -> Kość Frakcji
+~ Dzika kość -> Kość Frakcji
+
+@@ Umarli z Dunharrow
+dodatek: wojownicy
+strony: 12–15
+[[Frakcja]] Wolnych Ludów: duchy wiarołomców, które służą Dziedzicowi Isildura i walczą jako Armia Umarłych.
+
+## Zasady
+- Wejście do gry: [[Aragorn, Dziedzic Isildura|Aragorn lub Obieżyświat]] jest w Erech albo w sąsiednim regionie, także za górami (Helmowy Jar, Zachodni Emnet, Edoras).
+- Gdy Umarli wchodzą do gry, gracz od razu przenosi Obieżyświata/Aragorna do Erech, aby dołączył do Armii Umarłych. Może z nim przenieść dowolną liczbę [[Towarzysz|Towarzyszy]] z tego samego regionu, nawet z oblężonej twierdzy.
+- Początkowe siły: 2 figurki w Erech. Mobilizacja Frakcji: 1 figurka do Armii Umarłych.
+- Wszyscy Umarli zawsze są razem w jednym regionie i tworzą Armię Umarłych. Nie mają limitu wielkości armii.
+- **Ruch** (kartą „Upiory Strachu”): armia może przejść kilka razy do sąsiedniego regionu bez wrogich jednostek, ale za każdy ruch traci jedną figurkę. Ruszać się może, dopóki ma więcej niż jedną figurkę.
+- **Atak**: po ruchu armia może zaatakować armię Cienia w sąsiednim regionie. Gracz usuwa jedną figurkę Umarłych i rzuca 3 kośćmi, trafiając na 4+. Może powtarzać atak na tę samą armię, dopóki zostaje mu choć jedna figurka.
+- To nie jest zwykła bitwa: Cień nie może odpowiedzieć, nikt nie zagrywa kart Bitwy ani Wezwania, a teren nie ma znaczenia.
+- Gdy atak zniszczy wszystkie jednostki armii Cienia, giną też jej Nazgûle i Sługi. Ocalałe jednostki muszą wykonać [[Odwrót|odwrót]] do sąsiedniego regionu innego niż ten, z którego przyszedł atak. Sługi i Nazgûle mogą zostać albo pójść z armią. Armia Umarłych może wtedy za darmo wejść do opuszczonego regionu.
+- **Wezwanie do walki**: gdy Armia Umarłych jest w regionie bronionej armii lub w sąsiednim (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+- Armii Umarłych nie uważa się za armię Wolnych Ludów do żadnych celów.
+- Towarzysze mogą dołączyć do Armii Umarłych tylko w chwili jej wejścia do gry i opuścić ją tylko razem z Obieżyświatem/Aragornem. Dopóki są w niej, nie towarzyszą armii Wolnych Ludów w tym samym regionie.
+- Jeśli armia Cienia nie może się wycofać (jest oblężona albo nie ma dokąd), zostaje na miejscu.
+- Jeśli armia Cienia wejdzie do regionu z Armią Umarłych, gracz może ją zaatakować tak, jakby była w regionie sąsiednim, albo ją zignorować i przejść dalej.
+- **Eliminacja**: gdy w Armii Umarłych nie zostanie żadna figurka, Frakcja od razu odpada z gry. Gracz może też ogłosić, że Obieżyświat/Aragorn z Towarzyszami opuszczają armię: Umarli się rozpraszają, a Frakcja natychmiast opuszcza grę.
+
+::: przyklad
+W Erech są Obieżyświat i 5 figurek Umarłych. Gracz Wolnych Ludów zagrywa „Upiory Strachu”. Usuwa figurkę i przechodzi do pustego Lamedonu, potem drugą i przechodzi do pustego Pelargiru. W Zachodnim Harondorze stoi armia Cienia: gracz usuwa trzecią figurkę i atakuje. Rzuca 3 kośćmi i ma 2 trafienia. Kończy atak, a armia Cienia wycofuje się do Południowego Ithilien. Gracz mógłby przesunąć Armię Umarłych do Zachodniego Harondoru, ale zostawia ją w Pelargirze.
+:::
+
+::: errata
+Polska instrukcja dodatku zawiera kilka błędów w opisie Umarłych:
+- s. 12: wydrukowano, że gracz przenosi do Erech Obieżyświata/Aragorna „i znajdujących się w tym samym regionie Towarzyszy”. To nie jest obowiązek: innych Towarzyszy można, ale nie trzeba przenosić.
+- s. 13: Armii Umarłych nie uważa się za armię Wolnych Ludów **do żadnych celów** (w druku brakuje tego zastrzeżenia).
+- s. 14: po rozproszeniu armii Frakcja opuszcza grę **natychmiast** (w druku brakuje tego słowa).
+- s. 15: w przykładzie wydrukowano „Armię Cienia” zamiast „Armię Umarłych”.
+:::
+
+~ Umarli -> Umarli z Dunharrow
+~ Armia Umarłych -> Umarli z Dunharrow
+~ Upiory Strachu -> Umarli z Dunharrow
+
+@@ Orły z Gór Mglistych
+dodatek: wojownicy
+strony: 16–17
+[[Frakcja]] Wolnych Ludów: wielkie orły, które przylatują w dowolne miejsce planszy.
+
+## Zasady
+- Wejście do gry: ostatnim znanym miejscem pobytu [[Drużyna Pierścienia|Drużyny]] nie jest Rivendell albo w grze jest [[Gandalf Biały]].
+- Początkowe siły: 2 figurki w Orlim Gnieździe. Mobilizacja Frakcji: 1 figurka w Orlim Gnieździe. Orły nie mają limitu wielkości armii.
+- **Ruch**: gdy karta każe „przesunąć wszystkie Orły”, gracz może przenieść każdą figurkę Orła do dowolnego regionu planszy, bez ograniczeń.
+- **Wezwanie do walki**: gdy co najmniej jeden Orzeł jest w zasięgu 4 regionów od bronionej armii (góry nie przeszkadzają). Gracz przenosi część lub wszystkie Orły z zasięgu do regionu bitwy (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+**Eliminacja**: gdy w grze nie zostanie żadna figurka Orła, Frakcja od razu odpada z gry.
+
+~ Orły -> Orły z Gór Mglistych
+~ Orle Gniazdo -> Orły z Gór Mglistych
+
+@@ Entowie z Fangornu
+dodatek: wojownicy
+strony: 17–20
+[[Frakcja]] Wolnych Ludów: pasterze drzew, których rozbudza Towarzysz w Fangornie i którzy mogą zburzyć Orthank.
+
+## Zasady
+- Wejście do gry: w grze jest [[Saruman]], a w Fangornie jest [[Towarzysz]] lub Drużyna.
+- Początkowe siły: 2 figurki w Fangornie, które tworzą Las Entów. Mobilizacja Frakcji: 1 figurka do Lasu Entów. Entowie nie mają limitu wielkości armii.
+- W Fangornie zawsze musi być co najmniej jeden Ent i Towarzysz lub Drużyna.
+- **Marsz Entów** (kartą „Marsz Entów”): jedną akcją gracz wykonuje w dowolnej kolejności serię ruchów i ataków, dopóki w Lesie Entów są figurki.
+- **Ruch**: gracz bierze figurkę z Lasu Entów i stawia ją w regionie bez wrogich jednostek, sąsiadującym z regionem z inną figurką Enta. Tak powstaje łańcuch Entów od Fangornu. Może to robić, dopóki w Lesie zostaje więcej niż jedna figurka.
+- **Atak**: na armię Cienia w regionie sąsiadującym z figurką Enta. Gracz usuwa figurkę z Lasu Entów i rzuca 3 kośćmi, trafiając na 4+. Może powtarzać, dopóki w Lesie zostaje choć jedna figurka. To nie jest zwykła bitwa: Cień nie może odpowiedzieć, nikt nie zagrywa kart, a teren nie ma znaczenia.
+- Gdy atak zniszczy wszystkie jednostki armii Cienia, giną też jej Nazgûle i Sługi.
+- **Wezwanie do walki**: gdy figurka Enta jest w regionie bronionej armii lub w sąsiednim (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+- Jeśli armia Cienia wejdzie do regionu z Entem, można ją zaatakować tak, jakby była w regionie sąsiednim.
+- **Zburzenie Orthanku**: jeśli atak Entów zniszczy wszystkie jednostki Cienia w Orthanku albo gracz postawi Enta w Orthanku bez wrogich jednostek, Saruman zostaje wyeliminowany.
+- **Eliminacja**: gdy w Lesie Entów nie zostanie żadna figurka albo w Fangornie nie będzie Towarzysza ani Drużyny, Frakcja od razu odpada z gry.
+
+::: przyklad
+W Fangornie są 4 Entowie, a na Brodach na Isenie stoją 3 regularne jednostki Isengardu. Gracz zagrywa „Marsz Entów”, usuwa figurkę z Lasu i atakuje: 2 trafienia. Usuwa drugą figurkę i atakuje ponownie: 1 trafienie niszczy ostatnią jednostkę. W Lesie zostają 2 Entowie, więc gracz przestawia jednego na Brody na Isenie, bliżej Orthanku.
+:::
+
+~ Entowie -> Entowie z Fangornu
+~ Las Entów -> Entowie z Fangornu
+~ Marsz Entów -> Entowie z Fangornu
+
+@@ Korsarze z Umbaru
+dodatek: wojownicy
+strony: 21–23
+[[Frakcja]] Cienia: flota z Umbaru, która napada na wybrzeża i przewozi armie Cienia.
+
+## Zasady
+- Wejście do gry: Haradrimowie i Easterlingowie są w [[Stan wojny|stanie wojny]].
+- Początkowe siły: 3 figurki w Umbarze. Mobilizacja Frakcji: 1 figurka w Umbarze.
+- W jednym regionie może być najwyżej 5 Korsarzy. Nie liczą się do zwykłego [[Ograniczenie wielkości armii|limitu 10 jednostek]].
+- Korsarze mogą wchodzić tylko do [[Region|regionów]] wybrzeża Zachodniego Morza, do regionów Gondoru (bez Erechu) i do Osgiliath. Dotyczy to też ruchu z armią Cienia: jeśli armia idzie gdzie indziej, Korsarze zostają.
+- **Ruch** (kartą „Wielka Flota”): każda figurka Korsarzy, razem lub osobno, o najwyżej 4 regiony. Mogą przejść przez region z wrogą armią lub do niego wejść.
+- **Transport armii** (kartą „Posępne Okręty”): każda figurka przewozi najwyżej 2 jednostki Cienia i dowolnie wielu Sług i Nazgûli. Razem o najwyżej 4 regiony, z końcem ruchu w [[Wolny region|wolnym regionie]] albo pustej osadzie wroga.
+- **Transport i atak**: każda figurka przewozi do ataku najwyżej 2 jednostki Cienia oraz Sługi i Nazgûle. Razem o najwyżej 2 regiony, potem atak na sąsiedni region lub oblężoną twierdzę wroga w tym samym regionie.
+- **Wezwanie do walki**: gdy Korsarze są w regionie z nieoblężoną armią Cienia (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+- Korsarze nie są jednostkami armii Cienia, ale mogą ruszać się z armią w swoim regionie, także po zwycięskiej bitwie i w odwrocie, jeśli region docelowy jest dla nich dozwolony.
+- Korsarze w regionie z oblężoną armią Cienia zawsze są poza twierdzą.
+- Przewożona armia może przed atakiem połączyć się z armią Cienia w regionie docelowym. Limit armii sprawdza się od razu.
+- Jednostki, które dołączą do bitwy dzięki karcie Wezwania „Zrodzeni na Wietrze”, dochodzą do armii po usunięciu strat, przed końcem rundy. Nie przyjmują strat z tej rundy, ale jeśli armia straciła wszystkie jednostki, bitwa trwa dalej, a jej Sługi i Nazgûle nie giną.
+- **Eliminacja**: gdy Wolne Ludy kontrolują Umbar, Frakcja od razu odpada z gry.
+
+~ Korsarze -> Korsarze z Umbaru
+~ Wielka Flota -> Korsarze z Umbaru
+
+@@ Górale z Dunlandu
+dodatek: wojownicy
+strony: 24–25
+[[Frakcja]] Cienia: Dunlendingowie, dzicy wrogowie Rohanu podburzeni przez Sarumana.
+
+## Zasady
+- Wejście do gry: w grze jest [[Saruman]].
+- Początkowe siły: po 2 figurki w każdej kontrolowanej przez Cień osadzie Dunlandu.
+- Mobilizacja Frakcji: po 1 figurce w każdej kontrolowanej przez Cień osadzie Dunlandu ALBO 1 figurka w regionie Isengardu lub Rohanu z armią Cienia (jeśli ta armia nie jest w oblężonej twierdzy).
+- W jednym regionie mogą być najwyżej 3 figurki Dunlendingów. Nie liczą się do zwykłego [[Ograniczenie wielkości armii|limitu 10 jednostek]].
+- **Bez armii** (kartą Frakcji): wszystkie figurki, razem lub osobno, o najwyżej 2 regiony. Nie przekraczają terenu nieprzekraczalnego i nie wchodzą do regionu z armią Wolnych Ludów ani do [[Niezdobyta osada|niezdobytej]] twierdzy Wolnych Ludów (chyba że oblega ją armia Cienia). Nie wchodzą do oblężonej twierdzy i jej nie opuszczają, ale mogą wejść do regionu, w którym armia Cienia oblega twierdzę.
+- **Z armią**: w regionie z armią Cienia mogą się z nią poruszać i atakować według zwykłych zasad ruchu.
+- **Wezwanie do walki**: gdy Dunlendingowie są w regionie z nieoblężoną armią Cienia (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+- Jak postacie, Dunlendingowie **mogą** pójść z armią Cienia po zwycięskiej bitwie, ale **muszą** wziąć udział w jej odwrocie. Jeśli armia zostanie wyeliminowana, giną razem z nią.
+- **Eliminacja**: gdy Wolne Ludy kontrolują obie osady Dunlandu, Frakcja od razu odpada z gry.
+
+::: errata
+Polska instrukcja dodatku (s. 25) i karta Frakcji podają, że Dunlendingowie „muszą poruszyć się” z armią Cienia po zwycięskiej bitwie. Poprawnie: **mogą** się z nią poruszyć (patrz [[karta: Górale z Dunlandu]]).
+:::
+
+~ Dunlendingowie -> Górale z Dunlandu
+
+@@ Pomiot Szeloby
+dodatek: wojownicy
+strony: 26–27
+[[Frakcja]] Cienia: wielkie pająki z Mrocznej Puszczy i Gór Cienia.
+
+## Zasady
+- Wejście do gry: ostatnim znanym miejscem pobytu [[Drużyna Pierścienia|Drużyny]] nie jest Rivendell.
+- Początkowe siły: po 1 figurce w Dol Guldur i Minas Morgul. Mobilizacja Frakcji: znowu po 1 figurce w Dol Guldur i Minas Morgul.
+- Pająki nie mają limitu wielkości armii, chyba że w grze jest karta Frakcji „Wielkie i Potworne”: wtedy liczą się do [[Ograniczenie wielkości armii|limitu armii]].
+- **Bez armii** (kartą Frakcji): wszystkie figurki, razem lub osobno, o najwyżej 2 regiony. Nie wchodzą do regionu z armią Wolnych Ludów ani do [[Niezdobyta osada|niezdobytej osady]] Wolnych Ludów (chyba że to twierdza oblegana przez armię Cienia). Nie wchodzą do oblężonej twierdzy i jej nie opuszczają.
+- **Z armią**: w regionie z armią Cienia mogą się z nią poruszać i atakować według zwykłych zasad ruchu.
+- **Wezwanie do walki**: gdy Pająki są w regionie z armią Cienia (patrz [[Karta Wezwania do Walki]]).
+
+## Wyjątki i szczególne przypadki
+- Jak postacie, Pająki **mogą** pójść z armią Cienia po zwycięskiej bitwie, ale **muszą** wziąć udział w jej odwrocie. Jeśli armia zostanie wyeliminowana, giną razem z nią.
+- **Eliminacja**: gdy w grze nie zostanie żadna figurka Pająków, Frakcja od razu odpada z gry.
+
+::: errata
+Polska instrukcja dodatku (s. 27) i karta Frakcji podają, że Pająki „muszą poruszyć się” z armią Cienia po zwycięskiej bitwie. Poprawnie: **mogą** się z nią poruszyć (patrz [[karta: Pomiot Szeloby]]).
+:::
+
+~ Pająki -> Pomiot Szeloby
+~ Wielkie i Potworne -> Pomiot Szeloby

@@ -29,8 +29,9 @@ Expansions (keys: panowie, wojownicy, krolowie):
     dodatek: panowie           field on a glossary entry or card: shown only with that expansion
     # Title {panowie}          suffix on a chapter, subchapter, ## entry section or card section
     ::: dodatek panowie Title  box shown only with that expansion
-    A condition joins keys with "+" (all required); "!key" means "only without that expansion",
-    e.g. {krolowie+panowie} or dodatek: !panowie. Aliases inherit their target's condition.
+    A condition joins keys with "+" (all required) or "|" (any of them); "!key" means "only
+    without that expansion", e.g. {krolowie+panowie}, dodatek: panowie|wojownicy or
+    dodatek: !panowie. Aliases inherit their target's condition.
     Links must not point to content that can be hidden while the linking text is visible.
 
 Blocks: paragraphs, "- " lists (nest with 2 spaces), "1. " lists, "| a | b |" tables,
@@ -105,30 +106,45 @@ USED_EXPANSIONS: set[str] = set()
 
 @dataclass(frozen=True)
 class Cond:
-    """When content is visible: all `req` expansions selected and none of `nots`."""
+    """When content is visible: all `req` expansions selected, none of `nots`,
+    and (if `any` is not empty) at least one of `any`."""
     req: frozenset = frozenset()
     nots: frozenset = frozenset()
+    any: frozenset = frozenset()
 
     def __bool__(self) -> bool:
-        return bool(self.req or self.nots)
+        return bool(self.req or self.nots or self.any)
 
     def __or__(self, other: "Cond") -> "Cond":
-        return Cond(self.req | other.req, self.nots | other.nots)
+        if self.any and other.any and self.any != other.any:
+            ERRORS.append(f"cannot nest two different 'any' conditions: {sorted(self.any)} and {sorted(other.any)}")
+        return Cond(self.req | other.req, self.nots | other.nots, self.any or other.any)
 
     def implies(self, other: "Cond") -> bool:
         """True if content visible under `self` is always visible under `other`'s condition."""
-        return other.req <= self.req and other.nots <= self.nots
+        if not (other.req <= self.req and other.nots <= self.nots):
+            return False
+        return not other.any or bool(self.req & other.any) or bool(self.any and self.any <= other.any)
 
     def attrs(self) -> str:
         out = f' data-req="{" ".join(sorted(self.req))}"' if self.req else ""
+        out += f' data-any="{" ".join(sorted(self.any))}"' if self.any else ""
         return out + (f' data-not="{" ".join(sorted(self.nots))}"' if self.nots else "")
 
 
 NO_COND = Cond()
-COND_SUFFIX = re.compile(r"\s*(?<!\{)\{([a-z!+ ]+)\}$")
+COND_SUFFIX = re.compile(r"\s*(?<!\{)\{([a-z!+| ]+)\}$")
 
 
 def parse_cond(text: str, where: str) -> Cond:
+    if "|" in text:  # any of the listed expansions
+        names = [t.strip() for t in text.split("|")]
+        bad = [n for n in names if n not in EXPANSIONS]
+        if bad or "+" in text or "!" in text:
+            ERRORS.append(f"{where}: an 'a|b' condition takes plain expansion keys only: '{text}'")
+            return NO_COND
+        USED_EXPANSIONS.update(names)
+        return Cond(any=frozenset(names))
     req, nots = set(), set()
     for tok in text.split("+"):
         tok = tok.strip()
@@ -152,7 +168,7 @@ def split_cond(title: str, where: str) -> tuple[str, Cond]:
 def badges(cond: Cond, heading: str = "") -> str:
     """Expansion badges; a heading that already is the expansion's name gets none."""
     return "".join(f'<span class="exp-badge exp-{k}" title="Dodatek: {EXPANSIONS[k]}">{EXPANSIONS[k]}</span>'
-                   for k in sorted(cond.req) if EXPANSIONS[k] != heading)
+                   for k in sorted(cond.req | cond.any) if EXPANSIONS[k] != heading)
 
 
 # ---------------------------------------------------------------- model
@@ -524,7 +540,7 @@ def render_entry(e: Entry) -> str:
         ERRORS.append(f"{ctx.where}: no related entries")
     chips = "".join(f'<li{(c | ID_TO_ENTRY[rid].cond).attrs()}><a class="chip term" href="#{rid}">'
                     f'{html.escape(ID_TO_ENTRY[rid].title)}</a></li>' for rid, c in e.related)
-    book = "instrukcja dodatku" if e.cond.req else "instrukcja"
+    book = "instrukcja dodatku" if e.cond.req or e.cond.any else "instrukcja"
     pages = f'<span class="pages">{book} s. {html.escape(e.pages)}</span>' if e.pages else ""
     search = html.escape(" ".join([e.title, *e.keys, *[a.name for a in ALIASES if a.target == e.title]]))
     copy = copy_button(e.id, f"hasła {e.title}")

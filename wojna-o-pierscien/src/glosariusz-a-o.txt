@@ -51,6 +51,9 @@ Potężniejsze wcielenie [[Towarzysz|Towarzysza]] Obieżyświata, które może w
 ## Wyjątki i szczególne przypadki
 Szczegółowe warunki wejścia do gry i zdolności Aragorna są wydrukowane na jego karcie, nie w instrukcji. Na początku gry kartę Aragorna odkłada się na bok.
 
+## Z dodatkiem {wojownicy}
+- Gdy Obieżyświat lub Aragorn jest w Erech albo w sąsiednim regionie, do gry mogą wejść [[Umarli z Dunharrow]]. Dołącza wtedy do Armii Umarłych.
+
 @@ Armia
 grupa: Armia
 strony: 8, 26
@@ -413,6 +416,12 @@ Zespoły wygrywają tak jak w grze dwuosobowej (patrz [[Warunki zwycięstwa]]). 
 - Balroga i Gothmoga kontroluje gracz Czarnoksiężnika z Angmaru, ale wynik ich [[Kość Pomniejszego Sługi|kości]] wybiera prowadzący gracz Cienia.
 - Gdy gracz Wolnych Ludów zmienia wynik Pierścieniem Elfów, gracz Gondoru decyduje, który żeton zużyć.
 
+## Z dodatkiem {wojownicy}
+- Każdy gracz może mieć najwyżej 3 karty [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]]. Na początku tury kartę Frakcji dobiera tylko gracz prowadzący i może przekazać jedną partnerowi.
+- [[Kość Frakcji|Kość Frakcji]] może wykorzystać każdy gracz zespołu, zawsze gdy mógłby użyć zwykłej kości.
+- Każdy gracz zespołu może wydać kość akcji na zagranie karty Frakcji z ręki i może wezwać Frakcję do walki, jeśli w bitwie bierze udział jego armia.
+- Kartę Frakcji można zagrać dla dowolnej Frakcji, niezależnie od Narodu, ale karty o „armii Cienia” tylko dla własnej armii.
+
 ~ Gra czteroosobowa -> Gra wieloosobowa | Gra
 ~ Gra trzyosobowa -> Gra wieloosobowa | Gra
 
@@ -507,6 +516,10 @@ Karta Wydarzenia zagrana podczas bitwy dla dolnego tekstu karty.
 
 ## Z dodatkiem {panowie}
 - Na potrzeby efektów kart Bitwy [[Elrond, Powiernik Vilyi|Elronda]] i [[Galadriela, Powierniczka Nenyi|Galadrielę]] traktuje się jak Towarzyszy 3. poziomu.
+
+## Z dodatkiem {wojownicy}
+- Zamiast karty Bitwy gracz może zagrać [[Karta Wezwania do Walki|kartę Wezwania do Walki]], jeśli jego [[Frakcja]] spełnia warunek wezwania.
+- Gdy gracz nie może zagrać karty Bitwy, nie może też zagrać karty Wezwania, a karty anulujące karty Bitwy anulują też karty Wezwania.
 
 @@ Karta Postaci
 grupa: Karta
@@ -806,6 +819,10 @@ Limit 10 jednostek w jednym regionie (5 w oblężonej twierdzy).
 ## Wyjątki i szczególne przypadki
 - Przy ruchu przez kilka regionów z karty Wydarzenia limit sprawdza się dopiero po zakończeniu wszystkich ruchów.
 - W [[Armia mieszana|armiach mieszanych]] partnerzy usuwają nadmiar na zmianę.
+
+## Z dodatkiem {wojownicy}
+- [[Figurka Frakcji|Figurki Frakcji]] nie liczą się do limitu 10 jednostek.
+- Mają własne limity: najwyżej 5 [[Korsarze z Umbaru|Korsarzy]] i 3 [[Górale z Dunlandu|Dunlendingów]] w regionie. [[Pomiot Szeloby|Pająki]] liczą się do limitu armii, gdy w grze jest karta „Wielkie i Potworne”.
 
 ~ Oko Saurona -> Wynik „Oko”
 

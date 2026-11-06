@@ -63,14 +63,14 @@
   });
 
   // ---------------------------------------------------------- expansions
-  // Content of an expansion carries data-req (all listed expansions must be selected) and/or
-  // data-not (none of them may be selected). The selection is kept in a cookie for a year;
+  // Content of an expansion carries data-req (all listed expansions must be selected),
+  // data-any (at least one of them) and/or data-not (none of them may be selected). The selection is kept in a cookie for a year;
   // pages opened from file:// cannot keep cookies in Chrome, so there it falls back to localStorage.
   const EXP_KEY = "wop_dodatki";
   const expInputs = Array.from(document.querySelectorAll("input[data-exp]"));
   const expNames = Object.fromEntries(expInputs.map((i) => [i.dataset.exp, i.parentElement.textContent.trim()]));
   const expCount = document.getElementById("exp-count");
-  const conditional = Array.from(document.querySelectorAll("[data-req], [data-not]"));
+  const conditional = Array.from(document.querySelectorAll("[data-req], [data-any], [data-not]"));
   const words = (s) => (s || "").split(" ").filter(Boolean);
 
   function readSelection() {
@@ -95,7 +95,8 @@
 
   let selected = readSelection();
   const isOn = (el) => words(el.dataset.req).every((k) => selected.has(k)) &&
-    !words(el.dataset.not).some((k) => selected.has(k));
+    !words(el.dataset.not).some((k) => selected.has(k)) &&
+    (!el.dataset.any || words(el.dataset.any).some((k) => selected.has(k)));
 
   function applySelection() {
     expInputs.forEach((i) => { i.checked = selected.has(i.dataset.exp); });
@@ -140,6 +141,9 @@
       if (!n.dataset) continue;
       words(n.dataset.req).forEach((k) => { if (!selected.has(k)) missing.add(k); });
       words(n.dataset.not).forEach((k) => { if (selected.has(k)) blocking.add(k); });
+      // "any of": if none is selected, offer the first one
+      const any = words(n.dataset.any);
+      if (any.length && !any.some((k) => selected.has(k))) missing.add(any[0]);
     }
     const names = (set) => Array.from(set).map((k) => `„${expNames[k] || k}”`).join(", ");
     const text = document.createElement("span");

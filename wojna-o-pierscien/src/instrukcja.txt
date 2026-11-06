@@ -91,6 +91,13 @@ Gracze ustalają, kto gra Wolnymi Ludami, a kto Cieniem. Następnie:
 - Pozostałe elementy dodatku odłóż na bok. Alternatywne karty Towarzyszy i żetony akcji Cienia są potrzebne tylko w wariancie [[Rada Rivendell]].
 :::
 
+::: dodatek wojownicy
+- Usuń z talii dziewięć kart, które zastępują nowe karty z dodatku, i dodaj nowe karty Wydarzeń (patrz [[karty: Wojownicy Śródziemia|zakładka Karty]]).
+- Każdy gracz tasuje swoją talię [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]] i kładzie ją obok pozostałych talii.
+- Każdy gracz kładzie przed sobą 3 [[Karta Frakcji|karty Frakcji]] swojej strony ilustracją do góry i bierze arkusz pomocy.
+- Kości Frakcji, figurki Frakcji i karty Wezwania do Walki odłóż obok planszy.
+:::
+
 !img przygotowanie-lewa + przygotowanie-prawa | Rozstawienie armii (strony 16–17 instrukcji)
 
 | Naród | Region: jednostki regularne / elitarne / dowódcy lub Nazgûle | Posiłki |
@@ -135,6 +142,10 @@ Gra składa się z [[Tura|tur]]. Każda tura ma sześć faz:
 Postacie z dodatku dają [[Specjalna kość akcji|specjalne kości akcji]]. Gracz rzuca nimi razem ze zwykłymi, ale wykorzystuje wynik tylko jednej z nich. Wyrzucone na nich Oko trzeba wybrać, nawet po stronie Wolnych Ludów. Nowe wyniki to {{ps-wynik-dobranie-karty}} [[Wynik „Dobranie karty”|dobranie karty]] i {{ps-wynik-wykorzystanie-balroga}} [[Wynik „Wykorzystanie Balroga”|wykorzystanie Balroga]].
 :::
 
+::: dodatek wojownicy
+Gdy do gry wejdzie pierwsza Frakcja gracza, dostaje on [[Kość Frakcji|kość Frakcji]]. Jej wyniki służą tylko do kierowania Frakcjami. Przy pasowaniu liczy się jak zwykła kość, ale nie można jej zmienić Pierścieniem Elfów.
+:::
+
 ## Pula kości
 
 Cień zaczyna z 7 kośćmi, a Wolne Ludy z 4. Każdy Sługa Cienia, który wejdzie do gry, daje Cieniowi kolejną kość (najwyżej 10). Aragorn i Gandalf Biały dają po kości Wolnym Ludom (najwyżej 6). Patrz [[Pula kości akcji]].
@@ -157,6 +168,10 @@ Każdy gracz ma dwie [[Talia Wydarzeń|talie]]: Postaci i Strategii. Na ręce mo
 - Dolna część każdej karty to [[Karta Bitwy|karta Bitwy]], zagrywana w bitwie bez zużywania akcji.
 
 !img karty-wydarzen | Budowa karty Wydarzenia
+
+::: dodatek wojownicy
+Każdy gracz ma trzecią talię, talię [[Karta Wydarzenia Frakcji|Wydarzeń Frakcji]], i na początku każdej tury dobiera z niej kartę. Karty Frakcji nie liczą się do limitu 6 kart, ale można ich mieć najwyżej 4. Dobiera się je i zagrywa także zwykłym wynikiem „Wydarzenie”.
+:::
 
 # Armie
 
@@ -188,6 +203,10 @@ Armia może zaatakować wrogą armię w sąsiednim regionie wynikiem „Armia”
 :::
 
 Bitwa kończy się, gdy jedna strona się wycofa albo zostanie zniszczona. Zwycięski atakujący może wkroczyć do zdobytego regionu.
+
+::: dodatek wojownicy
+Zamiast karty Bitwy gracz może zagrać [[Karta Wezwania do Walki|kartę Wezwania do Walki]] swojej Frakcji, jeśli jej figurki są dość blisko bitwy. Po rundzie karta wraca na rękę.
+:::
 
 ## Miasta i twierdze
 
@@ -260,6 +279,10 @@ W grze trzyosobowej Wolnymi Ludami gra jeden gracz. Pełne zasady opisuje hasło
 Elronda i Galadrielę kontroluje gracz Gondoru, a Balroga i Gothmoga gracz Czarnoksiężnika z Angmaru. Wynik ich specjalnych kości wybiera gracz prowadzący danej strony.
 :::
 
+::: dodatek wojownicy
+Każdy gracz może mieć najwyżej 3 karty Frakcji. Kartę Frakcji na początku tury dobiera tylko gracz prowadzący. Kość Frakcji może wykorzystać każdy gracz zespołu.
+:::
+
 # Panowie Śródziemia {panowie}
 
 Dodatek wprowadza ważne postacie z „Władcy Pierścieni”, które w grze podstawowej pojawiały się tylko na kartach. Instrukcja dodatku zaleca używać wszystkich jego elementów, bo inaczej zaburza się równowaga gry. Wyjątkiem jest opcjonalny wariant [[Rada Rivendell]].
@@ -324,4 +347,44 @@ Polska instrukcja dodatku (s. 24) pisze, że do aktywacji wystarczy „wyrzucić
 ## Rada Rivendell (wariant)
 
 W opcjonalnym wariancie [[Rada Rivendell]] gracz Wolnych Ludów w tajemnicy wybiera alternatywne wersje Towarzyszy. Niektórzy z nich mogą zacząć grę w swoich ojczyznach, poza Drużyną. Cień dostaje wtedy jeden lub dwa [[Żeton akcji Cienia|żetony akcji Cienia]].
+
+# Wojownicy Śródziemia {wojownicy}
+
+Dodatek wprowadza [[Frakcja|Frakcje]]: sprzymierzeńców obu stron. Wolne Ludy mają Umarłych z Dunharrow, Orły z Gór Mglistych i Entów z Fangornu, a Cień Korsarzy z Umbaru, Górali z Dunlandu i Pomiot Szeloby. Instrukcja dodatku pozwala łączyć go z grą podstawową albo z grą podstawową i Panami Śródziemia.
+
+!img ws-figurki | Figurki Frakcji (Wojownicy Śródziemia, s. 4)
+
+## Wprowadzanie Frakcji
+
+Na początku gry żadnej Frakcji nie ma na planszy. Gdy spełniony jest warunek Frakcji, gracz wprowadza ją wynikiem „Mobilizacja” ze zwykłej kości albo „Mobilizacją Frakcji” z kości Frakcji. Kartę Frakcji odwraca się wtedy na stronę ze skrótem zasad.
+
+| Frakcja | Strona | Wchodzi do gry, gdy… |
+|---|---|---|
+| [[Umarli z Dunharrow]] | Wolne Ludy | Aragorn lub Obieżyświat jest w Erech albo obok |
+| [[Orły z Gór Mglistych]] | Wolne Ludy | Drużyna opuściła Rivendell albo w grze jest Gandalf Biały |
+| [[Entowie z Fangornu]] | Wolne Ludy | w grze jest Saruman, a w Fangornie jest Towarzysz lub Drużyna |
+| [[Korsarze z Umbaru]] | Cień | Haradrimowie i Easterlingowie są w stanie wojny |
+| [[Górale z Dunlandu]] | Cień | w grze jest Saruman |
+| [[Pomiot Szeloby]] | Cień | Drużyna opuściła Rivendell |
+
+## Kierowanie Frakcjami
+
+- [[Figurka Frakcji|Figurki Frakcji]] nie są jednostkami: nie mają siły, nie liczą się do limitu armii i nie dają kontroli nad regionem. Zwykłymi kośćmi nie można ich rekrutować ani poruszać.
+- Frakcjami kieruje się [[Karta Wydarzenia Frakcji|kartami Wydarzeń Frakcji]] i [[Kość Frakcji|kością Frakcji]]. Kość ma wyniki: Mobilizacja Frakcji, zagranie karty Frakcji, dobranie karty Frakcji, a u Cienia także Oko i dzika kość.
+- Frakcje Cienia (Korsarze, Dunlendingowie, Pająki) mogą też poruszać się i walczyć razem z armią Cienia w swoim regionie.
+- Umarli i Entowie atakują w specjalny sposób: za każdy atak gracz poświęca figurkę i rzuca 3 kośćmi, trafiając na 4+. Cień nie może na to odpowiedzieć.
+
+!img ws-wyniki-kosci-frakcji | Wyniki kości Frakcji. Ostatnia ścianka Wolnych Ludów to poprawnie „Mobilizacja/dobranie karty Frakcji”.
+
+::: errata
+Polska instrukcja dodatku (s. 8) opisuje ostatnią ściankę kości Wolnych Ludów jako „Mobilizacja/zagranie karty Frakcji”. Poprawnie: „Mobilizacja/**dobranie** karty Frakcji”.
+:::
+
+## Frakcje w bitwie
+
+Przed bitwą każdy gracz bierze na rękę po 2 [[Karta Wezwania do Walki|karty Wezwania do Walki]] dla każdej swojej Frakcji, która spełnia warunek wezwania. W każdej rundzie może zagrać jedną z nich zamiast karty Bitwy, a po rundzie zabiera ją z powrotem na rękę.
+
+## Eliminacja Frakcji
+
+Frakcja odpada z gry, gdy straci wszystkie figurki, a niektóre także w innych sytuacjach: Korsarze, gdy Wolne Ludy zdobędą Umbar; Dunlendingowie, gdy Wolne Ludy zdobędą obie osady Dunlandu; Entowie, gdy w Fangornie nie będzie Towarzysza ani Drużyny. Gdy gracz straci wszystkie Frakcje, traci też kość Frakcji.
 
