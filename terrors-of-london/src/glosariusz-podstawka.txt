@@ -1,0 +1,964 @@
+@@ Akcja
+grupa: Akcja
+strony: 6
+Pojedyncze działanie gracza w jego [[Faza Akcji|Fazie Akcji]].
+
+## Zasady
+W Fazie Akcji gracz może wykonywać poniższe akcje w dowolnej kolejności i dowolnie wiele razy:
+- [[Zagranie karty]]: zagranie karty z ręki,
+- [[Zakup karty]]: zakup karty z [[Ulica|Ulicy]] lub ze stosu [[Akolita|Akolitów]],
+- [[Akcja Ataku]]: zadanie obrażeń przeciwnikowi,
+- [[Akcja Hordy]]: utworzenie lub rozszerzenie [[Horda|Hordy]],
+- [[Akcja Reliktu]]: aktywacja [[Relikt|Reliktu]],
+- [[Akcja Władcy]]: aktywacja zdolności [[Władca|Władcy]],
+- [[Nawiedzenie]]: aktywacja Potwora, który był w grze na początku tury gracza,
+- [[Spasowanie]]: koniec Fazy Akcji.
+
+## Wyjątki i szczególne przypadki
+- [[Spasowanie]] można wykonać tylko raz: kończy ono Fazę Akcji.
+- Każdy [[Relikt]] można aktywować tylko raz na turę, każdą [[Zdolność Hordy|zdolność Hordy]] tylko raz na Fazę Akcji, a każdego Potwora tylko raz na turę akcją [[Nawiedzenie|Nawiedzenia]].
+- Zdolności Władców z gry podstawowej działają raz na turę (napis na arkuszu Władcy).
+
+@@ Akcja Ataku
+grupa: Akcja
+strony: 9
+[[Akcja]], w której gracz wydaje [[Moc]] {{moc}} ze swojej [[Pula Zasobów|Puli Zasobów]], aby zadać [[Obrażenia|obrażenia]] Władcy przeciwnika.
+
+## Zasady
+- Za każdy punkt Mocy wydany w Akcji Ataku gracz przypisuje 1 punkt obrażeń Władcy przeciwnika.
+- Władca traci 1 [[Punkty Życia|punkt Życia]] za każdy przypisany mu punkt obrażeń.
+- Gracz może wykonać Akcję Ataku wiele razy w turze, za każdym razem wydając część Mocy.
+
+## Wyjątki i szczególne przypadki
+- [[Pancerz]] przeciwnika zmniejsza łączną liczbę obrażeń, które jego Władca otrzymuje w danej turze.
+- Pancerz nie chroni przed [[Strata punktów Życia|stratą punktów Życia]], np. z [[Klątwa|KLĄTWY]].
+
+## Przykład
+Ghul daje 1 punkt Mocy, a Łowca Reliktów kolejny. Gracz wydaje 2 punkty Mocy w Akcji Ataku i zadaje Fenrisowi 2 obrażenia: znacznik Życia Fenrisa przesuwa się z 5 na 3.
+
+!img przyklad-ataku | Przykład Akcji Ataku (s. 9 instrukcji)
+
+~ Atak -> Akcja Ataku
+
+@@ Akcja Hordy
+grupa: Akcja
+strony: 10–11
+[[Akcja]], którą gracz tworzy nową [[Horda|Hordę]] z dwóch Potworów albo rozszerza istniejącą Hordę o kolejnego Potwora.
+
+## Zasady
+- **Tworzenie Hordy**: gracz musi mieć w grze dwa [[Potwór|Potwory]] z kompatybilnymi [[Wskaźnik Hordy|wskaźnikami Hordy]]. Kładzie je obok siebie.
+- **Rozszerzanie Hordy**: gracz dokłada Potwora obok jednego ze skrajnych Potworów Hordy. Wskaźnik nowego Potwora musi być kompatybilny ze wskaźnikiem sąsiedniego Potwora.
+- Po utworzeniu lub rozszerzeniu Hordy gracz aktywuje jedną nieużytą jeszcze [[Zdolność Hordy|zdolność Hordy]] dowolnego Potwora tej Hordy.
+
+## Wyjątki i szczególne przypadki
+- Nie można wykonać Akcji Hordy bez Potworów w grze, które mają kompatybilne wskaźniki Hordy.
+- Potwór, który jest częścią Hordy, nie może zostać częścią innej Hordy w tej samej Fazie Akcji.
+- Tej samej zdolności Hordy nie można aktywować więcej niż raz w tej samej Fazie Akcji.
+- Wybór zdolności Hordy nie zależy od wskaźników, które połączyły Potwory: można wybrać zdolność dowolnego Potwora Hordy, także dołączonego wcześniej.
+- Gdy Potwór z [[Żeton Nawiedzenia|żetonem Nawiedzenia]] staje się częścią Hordy, jego żeton odwraca się stroną „Odeślij” do góry.
+
+## Przykład
+Gracz tworzy Hordę z Kościotrupa i Poltergeista i aktywuje zdolność Hordy Kościotrupa: 1 {{moc}}. Później rozszerza Hordę o Wilkołaka. Zdolność Hordy Kościotrupa jest już zużyta, więc gracz wybiera jedną z pozostałych: zdolność Poltergeista albo jedną z dwóch zdolności Wilkołaka.
+
+!img horda-rozszerzenie | Rozszerzenie Hordy o Wilkołaka (s. 11 instrukcji)
+
+!img horda-zdolnosci | Zdolności Hordy po rozszerzeniu; zdolność Kościotrupa jest już zużyta (s. 11 instrukcji)
+
+~ Rozszerzenie Hordy -> Akcja Hordy
+~ Tworzenie Hordy -> Akcja Hordy
+
+@@ Akcja Reliktu
+grupa: Akcja
+strony: 8, 12
+[[Akcja]], którą gracz aktywuje jeden [[Relikt]] ze swojej [[Strefa Reliktów|strefy Reliktów]].
+
+## Zasady
+- Gracz wybiera Relikt, którego nie użył jeszcze w tej turze.
+- Aktywowany Relikt od razu daje efekt opisany na jego karcie.
+
+## Wyjątki i szczególne przypadki
+- Zagranie Reliktu z ręki nie aktywuje jego zdolności: aktywuje ją dopiero Akcja Reliktu (patrz [[Zagranie karty]]).
+- Kupiony Relikt trafia prosto do strefy Reliktów i można go aktywować jeszcze w tej samej turze (patrz [[Zakup karty]]).
+- Karty i zdolności mogą pozwolić aktywować Relikt ponownie, np. Łowca Reliktów: „Aktywuj Relikt w swoim obszarze gry, nawet jeżeli był on już aktywowany w tej Fazie Akcji” (patrz [[Złota zasada]]).
+
+@@ Akcja Władcy
+grupa: Akcja
+strony: 12
+[[Akcja]], którą gracz aktywuje zdolność opisaną na swoim [[Arkusz Władcy|arkuszu Władcy]].
+
+## Zasady
+- Gracz rozpatruje zdolność Władcy zgodnie z jej opisem na arkuszu.
+- Zdolności Władców z gry podstawowej można użyć raz na turę.
+- Zdolności wszystkich Władców opisuje zakładka **Władcy**, np. [[władca: Fenris]] czy [[władca: Metuszelach]].
+
+## Wyjątki i szczególne przypadki
+- Ograniczenie „raz na turę” pochodzi z opisu zdolności na arkuszu Władcy: same zasady [[Faza Akcji|Fazy Akcji]] pozwalają wykonywać akcje dowolnie wiele razy (patrz [[Złota zasada]]).
+
+~ Zdolność Władcy -> Akcja Władcy | Zdolność
+
+@@ Akolita
+strony: 4, 8–9, 15
+Tani [[Potwór]] spoza [[Ulica|Ulicy]], którego karty leżą w osobnym, zakrytym stosie Akolitów.
+
+## Zasady
+- Na początku gry stos Akolitów liczy 8 kart. Gracze tasują je i kładą zakryte naprzeciwko stosu [[Targ|Targu]].
+- Akcją [[Zakup karty|Zakupu Karty]] można kupić Akolitę za 2 [[Moneta|Monety]], dopóki w stosie są karty.
+- Kupiony Akolita, jak każdy Potwór, trafia odkryty na [[Stos kart odrzuconych|stos kart odrzuconych]] gracza.
+
+## Wyjątki i szczególne przypadki
+- Karty Akolitów nie są częścią Ulicy: nie uzupełnia się nimi Ulicy, a zakup Akolity nie wymaga uzupełnienia Ulicy.
+- Instrukcja nie przewiduje uzupełniania stosu Akolitów: gdy się wyczerpie, Akolitów nie można już kupować.
+
+~ Akolici -> Akolita
+~ Stos kart Akolitów -> Akolita | Stos
+
+@@ Arkusz Władcy
+strony: 3–5, 12
+Plansza gracza przedstawiająca jego [[Władca|Władcę]]: jego zdolność, frakcję i tor [[Punkty Życia|punktów Życia]].
+
+## Zasady
+- Podczas przygotowania gracz bierze arkusze wszystkich Władców swojej [[Frakcja|frakcji]] i wybiera jednego z nich. Niewybrane arkusze wracają do pudełka.
+- Znacznik Życia kładzie się na polu z najwyższą wartością punktów Życia. Ta wartość to też górna granica punktów Życia Władcy.
+- Zdolność opisaną na arkuszu gracz aktywuje [[Akcja Władcy|Akcją Władcy]].
+- Po prawej stronie arkusza leży [[Strefa Reliktów|strefa Reliktów]].
+
+!img arkusze-wladcow | Arkusze Władców z gry podstawowej (s. 3 instrukcji)
+
+@@ Dobierz
+strony: 13, 16
+Słowo-klucz DOBIERZ (#): gracz dobiera z [[Talia|talii]] na [[Ręka|rękę]] wskazaną liczbę kart.
+
+## Zasady
+- Liczba po słowie DOBIERZ mówi, ile kart dobrać.
+- Gdy gracz musi dobrać kartę, a jego talia jest pusta, tasuje swój [[Stos kart odrzuconych|stos kart odrzuconych]], tworząc nową talię.
+
+## Wyjątki i szczególne przypadki
+- Dobieranie nowej ręki w [[Faza Dobierania|Fazie Dobierania]] to osobna zasada: zawsze 5 kart, plus 1 za każdy [[Żeton Zwołania|żeton Zwołania]].
+- DOBIERZ to [[Słowo-klucz|słowo-klucz]], więc działa natychmiast po zagraniu Potwora.
+
+@@ Faza Akcji
+grupa: Faza
+strony: 6–12
+Pierwsza z trzech faz [[Tura|tury]] gracza, w której gracz wykonuje [[Akcja|akcje]].
+
+## Zasady
+- Gracz zagrywa karty, tworzy [[Horda|Hordy]], aktywuje [[Relikt|Relikty]], używa zdolności Władcy, kupuje karty i zadaje obrażenia Władcy przeciwnika.
+- Akcje można wykonywać w dowolnej kolejności i dowolnie wiele razy.
+- Faza kończy się, gdy gracz wykona [[Spasowanie]].
+- Zasoby zebrane w [[Pula Zasobów|Puli Zasobów]] można wydawać w dowolnym momencie Fazy Akcji.
+
+## Wyjątki i szczególne przypadki
+- Gracz może spasować dopiero wtedy, gdy ma na ręce najwyżej 1 kartę.
+- Niektórych akcji nie można powtarzać bez ograniczeń: każdy Relikt działa raz na turę, każda [[Zdolność Hordy|zdolność Hordy]] raz na Fazę Akcji, a [[Nawiedzenie]] raz na turę dla każdego Potwora.
+
+@@ Faza Czyszczenia
+grupa: Faza
+strony: 13–14
+Druga faza [[Tura|tury]], w której gracz usuwa ze swojego [[Obszar gry|obszaru gry]] karty zagrane w [[Faza Akcji|Fazie Akcji]].
+
+## Zasady
+1. Gracz odkłada na swój [[Stos kart odrzuconych|stos kart odrzuconych]] wszystkie [[Karta Wpływów|karty Wpływów]] i [[Potwór|Potwory]] z wyjątkiem Potworów z [[Żeton Nawiedzenia|żetonem Nawiedzenia]] leżącym stroną „Nawiedź” do góry.
+2. Gracz traci wszystkie niewydane zasoby ze swojej [[Pula Zasobów|Puli Zasobów]].
+3. Gracz odwraca stroną „Odeślij” do góry wszystkie żetony Nawiedzenia na Potworach, które zostały w jego obszarze gry.
+
+## Wyjątki i szczególne przypadki
+- [[Relikt|Relikty]] nigdy nie trafiają na stos kart odrzuconych w Fazie Czyszczenia.
+- Potwór z żetonem Nawiedzenia leżącym stroną „Odeślij” (np. Potwór, który został w grze z poprzedniej tury, albo Potwór, który dołączył do [[Horda|Hordy]]) trafia na stos kart odrzuconych.
+- Instrukcja nie mówi, co dzieje się z żetonem Nawiedzenia odrzuconego Potwora.
+
+@@ Faza Dobierania
+grupa: Faza
+strony: 13, 16
+Trzecia, ostatnia faza [[Tura|tury]], w której gracz dobiera nową [[Ręka|rękę]] i kończy turę.
+
+## Zasady
+- Gracz dobiera 5 kart ze swojej [[Talia|talii]] i kończy turę.
+- Gdy gracz musi dobrać kartę, a jego talia jest pusta, tasuje swój [[Stos kart odrzuconych|stos kart odrzuconych]], tworząc nową talię, i dobiera z niej dalej.
+
+## Wyjątki i szczególne przypadki
+- Za każdy posiadany [[Żeton Zwołania|żeton Zwołania]] gracz dobiera 1 dodatkową kartę. Tuż po Fazie Dobierania żetony Zwołania wracają do rezerwy.
+- Talii i stosu kart odrzuconych nie tasuje się w innej sytuacji, chyba że nakazuje to efekt gry.
+- Karta zostawiona przy [[Spasowanie|Spasowaniu]] leży na wierzchu talii, więc gracz dobiera ją jako pierwszą.
+
+@@ Frakcja
+strony: 2, 4, 14
+Jedna z czterech stron, do których należą Władcy i większość Potworów: Nieumarli, Bestie, Śmiertelnicy i Duchy.
+
+## Zasady
+- Karta z jednym z czterech symboli frakcji należy do tej frakcji.
+- Podczas przygotowania każdy gracz wybiera frakcję, a potem jednego z jej [[Władca|Władców]].
+- Symbole frakcji tworzą też [[Wskaźnik Hordy|wskaźniki Hordy]].
+
+!img frakcje | Symbole frakcji (s. 15 instrukcji)
+
+| Symbol | Frakcja |
+|---|---|
+| {{frakcja-bestie}} | Bestie |
+| {{frakcja-duchy}} | Duchy |
+| {{frakcja-nieumarli}} | Nieumarli |
+| {{frakcja-smiertelnicy}} | Śmiertelnicy |
+
+## Wyjątki i szczególne przypadki
+- Potwory bez symbolu frakcji to [[Potwór spoza frakcji|Potwory spoza frakcji]], np. Kultyści i Fanatycy.
+- [[Zdolność Uruchamiana|Zdolność Uruchamiana]] [[Karta Wpływów|karty Wpływów]] wymaga Potwora z frakcji Władcy (patrz [[Potwór z frakcji]]).
+
+~ Bestie -> Frakcja
+~ Duchy -> Frakcja
+~ Nieumarli -> Frakcja
+~ Śmiertelnicy -> Frakcja
+
+@@ Horda
+strony: 10–11, 14
+Grupa dwóch lub więcej [[Potwór|Potworów]] połączonych [[Wskaźnik Hordy|wskaźnikami Hordy]] na dole ich kart.
+
+## Zasady
+- Hordę tworzy się i rozszerza [[Akcja Hordy|Akcją Hordy]].
+- Gdy Horda zostanie utworzona lub rozszerzona, gracz aktywuje jedną nieużytą jeszcze [[Zdolność Hordy|zdolność Hordy]] dowolnego Potwora z tej Hordy.
+- Tej samej zdolności Hordy nie można aktywować więcej niż raz w Fazie Akcji danego gracza.
+
+## Wyjątki i szczególne przypadki
+- Potwór, który jest częścią Hordy, nie może zostać częścią innej Hordy w tej samej Fazie Akcji.
+- Gracz tworzy Hordy tylko z własnych Potworów w swoim [[Obszar gry|obszarze gry]].
+
+@@ Karta Wpływów
+strony: 4, 8, 13
+Specjalna karta należąca do konkretnego [[Władca|Władcy]]. Każdy gracz zaczyna grę z dwiema kartami Wpływów w talii.
+
+## Zasady
+- Każdy Władca z gry podstawowej ma 3 karty Wpływów. Podczas przygotowania gracz wybiera 2 z nich i dodaje je do [[Talia początkowa|talii początkowej]]. Pozostałe wracają do pudełka.
+- Na pierwsze rozgrywki instrukcja poleca karty Wpływów oznaczone symbolem {{symbol-polecane}}.
+- Po zagraniu karta Wpływów od razu aktywuje swoje [[Zdolność Słów-Kluczy|zdolności Słów-Kluczy]] i [[Zdolność Zasobów|Zasobów]].
+- Karta ma też [[Zdolność Uruchamiana|zdolność Uruchamianą]], która działa tylko wtedy, gdy gracz ma w grze [[Potwór z frakcji|Potwora z frakcji]] swojego Władcy.
+- W [[Faza Czyszczenia|Fazie Czyszczenia]] karta Wpływów trafia na stos kart odrzuconych.
+
+## Wyjątki i szczególne przypadki
+- Jeżeli w chwili zagrania karty Wpływów gracz nie ma w grze Potwora z frakcji swojego Władcy, jej zdolności Uruchamianej nie można aktywować.
+- Jeżeli Potwór z odpowiedniej frakcji zostanie zagrany **po** karcie Wpływów, jej zdolności Uruchamianej nadal nie można aktywować.
+
+!img karta-wplywow | Karta Wpływów (s. 8 instrukcji)
+
+~ Wpływy -> Karta Wpływów
+
+@@ Klątwa
+strony: 9, 16
+Słowo-klucz KLĄTWA: przeciwnik wybrany za cel musi wybrać, czy straci 2 [[Punkty Życia|punkty Życia]], czy odrzuci 1 kartę z ręki.
+
+## Zasady
+- Gracz rzucający KLĄTWĘ wybiera za cel przeciwnika (patrz [[Wybrany]]).
+- Wybór między stratą 2 punktów Życia a odrzuceniem karty należy do przeciwnika.
+
+## Wyjątki i szczególne przypadki
+- Utrata punktów Życia z KLĄTWY to [[Strata punktów Życia|strata punktów Życia]], a nie [[Obrażenia|obrażenia]]: [[Pancerz]] jej nie zmniejsza.
+- Odrzucenie karty z KLĄTWY to wymuszone odrzucenie (patrz [[Odrzuć]]).
+
+@@ Koniec gry
+strony: 6, 13
+Gra kończy się w chwili, gdy liczba [[Punkty Życia|punktów Życia]] jednego z [[Władca|Władców]] spadnie do zera.
+
+## Zasady
+- Wygrywa gracz, którego Władca nadal ma punkty Życia.
+- Gra kończy się natychmiast, nawet w trakcie tury.
+
+## Wyjątki i szczególne przypadki
+- Władca może stracić punkty Życia zarówno przez [[Obrażenia|obrażenia]], jak i przez [[Strata punktów Życia|stratę punktów Życia]], np. z [[Klątwa|KLĄTWY]].
+
+~ Warunki wygranej -> Koniec gry
+~ Zwycięstwo -> Koniec gry
+
+@@ Koszt
+strony: 8–9, 14
+Cena karty w [[Moneta|Monetach]], wydrukowana na większości kart.
+
+## Zasady
+- Aby kupić kartę akcją [[Zakup karty|Zakupu Karty]], gracz wydaje jej koszt w Monetach ze swojej [[Pula Zasobów|Puli Zasobów]].
+- [[Akolita]] kosztuje 2 Monety.
+
+## Wyjątki i szczególne przypadki
+- Koszt jest też progiem w niektórych zdolnościach, np. [[Rozkaz|ROZKAZ]] dotyczy Potworów o koszcie mniejszym niż 4, a zdolność [[władca: Fenris|Fenrisa]] pozwala kupić Potwora o koszcie poniżej 4 za Moc i Monety.
+
+@@ Moc
+strony: 7, 9, 16
+Zasób oznaczony symbolem {{moc}}, którym gracz zadaje [[Obrażenia|obrażenia]] Władcy przeciwnika.
+
+## Zasady
+- Liczba na symbolu Mocy mówi, ile punktów Mocy gracz zyskuje, gdy zdolność zostanie aktywowana.
+- Moc trafia do [[Pula Zasobów|Puli Zasobów]] i można ją wydać w tej samej Fazie Akcji.
+- Każdy punkt Mocy wydany w [[Akcja Ataku|Akcji Ataku]] zadaje 1 obrażenie Władcy przeciwnika.
+
+## Wyjątki i szczególne przypadki
+- Niewydana Moc przepada w [[Faza Czyszczenia|Fazie Czyszczenia]].
+- Za każdą kartę usuniętą z gry przez [[Poświęć|POŚWIĘĆ]] gracz zyskuje 1 {{moc}}.
+- Moc zamienia się na inny zasób tylko wtedy, gdy pozwala na to zdolność (patrz [[Przemień|PRZEMIEŃ]]).
+
+@@ Moneta
+strony: 7–9, 16
+Zasób oznaczony symbolem {{moneta}}, którym gracz płaci za karty i niektóre zdolności.
+
+## Zasady
+- Liczba na symbolu Monety mówi, ile Monet gracz zyskuje, gdy zdolność zostanie aktywowana. Np. karta z symbolem 2 {{moneta}} daje 2 Monety.
+- Monety trafiają do [[Pula Zasobów|Puli Zasobów]] i można je wydać w tej samej Fazie Akcji.
+- Monety wydaje się na [[Koszt|koszt]] kart akcją [[Zakup karty|Zakupu Karty]].
+
+## Wyjątki i szczególne przypadki
+- Niewydane Monety przepadają w [[Faza Czyszczenia|Fazie Czyszczenia]].
+
+@@ Nawiedzenie
+strony: 6, 12, 14
+[[Akcja]], którą gracz aktywuje ponownie [[Potwór|Potwora]], który na początku jego tury był w jego [[Obszar gry|obszarze gry]].
+
+## Zasady
+Aby wykonać Nawiedzenie, muszą być spełnione wszystkie warunki:
+- Potwór rozpoczął tę turę w obszarze gry gracza,
+- [[Żeton Nawiedzenia|żeton Nawiedzenia]] tego Potwora leży stroną „Odeślij” do góry,
+- Potwór nie był jeszcze aktywowany Nawiedzeniem w tej turze.
+
+Nawiedzenie aktywuje wszystkie [[Zdolność Zasobów|zdolności Zasobów]], [[Zdolność Słów-Kluczy|Słów-Kluczy]] i [[Zdolność Unikatowa|Unikatowe]] tego Potwora.
+
+## Wyjątki i szczególne przypadki
+- [[Zdolność Uruchamiana|Zdolności Uruchamiane]] Potwora w grze działają jak u każdej innej karty w grze, niezależnie od Nawiedzenia.
+- Potworowi, który ma już żeton Nawiedzenia, nie można dać kolejnego.
+- Potwór z żetonem stroną „Odeślij” trafia w [[Faza Czyszczenia|Fazie Czyszczenia]] na stos kart odrzuconych, niezależnie od tego, czy gracz wykonał nim Nawiedzenie.
+- Nie należy mylić akcji Nawiedzenia ze słowem-kluczem [[Nawiedź|NAWIEDŹ]], które daje Potworowi żeton.
+
+!img nawiedzenie | Żeton Nawiedzenia na Potworze przed i po Fazie Czyszczenia (s. 12 instrukcji)
+
+@@ Nawiedź
+strony: 13–14, 16
+Słowo-klucz NAWIEDŹ: Potwór zyskuje [[Żeton Nawiedzenia|żeton Nawiedzenia]], o ile jeszcze go nie ma.
+
+## Zasady
+- Gdy Potwór zyskuje NAWIEDZENIE, gracz kładzie na jego karcie żeton Nawiedzenia stroną „Nawiedź” do góry.
+- Potwór z żetonem leżącym stroną „Nawiedź” nie trafia na stos kart odrzuconych w [[Faza Czyszczenia|Fazie Czyszczenia]]: zostaje w grze, a jego żeton odwraca się stroną „Odeślij”.
+- W następnej turze gracz może aktywować tego Potwora akcją [[Nawiedzenie|Nawiedzenia]].
+
+## Wyjątki i szczególne przypadki
+- Żeton Nawiedzenia mogą otrzymać tylko Potwory, które jeszcze go nie mają.
+- Gdy Potwór z żetonem Nawiedzenia staje się częścią [[Horda|Hordy]], żeton odwraca się stroną „Odeślij”, więc Potwór trafi na stos kart odrzuconych w tej samej Fazie Czyszczenia.
+
+@@ Obrażenia
+strony: 9, 15
+Utrata [[Punkty Życia|punktów Życia]] zadana [[Moc|Mocą]] w [[Akcja Ataku|Akcji Ataku]].
+
+## Zasady
+- Za każdy punkt Mocy wydany w Akcji Ataku gracz przypisuje 1 punkt obrażeń Władcy przeciwnika.
+- Władca traci 1 punkt Życia za każdy przypisany mu punkt obrażeń.
+
+## Wyjątki i szczególne przypadki
+- [[Pancerz]] zmniejsza łączną liczbę obrażeń, które Władca otrzymuje w danej turze.
+- [[Strata punktów Życia]] (np. z [[Klątwa|KLĄTWY]] albo płacenie punktami Życia za zdolność) to nie obrażenia: Pancerz jej nie zmniejsza.
+
+@@ Obszar gry
+strony: 4–6, 8
+Miejsce przed graczem, w którym leżą jego zagrane karty, [[Talia|talia]], [[Stos kart odrzuconych|stos kart odrzuconych]] i [[Arkusz Władcy|arkusz Władcy]].
+
+## Zasady
+- Karty zagrane z ręki leżą odkryte w obszarze gry gracza (patrz [[Zagranie karty]]).
+- [[Relikt|Relikty]] leżą w [[Strefa Reliktów|strefie Reliktów]] po prawej stronie arkusza Władcy.
+- W [[Faza Czyszczenia|Fazie Czyszczenia]] gracz czyści swój obszar gry z kart zagranych w Fazie Akcji.
+
+## Wyjątki i szczególne przypadki
+- Potwory z [[Żeton Nawiedzenia|żetonem Nawiedzenia]] leżącym stroną „Nawiedź” zostają w obszarze gry na następną turę.
+- [[Poświęć|POŚWIĘĆ]] usuwa z gry tylko karty z obszaru gry gracza, chyba że zdolność mówi inaczej.
+
+!img obszar-gry | Przygotowanie do gry: obszary gry obu graczy, Ulica, Targ i Akolici (s. 5 instrukcji)
+
+@@ Odkryj
+strony: 14
+Gracz pokazuje przeciwnikowi kartę z wierzchu wskazanego stosu.
+
+## Zasady
+- Gdy zdolność lub efekt wymaga odkrycia karty z dowolnego stosu, gracz musi pokazać tę kartę przeciwnikowi.
+
+## Wyjątki i szczególne przypadki
+- Jeżeli gracz nie ma w [[Talia|talii]] dość kart, tasuje swój [[Stos kart odrzuconych|stos kart odrzuconych]], kładzie te karty pod spodem talii i dopiero wtedy rozpatruje efekt.
+- Różnica względem [[Podejrzyj|PODEJRZYJ]]: odkrytą kartę widzą wszyscy gracze.
+
+@@ Odrzuć
+strony: 14
+Gracz kładzie kartę z [[Ręka|ręki]] na swoim [[Stos kart odrzuconych|stosie kart odrzuconych]], gdy zmusza go do tego efekt.
+
+## Zasady
+- Gdy efekt zmusza gracza do odrzucenia karty, gracz musi od razu odrzucić kartę z ręki.
+
+## Wyjątki i szczególne przypadki
+- Gracz nie może dobrowolnie odrzucić karty, chyba że zmusza go do tego zdolność lub efekt.
+- Stos kart odrzuconych może w każdej chwili przeglądać każdy z graczy.
+- [[Klątwa|KLĄTWA]] pozwala przeciwnikowi wybrać odrzucenie karty zamiast straty 2 punktów Życia.
+
+@@ Pancerz
+strony: 9, 16
+Ochrona oznaczona symbolem {{pancerz}}, która zmniejsza [[Obrażenia|obrażenia]] otrzymywane przez Władcę.
+
+## Zasady
+- Karty, które dają Pancerz, robią to automatycznie, gdy leżą w [[Obszar gry|obszarze gry]] gracza.
+- W każdej turze łączna liczba obrażeń otrzymywanych przez Władcę zmniejsza się o łączną wartość Pancerza wszystkich kart w obszarze gry jego gracza.
+
+## Wyjątki i szczególne przypadki
+- Pancerz nie zmniejsza [[Strata punktów Życia|straty punktów Życia]], np. z [[Klątwa|KLĄTWY]] albo z płacenia punktami Życia za aktywację zdolności.
+- Pancerz to nie zasób: nie trafia do [[Pula Zasobów|Puli Zasobów]] i nie wydaje się go.
+
+@@ Pierwszy Gracz
+strony: 4
+Gracz, który rozgrywa pierwszą turę gry, wybrany losowo podczas przygotowania.
+
+## Zasady
+- Pierwszy Gracz jako pierwszy wybiera [[Frakcja|frakcję]] i [[Karta Wpływów|karty Wpływów]].
+- Gracze rozgrywają tury na zmianę, zaczynając od Pierwszego Gracza.
+
+## Wyjątki i szczególne przypadki
+- Na początku gry Pierwszy Gracz dobiera na [[Ręka|rękę]] tylko 4 karty, a jego przeciwnik 5.
+
+@@ Podejrzyj
+strony: 14
+Gracz ogląda kartę z wierzchu wskazanego stosu bez pokazywania jej przeciwnikowi.
+
+## Zasady
+- Gdy zdolność lub efekt wymaga podejrzenia karty w dowolnym stosie, gracz nie musi pokazywać tej karty przeciwnikowi.
+
+## Wyjątki i szczególne przypadki
+- Jeżeli gracz nie ma w [[Talia|talii]] dość kart, tasuje swój [[Stos kart odrzuconych|stos kart odrzuconych]], kładzie te karty pod spodem talii i dopiero wtedy rozpatruje efekt.
+- Różnica względem [[Odkryj|ODKRYJ]]: podejrzanej karty przeciwnik nie widzi.
+
+@@ Potwór
+grupa: Potwór
+strony: 6, 8
+Najczęstszy rodzaj karty: postać, którą gracz kupuje, zagrywa z ręki i łączy w [[Horda|Hordy]].
+
+## Zasady
+- Zagrany Potwór leży odkryty w [[Obszar gry|obszarze gry]] i od razu aktywuje swoje [[Zdolność|zdolności]] (patrz [[Zagranie karty]]).
+- Kupiony Potwór trafia odkryty na [[Stos kart odrzuconych|stos kart odrzuconych]] (patrz [[Zakup karty]]).
+- Potwór może należeć do jednej z [[Frakcja|frakcji]] (patrz [[Potwór z frakcji]]) albo być [[Potwór spoza frakcji|Potworem spoza frakcji]].
+- W [[Faza Czyszczenia|Fazie Czyszczenia]] Potwór trafia na stos kart odrzuconych.
+
+## Wyjątki i szczególne przypadki
+- Potwór z [[Żeton Nawiedzenia|żetonem Nawiedzenia]] stroną „Nawiedź” zostaje w obszarze gry na następną turę (patrz [[Nawiedzenie]]).
+- Kartę Potwora ze zdolnością [[Wezwanie|WEZWANIE]] można po zakupie położyć zakrytą na wierzchu talii.
+- Akolici, Kultyści i Fanatycy też są Potworami.
+
+@@ Potwór spoza frakcji
+grupa: Potwór
+strony: 14
+[[Potwór]] bez symbolu żadnej z czterech [[Frakcja|frakcji]].
+
+## Zasady
+- Przykładem Potworów spoza frakcji są Kultyści i Fanatycy z [[Talia początkowa|talii początkowej]].
+
+## Wyjątki i szczególne przypadki
+- Potwór spoza frakcji nie spełnia warunku [[Zdolność Uruchamiana|zdolności Uruchamianej]] [[Karta Wpływów|karty Wpływów]], który wymaga [[Potwór z frakcji|Potwora z frakcji]] Władcy.
+
+@@ Potwór z frakcji
+grupa: Potwór
+strony: 8, 15
+[[Potwór]] z symbolem jednej z czterech [[Frakcja|frakcji]]: Bestii, Śmiertelników, Duchów lub Nieumarłych.
+
+## Zasady
+- Potworami z danej frakcji są wszystkie Potwory z jej symbolem.
+- Zdolność Uruchamiana [[Karta Wpływów|karty Wpływów]] działa tylko wtedy, gdy w chwili zagrania karty gracz ma w grze Potwora z frakcji swojego Władcy.
+
+## Wyjątki i szczególne przypadki
+- Zdolności niektórych kart dotyczą tylko Potworów z określonej frakcji, np. „gdy po raz pierwszy w tej turze zagrasz Potwora z frakcji Śmiertelników”.
+
+@@ Poświęć
+strony: 13, 16
+Słowo-klucz POŚWIĘĆ: gracz wybiera kartę i usuwa ją z gry na stałe, a za każdą tak usuniętą kartę zyskuje 1 {{moc}}.
+
+## Zasady
+- Gracz może POŚWIĘCIĆ tylko kartę z własnego [[Obszar gry|obszaru gry]], chyba że opis zdolności mówi inaczej.
+- Usunięta karta nie trafia na [[Stos kart odrzuconych|stos kart odrzuconych]]: wraca do pudełka.
+- Za każdą usuniętą kartę gracz zyskuje 1 [[Moc]].
+
+## Wyjątki i szczególne przypadki
+- Zdolność [[władca: Azazel|Azazela]] pozwala POŚWIĘCIĆ kartę z ręki.
+- Usunięcie [[Relikt|Reliktu]] z gry, gdy gracz zagrywa czwarty Relikt, nie jest POŚWIĘCENIEM i nie daje Mocy (patrz [[Strefa Reliktów]]).
+
+@@ Przemień
+strony: 15
+Zamiana jednego rodzaju zasobu na inny, gdy pozwala na to zdolność.
+
+## Zasady
+- Gdy zdolność pozwala graczowi przemienić jeden rodzaj zasobu w inny, gracz wymienia je w stosunku jeden do jednego.
+- Wymiany można dokonać w dowolnym momencie [[Faza Akcji|Fazy Akcji]] gracza.
+
+## Wyjątki i szczególne przypadki
+- Bez takiej zdolności zasobów nie można zamieniać: [[Moneta|Monety]], [[Moc]] i [[Regeneracja]] w [[Pula Zasobów|Puli Zasobów]] mają osobne zastosowania.
+
+@@ Pula Zasobów
+strony: 7, 15
+Wszystkie zasoby ([[Moneta|Monety]], [[Moc]] i [[Regeneracja]]), które gracz zyskał w danej [[Faza Akcji|Fazie Akcji]].
+
+## Zasady
+- Zasoby ze [[Zdolność Zasobów|zdolności Zasobów]] kumulują się w Puli Zasobów.
+- Gracz może wydawać zasoby z Puli w dowolnym momencie swojej Fazy Akcji.
+- Wszystkie niewydane zasoby przepadają w [[Faza Czyszczenia|Fazie Czyszczenia]].
+
+## Wyjątki i szczególne przypadki
+- [[Pancerz]] nie jest zasobem Puli: działa automatycznie.
+- Zasoby wymienia się między sobą tylko wtedy, gdy pozwala na to zdolność (patrz [[Przemień|PRZEMIEŃ]]).
+
+~ Zasoby -> Pula Zasobów
+~ Zasób -> Pula Zasobów
+
+@@ Punkty Życia
+strony: 4, 13, 15
+Liczba, która pokazuje, ile jeszcze wytrzyma [[Władca]]. Gracz, którego Władca ma zero punktów Życia, przegrywa.
+
+## Zasady
+- Na początku gry znacznik Życia leży na polu z najwyższą wartością na [[Arkusz Władcy|arkuszu Władcy]].
+- Znacznik Życia zawsze powinien pokazywać aktualną liczbę punktów Życia Władcy.
+- Władca traci punkty Życia przez [[Obrażenia|obrażenia]] i przez [[Strata punktów Życia|stratę punktów Życia]].
+- Niektóre zdolności, np. [[Regeneracja]], przywracają punkty Życia.
+
+## Wyjątki i szczególne przypadki
+- Liczba punktów Życia nigdy nie może przekroczyć początkowej wartości wydrukowanej na arkuszu Władcy.
+- Gdy punkty Życia Władcy spadną do zera, gra się kończy (patrz [[Koniec gry]]).
+
+~ Życie -> Punkty Życia
+~ Znacznik Życia -> Punkty Życia
+
+@@ Regeneracja
+strony: 7, 15–16
+Zasób oznaczony symbolem {{regeneracja}}, którym gracz przywraca punkty Życia swojego Władcy.
+
+## Zasady
+- Liczba na symbolu Regeneracji mówi, ile punktów Regeneracji gracz zyskuje, gdy zdolność zostanie aktywowana.
+- Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i można ją wydać w tej samej Fazie Akcji.
+- Za każdy wydany punkt Regeneracji Władca odzyskuje 1 [[Punkty Życia|punkt Życia]].
+
+## Wyjątki i szczególne przypadki
+- Punkty Życia Władcy nigdy nie mogą przekroczyć początkowej wartości wydrukowanej na [[Arkusz Władcy|arkuszu Władcy]].
+- Niewydana Regeneracja przepada w [[Faza Czyszczenia|Fazie Czyszczenia]].
+
+@@ Relikt
+strony: 6, 8–9, 12–13
+Rodzaj karty, który leży w [[Strefa Reliktów|strefie Reliktów]] gracza i działa po aktywowaniu [[Akcja Reliktu|Akcją Reliktu]].
+
+## Zasady
+- Zagrany z ręki Relikt kładzie się odkryty w strefie Reliktów, po prawej stronie [[Arkusz Władcy|arkusza Władcy]].
+- Kupiony Relikt trafia od razu do strefy Reliktów i można go użyć jeszcze w tej turze.
+- Relikt aktywuje się Akcją Reliktu, raz na turę.
+- Relikty leżą razem z Potworami w [[Targ|Targu]] i na [[Ulica|Ulicy]].
+
+## Wyjątki i szczególne przypadki
+- Zagranie Reliktu nie aktywuje jego zdolności, w odróżnieniu od Potworów i [[Karta Wpływów|kart Wpływów]].
+- Gracz może mieć w strefie Reliktów najwyżej 3 Relikty.
+- Relikty nigdy nie trafiają na stos kart odrzuconych w [[Faza Czyszczenia|Fazie Czyszczenia]].
+
+@@ Ręka
+strony: 4, 13, 15
+Karty dobrane przez gracza, trzymane w tajemnicy przed przeciwnikiem.
+
+## Zasady
+- Na początku gry [[Pierwszy Gracz]] dobiera 4 karty, a jego przeciwnik 5.
+- W [[Faza Dobierania|Fazie Dobierania]] gracz dobiera nową rękę: 5 kart.
+- Karty z ręki zagrywa się akcją [[Zagranie karty|Zagrania Karty]].
+
+## Wyjątki i szczególne przypadki
+- Nie ma limitu kart na ręce.
+- Gracz może [[Spasowanie|spasować]] dopiero wtedy, gdy ma na ręce najwyżej 1 kartę. Tę kartę kładzie zakrytą na wierzchu swojej talii.
+- Gracz nie może dobrowolnie odrzucać kart z ręki (patrz [[Odrzuć]]).
+
+@@ Rozkaz
+strony: 16
+Słowo-klucz ROZKAZ: gracz bierze z powrotem na rękę Potwora o koszcie mniejszym niż 4 ze swojego [[Stos kart odrzuconych|stosu kart odrzuconych]].
+
+## Zasady
+- Gracz wybiera [[Potwór|Potwora]] ze swojego stosu kart odrzuconych, którego [[Koszt|koszt]] wynosi mniej niż 4, i bierze go na [[Ręka|rękę]].
+- Ten Potwór może zostać zagrany akcją [[Zagranie karty|Zagrania Karty]].
+
+## Wyjątki i szczególne przypadki
+- ROZKAZ dotyczy tylko Potworów (nie Reliktów ani kart Wpływów) i tylko własnego stosu kart odrzuconych gracza.
+
+@@ Słowo-klucz
+strony: 7, 16
+Zdolność zapisana na karcie jednym wyrazem wyróżnionym kapitalikami, np. KLĄTWA albo SZAŁ.
+
+## Zasady
+- [[Zdolność Słów-Kluczy|Zdolności Słów-Kluczy]] aktywują się natychmiast po zagraniu Potwora lub karty Wpływów.
+- Słowa-klucze gry podstawowej: [[Dobierz|DOBIERZ]], [[Klątwa|KLĄTWA]], [[Nawiedź|NAWIEDŹ]], [[Poświęć|POŚWIĘĆ]], [[Rozkaz|ROZKAZ]], [[Szał|SZAŁ]], [[Wezwanie|WEZWANIE]], [[Zniszcz|ZNISZCZ]] i [[Zwołaj|ZWOŁAJ]].
+
+## Wyjątki i szczególne przypadki
+- [[Wezwanie|WEZWANIE]] działa przy zakupie karty, a nie przy jej zagraniu.
+
+~ Słowa-klucze -> Słowo-klucz
+
+@@ Spasowanie
+strony: 6, 13
+[[Akcja]], która kończy [[Faza Akcji|Fazę Akcji]] gracza.
+
+## Zasady
+- Gracz może spasować tylko wtedy, gdy ma na [[Ręka|ręce]] najwyżej 1 kartę albo jego ręka jest pusta.
+- Jeżeli gracz ma na ręce 1 kartę, w chwili Spasowania kładzie ją zakrytą na wierzchu swojej [[Talia|talii]].
+- Po Spasowaniu gracz przechodzi do [[Faza Czyszczenia|Fazy Czyszczenia]].
+
+## Wyjątki i szczególne przypadki
+- Spasowanie to jedyna akcja, której nie można powtarzać: kończy ona Fazę Akcji.
+
+@@ Stos kart odrzuconych
+grupa: Stos
+strony: 5, 13, 15
+Odkryty stos kart każdego gracza, na który trafiają kupione Potwory i karty usunięte z obszaru gry.
+
+## Zasady
+- Na stos kart odrzuconych trafiają kupione [[Potwór|Potwory]] i [[Akolita|Akolici]] oraz karty usunięte w [[Faza Czyszczenia|Fazie Czyszczenia]].
+- Karty na stosie kart odrzuconych nie wywołują żadnych efektów w grze, a ich kolejność nie ma znaczenia.
+- Gdy gracz musi dobrać kartę, a jego talia jest pusta, tasuje stos kart odrzuconych i tworzy z niego nową [[Talia|talię]].
+
+## Wyjątki i szczególne przypadki
+- Każdy gracz może w każdej chwili przeglądać stosy kart odrzuconych.
+- [[Rozkaz|ROZKAZ]] pozwala wziąć Potwora z tego stosu z powrotem na rękę.
+- Gdy efekt [[Odkryj|ODKRYJ]] lub [[Podejrzyj|PODEJRZYJ]] wymaga więcej kart, niż jest w talii, gracz tasuje stos kart odrzuconych i kładzie go pod spodem talii.
+
+@@ Strata punktów Życia
+strony: 9, 15–16
+Utrata [[Punkty Życia|punktów Życia]] nakazana przez zdolność, np. przez [[Klątwa|KLĄTWĘ]] albo zapłatę punktami Życia za zdolność.
+
+## Zasady
+- Gdy zdolność wymaga, aby Władca stracił punkty Życia, gracz kontrolujący tego Władcę zmniejsza jego punkty Życia o wskazaną wartość.
+
+## Wyjątki i szczególne przypadki
+- Strata punktów Życia nie jest tym samym co [[Obrażenia|obrażenia]] od [[Moc|Mocy]]: [[Pancerz]] jej nie zmniejsza.
+
+@@ Strefa Reliktów
+strony: 8
+Miejsce po prawej stronie [[Arkusz Władcy|arkusza Władcy]], w którym leżą [[Relikt|Relikty]] gracza.
+
+## Zasady
+- Relikty zagrane z ręki albo kupione kładzie się odkryte w strefie Reliktów.
+- Relikty ze strefy Reliktów aktywuje się [[Akcja Reliktu|Akcją Reliktu]].
+
+## Wyjątki i szczególne przypadki
+- W strefie Reliktów mogą leżeć jednocześnie najwyżej 3 Relikty.
+- Jeżeli gracz ma już 3 Relikty i chce zagrać kolejny, przed dodaniem nowego Reliktu musi wybrać jeden z posiadanych i usunąć go na stałe z gry.
+- Relikty zostają w strefie Reliktów w [[Faza Czyszczenia|Fazie Czyszczenia]].
+
+@@ Szał
+strony: 16
+Słowo-klucz SZAŁ: gracz wybiera, czy zyskuje 2 {{moc}}, czy 2 {{regeneracja}}.
+
+## Zasady
+- Po aktywacji SZAŁU gracz wybiera 2 punkty [[Moc|Mocy]] albo 2 punkty [[Regeneracja|Regeneracji]].
+- Wybrany zasób trafia do [[Pula Zasobów|Puli Zasobów]].
+
+## Wyjątki i szczególne przypadki
+- Gracz nie może podzielić SZAŁU (np. na 1 Moc i 1 Regenerację): wybiera jedną z dwóch opcji.
+
+@@ Talia
+grupa: Talia
+strony: 4, 13
+Zakryty stos kart gracza, z którego dobiera on karty na [[Ręka|rękę]].
+
+## Zasady
+- Grę zaczyna się z [[Talia początkowa|talią początkową]] z 10 kart.
+- Kupione karty trafiają na [[Stos kart odrzuconych|stos kart odrzuconych]], a do talii wchodzą po jego przetasowaniu.
+- Gdy gracz musi dobrać kartę, a jego talia jest pusta, tasuje stos kart odrzuconych i tworzy z niego nową talię.
+
+## Wyjątki i szczególne przypadki
+- Talii i stosu kart odrzuconych nie tasuje się w innej sytuacji, chyba że nakazuje to efekt gry.
+- Na wierzch talii trafiają: karta zostawiona przy [[Spasowanie|Spasowaniu]] i karta kupiona ze zdolnością [[Wezwanie|WEZWANIE]].
+
+@@ Talia początkowa
+grupa: Talia
+strony: 4
+10 kart, z którymi każdy gracz zaczyna grę: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
+
+## Zasady
+- Każdy gracz dodaje 5 Kultystów i 3 Fanatyków do wybranych 2 kart Wpływów swojego [[Władca|Władcy]] i tasuje te 10 kart.
+- Pozostałe karty Kultystów, Fanatyków i Wpływów wracają do pudełka.
+
+## Wyjątki i szczególne przypadki
+- Kultyści i Fanatycy to [[Potwór spoza frakcji|Potwory spoza frakcji]].
+
+~ Kultysta -> Talia początkowa
+~ Fanatyk -> Talia początkowa
+
+@@ Targ
+strony: 4, 15
+Zakryty stos Potworów i Reliktów, z którego uzupełnia się [[Ulica|Ulicę]].
+
+## Zasady
+- Podczas przygotowania wszystkie karty poza kartami Akolitów, talii początkowych i Wpływów tasuje się razem w stos Targu.
+- Ilekroć trzeba uzupełnić Ulicę, dobiera się kartę z wierzchu Targu.
+
+## Wyjątki i szczególne przypadki
+- Gdy stos Targu się wyczerpie, gracze tracą możliwość uzupełniania Ulicy.
+- [[Akolita|Akolici]] leżą w osobnym stosie i nie należą do Targu.
+
+~ Stos Targu -> Targ | Stos
+
+@@ Tura
+strony: 4, 6
+Kolejka jednego gracza. Gracze rozgrywają tury na zmianę, zaczynając od [[Pierwszy Gracz|Pierwszego Gracza]].
+
+## Zasady
+Tura gracza składa się z trzech faz rozgrywanych po kolei:
+1. [[Faza Akcji]],
+2. [[Faza Czyszczenia]],
+3. [[Faza Dobierania]].
+
+## Wyjątki i szczególne przypadki
+- Gra kończy się natychmiast, gdy któryś Władca straci ostatni punkt Życia, nawet w trakcie tury (patrz [[Koniec gry]]).
+
+~ Przebieg tury -> Tura
+
+@@ Ulica
+strony: 4, 8, 15
+Rząd pięciu odkrytych kart z [[Targ|Targu]], z którego gracze kupują Potwory i Relikty.
+
+## Zasady
+- Podczas przygotowania gracze odkrywają 5 wierzchnich kart Targu i kładą je w rzędzie między stosem Targu a stosem Akolitów.
+- Po zakupie karty z Ulicy natychmiast uzupełnia się puste miejsce odkrytą kartą z wierzchu Targu.
+- Na Ulicy zawsze powinno być 5 kart.
+
+## Wyjątki i szczególne przypadki
+- Gdy stos Targu się wyczerpie, Ulicy nie da się uzupełniać, więc może na niej leżeć mniej niż 5 kart.
+- Karty [[Akolita|Akolitów]] nie są częścią Ulicy.
+- [[Zniszcz|ZNISZCZ]] może usunąć z gry kartę z Ulicy; puste miejsce uzupełnia się kartą z Targu.
+
+@@ Wezwanie
+strony: 8, 16
+Słowo-klucz WEZWANIE: po zakupie karty z tym efektem gracz może położyć ją na wierzchu swojej [[Talia|talii]].
+
+## Zasady
+- Zamiast na [[Stos kart odrzuconych|stos kart odrzuconych]] kupioną kartę ze zdolnością WEZWANIE można położyć zakrytą na wierzchu talii.
+- Dzięki temu gracz dobierze ją w najbliższej [[Faza Dobierania|Fazie Dobierania]].
+
+## Wyjątki i szczególne przypadki
+- WEZWANIE działa w chwili zakupu (patrz [[Zakup karty]]), a nie w chwili zagrania karty.
+- Zdolność [[władca: Lilith|Lilith]] pozwala kupić Potwora i dać mu WEZWANIE.
+
+@@ Władca
+strony: 2–4, 12
+Postać, którą kieruje gracz. Każdy Władca należy do jednej z czterech [[Frakcja|frakcji]] i ma własną zdolność, [[Karta Wpływów|karty Wpływów]] i [[Punkty Życia|punkty Życia]].
+
+## Zasady
+- Podczas przygotowania gracz wybiera frakcję i jednego z jej Władców.
+- Władca jest przedstawiony na [[Arkusz Władcy|arkuszu Władcy]]. Jego zdolność gracz aktywuje [[Akcja Władcy|Akcją Władcy]].
+- Gracz, którego Władca straci wszystkie punkty Życia, przegrywa (patrz [[Koniec gry]]).
+
+## Wyjątki i szczególne przypadki
+- Każdy Władca jest opisany w zakładce **Władcy**: [[władca: Fenris]], [[władca: Azazel]], [[władca: Lilith]] i [[władca: Metuszelach]].
+
+@@ Wskaźnik Hordy
+strony: 10, 14
+Ikona frakcji i zestaw kolorowych strzałek przy dolnej krawędzi karty [[Potwór|Potwora]], które decydują, czy Potwory mogą utworzyć [[Horda|Hordę]].
+
+## Zasady
+Kompatybilność wskaźników Hordy ustala się na dwa sposoby:
+1. wskaźnik Hordy na dole karty pasuje do [[Frakcja|frakcji]] Potwora, z którym tworzy Hordę,
+2. strzałki na dole kart obu Potworów pasują kolorem do siebie.
+
+Oba warunki zawsze są spełnione albo oba nie są.
+
+## Wyjątki i szczególne przypadki
+- Wskaźnik łączy tylko sąsiadujące karty: przy rozszerzaniu Hordy nowy Potwór musi być kompatybilny ze skrajnym Potworem, obok którego go dokładasz (patrz [[Akcja Hordy]]).
+
+!img horda-kompatybilnosc | Kompatybilne i niekompatybilne wskaźniki Hordy (s. 10 instrukcji)
+
+~ Kompatybilność Hordy -> Wskaźnik Hordy
+
+@@ Wybrany
+strony: 15
+Określenie celu zdolności: gracz musi wybrać cel określonego typu, np. innego gracza albo Potwora.
+
+## Zasady
+- Gracz wybiera cel takiego typu, jaki wskazuje opis zdolności.
+
+## Wyjątki i szczególne przypadki
+- [[Klątwa|KLĄTWA]] każe wybrać za cel przeciwnika.
+
+~ Cel -> Wybrany
+
+@@ Zagranie karty
+strony: 6–8
+[[Akcja]], którą gracz dodaje do swojego [[Obszar gry|obszaru gry]] jedną kartę z [[Ręka|ręki]].
+
+## Zasady
+- Zagranie karty jest darmowe. Zagrana karta leży odkryta w obszarze gry.
+- Z ręki można zagrać [[Potwór|Potwory]], [[Karta Wpływów|karty Wpływów]] i [[Relikt|Relikty]].
+- Za każdym razem, gdy gracz zagrywa Potwora lub kartę Wpływów, aktywuje jej [[Zdolność|zdolności]].
+
+## Wyjątki i szczególne przypadki
+- Zagrany Relikt trafia do [[Strefa Reliktów|strefy Reliktów]] i nie aktywuje swojej zdolności: aktywuje ją [[Akcja Reliktu]].
+- Gracz z 3 Reliktami, który zagrywa czwarty, najpierw usuwa z gry jeden z posiadanych.
+- Zdolność Uruchamiana karty Wpływów działa tylko wtedy, gdy w chwili zagrania gracz ma w grze [[Potwór z frakcji|Potwora z frakcji]] swojego Władcy.
+
+@@ Zakup karty
+strony: 8–9
+[[Akcja]], którą gracz wydaje [[Moneta|Monety]] na jedną kartę z [[Ulica|Ulicy]] albo ze stosu [[Akolita|Akolitów]].
+
+## Zasady
+- Gracz płaci [[Koszt|koszt]] karty Monetami ze swojej [[Pula Zasobów|Puli Zasobów]].
+- Kupić można Akolitów, [[Potwór|Potwory]] i [[Relikt|Relikty]].
+- Kupiony Potwór (także Akolita) trafia odkryty na [[Stos kart odrzuconych|stos kart odrzuconych]].
+- Kupiony Relikt trafia do [[Strefa Reliktów|strefy Reliktów]] i od razu można go aktywować [[Akcja Reliktu|Akcją Reliktu]].
+- Po zakupie karty z Ulicy gracz natychmiast uzupełnia Ulicę odkrytą kartą z wierzchu [[Targ|Targu]].
+
+## Wyjątki i szczególne przypadki
+- Kartę ze zdolnością [[Wezwanie|WEZWANIE]] gracz może położyć zakrytą na wierzchu swojej talii zamiast na stosie kart odrzuconych.
+- Akolita kosztuje 2 Monety; można go kupować, dopóki w stosie są karty.
+- Zdolność Władcy może zmieniać sposób zakupu, np. [[władca: Fenris|Fenris]] kupuje Potwora o koszcie poniżej 4 za dowolną kombinację Mocy i Monet.
+
+~ Zakup -> Zakup karty
+
+@@ Zdolność
+grupa: Zdolność
+strony: 7
+Efekt wydrukowany na karcie. Gdy gracz zagrywa kartę z ręki, aktywuje jej zdolności.
+
+## Zasady
+Karty mają cztery rodzaje zdolności, rozpatrywane w tej kolejności:
+1. [[Zdolność Zasobów|zdolności Zasobów]] i [[Zdolność Słów-Kluczy|Słów-Kluczy]]: od razu po zagraniu,
+2. [[Zdolność Unikatowa|zdolności Unikatowe]]: po pełnym rozpatrzeniu zdolności Zasobów i Słów-Kluczy,
+3. [[Zdolność Uruchamiana|zdolności Uruchamiane]]: dopiero po spełnieniu opisanego warunku.
+
+Potwory mają też [[Zdolność Hordy|zdolności Hordy]], aktywowane przy tworzeniu lub rozszerzaniu [[Horda|Hordy]].
+
+## Wyjątki i szczególne przypadki
+- Zdolności [[Relikt|Reliktów]] nie aktywują się przy zagraniu: aktywuje je [[Akcja Reliktu]].
+- [[Złota zasada]]: tekst na karcie ma pierwszeństwo przed zasadami z instrukcji.
+
+!img zdolnosci-karty | Zdolności na karcie Potwora (s. 7 instrukcji)
+
+~ Aktywacja zdolności -> Zdolność | Zdolność
+
+@@ Zdolność Hordy
+grupa: Zdolność
+strony: 10–11, 15
+Zdolność wydrukowana w ramce na dole karty [[Potwór|Potwora]], aktywowana przy tworzeniu lub rozszerzaniu [[Horda|Hordy]].
+
+## Zasady
+- [[Potwór z frakcji|Potwory z frakcji]] mają jedną lub dwie zdolności Hordy.
+- Zdolności Hordy aktywuje się podczas [[Akcja Hordy|Akcji Hordy]] albo zdolnościami, które pozwalają na ich aktywację.
+- Każdą zdolność Hordy można aktywować tylko raz na [[Faza Akcji|Fazę Akcji]].
+
+## Wyjątki i szczególne przypadki
+- Aktywowana zdolność Hordy nie musi należeć do Potwora, który ostatnio dołączył do Hordy.
+- Dwie zdolności Hordy oddzielone symbolem „◆” to dwie osobne zdolności, a nie jedna zdolność z dwiema opcjami. Każdą z nich można aktywować osobno.
+
+## Przykład
+W Hordzie z Kościotrupa i Poltergeista zdolność Hordy każdego z nich daje 1 punkt Mocy. Gracz wybiera zdolność Kościotrupa i dodaje 1 {{moc}} do swojej Puli Zasobów.
+
+!img horda-przyklad | Zdolności Hordy Kościotrupa i Poltergeista (s. 10 instrukcji)
+
+@@ Zdolność Słów-Kluczy
+grupa: Zdolność
+strony: 7
+[[Zdolność]] zapisana na karcie jednym wyrazem wyróżnionym kapitalikami (patrz [[Słowo-klucz]]).
+
+## Zasady
+- Zdolności Słów-Kluczy aktywują się natychmiast po zagraniu Potwora lub [[Karta Wpływów|karty Wpływów]], razem ze [[Zdolność Zasobów|zdolnościami Zasobów]].
+
+## Wyjątki i szczególne przypadki
+- Słowo-klucz w tekście zdolności Uruchamianej lub Unikatowej (np. „Zyskaj 2 punkty Życia za każdym razem, gdy rzucisz KLĄTWĘ”) działa według zasad tej zdolności.
+
+@@ Zdolność Unikatowa
+grupa: Zdolność
+strony: 7
+[[Zdolność]] opisana tekstem na karcie, którą rozpatruje się po wszystkich [[Zdolność Zasobów|zdolnościach Zasobów]] i [[Zdolność Słów-Kluczy|Słów-Kluczy]].
+
+## Zasady
+- Opis zdolności Unikatowej wyjaśnia, jak ją rozpatrzyć.
+- [[Nawiedzenie]] aktywuje także zdolności Unikatowe Potwora.
+
+## Wyjątki i szczególne przypadki
+- Zgodnie ze [[Złota zasada|Złotą zasadą]] tekst zdolności ma pierwszeństwo przed zasadami z instrukcji.
+
+@@ Zdolność Uruchamiana
+grupa: Zdolność
+strony: 7–8
+[[Zdolność]], która nie działa od razu, ale daje korzyść po spełnieniu określonego warunku.
+
+## Zasady
+Opis zdolności Uruchamianej ma zawsze ten sam wzorzec:
+1. korzyść, którą daje zdolność,
+2. ile razy można ją aktywować,
+3. warunek, który uruchamia aktywację.
+
+## Wyjątki i szczególne przypadki
+- Zanim aktywujesz zdolność Uruchamianą, w pełni rozpatrz efekt, który ją uruchomił.
+- Jeżeli jeden efekt uruchamia kilka zdolności Uruchamianych, gracz wybiera kolejność ich rozpatrzenia.
+- Zdolność Uruchamiana [[Karta Wpływów|karty Wpływów]] działa tylko wtedy, gdy w chwili zagrania karty gracz ma w grze [[Potwór z frakcji|Potwora z frakcji]] swojego Władcy.
+
+## Przykład
+Wiedźma: „Zyskaj 2 punkty Życia za każdym razem, gdy rzucisz KLĄTWĘ”. Korzyść to 2 punkty Życia, liczba aktywacji to „za każdym razem”, a warunek to rzucenie [[Klątwa|KLĄTWY]].
+
+@@ Zdolność Zasobów
+grupa: Zdolność
+strony: 7
+[[Zdolność]], która daje graczowi zasoby: [[Moneta|Monety]] {{moneta}}, [[Moc]] {{moc}} lub [[Regeneracja|Regenerację]] {{regeneracja}}.
+
+## Zasady
+- Gdy aktywowana zdolność przedstawia symbol zasobu, gracz otrzymuje ten zasób.
+- Liczba na symbolu mówi, ile zasobu gracz otrzymuje. Np. karta z symbolem 2 {{moneta}} daje 2 Monety.
+- Zasoby trafiają do [[Pula Zasobów|Puli Zasobów]].
+
+## Wyjątki i szczególne przypadki
+- Zdolności Zasobów aktywują się natychmiast po zagraniu karty i ponownie przy [[Nawiedzenie|Nawiedzeniu]].
+
+@@ Złota zasada
+strony: 6
+Tekst na kartach ma pierwszeństwo przed zasadami zawartymi w instrukcji.
+
+## Zasady
+- Gdy opis zdolności na karcie lub [[Arkusz Władcy|arkuszu Władcy]] jest sprzeczny z instrukcją, obowiązuje opis zdolności.
+
+## Wyjątki i szczególne przypadki
+- Przykład: zasady pozwalają aktywować każdy [[Relikt]] raz na turę, ale Łowca Reliktów pozwala aktywować Relikt ponownie.
+
+@@ Zniszcz
+strony: 16
+Słowo-klucz ZNISZCZ: gracz wybiera kartę w grze albo kartę z [[Ulica|Ulicy]] i pozbywa się jej.
+
+## Zasady
+Aby użyć efektu ZNISZCZ, gracz wybiera jedną z opcji:
+- wybiera kartę w grze i kładzie ją na [[Stos kart odrzuconych|stosie kart odrzuconych]] jej właściciela,
+- wybiera kartę z Ulicy, usuwa ją na stałe z gry i uzupełnia puste miejsce na Ulicy wierzchnią kartą z [[Targ|Targu]].
+
+## Wyjątki i szczególne przypadki
+- Niektóre karty niszczą same siebie, np. Krew Lykana: „Możesz ZNISZCZYĆ Krew Lykana. Jeżeli to zrobisz, wydaj ROZKAZ” (patrz [[Rozkaz]]).
+- Karta z Ulicy usunięta przez ZNISZCZ nie trafia na żaden stos kart odrzuconych.
+
+@@ Zwołaj
+strony: 16
+Słowo-klucz ZWOŁAJ: gracz bierze z rezerwy [[Żeton Zwołania|żeton Zwołania]] i kładzie go obok swojej talii.
+
+## Zasady
+- W [[Faza Dobierania|Fazie Dobierania]] gracz dobiera 1 dodatkową kartę za każdy posiadany żeton Zwołania.
+- Tuż po Fazie Dobierania wszystkie żetony Zwołania wracają do rezerwy.
+
+## Wyjątki i szczególne przypadki
+- Kilka ZWOŁAŃ w jednej turze daje kilka żetonów, więc kilka dodatkowych kart.
+
+@@ Żeton Nawiedzenia
+grupa: Żeton
+strony: 12–14, 16
+Dwustronny żeton (strony „Nawiedź” i „Odeślij”), który pozwala [[Potwór|Potworowi]] zostać w grze na następną turę.
+
+## Zasady
+- Gdy Potwór zyskuje NAWIEDZENIE (patrz [[Nawiedź|NAWIEDŹ]]), gracz kładzie na nim żeton stroną „Nawiedź” do góry.
+- W [[Faza Czyszczenia|Fazie Czyszczenia]] Potwory z żetonem stroną „Nawiedź” zostają w grze, a ich żetony odwraca się stroną „Odeślij”.
+- Potwory z żetonem stroną „Odeślij” trafiają w Fazie Czyszczenia na stos kart odrzuconych.
+- W turze, w której żeton leży stroną „Odeślij”, gracz może aktywować Potwora akcją [[Nawiedzenie|Nawiedzenia]].
+
+## Wyjątki i szczególne przypadki
+- Tylko Potwory bez żetonu Nawiedzenia mogą go otrzymać.
+- Gdy Potwór z żetonem Nawiedzenia staje się częścią [[Horda|Hordy]], żeton odwraca się stroną „Odeślij”.
+- Gra podstawowa zawiera 10 żetonów Nawiedzenia.
+
+!img zetony-nawiedzenia | Dwie strony żetonu Nawiedzenia (s. 14 instrukcji)
+
+~ Żeton Nawiedź -> Żeton Nawiedzenia | Żeton
+~ Odeślij -> Żeton Nawiedzenia
+
+@@ Żeton Zwołania
+grupa: Żeton
+strony: 3, 16
+Żeton, który gracz dostaje za [[Zwołaj|ZWOŁAJ]] i który pozwala mu dobrać dodatkową kartę.
+
+## Zasady
+- Gracz kładzie żeton Zwołania obok swojej [[Talia|talii]].
+- W [[Faza Dobierania|Fazie Dobierania]] gracz dobiera 1 dodatkową kartę za każdy posiadany żeton.
+- Tuż po Fazie Dobierania żetony wracają do rezerwy.
+
+## Wyjątki i szczególne przypadki
+- Gra podstawowa zawiera 10 żetonów Zwołania.

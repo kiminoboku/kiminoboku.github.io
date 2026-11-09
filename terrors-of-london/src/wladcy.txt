@@ -1,0 +1,77 @@
+# Gra podstawowa
+
+Gra podstawowa zawiera czterech [[Władca|Władców]], po jednym z każdej [[Frakcja|frakcji]]. Każdy z nich ma jedną zdolność, którą aktywuje się [[Akcja Władcy|Akcją Władcy]] raz na turę, i 3 [[Karta Wpływów|karty Wpływów]], z których gracz wybiera 2.
+
+!img arkusze-wladcow | Arkusze Władców z gry podstawowej (s. 3 instrukcji)
+
+@@ Fenris
+frakcja: Bestie
+zycie: 45
+tytul: Wilk Alfa
+strony: 3, 9
+
+## Zdolność (tekst z arkusza)
+Kup Potwora z Ulicy o koszcie poniżej 4 używając dowolnej kombinacji {{moc}} i {{moneta}}. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Zdolność pozwala zapłacić za [[Zakup karty|zakup]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] także [[Moc|Mocą]], nie tylko [[Moneta|Monetami]]. Dotyczy tylko Potworów o [[Koszt|koszcie]] 3 lub niższym.
+
+## Zasoby
+3 [[Karta Wpływów|karty Wpływów]] Fenrisa; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Bestii w grze.
+
+## Przygotowanie
+Znacznik Życia na polu 45. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Azazel
+frakcja: Duchy
+zycie: 50
+tytul: Mistrz Zła
+strony: 3, 5
+
+## Zdolność (tekst z arkusza)
+[[Poświęć|POŚWIĘĆ]] kartę z twojej ręki. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Zwykle POŚWIĘĆ dotyczy tylko kart z [[Obszar gry|obszaru gry]]; zdolność Azazela pozwala usunąć z gry kartę z [[Ręka|ręki]]. Jak przy każdym POŚWIĘCENIU, gracz zyskuje 1 {{moc}} za usuniętą kartę.
+
+## Zasoby
+3 [[Karta Wpływów|karty Wpływów]] Azazela; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Duchów w grze.
+
+## Przygotowanie
+Znacznik Życia na polu 50. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Lilith
+frakcja: Śmiertelnicy
+zycie: 45
+tytul: Bezwzględny Czempion
+strony: 3
+
+## Zdolność (tekst z arkusza)
+Kup Potwora i daj mu [[Wezwanie|WEZWANIE]]. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Kupionego tą zdolnością [[Potwór|Potwora]] gracz może położyć zakrytego na wierzchu swojej [[Talia|talii]] zamiast na [[Stos kart odrzuconych|stosie kart odrzuconych]], więc dobierze go w najbliższej [[Faza Dobierania|Fazie Dobierania]].
+
+## Zasoby
+3 [[Karta Wpływów|karty Wpływów]] Lilith; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Śmiertelników w grze.
+
+## Przygotowanie
+Znacznik Życia na polu 45. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Metuszelach
+frakcja: Nieumarli
+zycie: 40
+tytul: Kanclerz Śmierci
+strony: 3, 5
+
+## Zdolność (tekst z arkusza)
+[[Dobierz|DOBIERZ]] 1 KARTĘ, a następnie [[Odrzuć|odrzuć]] 1 kartę. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Gracz najpierw dobiera kartę, a potem wybiera dowolną kartę z [[Ręka|ręki]] (także tę dobraną) i kładzie ją na [[Stos kart odrzuconych|stosie kart odrzuconych]].
+
+## Zasoby
+3 [[Karta Wpływów|karty Wpływów]] Metuszelacha; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Nieumarłych w grze.
+
+## Przygotowanie
+Znacznik Życia na polu 40. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
