@@ -258,7 +258,7 @@ Władcy z dodatku mają po 3 karty Wpływów i wybierają 2 z nich, jak w grze p
 
 ## Z dodatkiem {gate}
 - Dodatek zawiera po 1 nowej karcie Wpływów dla każdego Władcy z gry podstawowej: każdy z nich ma 4 karty Wpływów i gracz wybiera 2.
-- Władcy z dodatku nie mają kart Wpływów: zamiast nich używają Sługusów (patrz [[Talia początkowa]]).
+- Władcy z dodatku nie mają kart Wpływów: zamiast nich używają [[Sługus|Sługusów]] (patrz [[Talia początkowa]]).
 
 ## Z oboma dodatkami {tomb+gate}
 Słudzy Czarnej Bramy zawierają też po 1 karcie Wpływów dla każdego Władcy z Gadziego Grobowca: oni również mają 4 karty Wpływów i wybierają 2.
@@ -471,6 +471,9 @@ Najczęstszy rodzaj karty: postać, którą gracz kupuje, zagrywa z ręki i łą
 - Potwór z [[Żeton Nawiedzenia|żetonem Nawiedzenia]] stroną „Nawiedź” zostaje w obszarze gry na następną turę (patrz [[Nawiedzenie]]).
 - Kartę Potwora ze zdolnością [[Wezwanie|WEZWANIE]] można po zakupie położyć zakrytą na wierzchu talii.
 - Akolici, Kultyści i Fanatycy też są Potworami.
+
+## Z dodatkiem {gate}
+[[Sługus|Sługusy]] Władców z dodatku Słudzy Czarnej Bramy też są Potworami: należą do frakcji swojego Władcy.
 
 @@ Potwór spoza frakcji
 grupa: Potwór
@@ -713,7 +716,7 @@ strony: 4
 - Kultyści i Fanatycy to [[Potwór spoza frakcji|Potwory spoza frakcji]].
 
 ## Z dodatkiem {gate}
-Władcy z dodatku nie mają kart Wpływów. Ich talia początkowa to 2 Sługusy (Potwory frakcji Władcy), 5 Kultystów i 3 Fanatyków.
+Władcy z dodatku nie mają kart Wpływów. Ich talia początkowa to 2 [[Sługus|Sługusy]] (Potwory frakcji Władcy), 5 Kultystów i 3 Fanatyków.
 
 ~ Kultysta -> Talia początkowa
 ~ Fanatyk -> Talia początkowa
@@ -794,6 +797,9 @@ Postać, którą kieruje gracz. Każdy Władca należy do jednej z czterech [[Fr
 
 ## Z dodatkiem {tomb}
 Dodatek Gadzi Grobowiec wprowadza Władców, którzy płacą za zdolności [[Żeton Terroru|żetonami Terroru]]: [[władca: Sobek]], [[władca: Prometeusz]], [[władca: Kain]] i [[władca: Elżbieta]].
+
+## Z dodatkiem {gate}
+Dodatek Słudzy Czarnej Bramy wprowadza Władców, którzy zamiast kart Wpływów mają [[Sługus|Sługusy]]: [[władca: Arbella]], [[władca: Steno]], [[władca: Charon]] i [[władca: Samedi]].
 
 @@ Wskaźnik Hordy
 strony: 10, 14

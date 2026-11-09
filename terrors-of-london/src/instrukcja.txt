@@ -38,7 +38,7 @@ Tekst na kartach ma pierwszeństwo przed zasadami z instrukcji (patrz [[Złota z
 
 ::: dodatek gate Komponenty dodatku
 - 4 arkusze Władców: Arbella, Steno, Charon i Samedi,
-- 52 karty: 28 Potworów, 8 Reliktów, 8 [[Karta Wpływów|kart Wpływów]] i 8 Sługusów.
+- 52 karty: 28 Potworów, 8 Reliktów, 8 [[Karta Wpływów|kart Wpływów]] i 8 [[Sługus|Sługusów]].
 :::
 
 # Przygotowanie
@@ -62,7 +62,7 @@ Tekst na kartach ma pierwszeństwo przed zasadami z instrukcji (patrz [[Złota z
 ::: dodatek gate Przygotowanie z dodatkiem
 - Nowe karty Potworów i Reliktów wtasujcie do [[Targ|Targu]] (krok 7).
 - Dodatek zawiera po 1 nowej [[Karta Wpływów|karcie Wpływów]] dla każdego Władcy z gry podstawowej: Władca ma więc 4 karty Wpływów, z których gracz wybiera 2 (krok 4).
-- Władcy z dodatku nie mają kart Wpływów. Zamiast nich każdy ma 2 Sługusy: talia początkowa to 2 Sługusy, 5 Kultystów i 3 Fanatyków (krok 5).
+- Władcy z dodatku nie mają kart Wpływów. Zamiast nich każdy ma 2 [[Sługus|Sługusy]]: talia początkowa to 2 Sługusy, 5 Kultystów i 3 Fanatyków (krok 5).
 :::
 
 ::: dodatek tomb+gate Z oboma dodatkami
@@ -254,6 +254,20 @@ Wykonaj Akcję Władcy, wskaż zdolność, zapłać żetony Terroru i rozpatrz e
 ::: przyklad
 Pierwszą lokacją jest Park St. James, Przystań frakcji Bestii. Leży nad nią Nietoperzołak, karta Bestii. Gracz, który go kupi, od razu zyskuje bonus tej Przystani: 3 {{regeneracja}}.
 :::
+
+# Słudzy Czarnej Bramy {gate}
+
+Dodatek wprowadza nowe [[Potwór|Potwory]] i [[Relikt|Relikty]] oraz czterech nowych Władców: [[władca: Arbella|Arbellę]], [[władca: Steno|Steno]], [[władca: Charon|Charona]] i [[władca: Samedi|Samediego]]. Obowiązują wszystkie zasady gry podstawowej.
+
+## Sługusy
+
+Władcy z dodatku różnią się od Władców z gry podstawowej jednym szczegółem: zamiast [[Karta Wpływów|kart Wpływów]] mają [[Sługus|Sługusy]]. Sługusy to Potwory frakcji Władcy, które bezpośrednio wspierają jego zdolność.
+
+- Każdy Władca z dodatku ma 2 Sługusy.
+- Podczas przygotowania gracz dodaje swoje 2 Sługusy do 5 Kultystów i 3 Fanatyków: talia początkowa liczy 10 kart.
+- Sługus działa jak każdy inny Potwór: zagrywa się go z ręki, aktywuje jego zdolności i można go łączyć w Hordy.
+
+!img csb-charon-slugusy | Arkusz Charona i jego Sługusy (s. 2 instrukcji dodatku)
 
 # Wariant drużynowy 2 na 2 {tomb}
 

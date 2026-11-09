@@ -14,6 +14,7 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 - `src/instrukcja.txt`: content of the *Instrukcja* (rules) tab
 - `src/glosariusz-podstawka.txt`: glossary entries of the base game
 - `src/glosariusz-gadzi.txt`: glossary entries of *Gadzi Grobowiec* and its 2-vs-2 team variant
+- `src/glosariusz-brama.txt`: glossary entries of *Słudzy Czarnej Bramy*
 - `src/wladcy.txt`: content of the *Władcy* (Lords) tab
 - `tools/build.py`: builds `index.html` and validates links
 - `tools/crop_images.py`: crops images from the PDFs (requires `poppler`)

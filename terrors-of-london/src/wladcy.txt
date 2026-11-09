@@ -181,3 +181,81 @@ Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Elżbiety: gracz 
 
 ## Przygotowanie
 Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+# Słudzy Czarnej Bramy {gate}
+
+Władcy z dodatku Słudzy Czarnej Bramy nie mają [[Karta Wpływów|kart Wpływów]]. Zamiast nich każdy ma 2 [[Sługus|Sługusy]] ze swojej frakcji, które gracz dodaje do [[Talia początkowa|talii początkowej]]. Każda zdolność Władcy działa raz na turę i aktywuje się ją [[Akcja Władcy|Akcją Władcy]].
+
+@@ Arbella
+frakcja: Duchy
+zycie: 40
+tytul: Opętana Diuszesa
+strony: 1
+
+## Zdolność (tekst z arkusza)
+[[Podejrzyj|Podejrzyj]] 2 wierzchnie karty swojej talii. Odrzuć dowolną liczbę z tych kart, a pozostałe odłóż na wierzch swojej talii, w dowolnej, wybranej przez siebie kolejności. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Gracz ogląda 2 wierzchnie karty swojej [[Talia|talii]] bez pokazywania ich przeciwnikowi. Może odrzucić 0, 1 albo 2 z nich na [[Stos kart odrzuconych|stos kart odrzuconych]], a resztę kładzie z powrotem na wierzch talii w wybranej kolejności. Jeżeli w talii jest mniej niż 2 karty, gracz najpierw tasuje stos kart odrzuconych i kładzie go pod spodem talii (patrz [[Podejrzyj|PODEJRZYJ]]).
+
+## Zasoby
+2 [[Sługus|Sługusy]] z frakcji Duchów; Arbella nie ma kart Wpływów.
+
+## Przygotowanie
+Znacznik Życia na polu 40. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+
+@@ Steno
+frakcja: Bestie
+zycie: 40
+tytul: Królowa Gorgon
+strony: 1
+
+## Zdolność (tekst z arkusza)
+Po zakupie Potwora zyskaj tyle punktów {{regeneracja}}, ile wynosi koszt tego Potwora. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Po kupieniu [[Potwór|Potwora]] gracz może wykonać [[Akcja Władcy|Akcję Władcy]] i zyskać tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}). Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
+
+## Zasoby
+2 [[Sługus|Sługusy]] z frakcji Bestii; Steno nie ma kart Wpływów.
+
+## Przygotowanie
+Znacznik Życia na polu 40. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+
+@@ Charon
+frakcja: Nieumarli
+zycie: 45
+tytul: Strażnik Bram Piekieł
+strony: 1–2
+
+## Zdolność (tekst z arkusza)
+Wybierz, a następnie odrzuć Potwora ze swojej ręki, aby zyskać 1 {{moc}} i 1 {{moneta}}. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Gracz wybiera [[Potwór|Potwora]] z [[Ręka|ręki]] i kładzie go na [[Stos kart odrzuconych|stosie kart odrzuconych]]: to odrzucenie wymuszone zdolnością, więc jest dozwolone (patrz [[Odrzuć|ODRZUĆ]]). W zamian zyskuje 1 [[Moc]] i 1 [[Moneta|Monetę]]. Sługusy Charona dają dodatkowo 1 {{moc}} za każdego odrzuconego Potwora, jeżeli są w grze.
+
+!img csb-charon-slugusy | Arkusz Charona i jego Sługusy (s. 2 instrukcji dodatku)
+
+## Zasoby
+2 [[Sługus|Sługusy]] z frakcji Nieumarłych; Charon nie ma kart Wpływów.
+
+## Przygotowanie
+Znacznik Życia na polu 45. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+
+@@ Samedi
+frakcja: Śmiertelnicy
+zycie: 45
+tytul: Baron Klątw
+strony: 1
+
+## Zdolność (tekst z arkusza)
+Aktywuj Relikt w swoim obszarze gry, nawet jeżeli był on już aktywowany w tej Fazie Akcji. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+Zdolność działa jak dodatkowa [[Akcja Reliktu]]: gracz aktywuje [[Relikt]] ze swojej [[Strefa Reliktów|strefy Reliktów]], także taki, którego już użył w tej turze. Bez Reliktu w grze zdolność nie ma efektu.
+
+## Zasoby
+2 [[Sługus|Sługusy]] z frakcji Śmiertelników; Samedi nie ma kart Wpływów.
+
+## Przygotowanie
+Znacznik Życia na polu 45. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.

@@ -60,7 +60,9 @@ CROPS = {
         "gg-kafle-przystani": (2, 405, 305, 595, 386),
         "gg-opactwo-westminster": (2, 134, 436, 273, 506),
     },
-    "gate": {},
+    "gate": {
+        "csb-charon-slugusy": (2, 42, 192, 348, 436),
+    },
 }
 
 
