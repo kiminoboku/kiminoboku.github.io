@@ -846,7 +846,8 @@ PAGE = """<!DOCTYPE html>
   </main>
 </div>
 <footer class="bottom">Opracowanie na podstawie instrukcji „Terrors of London” (Brad Pye, wyd. polskie Portal Games).
-Numery stron odnoszą się do oryginalnej instrukcji. Grafiki pochodzą z instrukcji.</footer>
+Numery stron odnoszą się do oryginalnych instrukcji (w dodatkach: stron pliku PDF). Grafiki pochodzą z instrukcji.
+Wariant drużynowy według osobnej instrukcji wariantu (Portal Games).</footer>
 </body>
 </html>
 """

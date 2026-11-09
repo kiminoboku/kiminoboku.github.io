@@ -1,0 +1,125 @@
+@@ Akcja Wymiany
+grupa: Akcja
+dodatek: tomb
+zrodlo: wariant drużynowy (portalgames.pl)
+[[Akcja]] w [[Wariant drużynowy|wariancie drużynowym]], w której członkowie drużyny przekazują sobie po jednej karcie z ręki.
+
+## Zasady
+- Członkowie drużyny mogą wykonać Akcję Wymiany raz na turę drużyny, jeżeli obaj się na to zgodzą.
+- Każdy z nich wybiera z [[Ręka|ręki]] jedną kartę [[Potwór|Potwora]] lub [[Relikt|Reliktu]] i przekazuje ją partnerowi.
+- Otrzymaną kartę można zagrać już w bieżącej [[Faza Akcji|Fazie Akcji]].
+
+## Wyjątki i szczególne przypadki
+- Nie można wymieniać kart powiązanych z Władcą, takich jak [[Karta Wpływów|karty Wpływów]] czy Sługusy.
+- Członkowie drużyny nie mogą dzielić się zasobami z [[Pula Zasobów|Puli Zasobów]]: wymiana kart to jedyna forma przekazywania sobie czegokolwiek.
+
+~ Wymiana -> Akcja Wymiany
+
+@@ Opactwo Westminster
+dodatek: tomb
+strony: 2
+Neutralny kafel lokacji w [[Wariant Przystani|wariancie Przystani]], leżący pod piątą kartą [[Ulica|Ulicy]] (najdalej od [[Targ|Targu]]).
+
+## Zasady
+- W dowolnym momencie swojej [[Faza Akcji|Fazy Akcji]] gracz może wydać 1 {{moneta}}, aby [[Zniszcz|ZNISZCZYĆ]] kartę leżącą nad Opactwem Westminster.
+- Następnie wszystkie pozostałe karty Ulicy przesuwa się o jedno pole w kierunku Opactwa Westminster.
+- Na koniec odkrywa się kartę z wierzchu Targu i uzupełnia nią pustą lokację Ulicy.
+
+## Wyjątki i szczególne przypadki
+- Gracz może używać Opactwa Westminster wielokrotnie w swojej Fazie Akcji, płacąc za każdym razem 1 Monetę.
+- Zniszczona karta z Ulicy jest usuwana z gry na stałe, jak przy każdym ZNISZCZ na Ulicy.
+- Opactwo nie należy do żadnej frakcji, więc zakup karty z tej lokacji nie daje bonusu [[Przystań|Przystani]].
+- Gdy stos Targu jest pusty, puste miejsce zostaje: Ulica liczy wtedy o jedną kartę mniej.
+
+!img gg-opactwo-westminster | Kafel Opactwa Westminster (s. 2 instrukcji dodatku)
+
+~ Westminster -> Opactwo Westminster
+
+@@ Przystań
+dodatek: tomb
+strony: 2
+Kafel lokacji w [[Wariant Przystani|wariancie Przystani]], należący do jednej z czterech [[Frakcja|frakcji]], z bonusem nadrukowanym na kaflu.
+
+## Zasady
+- Cztery Przystanie leżą losowo pod pierwszymi czterema kartami [[Ulica|Ulicy]], licząc od strony [[Targ|Targu]].
+- Gdy gracz kupuje [[Potwór z frakcji|Potwora z tej samej frakcji]], do której należy leżąca pod nim Przystań, natychmiast aktywuje i rozpatruje zdolność nadrukowaną na kaflu.
+
+| Przystań | Frakcja | Bonus |
+|---|---|---|
+| Park St. James | Bestie | 3 {{regeneracja}} |
+| Cmentarz Nunhead | Nieumarli | 2 {{moc}} |
+| Katedra św. Pawła | Śmiertelnicy | [[Klątwa|KLĄTWA]] |
+| Londyńska Tower | Duchy | [[Poświęć|POŚWIĘĆ]] |
+
+## Wyjątki i szczególne przypadki
+- Zakup [[Relikt|Reliktu]] albo [[Potwór spoza frakcji|Potwora spoza frakcji]] nie daje bonusu, tak samo jak zakup Potwora innej frakcji niż Przystań.
+- Zakup dzięki zdolności Władcy (np. [[władca: Fenris|Fenrisa]]) to zwykły zakup, więc też daje bonus Przystani.
+- Kafle Przystani zostają na swoich miejscach przez całą grę; zmieniają się tylko karty, które leżą nad nimi.
+
+!img gg-kafle-przystani | Kafle Przystani i Opactwa Westminster (s. 2 instrukcji dodatku)
+
+~ Kafel Przystani -> Przystań
+~ Lokacja -> Przystań
+
+@@ Wariant drużynowy
+dodatek: tomb
+zrodlo: wariant drużynowy (portalgames.pl)
+Wariant dla czterech graczy w dwóch dwuosobowych drużynach, możliwy dzięki komponentom dodatku Gadzi Grobowiec.
+
+## Zasady
+- Gracze dzielą się na dwie drużyny i losują Pierwszą Drużynę. Jako pierwsza dokonuje ona wszystkich wyborów podczas przygotowania; jej gracze sami ustalają między sobą kolejność.
+- Każdy gracz wybiera frakcję i Władcę oraz przygotowuje go według zasad gry dwuosobowej.
+- Stos [[Akolita|Akolitów]] liczy 12 kart, a [[Ulica]] tylko 4 karty: po zakupie uzupełnia się ją do 4 kart.
+- Na początku gry obaj gracze z Pierwszej Drużyny dobierają po 4 karty, pozostali po 5.
+- W turze drużyny obaj jej gracze jednocześnie rozgrywają [[Faza Akcji|Fazę Akcji]], [[Faza Czyszczenia|Fazę Czyszczenia]] i [[Faza Dobierania|Fazę Dobierania]]. Każdy działa w swoim [[Obszar gry|obszarze gry]], ale gracze mogą się naradzać.
+- Wygrywa drużyna, która obniży do zera punkty Życia Władcy jednego z przeciwników (patrz [[Koniec gry]]).
+
+## Wyjątki i szczególne przypadki
+- [[Akcja Ataku]]: obrażenia zadaje się drużynie przeciwnej, która sama decyduje, jak przydzielić je swoim Władcom. [[Pancerz]] Władcy zmniejsza tylko obrażenia przydzielone temu Władcy.
+- [[Zakup karty]]: kupioną kartę można położyć na swoim stosie kart odrzuconych albo na stosie kart odrzuconych partnera. Kartę ze zdolnością [[Wezwanie|WEZWANIE]] można położyć tylko na wierzchu własnej talii.
+- [[Akcja Hordy]] i [[Akcja Reliktu]]: każdy gracz ma osobny obszar gry, więc nie można wspólnie tworzyć ani rozszerzać Hord ani używać Reliktów partnera.
+- [[Akcja Władcy]]: każdy gracz sam decyduje, kiedy i jak użyje zdolności swojego Władcy.
+- [[Spasowanie]]: tura drużyny kończy się, gdy spasują obaj jej członkowie.
+- Członkowie drużyny nie dzielą się zasobami, ale raz na turę mogą wykonać [[Akcja Wymiany|Akcję Wymiany]].
+- [[Klątwa|KLĄTWĘ]] rzuca się na jednego przeciwnika, którego wybiera rzucający.
+- Wariantu drużynowego nie można łączyć z [[Wariant Przystani|wariantem Przystani]].
+
+~ Gra drużynowa -> Wariant drużynowy
+~ Drużyna -> Wariant drużynowy
+~ Pierwsza Drużyna -> Wariant drużynowy
+~ Wariant 2 na 2 -> Wariant drużynowy
+
+@@ Wariant Przystani
+dodatek: tomb
+strony: 2
+Opcjonalny wariant z dodatku Gadzi Grobowiec, w którym każda karta [[Ulica|Ulicy]] leży nad kaflem lokacji.
+
+## Zasady
+- Po utworzeniu początkowej Ulicy gracze tasują 4 kafle [[Przystań|Przystani]] i losowo kładą je pod pierwszymi czterema kartami Ulicy, zaczynając od strony [[Targ|Targu]].
+- Pod piątą kartą Ulicy kładą kafel [[Opactwo Westminster|Opactwa Westminster]].
+- Od tej pory każda karta Ulicy jest skojarzona z lokacją: pierwsze cztery z Przystaniami frakcji, piąta z neutralnym Opactwem Westminster.
+
+## Wyjątki i szczególne przypadki
+- Wariantu Przystani nie można łączyć z [[Wariant drużynowy|wariantem drużynowym]], w którym Ulica ma tylko 4 karty.
+
+!img gg-ulica-przystanie | Ulica z kaflami Przystani (s. 2 instrukcji dodatku)
+
+@@ Żeton Terroru
+grupa: Żeton
+dodatek: tomb
+strony: 1
+Żeton, którym Władcy z dodatku Gadzi Grobowiec płacą za swoje zdolności.
+
+## Zasady
+- Na początku gry Władcy nie mają żetonów Terroru.
+- Na początku swojej [[Faza Akcji|Fazy Akcji]] każdy Władca z dodatku automatycznie zyskuje 1 żeton Terroru. Żetony dają też karty Wpływów tych Władców.
+- Żetony Terroru trzyma się na [[Arkusz Władcy|arkuszu Władcy]].
+- Zdolności Władcy mają wzorzec „Zapłać # żetonów Terroru: Zyskaj efekt”. Gracz wykonuje [[Akcja Władcy|Akcję Władcy]], wskazuje zdolność, płaci żetony i rozpatruje efekt.
+
+## Wyjątki i szczególne przypadki
+- Władca nigdy nie może mieć więcej niż 6 żetonów Terroru. Jeżeli efekt dałby więcej żetonów, po osiągnięciu limitu gracz nie bierze kolejnych.
+- Dodatek zawiera 24 żetony Terroru, po 6 z portretem każdego Władcy.
+
+!img gg-zetony-terroru | Żetony Terroru Kaina, Elżbiety, Prometeusza i Sobka (s. 2 instrukcji dodatku)
+
+~ Terror -> Żeton Terroru

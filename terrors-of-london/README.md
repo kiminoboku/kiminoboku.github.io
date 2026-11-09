@@ -13,6 +13,7 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 - `img/`: images cropped from the original rulebooks
 - `src/instrukcja.txt`: content of the *Instrukcja* (rules) tab
 - `src/glosariusz-podstawka.txt`: glossary entries of the base game
+- `src/glosariusz-gadzi.txt`: glossary entries of *Gadzi Grobowiec* and its 2-vs-2 team variant
 - `src/wladcy.txt`: content of the *Władcy* (Lords) tab
 - `tools/build.py`: builds `index.html` and validates links
 - `tools/crop_images.py`: crops images from the PDFs (requires `poppler`)
@@ -34,10 +35,12 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
 
 ## Sources
 
-Rules come from the Polish rulebooks of the base game and the expansions. Some Lord data is not
+Rules come from the Polish rulebooks of the base game and the expansions, and from the separate
+leaflet of the 2-vs-2 team variant (*Wariant drużynowy*). Expansion page numbers are PDF pages. Some Lord data is not
 printed in the rulebooks (it is on the Lord sheets or cards) and was provided by the page owner:
 abilities, life and sheet titles of the expansion Lords, the number of Influence cards and
-Minions (*Sługusy*) per Lord, and the purpose of the Acolyte cost token.
+Minions (*Sługusy*) per Lord, the purpose of the Acolyte cost token, and rulings on situations
+the rulebooks do not cover.
 
 ## Re-cropping images
 

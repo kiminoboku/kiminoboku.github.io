@@ -212,3 +212,75 @@ Symbole zasobów:
 | {{pancerz}} | [[Pancerz]] | zmniejsza otrzymywane obrażenia |
 
 Inne pojęcia ze słowniczka instrukcji, np. [[Odkryj|ODKRYJ]], [[Odrzuć|ODRZUĆ]], [[Podejrzyj|PODEJRZYJ]], [[Przemień|PRZEMIEŃ]] i [[Wybrany|WYBRANY]], znajdziesz w Glosariuszu.
+
+# Gadzi Grobowiec {tomb}
+
+Dodatek wprowadza nowe [[Potwór|Potwory]] i [[Relikt|Relikty]] oraz czterech nowych Władców: [[władca: Sobek|Sobka]], [[władca: Prometeusz|Prometeusza]], [[władca: Kain|Kaina]] i [[władca: Elżbieta|Elżbietę]]. Obowiązują wszystkie zasady gry podstawowej.
+
+!img gg-wladcy | Władcy z dodatku Gadzi Grobowiec (s. 1 instrukcji dodatku)
+
+## Żetony Terroru
+
+Władcy z dodatku płacą za swoje zdolności [[Żeton Terroru|żetonami Terroru]]. Na początku gry nie mają żadnych żetonów.
+
+- Na początku swojej [[Faza Akcji|Fazy Akcji]] Władca z dodatku automatycznie zyskuje 1 żeton Terroru.
+- Żetony Terroru dają też karty Wpływów tych Władców.
+- Żetony trzyma się na arkuszu Władcy.
+
+::: skrot Limit żetonów
+Władca może mieć najwyżej 6 żetonów Terroru.
+:::
+
+## Zdolności Władców
+
+Każdy Władca z dodatku ma kilka zdolności. Pierwsza (zysk żetonu Terroru) działa sama na początku Fazy Akcji. Pozostałe aktywuje się [[Akcja Władcy|Akcją Władcy]] według wzorca:
+
+**Zapłać # żetonów Terroru: Zyskaj efekt.**
+
+Wykonaj Akcję Władcy, wskaż zdolność, zapłać żetony Terroru i rozpatrz efekt. Arkusz Władcy mówi, ile razy w turze możesz użyć danej zdolności. Każde kolejne użycie to osobna Akcja Władcy i osobna zapłata.
+
+!img gg-arkusz-sobka | Arkusz Sobka: żetony Terroru leżą na arkuszu (s. 1 instrukcji dodatku)
+
+## Wariant Przystani
+
+[[Wariant Przystani]] to opcjonalny wariant z kaflami lokacji pod kartami [[Ulica|Ulicy]].
+
+- **Przygotowanie**: po utworzeniu Ulicy potasujcie 4 kafle [[Przystań|Przystani]] i losowo połóżcie je pod pierwszymi czterema kartami Ulicy, zaczynając od strony Targu. Pod piątą kartą połóżcie kafel [[Opactwo Westminster|Opactwa Westminster]].
+- **Przystanie**: każda należy do jednej frakcji. Gdy kupujesz Potwora tej frakcji z miejsca nad Przystanią, od razu rozpatrujesz zdolność nadrukowaną na kaflu.
+- **Opactwo Westminster**: w dowolnym momencie swojej Fazy Akcji możesz wydać 1 {{moneta}}, aby ZNISZCZYĆ kartę nad Opactwem. Pozostałe karty Ulicy przesuwają się wtedy o jedno pole w stronę Opactwa, a puste miejsce uzupełnia się kartą z Targu.
+
+!img gg-ulica-przystanie | Ulica z kaflami Przystani (s. 2 instrukcji dodatku)
+
+::: przyklad
+Pierwszą lokacją jest Park St. James, Przystań frakcji Bestii. Leży nad nią Nietoperzołak, karta Bestii. Gracz, który go kupi, od razu zyskuje bonus tej Przystani: 3 {{regeneracja}}.
+:::
+
+# Wariant drużynowy 2 na 2 {tomb}
+
+Dodatek Gadzi Grobowiec pozwala zagrać w [[Wariant drużynowy|wariancie drużynowym]] dla czterech graczy w dwóch drużynach. Zasady pochodzą z osobnej instrukcji wariantu (portalgames.pl). Wszystkie pozostałe zasady są takie jak w grze dwuosobowej.
+
+## Przygotowanie wariantu
+
+1. Wyjmijcie z pudełka wszystkie komponenty.
+2. Podzielcie się na dwie dwuosobowe drużyny.
+3. Losowo wybierzcie Pierwszą Drużynę. Jako pierwsza dokonuje ona wszystkich wyborów podczas przygotowania.
+4. Każdy gracz wybiera frakcję, bierze arkusze wszystkich Władców tej frakcji i wybiera jednego z nich.
+5. Każdy gracz przygotowuje swojego Władcę według zasad gry dwuosobowej.
+6. Przygotujcie obszary gry, Targ, Ulicę i Akolitów jak w grze dwuosobowej. Stos Akolitów liczy 12 kart. Odkryjcie tylko 4 karty Ulicy.
+7. Obaj gracze z Pierwszej Drużyny dobierają po 4 karty, pozostali po 5.
+
+::: skrot Jak wygrać
+Wygrywa drużyna, która obniży do zera punkty Życia Władcy jednego z przeciwników.
+:::
+
+## Tura drużyny
+
+Drużyny rozgrywają tury na zmianę. W turze drużyny obaj jej gracze jednocześnie rozgrywają wszystkie trzy fazy. Każdy gracz działa w swoim obszarze gry, ale gracze mogą się naradzać.
+
+- **Akcja Ataku**: obrażenia zadaje się drużynie przeciwnej, która sama dzieli je między swoich Władców.
+- **Zakup karty**: kupioną kartę możesz położyć na swoim stosie kart odrzuconych albo na stosie kart odrzuconych partnera.
+- **Akcja Hordy** i **Akcja Reliktu**: tylko z własnymi kartami; nie można łączyć Hord ani używać Reliktów partnera.
+- **[[Akcja Wymiany]]**: raz na turę gracze z drużyny mogą wymienić się kartą Potwora lub Reliktu z ręki.
+- **Spasowanie**: tura drużyny kończy się, gdy spasują obaj jej gracze.
+
+Drużyna nie dzieli się zasobami. W Fazie Czyszczenia i Fazie Dobierania każdy gracz rozpatruje swój obszar gry i dobiera 5 kart.

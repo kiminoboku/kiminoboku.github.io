@@ -77,3 +77,107 @@ Gracz najpierw dobiera kartę, a potem wybiera dowolną kartę z [[Ręka|ręki]]
 
 ## Przygotowanie
 Znacznik Życia na polu 40. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+# Gadzi Grobowiec {tomb}
+
+Władcy z dodatku Gadzi Grobowiec mają po kilka zdolności. Pierwsza działa sama: na początku swojej [[Faza Akcji|Fazy Akcji]] Władca zyskuje 1 [[Żeton Terroru|żeton Terroru]]. Pozostałe aktywuje się [[Akcja Władcy|Akcją Władcy]], płacąc żetonami Terroru; niektóre można użyć wiele razy w turze. Władca może mieć najwyżej 6 żetonów Terroru.
+
+!img gg-wladcy | Władcy z dodatku Gadzi Grobowiec (s. 1 instrukcji dodatku)
+
+@@ Sobek
+frakcja: Bestie
+zycie: 40
+tytul: Łuskowaty Cesarz
+strony: 1–2
+
+## Zdolność (tekst z arkusza)
+Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+
+Zapłać 2 żetony Terroru: [[Szał|SZAŁ]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+
+Zapłać 3 żetony Terroru: [[Zwołaj|ZWOŁAJ]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+
+## Wyjaśnienie
+Każde użycie to osobna Akcja Władcy i osobna zapłata żetonami. Za 2 żetony Sobek zyskuje 2 {{moc}} albo 2 {{regeneracja}}, a za 3 żetony bierze [[Żeton Zwołania|żeton Zwołania]], czyli dobierze o 1 kartę więcej w [[Faza Dobierania|Fazie Dobierania]].
+
+!img gg-arkusz-sobka | Arkusz Sobka (s. 1 instrukcji dodatku)
+
+## Zasoby
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Sobka; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Bestii w grze.
+
+## Z oboma dodatkami {gate}
+Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Sobka: gracz wybiera 2 z 4.
+
+## Przygotowanie
+Znacznik Życia na polu 40, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Prometeusz
+frakcja: Nieumarli
+zycie: 45
+tytul: Nieśmiertelne Zwłoki
+strony: 2
+
+## Zdolność (tekst z arkusza)
+Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+
+Zapłać tyle żetonów Terroru, ile wynosi koszt wybranego Potwora z frakcji, znajdującego się w twoim stosie kart odrzuconych: przywróć tego Potwora z powrotem na rękę. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko Nieumarłych; nie można wybrać [[Potwór spoza frakcji|Potwora spoza frakcji]]. Gracz płaci tyle żetonów, ile wynosi [[Koszt|koszt]] Potwora, i bierze go ze swojego [[Stos kart odrzuconych|stosu kart odrzuconych]] na [[Ręka|rękę]]. W odróżnieniu od [[Rozkaz|ROZKAZU]] nie ma tu ograniczenia kosztu poza liczbą żetonów (najwyżej 6).
+
+## Zasoby
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Prometeusza; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają Potwora z frakcji Nieumarłych w grze.
+
+## Z oboma dodatkami {gate}
+Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Prometeusza: gracz wybiera 2 z 4.
+
+## Przygotowanie
+Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Kain
+frakcja: Śmiertelnicy
+zycie: 45
+tytul: Strażnik
+strony: 2
+
+## Zdolność (tekst z arkusza)
+Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+
+Zapłać 2 żetony Terroru: [[Klątwa|KLĄTWA]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+
+Zapłać 3 żetony Terroru: Zyskaj 3 {{moneta}}. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+
+## Wyjaśnienie
+Każde użycie to osobna Akcja Władcy i osobna zapłata żetonami. Za 2 żetony Kain rzuca KLĄTWĘ (przeciwnik traci 2 punkty Życia albo odrzuca 1 kartę), a za 3 żetony zyskuje 3 [[Moneta|Monety]] do [[Pula Zasobów|Puli Zasobów]].
+
+## Zasoby
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Kaina; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Śmiertelników w grze.
+
+## Z oboma dodatkami {gate}
+Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Kaina: gracz wybiera 2 z 4.
+
+## Przygotowanie
+Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+
+@@ Elżbieta
+frakcja: Duchy
+zycie: 45
+tytul: Hrabina Krwi
+strony: 2
+
+## Zdolność (tekst z arkusza)
+Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+
+Zapłać tyle żetonów Terroru, ile wynosi koszt wybranego Potwora z frakcji, znajdującego się w twoim obszarze gry: ten Potwór zyskuje NAWIEDZENIE. Możesz użyć tej zdolności raz na turę.
+
+## Wyjaśnienie
+„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko Duchów. Wybrany Potwór dostaje [[Żeton Nawiedzenia|żeton Nawiedzenia]] stroną „Nawiedź” (patrz [[Nawiedź|NAWIEDŹ]]), więc zostanie w grze na następną turę i będzie można go aktywować [[Nawiedzenie|Nawiedzeniem]]. Potwór, który ma już żeton Nawiedzenia, nie może dostać kolejnego.
+
+## Zasoby
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Elżbiety; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają Potwora z frakcji Duchów w grze.
+
+## Z oboma dodatkami {gate}
+Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Elżbiety: gracz wybiera 2 z 4.
+
+## Przygotowanie
+Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.

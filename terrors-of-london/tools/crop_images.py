@@ -51,7 +51,15 @@ CROPS = {
         "regeneracja": (16, 376, 95, 393.5, 112, ICON_DPI),
         "symbol-polecane": (4, 248.5, 309.5, 264.5, 326, ICON_DPI),
     },
-    "tomb": {},
+    "tomb": {
+        "gg-wladcy": (1, 50, 335, 351, 415),
+        "gg-arkusz-sobka": (1, 430, 217, 640, 368),
+        "gg-komponenty": (2, 402, 80, 716, 390),
+        "gg-zetony-terroru": (2, 405, 130, 570, 171),
+        "gg-ulica-przystanie": (2, 49, 126, 352, 221),
+        "gg-kafle-przystani": (2, 405, 305, 595, 386),
+        "gg-opactwo-westminster": (2, 134, 436, 273, 506),
+    },
     "gate": {},
 }
 

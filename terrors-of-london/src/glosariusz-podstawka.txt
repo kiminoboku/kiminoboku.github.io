@@ -38,6 +38,9 @@ Ghul daje 1 punkt Mocy, a Łowca Reliktów kolejny. Gracz wydaje 2 punkty Mocy w
 
 !img przyklad-ataku | Przykład Akcji Ataku (s. 9 instrukcji)
 
+## Z dodatkiem {tomb}
+W [[Wariant drużynowy|wariancie drużynowym]] obrażenia zadaje się drużynie przeciwnej, która sama dzieli je między swoich Władców. Pancerz Władcy zmniejsza tylko obrażenia przydzielone temu Władcy.
+
 ~ Atak -> Akcja Ataku
 
 @@ Akcja Hordy
@@ -93,6 +96,11 @@ strony: 12
 
 ## Wyjątki i szczególne przypadki
 - Ograniczenie „raz na turę” pochodzi z opisu zdolności na arkuszu Władcy: same zasady [[Faza Akcji|Fazy Akcji]] pozwalają wykonywać akcje dowolnie wiele razy (patrz [[Złota zasada]]).
+
+## Z dodatkiem {tomb}
+- Władcy z dodatku Gadzi Grobowiec płacą za zdolności [[Żeton Terroru|żetonami Terroru]] według wzorca „Zapłać # żetonów Terroru: Zyskaj efekt”.
+- Arkusz Władcy mówi, ile razy w turze można użyć danej zdolności; niektóre działają dowolną liczbę razy. Każde użycie to osobna Akcja Władcy i osobna zapłata.
+- Pierwsza zdolność tych Władców (zysk żetonu Terroru na początku Fazy Akcji) działa sama, bez Akcji Władcy.
 
 ~ Zdolność Władcy -> Akcja Władcy | Zdolność
 
@@ -155,6 +163,9 @@ Pierwsza z trzech faz [[Tura|tury]] gracza, w której gracz wykonuje [[Akcja|akc
 ## Wyjątki i szczególne przypadki
 - Gracz może spasować dopiero wtedy, gdy ma na ręce najwyżej 1 kartę.
 - Niektórych akcji nie można powtarzać bez ograniczeń: każdy Relikt działa raz na turę, każda [[Zdolność Hordy|zdolność Hordy]] raz na Fazę Akcji, a [[Nawiedzenie]] raz na turę dla każdego Potwora.
+
+## Z dodatkiem {tomb}
+Na początku swojej Fazy Akcji Władca z dodatku Gadzi Grobowiec automatycznie zyskuje 1 [[Żeton Terroru|żeton Terroru]].
 
 @@ Faza Czyszczenia
 grupa: Faza
@@ -279,6 +290,9 @@ Gra kończy się w chwili, gdy liczba [[Punkty Życia|punktów Życia]] jednego 
 
 ## Wyjątki i szczególne przypadki
 - Władca może stracić punkty Życia zarówno przez [[Obrażenia|obrażenia]], jak i przez [[Strata punktów Życia|stratę punktów Życia]], np. z [[Klątwa|KLĄTWY]].
+
+## Z dodatkiem {tomb}
+W [[Wariant drużynowy|wariancie drużynowym]] wygrywa drużyna, która obniży do zera punkty Życia Władcy jednego z przeciwników.
 
 ~ Warunki wygranej -> Koniec gry
 ~ Zwycięstwo -> Koniec gry
@@ -427,6 +441,9 @@ Gracz, który rozgrywa pierwszą turę gry, wybrany losowo podczas przygotowania
 
 ## Wyjątki i szczególne przypadki
 - Na początku gry Pierwszy Gracz dobiera na [[Ręka|rękę]] tylko 4 karty, a jego przeciwnik 5.
+
+## Z dodatkiem {tomb}
+W [[Wariant drużynowy|wariancie drużynowym]] losuje się Pierwszą Drużynę; obaj jej gracze dobierają na początku gry po 4 karty.
 
 @@ Podejrzyj
 strony: 14
@@ -615,6 +632,9 @@ strony: 6, 13
 - Spasowanie to jedyna akcja, której nie można powtarzać: kończy ona Fazę Akcji.
 - Gracz nie może dobrowolnie odrzucać kart (patrz [[Odrzuć]]), więc przed Spasowaniem musi zagrać wszystkie karty z ręki poza najwyżej jedną.
 
+## Z dodatkiem {tomb}
+W [[Wariant drużynowy|wariancie drużynowym]] tura drużyny kończy się, gdy spasują obaj jej członkowie.
+
 @@ Stos kart odrzuconych
 grupa: Stos
 strony: 5, 13, 15
@@ -744,6 +764,10 @@ Rząd pięciu odkrytych kart z [[Targ|Targu]], z którego gracze kupują Potwory
 - Karty [[Akolita|Akolitów]] nie są częścią Ulicy.
 - [[Zniszcz|ZNISZCZ]] może usunąć z gry kartę z Ulicy; puste miejsce uzupełnia się kartą z Targu.
 
+## Z dodatkiem {tomb}
+- W [[Wariant Przystani|wariancie Przystani]] każda karta Ulicy leży nad kaflem lokacji: [[Przystań|Przystanią]] albo [[Opactwo Westminster|Opactwem Westminster]].
+- W [[Wariant drużynowy|wariancie drużynowym]] Ulica liczy 4 karty i uzupełnia się ją do 4 kart.
+
 @@ Wezwanie
 strony: 8, 16
 Słowo-klucz WEZWANIE: po zakupie karty z tym efektem gracz może położyć ją na wierzchu swojej [[Talia|talii]].
@@ -767,6 +791,9 @@ Postać, którą kieruje gracz. Każdy Władca należy do jednej z czterech [[Fr
 
 ## Wyjątki i szczególne przypadki
 - Każdy Władca jest opisany w zakładce **Władcy**: [[władca: Fenris]], [[władca: Azazel]], [[władca: Lilith]] i [[władca: Metuszelach]].
+
+## Z dodatkiem {tomb}
+Dodatek Gadzi Grobowiec wprowadza Władców, którzy płacą za zdolności [[Żeton Terroru|żetonami Terroru]]: [[władca: Sobek]], [[władca: Prometeusz]], [[władca: Kain]] i [[władca: Elżbieta]].
 
 @@ Wskaźnik Hordy
 strony: 10, 14
@@ -832,6 +859,10 @@ strony: 8–9
 - Gracz, który ma już 3 Relikty i kupuje kolejny, musi najpierw usunąć z gry jeden z posiadanych (patrz [[Strefa Reliktów]]).
 - Akolita kosztuje 2 Monety; można go kupować, dopóki w stosie są karty.
 - Zdolność Władcy może zmieniać sposób zakupu, np. [[władca: Fenris|Fenris]] kupuje Potwora o koszcie poniżej 4 za dowolną kombinację Mocy i Monet.
+
+## Z dodatkiem {tomb}
+- W [[Wariant Przystani|wariancie Przystani]] zakup Potwora z frakcji [[Przystań|Przystani]], nad którą leży, daje bonus nadrukowany na kaflu.
+- W [[Wariant drużynowy|wariancie drużynowym]] kupioną kartę można położyć na stosie kart odrzuconych partnera.
 
 ~ Zakup -> Zakup karty
 
@@ -954,6 +985,9 @@ Aby użyć efektu ZNISZCZ, gracz wybiera jedną z opcji:
 - Kartą w grze może być także karta przeciwnika: trafia wtedy na stos kart odrzuconych przeciwnika.
 - Kartą w grze jest też [[Relikt]] w [[Strefa Reliktów|strefie Reliktów]].
 - Karta z Ulicy usunięta przez ZNISZCZ nie trafia na żaden stos kart odrzuconych.
+
+## Z dodatkiem {tomb}
+W [[Wariant Przystani|wariancie Przystani]] gracz może za 1 {{moneta}} ZNISZCZYĆ kartę nad [[Opactwo Westminster|Opactwem Westminster]]; pozostałe karty Ulicy przesuwają się wtedy w stronę Opactwa.
 
 @@ Zwołaj
 strony: 16
