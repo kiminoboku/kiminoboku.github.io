@@ -109,6 +109,10 @@ Tani [[Potwór]] spoza [[Ulica|Ulicy]], którego karty leżą w osobnym, zakryty
 - Karty Akolitów nie są częścią Ulicy: nie uzupełnia się nimi Ulicy, a zakup Akolity nie wymaga uzupełnienia Ulicy.
 - Stosu Akolitów nie uzupełnia się: gdy się wyczerpie, Akolitów nie można już kupować.
 
+## Z dodatkiem {tomb}
+- Dodatek zawiera 4 dodatkowych Akolitów: stos Akolitów liczy na początku gry 12 kart.
+- Obok zakrytego stosu leży [[Żeton kosztu Akolitów|żeton kosztu Akolitów]], który przypomina koszt Akolity.
+
 ~ Akolici -> Akolita
 ~ Stos kart Akolitów -> Akolita | Stos
 
@@ -237,6 +241,16 @@ Specjalna karta należąca do konkretnego [[Władca|Władcy]]. Każdy gracz zacz
 ## Wyjątki i szczególne przypadki
 - Jeżeli w chwili zagrania karty Wpływów gracz nie ma w grze Potwora z frakcji swojego Władcy, jej zdolności Uruchamianej nie można aktywować.
 - Jeżeli Potwór z odpowiedniej frakcji zostanie zagrany **po** karcie Wpływów, jej zdolności Uruchamianej nadal nie można aktywować.
+
+## Z dodatkiem {tomb}
+Władcy z dodatku mają po 3 karty Wpływów i wybierają 2 z nich, jak w grze podstawowej.
+
+## Z dodatkiem {gate}
+- Dodatek zawiera po 1 nowej karcie Wpływów dla każdego Władcy z gry podstawowej: każdy z nich ma 4 karty Wpływów i gracz wybiera 2.
+- Władcy z dodatku nie mają kart Wpływów: zamiast nich używają Sługusów (patrz [[Talia początkowa]]).
+
+## Z oboma dodatkami {tomb+gate}
+Słudzy Czarnej Bramy zawierają też po 1 karcie Wpływów dla każdego Władcy z Gadziego Grobowca: oni również mają 4 karty Wpływów i wybierają 2.
 
 !img karta-wplywow | Karta Wpływów (s. 8 instrukcji)
 
@@ -678,6 +692,9 @@ strony: 4
 ## Wyjątki i szczególne przypadki
 - Kultyści i Fanatycy to [[Potwór spoza frakcji|Potwory spoza frakcji]].
 
+## Z dodatkiem {gate}
+Władcy z dodatku nie mają kart Wpływów. Ich talia początkowa to 2 Sługusy (Potwory frakcji Władcy), 5 Kultystów i 3 Fanatyków.
+
 ~ Kultysta -> Talia początkowa
 ~ Fanatyk -> Talia początkowa
 
@@ -692,6 +709,9 @@ Zakryty stos Potworów i Reliktów, z którego uzupełnia się [[Ulica|Ulicę]].
 ## Wyjątki i szczególne przypadki
 - Gdy stos Targu się wyczerpie, gracze tracą możliwość uzupełniania Ulicy.
 - [[Akolita|Akolici]] leżą w osobnym stosie i nie należą do Targu.
+
+## Z dodatkami {tomb|gate}
+Podczas przygotowania nowe karty Potworów i Reliktów z dodatku wtasowuje się do Targu.
 
 ~ Stos Targu -> Targ | Stos
 
@@ -966,6 +986,16 @@ Dwustronny żeton (strony „Nawiedź” i „Odeślij”), który pozwala [[Pot
 !img zetony-nawiedzenia | Dwie strony żetonu Nawiedzenia (s. 14 instrukcji)
 
 ~ Żeton Nawiedź -> Żeton Nawiedzenia | Żeton
+
+@@ Żeton kosztu Akolitów
+grupa: Żeton
+dodatek: tomb
+strony: 2
+Żeton z napisem „Akolita” i liczbą 2, kładziony obok stosu kart [[Akolita|Akolitów]].
+
+## Zasady
+- Stos Akolitów leży zakryty, więc żeton przypomina [[Koszt|koszt]] Akolity (2 [[Moneta|Monety]]) i oznacza miejsce, w którym leży stos.
+- Żeton nie zmienia zasad [[Zakup karty|zakupu]] Akolitów.
 ~ Odeślij -> Żeton Nawiedzenia
 
 @@ Żeton Zwołania

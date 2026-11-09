@@ -27,6 +27,20 @@ Tekst na kartach ma pierwszeństwo przed zasadami z instrukcji (patrz [[Złota z
 - 10 [[Żeton Nawiedzenia|żetonów Nawiedzenia]],
 - 2 karty pomocy gracza.
 
+::: dodatek tomb Komponenty dodatku
+- 4 arkusze Władców: Sobek, Prometeusz, Kain i Elżbieta,
+- 51 kart: nowe Potwory i Relikty, karty Wpływów Władców z dodatku i 4 dodatkowych [[Akolita|Akolitów]],
+- 24 żetony Terroru,
+- 2 znaczniki Życia,
+- 5 kafli Przystani (4 Przystanie i Opactwo Westminster),
+- 1 [[Żeton kosztu Akolitów|żeton kosztu Akolitów]].
+:::
+
+::: dodatek gate Komponenty dodatku
+- 4 arkusze Władców: Arbella, Steno, Charon i Samedi,
+- 52 karty: 28 Potworów, 8 Reliktów, 8 [[Karta Wpływów|kart Wpływów]] i 8 Sługusów.
+:::
+
 # Przygotowanie
 
 1. Wyjmijcie z pudełka wszystkie komponenty i losowo wybierzcie [[Pierwszy Gracz|Pierwszego Gracza]].
@@ -38,6 +52,22 @@ Tekst na kartach ma pierwszeństwo przed zasadami z instrukcji (patrz [[Złota z
 7. **Utwórzcie Targ.** Potasujcie 8 kart Akolitów i połóżcie je w zakrytym stosie. Wszystkie pozostałe karty potasujcie razem i połóżcie w zakrytym stosie naprzeciwko: to [[Targ]].
 8. **Przygotujcie Ulicę.** Odkryjcie 5 wierzchnich kart Targu i połóżcie je w rzędzie między stosem Targu a stosem Akolitów: to [[Ulica]].
 9. **Dobierzcie początkowe ręce.** Pierwszy Gracz dobiera 4 karty, jego przeciwnik 5 kart.
+
+::: dodatek tomb Przygotowanie z dodatkiem
+- Nowe karty Potworów i Reliktów wtasujcie do [[Targ|Targu]] (krok 7).
+- 4 Akolitów z dodatku dodajcie do stosu Akolitów: stos liczy 12 kart (krok 7). Obok stosu połóżcie [[Żeton kosztu Akolitów|żeton kosztu Akolitów]].
+- Władcy z dodatku mają po 3 karty Wpływów; gracz wybiera 2 z nich, jak w grze podstawowej (krok 4). Na początku gry nie mają żetonów Terroru.
+:::
+
+::: dodatek gate Przygotowanie z dodatkiem
+- Nowe karty Potworów i Reliktów wtasujcie do [[Targ|Targu]] (krok 7).
+- Dodatek zawiera po 1 nowej [[Karta Wpływów|karcie Wpływów]] dla każdego Władcy z gry podstawowej: Władca ma więc 4 karty Wpływów, z których gracz wybiera 2 (krok 4).
+- Władcy z dodatku nie mają kart Wpływów. Zamiast nich każdy ma 2 Sługusy: talia początkowa to 2 Sługusy, 5 Kultystów i 3 Fanatyków (krok 5).
+:::
+
+::: dodatek tomb+gate Z oboma dodatkami
+Dodatek Słudzy Czarnej Bramy zawiera też po 1 karcie Wpływów dla każdego Władcy z dodatku Gadzi Grobowiec: oni również wybierają 2 z 4 kart Wpływów.
+:::
 
 !img obszar-gry | Przygotowanie do gry dla dwóch graczy (s. 5 instrukcji; numery odpowiadają krokom przygotowania)
 
