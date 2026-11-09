@@ -14,7 +14,7 @@ strony: 3, 9
 Kup Potwora z Ulicy o koszcie poniżej 4 używając dowolnej kombinacji {{moc}} i {{moneta}}. Możesz użyć tej zdolności raz na turę.
 
 ## Wyjaśnienie
-Zdolność pozwala zapłacić za [[Zakup karty|zakup]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] także [[Moc|Mocą]], nie tylko [[Moneta|Monetami]]. Dotyczy tylko Potworów o [[Koszt|koszcie]] 3 lub niższym.
+Zdolność pozwala zapłacić za [[Zakup karty|zakup]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] także [[Moc|Mocą]], nie tylko [[Moneta|Monetami]]. Dotyczy tylko Potworów o [[Koszt|koszcie]] 3 lub niższym. To zwykły zakup: Ulicę uzupełnia się jak zwykle, a efekty wywoływane zakupem działają.
 
 ## Zasoby
 3 [[Karta Wpływów|karty Wpływów]] Fenrisa; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Bestii w grze.
@@ -51,6 +51,8 @@ Kup Potwora i daj mu [[Wezwanie|WEZWANIE]]. Możesz użyć tej zdolności raz na
 
 ## Wyjaśnienie
 Kupionego tą zdolnością [[Potwór|Potwora]] gracz może położyć zakrytego na wierzchu swojej [[Talia|talii]] zamiast na [[Stos kart odrzuconych|stosie kart odrzuconych]], więc dobierze go w najbliższej [[Faza Dobierania|Fazie Dobierania]].
+
+To zwykły [[Zakup karty|zakup]]: gracz płaci [[Koszt|koszt]] Potwora z [[Ulica|Ulicy]] albo [[Akolita|Akolity]], a kupiony Potwór dodatkowo zyskuje WEZWANIE.
 
 ## Zasoby
 3 [[Karta Wpływów|karty Wpływów]] Lilith; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Śmiertelników w grze.

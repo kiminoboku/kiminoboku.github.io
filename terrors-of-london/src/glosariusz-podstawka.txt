@@ -107,7 +107,7 @@ Tani [[Potwór]] spoza [[Ulica|Ulicy]], którego karty leżą w osobnym, zakryty
 
 ## Wyjątki i szczególne przypadki
 - Karty Akolitów nie są częścią Ulicy: nie uzupełnia się nimi Ulicy, a zakup Akolity nie wymaga uzupełnienia Ulicy.
-- Instrukcja nie przewiduje uzupełniania stosu Akolitów: gdy się wyczerpie, Akolitów nie można już kupować.
+- Stosu Akolitów nie uzupełnia się: gdy się wyczerpie, Akolitów nie można już kupować.
 
 ~ Akolici -> Akolita
 ~ Stos kart Akolitów -> Akolita | Stos
@@ -134,6 +134,7 @@ Słowo-klucz DOBIERZ (#): gracz dobiera z [[Talia|talii]] na [[Ręka|rękę]] ws
 
 ## Wyjątki i szczególne przypadki
 - Dobieranie nowej ręki w [[Faza Dobierania|Fazie Dobierania]] to osobna zasada: zawsze 5 kart, plus 1 za każdy [[Żeton Zwołania|żeton Zwołania]].
+- Jeżeli talia i stos kart odrzuconych są puste, gracz nie dobiera już kolejnych kart.
 - DOBIERZ to [[Słowo-klucz|słowo-klucz]], więc działa natychmiast po zagraniu Potwora.
 
 @@ Faza Akcji
@@ -164,7 +165,7 @@ Druga faza [[Tura|tury]], w której gracz usuwa ze swojego [[Obszar gry|obszaru 
 ## Wyjątki i szczególne przypadki
 - [[Relikt|Relikty]] nigdy nie trafiają na stos kart odrzuconych w Fazie Czyszczenia.
 - Potwór z żetonem Nawiedzenia leżącym stroną „Odeślij” (np. Potwór, który został w grze z poprzedniej tury, albo Potwór, który dołączył do [[Horda|Hordy]]) trafia na stos kart odrzuconych.
-- Instrukcja nie mówi, co dzieje się z żetonem Nawiedzenia odrzuconego Potwora.
+- Żeton Nawiedzenia odrzuconego Potwora wraca do rezerwy.
 
 @@ Faza Dobierania
 grupa: Faza
@@ -178,6 +179,7 @@ Trzecia, ostatnia faza [[Tura|tury]], w której gracz dobiera nową [[Ręka|ręk
 ## Wyjątki i szczególne przypadki
 - Za każdy posiadany [[Żeton Zwołania|żeton Zwołania]] gracz dobiera 1 dodatkową kartę. Tuż po Fazie Dobierania żetony Zwołania wracają do rezerwy.
 - Talii i stosu kart odrzuconych nie tasuje się w innej sytuacji, chyba że nakazuje to efekt gry.
+- Jeżeli talia i stos kart odrzuconych są puste, gracz nie dobiera już kolejnych kart.
 - Karta zostawiona przy [[Spasowanie|Spasowaniu]] leży na wierzchu talii, więc gracz dobiera ją jako pierwszą.
 
 @@ Frakcja
@@ -199,6 +201,7 @@ Jedna z czterech stron, do których należą Władcy i większość Potworów: N
 | {{frakcja-smiertelnicy}} | Śmiertelnicy |
 
 ## Wyjątki i szczególne przypadki
+- Obaj gracze mogą wybrać tę samą frakcję, ale nie tego samego [[Władca|Władcę]]: każdy Władca ma jeden arkusz i jeden zestaw kart Wpływów. W grze podstawowej każda frakcja ma jednego Władcę, więc gracze wybierają różne frakcje.
 - Potwory bez symbolu frakcji to [[Potwór spoza frakcji|Potwory spoza frakcji]], np. Kultyści i Fanatycy.
 - [[Zdolność Uruchamiana|Zdolność Uruchamiana]] [[Karta Wpływów|karty Wpływów]] wymaga Potwora z frakcji Władcy (patrz [[Potwór z frakcji]]).
 
@@ -249,6 +252,7 @@ Słowo-klucz KLĄTWA: przeciwnik wybrany za cel musi wybrać, czy straci 2 [[Pun
 
 ## Wyjątki i szczególne przypadki
 - Utrata punktów Życia z KLĄTWY to [[Strata punktów Życia|strata punktów Życia]], a nie [[Obrażenia|obrażenia]]: [[Pancerz]] jej nie zmniejsza.
+- Przeciwnik z pustą ręką może wybrać tylko stratę 2 punktów Życia.
 - Odrzucenie karty z KLĄTWY to wymuszone odrzucenie (patrz [[Odrzuć]]).
 
 @@ Koniec gry
@@ -316,7 +320,7 @@ Nawiedzenie aktywuje wszystkie [[Zdolność Zasobów|zdolności Zasobów]], [[Zd
 
 ## Wyjątki i szczególne przypadki
 - [[Zdolność Uruchamiana|Zdolności Uruchamiane]] Potwora w grze działają jak u każdej innej karty w grze, niezależnie od Nawiedzenia.
-- Potworowi, który ma już żeton Nawiedzenia, nie można dać kolejnego.
+- Potworowi, który ma już żeton Nawiedzenia, nie można dać kolejnego. Jeżeli więc Nawiedzenie aktywuje u Potwora słowo-klucz NAWIEDŹ, nie ma ono efektu.
 - Potwór z żetonem stroną „Odeślij” trafia w [[Faza Czyszczenia|Fazie Czyszczenia]] na stos kart odrzuconych, niezależnie od tego, czy gracz wykonał nim Nawiedzenie.
 - Nie należy mylić akcji Nawiedzenia ze słowem-kluczem [[Nawiedź|NAWIEDŹ]], które daje Potworowi żeton.
 
@@ -353,7 +357,7 @@ Miejsce przed graczem, w którym leżą jego zagrane karty, [[Talia|talia]], [[S
 
 ## Zasady
 - Karty zagrane z ręki leżą odkryte w obszarze gry gracza (patrz [[Zagranie karty]]).
-- [[Relikt|Relikty]] leżą w [[Strefa Reliktów|strefie Reliktów]] po prawej stronie arkusza Władcy.
+- [[Relikt|Relikty]] leżą w [[Strefa Reliktów|strefie Reliktów]] po prawej stronie arkusza Władcy. Strefa Reliktów jest częścią obszaru gry.
 - W [[Faza Czyszczenia|Fazie Czyszczenia]] gracz czyści swój obszar gry z kart zagranych w Fazie Akcji.
 
 ## Wyjątki i szczególne przypadki
@@ -395,6 +399,8 @@ Ochrona oznaczona symbolem {{pancerz}}, która zmniejsza [[Obrażenia|obrażenia
 
 ## Wyjątki i szczególne przypadki
 - Pancerz nie zmniejsza [[Strata punktów Życia|straty punktów Życia]], np. z [[Klątwa|KLĄTWY]] albo z płacenia punktami Życia za aktywację zdolności.
+- Chroni tylko Pancerz kart, które leżą w obszarze gry gracza w chwili otrzymywania obrażeń, np. Potworów, które zostały w grze dzięki [[Żeton Nawiedzenia|żetonowi Nawiedzenia]]. Karty odłożone już na stos kart odrzuconych nie chronią.
+- Jeżeli karta z Pancerzem opuści obszar gry w trakcie tury (np. przez [[Zniszcz|ZNISZCZ]]), jej Pancerz nie zmniejsza już kolejnych obrażeń w tej turze.
 - Pancerz to nie zasób: nie trafia do [[Pula Zasobów|Puli Zasobów]] i nie wydaje się go.
 
 @@ Pierwszy Gracz
@@ -463,7 +469,7 @@ strony: 13, 16
 Słowo-klucz POŚWIĘĆ: gracz wybiera kartę i usuwa ją z gry na stałe, a za każdą tak usuniętą kartę zyskuje 1 {{moc}}.
 
 ## Zasady
-- Gracz może POŚWIĘCIĆ tylko kartę z własnego [[Obszar gry|obszaru gry]], chyba że opis zdolności mówi inaczej.
+- Gracz może POŚWIĘCIĆ tylko kartę z własnego [[Obszar gry|obszaru gry]] (także [[Relikt]] ze [[Strefa Reliktów|strefy Reliktów]]), chyba że opis zdolności mówi inaczej.
 - Usunięta karta nie trafia na [[Stos kart odrzuconych|stos kart odrzuconych]]: wraca do pudełka.
 - Za każdą usuniętą kartę gracz zyskuje 1 [[Moc]].
 
@@ -540,7 +546,7 @@ Rodzaj karty, który leży w [[Strefa Reliktów|strefie Reliktów]] gracza i dzi
 
 ## Wyjątki i szczególne przypadki
 - Zagranie Reliktu nie aktywuje jego zdolności, w odróżnieniu od Potworów i [[Karta Wpływów|kart Wpływów]].
-- Gracz może mieć w strefie Reliktów najwyżej 3 Relikty.
+- Gracz może mieć w strefie Reliktów najwyżej 3 Relikty. Gdy zagrywa lub kupuje czwarty, najpierw usuwa z gry jeden z posiadanych.
 - Relikty nigdy nie trafiają na stos kart odrzuconych w [[Faza Czyszczenia|Fazie Czyszczenia]].
 
 @@ Ręka
@@ -567,6 +573,7 @@ Słowo-klucz ROZKAZ: gracz bierze z powrotem na rękę Potwora o koszcie mniejsz
 
 ## Wyjątki i szczególne przypadki
 - ROZKAZ dotyczy tylko Potworów (nie Reliktów ani kart Wpływów) i tylko własnego stosu kart odrzuconych gracza.
+- Jeżeli na stosie kart odrzuconych nie ma Potwora o koszcie mniejszym niż 4, ROZKAZ nie ma efektu.
 
 @@ Słowo-klucz
 strony: 7, 16
@@ -592,6 +599,7 @@ strony: 6, 13
 
 ## Wyjątki i szczególne przypadki
 - Spasowanie to jedyna akcja, której nie można powtarzać: kończy ona Fazę Akcji.
+- Gracz nie może dobrowolnie odrzucać kart (patrz [[Odrzuć]]), więc przed Spasowaniem musi zagrać wszystkie karty z ręki poza najwyżej jedną.
 
 @@ Stos kart odrzuconych
 grupa: Stos
@@ -617,6 +625,7 @@ Utrata [[Punkty Życia|punktów Życia]] nakazana przez zdolność, np. przez [[
 
 ## Wyjątki i szczególne przypadki
 - Strata punktów Życia nie jest tym samym co [[Obrażenia|obrażenia]] od [[Moc|Mocy]]: [[Pancerz]] jej nie zmniejsza.
+- Gracz może zapłacić punktami Życia za zdolność, nawet jeżeli jego Władca spadnie przez to do zera. Przegrywa wtedy grę (patrz [[Koniec gry]]).
 
 @@ Strefa Reliktów
 strony: 8
@@ -627,8 +636,9 @@ Miejsce po prawej stronie [[Arkusz Władcy|arkusza Władcy]], w którym leżą [
 - Relikty ze strefy Reliktów aktywuje się [[Akcja Reliktu|Akcją Reliktu]].
 
 ## Wyjątki i szczególne przypadki
+- Strefa Reliktów jest częścią [[Obszar gry|obszaru gry]] gracza, więc Relikty w niej są „w grze”, np. dla [[Poświęć|POŚWIĘĆ]] i [[Zniszcz|ZNISZCZ]].
 - W strefie Reliktów mogą leżeć jednocześnie najwyżej 3 Relikty.
-- Jeżeli gracz ma już 3 Relikty i chce zagrać kolejny, przed dodaniem nowego Reliktu musi wybrać jeden z posiadanych i usunąć go na stałe z gry.
+- Jeżeli gracz ma już 3 Relikty i zagrywa albo kupuje kolejny, przed dodaniem nowego Reliktu musi wybrać jeden z posiadanych i usunąć go na stałe z gry.
 - Relikty zostają w strefie Reliktów w [[Faza Czyszczenia|Fazie Czyszczenia]].
 
 @@ Szał
@@ -731,7 +741,7 @@ strony: 2–4, 12
 Postać, którą kieruje gracz. Każdy Władca należy do jednej z czterech [[Frakcja|frakcji]] i ma własną zdolność, [[Karta Wpływów|karty Wpływów]] i [[Punkty Życia|punkty Życia]].
 
 ## Zasady
-- Podczas przygotowania gracz wybiera frakcję i jednego z jej Władców.
+- Podczas przygotowania gracz wybiera frakcję i jednego z jej Władców. Dwóch graczy nie może grać tym samym Władcą.
 - Władca jest przedstawiony na [[Arkusz Władcy|arkuszu Władcy]]. Jego zdolność gracz aktywuje [[Akcja Władcy|Akcją Władcy]].
 - Gracz, którego Władca straci wszystkie punkty Życia, przegrywa (patrz [[Koniec gry]]).
 
@@ -779,8 +789,12 @@ strony: 6–8
 
 ## Wyjątki i szczególne przypadki
 - Zagrany Relikt trafia do [[Strefa Reliktów|strefy Reliktów]] i nie aktywuje swojej zdolności: aktywuje ją [[Akcja Reliktu]].
-- Gracz z 3 Reliktami, który zagrywa czwarty, najpierw usuwa z gry jeden z posiadanych.
+- Gracz z 3 Reliktami, który zagrywa czwarty, najpierw usuwa z gry jeden z posiadanych (patrz [[Strefa Reliktów]]).
 - Zdolność Uruchamiana karty Wpływów działa tylko wtedy, gdy w chwili zagrania gracz ma w grze [[Potwór z frakcji|Potwora z frakcji]] swojego Władcy.
+
+::: uwaga Nagłówek w instrukcji
+W instrukcji (s. 8) zasady zagrywania kart Wpływów i Reliktów mają omyłkowo nagłówek „Zakup karty – ciąg dalszy”. Dotyczą one Zagrania karty, nie Zakupu karty.
+:::
 
 @@ Zakup karty
 strony: 8–9
@@ -795,6 +809,7 @@ strony: 8–9
 
 ## Wyjątki i szczególne przypadki
 - Kartę ze zdolnością [[Wezwanie|WEZWANIE]] gracz może położyć zakrytą na wierzchu swojej talii zamiast na stosie kart odrzuconych.
+- Gracz, który ma już 3 Relikty i kupuje kolejny, musi najpierw usunąć z gry jeden z posiadanych (patrz [[Strefa Reliktów]]).
 - Akolita kosztuje 2 Monety; można go kupować, dopóki w stosie są karty.
 - Zdolność Władcy może zmieniać sposób zakupu, np. [[władca: Fenris|Fenris]] kupuje Potwora o koszcie poniżej 4 za dowolną kombinację Mocy i Monet.
 
@@ -916,6 +931,8 @@ Aby użyć efektu ZNISZCZ, gracz wybiera jedną z opcji:
 
 ## Wyjątki i szczególne przypadki
 - Niektóre karty niszczą same siebie, np. Krew Lykana: „Możesz ZNISZCZYĆ Krew Lykana. Jeżeli to zrobisz, wydaj ROZKAZ” (patrz [[Rozkaz]]).
+- Kartą w grze może być także karta przeciwnika: trafia wtedy na stos kart odrzuconych przeciwnika.
+- Kartą w grze jest też [[Relikt]] w [[Strefa Reliktów|strefie Reliktów]].
 - Karta z Ulicy usunięta przez ZNISZCZ nie trafia na żaden stos kart odrzuconych.
 
 @@ Zwołaj
@@ -943,7 +960,8 @@ Dwustronny żeton (strony „Nawiedź” i „Odeślij”), który pozwala [[Pot
 ## Wyjątki i szczególne przypadki
 - Tylko Potwory bez żetonu Nawiedzenia mogą go otrzymać.
 - Gdy Potwór z żetonem Nawiedzenia staje się częścią [[Horda|Hordy]], żeton odwraca się stroną „Odeślij”.
-- Gra podstawowa zawiera 10 żetonów Nawiedzenia.
+- Gra podstawowa zawiera 10 żetonów Nawiedzenia, ale to nie jest limit: gdy ich zabraknie, użyjcie żetonów zastępczych.
+- Żeton Nawiedzenia odrzuconego Potwora wraca do rezerwy.
 
 !img zetony-nawiedzenia | Dwie strony żetonu Nawiedzenia (s. 14 instrukcji)
 
@@ -961,4 +979,4 @@ strony: 3, 16
 - Tuż po Fazie Dobierania żetony wracają do rezerwy.
 
 ## Wyjątki i szczególne przypadki
-- Gra podstawowa zawiera 10 żetonów Zwołania.
+- Gra podstawowa zawiera 10 żetonów Zwołania, ale to nie jest limit: gdy ich zabraknie, użyjcie żetonów zastępczych.
