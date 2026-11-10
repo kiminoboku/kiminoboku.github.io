@@ -214,7 +214,7 @@ strony: 1
 Po zakupie Potwora zyskaj tyle punktów {{regeneracja}}, ile wynosi koszt tego Potwora. Możesz użyć tej zdolności raz na turę.
 
 ## Wyjaśnienie
-Zdolność aktywuje się [[Akcja Władcy|Akcją Władcy]], więc gracz sam wybiera, po którym [[Zakup karty|zakupie]] jej użyje. Zaraz po zakupie wybranego [[Potwór|Potwora]] gracz wykonuje Akcję Władcy i zyskuje tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora; opłaca się więc zaczekać na droższego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}) i zakup dzięki zdolności Władcy. Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
+Zdolność aktywuje się [[Akcja Władcy|Akcją Władcy]]. Nie trzeba jej używać od razu po [[Zakup karty|zakupie]]: w dowolnym momencie swojej [[Faza Akcji|Fazy Akcji]] gracz wybiera jednego z [[Potwór|Potworów]] kupionych już w tej turze i zyskuje tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Opłaca się więc wybrać najdroższego kupionego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}) i zakup dzięki zdolności Władcy. Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
 
 ## Zasoby
 2 [[Sługus|Sługusy]] z frakcji Bestii; Steno nie ma kart Wpływów.
