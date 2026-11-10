@@ -184,7 +184,7 @@ Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wp
 
 # Słudzy Czarnej Bramy {gate}
 
-Władcy z dodatku Słudzy Czarnej Bramy nie mają [[Karta Wpływów|kart Wpływów]]. Zamiast nich każdy ma 2 [[Sługus|Sługusy]] ze swojej frakcji, które gracz dodaje do [[Talia początkowa|talii początkowej]]. Każda zdolność Władcy działa raz na turę i aktywuje się ją [[Akcja Władcy|Akcją Władcy]].
+Władcy z dodatku Słudzy Czarnej Bramy nie mają [[Karta Wpływów|kart Wpływów]]. Zamiast nich każdy ma 2 [[Sługus|Sługusy]] ze swojej frakcji, które gracz dodaje do [[Talia początkowa|talii początkowej]]. Każda zdolność Władcy działa raz na turę. Arbella, Charon i Samedi aktywują ją [[Akcja Władcy|Akcją Władcy]]; zdolność Steno działa sama po zakupie Potwora.
 
 @@ Arbella
 frakcja: Duchy
@@ -214,7 +214,7 @@ strony: 1
 Po zakupie Potwora zyskaj tyle punktów {{regeneracja}}, ile wynosi koszt tego Potwora. Możesz użyć tej zdolności raz na turę.
 
 ## Wyjaśnienie
-Po kupieniu [[Potwór|Potwora]] gracz może wykonać [[Akcja Władcy|Akcję Władcy]] i zyskać tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}). Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
+Zdolność działa sama, bez [[Akcja Władcy|Akcji Władcy]]: po pierwszym w turze [[Zakup karty|zakupie]] [[Potwór|Potwora]] gracz zyskuje tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Kolejne zakupy w tej samej turze nie dają już Regeneracji. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}) i zakup dzięki zdolności Władcy. Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
 
 ## Zasoby
 2 [[Sługus|Sługusy]] z frakcji Bestii; Steno nie ma kart Wpływów.
