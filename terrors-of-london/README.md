@@ -32,7 +32,7 @@ Open `index.html` in a browser. The page works offline, but it needs the whole f
    related entries, if a link points to content that can be hidden while the linking text is
    visible, or if the page contains inline styles or scripts. The *Powiązane hasła* (related
    entries) list at the end of each glossary entry is generated from the links used in that
-   entry's text.
+   entry's text, plus any entries listed in its `powiazane:` field.
 
 ## Sources
 

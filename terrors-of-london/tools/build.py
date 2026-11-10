@@ -13,6 +13,7 @@ Glossary (src/glosariusz-*.txt):
     strony: 27–28              pages of the original rulebook
     zrodlo: text               (optional) source shown instead of "instrukcja", e.g. a variant leaflet
     klucze: a, b               (optional) extra names that links can use (not displayed)
+    powiazane: Entry, Entry    (optional) extra related entries that the text does not link to
     <blocks>                   definition (up to the first ## heading)
     ## Zasady / ## Wyjątki i szczególne przypadki / ## Przykład ...
     ~ Other name -> Entry title [| Group]   alias entry pointing to the main entry
@@ -188,6 +189,7 @@ class Entry:
     pages: str = ""
     source: str = ""
     keys: list[str] = field(default_factory=list)
+    extra_related: list[str] = field(default_factory=list)
     lines: list[str] = field(default_factory=list)
     id: str = ""
     related: list[tuple[str, Cond]] = field(default_factory=list)
@@ -228,8 +230,9 @@ def parse_glossary(path: Path) -> None:
             continue
         if cur is None:
             continue
-        # entry fields: grupa = group, strony = pages, zrodlo = source, klucze = extra link keys, dodatek = expansion
-        m = re.match(r"(grupa|strony|zrodlo|klucze|dodatek): (.*)$", line)
+        # entry fields: grupa = group, strony = pages, zrodlo = source, klucze = extra link keys,
+        # powiazane = extra related entries, dodatek = expansion
+        m = re.match(r"(grupa|strony|zrodlo|klucze|powiazane|dodatek): (.*)$", line)
         if m and not cur.lines:
             k, v = m.groups()
             if k == "dodatek":
@@ -240,6 +243,8 @@ def parse_glossary(path: Path) -> None:
                 cur.pages = v.strip()
             elif k == "zrodlo":
                 cur.source = v.strip()
+            elif k == "powiazane":
+                cur.extra_related = [x.strip() for x in v.split(",") if x.strip()]
             else:
                 cur.keys = [x.strip() for x in v.split(",") if x.strip()]
             continue
@@ -544,6 +549,17 @@ def render_entry(e: Entry) -> str:
         parts.append(f'<section{cond.attrs()}><h4>{html.escape(title)} {badges(cond)}</h4>'
                      f'{render_blocks(body, ctx)}</section>')
         ctx.cond = e.cond
+    ctx.cond = e.cond
+    for name in e.extra_related:  # related entries the text does not link to
+        tid = LINK_INDEX.get(norm_key(name))
+        if not tid:
+            ERRORS.append(f"{ctx.where}: unknown related entry '{name}'")
+            continue
+        ctx.check_target(ID_TO_ENTRY[tid].cond, f"related entry '{name}'")
+        if tid in ctx.links:
+            ERRORS.append(f"{ctx.where}: related entry '{name}' is already linked in the text")
+        elif tid != e.id:
+            ctx.links[tid] = {e.cond}
     e.related = [(rid, related_cond(conds)) for rid, conds in ctx.links.items()]
     if not e.related:
         ERRORS.append(f"{ctx.where}: no related entries")

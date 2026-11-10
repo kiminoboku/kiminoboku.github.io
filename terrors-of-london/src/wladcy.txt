@@ -1,6 +1,6 @@
 # Gra podstawowa
 
-Gra podstawowa zawiera czterech [[Władca|Władców]], po jednym z każdej [[Frakcja|frakcji]]. Każdy z nich ma jedną zdolność, którą aktywuje się [[Akcja Władcy|Akcją Władcy]] raz na turę, i 3 [[Karta Wpływów|karty Wpływów]], z których gracz wybiera 2.
+Gra podstawowa zawiera czterech [[Władca|Władców]], po jednym z każdej [[Frakcja|frakcji]]. Każdy z nich ma jedną [[Zdolność|zdolność]], którą aktywuje się [[Akcja Władcy|Akcją Władcy]] raz na [[Tura|turę]], i 3 [[Karta Wpływów|karty Wpływów]], z których gracz wybiera 2.
 
 !img arkusze-wladcow | Arkusze Władców z gry podstawowej (s. 3 instrukcji)
 
@@ -11,16 +11,16 @@ tytul: Wilk Alfa
 strony: 3, 9
 
 ## Zdolność (tekst z arkusza)
-Kup Potwora z Ulicy o koszcie poniżej 4 używając dowolnej kombinacji {{moc}} i {{moneta}}. Możesz użyć tej zdolności raz na turę.
+Kup [[Potwór|Potwora]] z [[Ulica|Ulicy]] o [[Koszt|koszcie]] poniżej 4 używając dowolnej kombinacji {{moc}} i {{moneta}}. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Zdolność pozwala zapłacić za [[Zakup karty|zakup]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] także [[Moc|Mocą]], nie tylko [[Moneta|Monetami]]. Dotyczy tylko Potworów o [[Koszt|koszcie]] 3 lub niższym. To zwykły zakup: Ulicę uzupełnia się jak zwykle, a efekty wywoływane zakupem działają.
+[[Zdolność]] pozwala zapłacić za [[Zakup karty|zakup]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] także [[Moc|Mocą]], nie tylko [[Moneta|Monetami]]. Dotyczy tylko Potworów o [[Koszt|koszcie]] 3 lub niższym. To zwykły zakup: Ulicę uzupełnia się jak zwykle, a efekty wywoływane zakupem działają.
 
 ## Zasoby
-3 [[Karta Wpływów|karty Wpływów]] Fenrisa; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Bestii w grze.
+3 [[Karta Wpływów|karty Wpływów]] Fenrisa; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Bestii]] w grze.
 
 ## Przygotowanie
-Znacznik Życia na polu 45. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Azazel
 frakcja: Duchy
@@ -29,16 +29,16 @@ tytul: Mistrz Zła
 strony: 3, 5
 
 ## Zdolność (tekst z arkusza)
-[[Poświęć|POŚWIĘĆ]] kartę z twojej ręki. Możesz użyć tej zdolności raz na turę.
+[[Poświęć|POŚWIĘĆ]] kartę z twojej [[Ręka|ręki]]. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Zwykle POŚWIĘĆ dotyczy tylko kart z [[Obszar gry|obszaru gry]]; zdolność Azazela pozwala usunąć z gry kartę z [[Ręka|ręki]]. Jak przy każdym POŚWIĘCENIU, gracz zyskuje 1 {{moc}} za usuniętą kartę.
+Zwykle [[Poświęć|POŚWIĘĆ]] dotyczy tylko kart z [[Obszar gry|obszaru gry]]; [[Zdolność|zdolność]] Azazela pozwala usunąć z gry kartę z [[Ręka|ręki]]. Jak przy każdym POŚWIĘCENIU, gracz zyskuje 1 {{moc}} za usuniętą kartę.
 
 ## Zasoby
-3 [[Karta Wpływów|karty Wpływów]] Azazela; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Duchów w grze.
+3 [[Karta Wpływów|karty Wpływów]] Azazela; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Duchów]] w grze.
 
 ## Przygotowanie
-Znacznik Życia na polu 50. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 50. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Lilith
 frakcja: Śmiertelnicy
@@ -47,18 +47,18 @@ tytul: Bezwzględny Czempion
 strony: 3
 
 ## Zdolność (tekst z arkusza)
-Kup Potwora i daj mu [[Wezwanie|WEZWANIE]]. Możesz użyć tej zdolności raz na turę.
+Kup [[Potwór|Potwora]] i daj mu [[Wezwanie|WEZWANIE]]. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Kupionego tą zdolnością [[Potwór|Potwora]] gracz może położyć zakrytego na wierzchu swojej [[Talia|talii]] zamiast na [[Stos kart odrzuconych|stosie kart odrzuconych]], więc dobierze go w najbliższej [[Faza Dobierania|Fazie Dobierania]].
+Kupionego tą [[Zdolność|zdolnością]] [[Potwór|Potwora]] gracz może położyć zakrytego na wierzchu swojej [[Talia|talii]] zamiast na [[Stos kart odrzuconych|stosie kart odrzuconych]], więc dobierze go w najbliższej [[Faza Dobierania|Fazie Dobierania]].
 
-To zwykły [[Zakup karty|zakup]]: gracz płaci [[Koszt|koszt]] Potwora z [[Ulica|Ulicy]] albo [[Akolita|Akolity]], a kupiony Potwór dodatkowo zyskuje WEZWANIE.
+To zwykły [[Zakup karty|zakup]]: gracz płaci [[Koszt|koszt]] [[Potwór|Potwora]] z [[Ulica|Ulicy]] albo [[Akolita|Akolity]], a kupiony Potwór dodatkowo zyskuje [[Wezwanie|WEZWANIE]].
 
 ## Zasoby
-3 [[Karta Wpływów|karty Wpływów]] Lilith; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Śmiertelników w grze.
+3 [[Karta Wpływów|karty Wpływów]] Lilith; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Śmiertelników]] w grze.
 
 ## Przygotowanie
-Znacznik Życia na polu 45. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Metuszelach
 frakcja: Nieumarli
@@ -67,20 +67,20 @@ tytul: Kanclerz Śmierci
 strony: 3, 5
 
 ## Zdolność (tekst z arkusza)
-[[Dobierz|DOBIERZ]] 1 KARTĘ, a następnie [[Odrzuć|odrzuć]] 1 kartę. Możesz użyć tej zdolności raz na turę.
+[[Dobierz|DOBIERZ]] 1 KARTĘ, a następnie [[Odrzuć|odrzuć]] 1 kartę. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
 Gracz najpierw dobiera kartę, a potem wybiera dowolną kartę z [[Ręka|ręki]] (także tę dobraną) i kładzie ją na [[Stos kart odrzuconych|stosie kart odrzuconych]].
 
 ## Zasoby
-3 [[Karta Wpływów|karty Wpływów]] Metuszelacha; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Nieumarłych w grze.
+3 [[Karta Wpływów|karty Wpływów]] Metuszelacha; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Nieumarłych]] w grze.
 
 ## Przygotowanie
-Znacznik Życia na polu 40. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 40. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 # Gadzi Grobowiec {tomb}
 
-Władcy z dodatku Gadzi Grobowiec mają po kilka zdolności. Pierwsza działa sama: na początku swojej [[Faza Akcji|Fazy Akcji]] Władca zyskuje 1 [[Żeton Terroru|żeton Terroru]]. Pozostałe aktywuje się [[Akcja Władcy|Akcją Władcy]], płacąc żetonami Terroru; niektóre można użyć wiele razy w turze. Władca może mieć najwyżej 6 żetonów Terroru.
+[[Władca|Władcy]] z dodatku Gadzi Grobowiec mają po kilka [[Zdolność|zdolności]]. Pierwsza działa sama: na początku swojej [[Faza Akcji|Fazy Akcji]] Władca zyskuje 1 [[Żeton Terroru|żeton Terroru]]. Pozostałe aktywuje się [[Akcja Władcy|Akcją Władcy]], płacąc żetonami Terroru; niektóre można użyć wiele razy w [[Tura|turze]]. Władca może mieć najwyżej 6 żetonów Terroru.
 
 !img gg-wladcy | Władcy z dodatku Gadzi Grobowiec (s. 1 instrukcji dodatku)
 
@@ -91,25 +91,25 @@ tytul: Łuskowaty Cesarz
 strony: 1–2
 
 ## Zdolność (tekst z arkusza)
-Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+Zyskaj 1 [[Żeton Terroru|żeton Terroru]] na początku swojej [[Faza Akcji|Fazy Akcji]].
 
-Zapłać 2 żetony Terroru: [[Szał|SZAŁ]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+Zapłać 2 [[Żeton Terroru|żetony Terroru]]: [[Szał|SZAŁ]]. Możesz użyć tej [[Zdolność|zdolności]] dowolną liczbę razy w [[Tura|turze]].
 
-Zapłać 3 żetony Terroru: [[Zwołaj|ZWOŁAJ]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+Zapłać 3 [[Żeton Terroru|żetony Terroru]]: [[Zwołaj|ZWOŁAJ]]. Możesz użyć tej [[Zdolność|zdolności]] dowolną liczbę razy w [[Tura|turze]].
 
 ## Wyjaśnienie
-Każde użycie to osobna Akcja Władcy i osobna zapłata żetonami. Za 2 żetony Sobek zyskuje 2 {{moc}} albo 2 {{regeneracja}}, a za 3 żetony bierze [[Żeton Zwołania|żeton Zwołania]], czyli dobierze o 1 kartę więcej w [[Faza Dobierania|Fazie Dobierania]].
+Każde użycie to osobna [[Akcja Władcy]] i osobna zapłata żetonami. Za 2 żetony Sobek zyskuje 2 {{moc}} albo 2 {{regeneracja}}, a za 3 żetony bierze [[Żeton Zwołania|żeton Zwołania]], czyli dobierze o 1 kartę więcej w [[Faza Dobierania|Fazie Dobierania]].
 
 !img gg-arkusz-sobka | Arkusz Sobka (s. 1 instrukcji dodatku)
 
 ## Zasoby
-[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Sobka; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Bestii w grze.
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Sobka; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Bestii]] w grze.
 
 ## Z oboma dodatkami {gate}
-Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Sobka: gracz wybiera 2 z 4.
+Słudzy Czarnej Bramy zawierają 1 dodatkową [[Karta Wpływów|kartę Wpływów]] Sobka: gracz wybiera 2 z 4.
 
 ## Przygotowanie
-Znacznik Życia na polu 40, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 40, bez [[Żeton Terroru|żetonów Terroru]]. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Prometeusz
 frakcja: Nieumarli
@@ -118,21 +118,21 @@ tytul: Nieśmiertelne Zwłoki
 strony: 2
 
 ## Zdolność (tekst z arkusza)
-Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+Zyskaj 1 [[Żeton Terroru|żeton Terroru]] na początku swojej [[Faza Akcji|Fazy Akcji]].
 
-Zapłać tyle żetonów Terroru, ile wynosi koszt wybranego Potwora z frakcji, znajdującego się w twoim stosie kart odrzuconych: przywróć tego Potwora z powrotem na rękę. Możesz użyć tej zdolności raz na turę.
+Zapłać tyle [[Żeton Terroru|żetonów Terroru]], ile wynosi [[Koszt|koszt]] wybranego [[Potwór z frakcji|Potwora z frakcji]], znajdującego się w twoim [[Stos kart odrzuconych|stosie kart odrzuconych]]: przywróć tego [[Potwór|Potwora]] z powrotem na [[Ręka|rękę]]. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko Nieumarłych; nie można wybrać [[Potwór spoza frakcji|Potwora spoza frakcji]]. Gracz płaci tyle żetonów, ile wynosi [[Koszt|koszt]] Potwora, i bierze go ze swojego [[Stos kart odrzuconych|stosu kart odrzuconych]] na [[Ręka|rękę]]. W odróżnieniu od [[Rozkaz|ROZKAZU]] nie ma tu ograniczenia kosztu poza liczbą żetonów (najwyżej 6).
+„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko [[Frakcja|Nieumarłych]]; nie można wybrać [[Potwór spoza frakcji|Potwora spoza frakcji]]. Gracz płaci tyle żetonów, ile wynosi [[Koszt|koszt]] [[Potwór|Potwora]], i bierze go ze swojego [[Stos kart odrzuconych|stosu kart odrzuconych]] na [[Ręka|rękę]]. W odróżnieniu od [[Rozkaz|ROZKAZU]] nie ma tu ograniczenia kosztu poza liczbą żetonów (najwyżej 6).
 
 ## Zasoby
-[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Prometeusza; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają Potwora z frakcji Nieumarłych w grze.
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Prometeusza; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Nieumarłych]] w grze.
 
 ## Z oboma dodatkami {gate}
-Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Prometeusza: gracz wybiera 2 z 4.
+Słudzy Czarnej Bramy zawierają 1 dodatkową [[Karta Wpływów|kartę Wpływów]] Prometeusza: gracz wybiera 2 z 4.
 
 ## Przygotowanie
-Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45, bez [[Żeton Terroru|żetonów Terroru]]. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Kain
 frakcja: Śmiertelnicy
@@ -141,23 +141,23 @@ tytul: Strażnik
 strony: 2
 
 ## Zdolność (tekst z arkusza)
-Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+Zyskaj 1 [[Żeton Terroru|żeton Terroru]] na początku swojej [[Faza Akcji|Fazy Akcji]].
 
-Zapłać 2 żetony Terroru: [[Klątwa|KLĄTWA]]. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+Zapłać 2 [[Żeton Terroru|żetony Terroru]]: [[Klątwa|KLĄTWA]]. Możesz użyć tej [[Zdolność|zdolności]] dowolną liczbę razy w [[Tura|turze]].
 
-Zapłać 3 żetony Terroru: Zyskaj 3 {{moneta}}. Możesz użyć tej zdolności dowolną liczbę razy w turze.
+Zapłać 3 [[Żeton Terroru|żetony Terroru]]: Zyskaj 3 {{moneta}}. Możesz użyć tej [[Zdolność|zdolności]] dowolną liczbę razy w [[Tura|turze]].
 
 ## Wyjaśnienie
-Każde użycie to osobna Akcja Władcy i osobna zapłata żetonami. Za 2 żetony Kain rzuca KLĄTWĘ (przeciwnik traci 2 punkty Życia albo odrzuca 1 kartę), a za 3 żetony zyskuje 3 [[Moneta|Monety]] do [[Pula Zasobów|Puli Zasobów]].
+Każde użycie to osobna [[Akcja Władcy]] i osobna zapłata żetonami. Za 2 żetony Kain rzuca [[Klątwa|KLĄTWĘ]] (przeciwnik traci 2 [[Punkty Życia|punkty Życia]] albo odrzuca 1 kartę), a za 3 żetony zyskuje 3 [[Moneta|Monety]] do [[Pula Zasobów|Puli Zasobów]].
 
 ## Zasoby
-[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Kaina; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają [[Potwór z frakcji|Potwora z frakcji]] Śmiertelników w grze.
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Kaina; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Śmiertelników]] w grze.
 
 ## Z oboma dodatkami {gate}
-Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Kaina: gracz wybiera 2 z 4.
+Słudzy Czarnej Bramy zawierają 1 dodatkową [[Karta Wpływów|kartę Wpływów]] Kaina: gracz wybiera 2 z 4.
 
 ## Przygotowanie
-Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45, bez [[Żeton Terroru|żetonów Terroru]]. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 @@ Elżbieta
 frakcja: Duchy
@@ -166,25 +166,25 @@ tytul: Hrabina Krwi
 strony: 2
 
 ## Zdolność (tekst z arkusza)
-Zyskaj 1 żeton Terroru na początku swojej Fazy Akcji.
+Zyskaj 1 [[Żeton Terroru|żeton Terroru]] na początku swojej [[Faza Akcji|Fazy Akcji]].
 
-Zapłać tyle żetonów Terroru, ile wynosi koszt wybranego Potwora z frakcji, znajdującego się w twoim obszarze gry: ten Potwór zyskuje NAWIEDZENIE. Możesz użyć tej zdolności raz na turę.
+Zapłać tyle [[Żeton Terroru|żetonów Terroru]], ile wynosi [[Koszt|koszt]] wybranego [[Potwór z frakcji|Potwora z frakcji]], znajdującego się w twoim [[Obszar gry|obszarze gry]]: ten [[Potwór]] zyskuje [[Nawiedź|NAWIEDZENIE]]. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko Duchów. Wybrany Potwór dostaje [[Żeton Nawiedzenia|żeton Nawiedzenia]] stroną „Nawiedź” (patrz [[Nawiedź|NAWIEDŹ]]), więc zostanie w grze na następną turę i będzie można go aktywować [[Nawiedzenie|Nawiedzeniem]]. Potwór, który ma już żeton Nawiedzenia, nie może dostać kolejnego.
+„Potwór z frakcji” oznacza tu dowolnego [[Potwór z frakcji|Potwora z symbolem frakcji]], nie tylko [[Frakcja|Duchów]]. Wybrany [[Potwór]] dostaje [[Żeton Nawiedzenia|żeton Nawiedzenia]] stroną „Nawiedź” (patrz [[Nawiedź|NAWIEDŹ]]), więc zostanie w grze na następną [[Tura|turę]] i będzie można go aktywować [[Nawiedzenie|Nawiedzeniem]]. Potwór, który ma już żeton Nawiedzenia, nie może dostać kolejnego.
 
 ## Zasoby
-[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Elżbiety; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] wymagają Potwora z frakcji Duchów w grze.
+[[Żeton Terroru|Żetony Terroru]] i 3 [[Karta Wpływów|karty Wpływów]] Elżbiety; gracz wybiera 2 z nich do [[Talia początkowa|talii początkowej]]. Ich [[Zdolność Uruchamiana|zdolności Uruchamiane]] oznaczone symbolem frakcji wymagają [[Potwór z frakcji|Potwora z frakcji]] [[Frakcja|Duchów]] w grze.
 
 ## Z oboma dodatkami {gate}
-Słudzy Czarnej Bramy zawierają 1 dodatkową kartę Wpływów Elżbiety: gracz wybiera 2 z 4.
+Słudzy Czarnej Bramy zawierają 1 dodatkową [[Karta Wpływów|kartę Wpływów]] Elżbiety: gracz wybiera 2 z 4.
 
 ## Przygotowanie
-Znacznik Życia na polu 45, bez żetonów Terroru. Talia początkowa: 2 karty Wpływów, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45, bez [[Żeton Terroru|żetonów Terroru]]. [[Talia początkowa]]: 2 [[Karta Wpływów|karty Wpływów]], 5 Kultystów i 3 Fanatyków.
 
 # Słudzy Czarnej Bramy {gate}
 
-Władcy z dodatku Słudzy Czarnej Bramy nie mają [[Karta Wpływów|kart Wpływów]]. Zamiast nich każdy ma 2 [[Sługus|Sługusy]] ze swojej frakcji, które gracz dodaje do [[Talia początkowa|talii początkowej]]. Każda zdolność Władcy działa raz na turę i aktywuje się ją [[Akcja Władcy|Akcją Władcy]].
+[[Władca|Władcy]] z dodatku Słudzy Czarnej Bramy nie mają [[Karta Wpływów|kart Wpływów]]. Zamiast nich każdy ma 2 [[Sługus|Sługusy]] ze swojej [[Frakcja|frakcji]], które gracz dodaje do [[Talia początkowa|talii początkowej]]. Każda zdolność Władcy działa raz na [[Tura|turę]] i aktywuje się ją [[Akcja Władcy|Akcją Władcy]].
 
 @@ Arbella
 frakcja: Duchy
@@ -193,16 +193,16 @@ tytul: Opętana Diuszesa
 strony: 1
 
 ## Zdolność (tekst z arkusza)
-[[Podejrzyj|Podejrzyj]] 2 wierzchnie karty swojej talii. Odrzuć dowolną liczbę z tych kart, a pozostałe odłóż na wierzch swojej talii, w dowolnej, wybranej przez siebie kolejności. Możesz użyć tej zdolności raz na turę.
+[[Podejrzyj]] 2 wierzchnie karty swojej [[Talia|talii]]. [[Odrzuć]] dowolną liczbę z tych kart, a pozostałe odłóż na wierzch swojej talii, w dowolnej, wybranej przez siebie kolejności. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
 Gracz ogląda 2 wierzchnie karty swojej [[Talia|talii]] bez pokazywania ich przeciwnikowi. Może odrzucić 0, 1 albo 2 z nich na [[Stos kart odrzuconych|stos kart odrzuconych]], a resztę kładzie z powrotem na wierzch talii w wybranej kolejności. Jeżeli w talii jest mniej niż 2 karty, gracz najpierw tasuje stos kart odrzuconych i kładzie go pod spodem talii (patrz [[Podejrzyj|PODEJRZYJ]]).
 
 ## Zasoby
-2 [[Sługus|Sługusy]] z frakcji Duchów; Arbella nie ma kart Wpływów.
+2 [[Sługus|Sługusy]] z [[Frakcja|frakcji]] Duchów; Arbella nie ma [[Karta Wpływów|kart Wpływów]].
 
 ## Przygotowanie
-Znacznik Życia na polu 40. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 40. [[Talia początkowa]]: 2 [[Sługus|Sługusy]], 5 Kultystów i 3 Fanatyków.
 
 @@ Steno
 frakcja: Bestie
@@ -211,16 +211,16 @@ tytul: Królowa Gorgon
 strony: 1
 
 ## Zdolność (tekst z arkusza)
-Po zakupie Potwora zyskaj tyle punktów {{regeneracja}}, ile wynosi koszt tego Potwora. Możesz użyć tej zdolności raz na turę.
+Po [[Zakup karty|zakupie]] [[Potwór|Potwora]] zyskaj tyle punktów {{regeneracja}}, ile wynosi [[Koszt|koszt]] tego Potwora. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Zdolność aktywuje się [[Akcja Władcy|Akcją Władcy]]. Nie trzeba jej używać od razu po [[Zakup karty|zakupie]]: w dowolnym momencie swojej [[Faza Akcji|Fazy Akcji]] gracz wybiera jednego z [[Potwór|Potworów]] kupionych już w tej turze i zyskuje tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Opłaca się więc wybrać najdroższego kupionego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}) i zakup dzięki zdolności Władcy. Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść punktów Życia ponad 40.
+[[Zdolność]] aktywuje się [[Akcja Władcy|Akcją Władcy]]. Nie trzeba jej używać od razu po [[Zakup karty|zakupie]]: w dowolnym momencie swojej [[Faza Akcji|Fazy Akcji]] gracz wybiera jednego z [[Potwór|Potworów]] kupionych już w tej [[Tura|turze]] i zyskuje tyle [[Regeneracja|Regeneracji]], ile wynosi [[Koszt|koszt]] tego Potwora. Opłaca się więc wybrać najdroższego kupionego Potwora. Liczy się każdy zakup Potwora, także [[Akolita|Akolity]] (2 {{regeneracja}}) i zakup dzięki zdolności Władcy. Regeneracja trafia do [[Pula Zasobów|Puli Zasobów]] i nie może podnieść [[Punkty Życia|punktów Życia]] ponad 40.
 
 ## Zasoby
-2 [[Sługus|Sługusy]] z frakcji Bestii; Steno nie ma kart Wpływów.
+2 [[Sługus|Sługusy]] z [[Frakcja|frakcji]] Bestii; Steno nie ma [[Karta Wpływów|kart Wpływów]].
 
 ## Przygotowanie
-Znacznik Życia na polu 40. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 40. [[Talia początkowa]]: 2 [[Sługus|Sługusy]], 5 Kultystów i 3 Fanatyków.
 
 @@ Charon
 frakcja: Nieumarli
@@ -229,18 +229,18 @@ tytul: Strażnik Bram Piekieł
 strony: 1–2
 
 ## Zdolność (tekst z arkusza)
-Wybierz, a następnie odrzuć Potwora ze swojej ręki, aby zyskać 1 {{moc}} i 1 {{moneta}}. Możesz użyć tej zdolności raz na turę.
+Wybierz, a następnie odrzuć [[Potwór|Potwora]] ze swojej [[Ręka|ręki]], aby zyskać 1 {{moc}} i 1 {{moneta}}. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Gracz wybiera [[Potwór|Potwora]] z [[Ręka|ręki]] i kładzie go na [[Stos kart odrzuconych|stosie kart odrzuconych]]: to odrzucenie wymuszone zdolnością, więc jest dozwolone (patrz [[Odrzuć|ODRZUĆ]]). W zamian zyskuje 1 [[Moc]] i 1 [[Moneta|Monetę]]. Sługusy Charona dają dodatkowo 1 {{moc}} za każdego odrzuconego Potwora, jeżeli są w grze.
+Gracz wybiera [[Potwór|Potwora]] z [[Ręka|ręki]] i kładzie go na [[Stos kart odrzuconych|stosie kart odrzuconych]]: to odrzucenie wymuszone [[Zdolność|zdolnością]], więc jest dozwolone (patrz [[Odrzuć|ODRZUĆ]]). W zamian zyskuje 1 [[Moc]] i 1 [[Moneta|Monetę]]. [[Sługus|Sługusy]] Charona dają dodatkowo 1 {{moc}} za każdego odrzuconego Potwora, jeżeli są w grze.
 
 !img csb-charon-slugusy | Arkusz Charona i jego Sługusy (s. 2 instrukcji dodatku)
 
 ## Zasoby
-2 [[Sługus|Sługusy]] z frakcji Nieumarłych; Charon nie ma kart Wpływów.
+2 [[Sługus|Sługusy]] z [[Frakcja|frakcji]] Nieumarłych; Charon nie ma [[Karta Wpływów|kart Wpływów]].
 
 ## Przygotowanie
-Znacznik Życia na polu 45. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45. [[Talia początkowa]]: 2 [[Sługus|Sługusy]], 5 Kultystów i 3 Fanatyków.
 
 @@ Samedi
 frakcja: Śmiertelnicy
@@ -249,13 +249,13 @@ tytul: Baron Klątw
 strony: 1
 
 ## Zdolność (tekst z arkusza)
-Aktywuj Relikt w swoim obszarze gry, nawet jeżeli był on już aktywowany w tej Fazie Akcji. Możesz użyć tej zdolności raz na turę.
+Aktywuj [[Relikt]] w swoim [[Obszar gry|obszarze gry]], nawet jeżeli był on już aktywowany w tej [[Faza Akcji|Fazie Akcji]]. Możesz użyć tej [[Zdolność|zdolności]] raz na [[Tura|turę]].
 
 ## Wyjaśnienie
-Zdolność działa jak dodatkowa [[Akcja Reliktu]]: gracz aktywuje [[Relikt]] ze swojej [[Strefa Reliktów|strefy Reliktów]], także taki, którego już użył w tej turze. Bez Reliktu w grze zdolność nie ma efektu.
+[[Zdolność]] działa jak dodatkowa [[Akcja Reliktu]]: gracz aktywuje [[Relikt]] ze swojej [[Strefa Reliktów|strefy Reliktów]], także taki, którego już użył w tej [[Tura|turze]]. Bez Reliktu w grze zdolność nie ma efektu.
 
 ## Zasoby
-2 [[Sługus|Sługusy]] z frakcji Śmiertelników; Samedi nie ma kart Wpływów.
+2 [[Sługus|Sługusy]] z [[Frakcja|frakcji]] Śmiertelników; Samedi nie ma [[Karta Wpływów|kart Wpływów]].
 
 ## Przygotowanie
-Znacznik Życia na polu 45. Talia początkowa: 2 Sługusy, 5 Kultystów i 3 Fanatyków.
+[[Punkty Życia|Znacznik Życia]] na polu 45. [[Talia początkowa]]: 2 [[Sługus|Sługusy]], 5 Kultystów i 3 Fanatyków.

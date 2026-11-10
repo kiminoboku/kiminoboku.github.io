@@ -1,20 +1,20 @@
 @@ Sługus
 dodatek: gate
 strony: 1–2
-[[Potwór]] należący do Władcy z dodatku Słudzy Czarnej Bramy, który zastępuje mu [[Karta Wpływów|karty Wpływów]].
+[[Potwór]] należący do [[Władca|Władcy]] z dodatku Słudzy Czarnej Bramy, który zastępuje mu [[Karta Wpływów|karty Wpływów]].
 
 ## Zasady
-- Każdy Władca z dodatku ma 2 Sługusy ze swojej [[Frakcja|frakcji]].
+- Każdy [[Władca]] z dodatku ma 2 Sługusy ze swojej [[Frakcja|frakcji]].
 - Podczas przygotowania gracz dodaje swoje 2 Sługusy do 5 Kultystów i 3 Fanatyków: [[Talia początkowa|talia początkowa]] liczy 10 kart.
-- Sługusy działają jak inne Potwory: po zagraniu aktywują swoje [[Zdolność|zdolności]], można je łączyć w [[Horda|Hordy]], a w [[Faza Czyszczenia|Fazie Czyszczenia]] trafiają na stos kart odrzuconych.
-- Zdolności Sługusów bezpośrednio wspierają zdolność ich Władcy.
+- Sługusy działają jak inne [[Potwór|Potwory]]: po zagraniu aktywują swoje [[Zdolność|zdolności]], można je łączyć w [[Horda|Hordy]], a w [[Faza Czyszczenia|Fazie Czyszczenia]] trafiają na [[Stos kart odrzuconych|stos kart odrzuconych]].
+- [[Zdolność|Zdolności]] Sługusów bezpośrednio wspierają zdolność ich [[Władca|Władcy]].
 
 ## Wyjątki i szczególne przypadki
-- Sługus jest [[Potwór z frakcji|Potworem z frakcji]], a nie kartą Wpływów: jego [[Zdolność Uruchamiana|zdolność Uruchamiana]] działa jak u każdego Potwora i nie wymaga innego Potwora z frakcji w grze.
-- Sługusy nie leżą w [[Targ|Targu]] ani na [[Ulica|Ulicy]]: trafiają do gry tylko z talii początkowej. Sługusy niewybranych Władców wracają do pudełka, tak jak niewybrane karty Wpływów.
+- Sługus jest [[Potwór z frakcji|Potworem z frakcji]], a nie [[Karta Wpływów|kartą Wpływów]]: jego [[Zdolność Uruchamiana|zdolność Uruchamiana]] działa jak u każdego [[Potwór|Potwora]] i nie wymaga innego Potwora z frakcji w grze.
+- Sługusy nie leżą w [[Targ|Targu]] ani na [[Ulica|Ulicy]]: trafiają do gry tylko z [[Talia początkowa|talii początkowej]]. Sługusy niewybranych [[Władca|Władców]] wracają do pudełka, tak jak niewybrane [[Karta Wpływów|karty Wpływów]].
 
 ## Przykład
-Sługus [[władca: Charon|Charona]] (koszt 0, Nieumarli) daje 1 {{moc}} i ma zdolność Uruchamianą: „Zyskaj 1 {{moc}} za każdym razem, gdy odrzucisz Potwora ze swojej ręki”. Jego zdolność Hordy to [[Dobierz|DOBIERZ]] 1. Zdolność Charona każe odrzucić Potwora z ręki, więc Sługus nagradza każde jej użycie.
+Sługus [[władca: Charon|Charona]] ([[Koszt|koszt]] 0, [[Frakcja|Nieumarli]]) daje 1 {{moc}} i ma [[Zdolność Uruchamiana|zdolność Uruchamianą]]: „Zyskaj 1 {{moc}} za każdym razem, gdy odrzucisz [[Potwór|Potwora]] ze swojej [[Ręka|ręki]]”. Jego [[Zdolność Hordy|zdolność Hordy]] to [[Dobierz|DOBIERZ]] 1. [[Zdolność]] Charona każe odrzucić Potwora z ręki, więc Sługus nagradza każde jej użycie.
 
 !img csb-charon-slugusy | Arkusz Charona i jego Sługusy (s. 2 instrukcji dodatku)
 
